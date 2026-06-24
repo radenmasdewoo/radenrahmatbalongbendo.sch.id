@@ -1,0 +1,7 @@
+AddType image/jpeg .jpg .jpeg
+AddType image/png .png
+AddType image/webp .webp
+AddType video/mp4 .mp4
+AddType video/webm .webm
+Header set Access-Control-Allow-Origin "*"
+Header set Cache-Control "public, max-age=2592000"

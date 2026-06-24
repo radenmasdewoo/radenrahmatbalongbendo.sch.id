@@ -1,0 +1,4 @@
+# Blok akses langsung ke users.json (berisi hash password)
+<Files "users.json">
+    Require all denied
+</Files>

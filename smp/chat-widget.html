@@ -1,0 +1,768 @@
+<!--
+  ============================================================
+  WIDGET CHAT AI - BP3NU RADEN RAHMAT BALONGBENDO
+  Website: radenrahmatbalongbendo.sch.id (INDUK)
+  
+  CARA PASANG:
+  Copy semua kode ini dan paste sebelum tag </body> di website Anda.
+  ============================================================
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+  rel="stylesheet">
+
+<style>
+  #rr-chat-widget * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  #rr-chat-fab {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    z-index: 99999;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(135deg, #1a6b3a 0%, #2d9b55 100%);
+    box-shadow: 0 6px 24px rgba(26, 107, 58, 0.45), 0 2px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.25s cubic-bezier(.34, 1.56, .64, 1), box-shadow 0.2s;
+    animation: fab-pulse 2.5s infinite;
+  }
+
+  #rr-chat-fab:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 32px rgba(26, 107, 58, 0.55);
+  }
+
+  @keyframes fab-pulse {
+
+    0%,
+    100% {
+      box-shadow: 0 6px 24px rgba(26, 107, 58, 0.45), 0 0 0 0 rgba(26, 107, 58, 0.3);
+    }
+
+    50% {
+      box-shadow: 0 6px 24px rgba(26, 107, 58, 0.45), 0 0 0 10px rgba(26, 107, 58, 0);
+    }
+  }
+
+  #rr-chat-fab svg {
+    transition: transform 0.3s;
+  }
+
+  #rr-chat-fab.open svg.icon-chat {
+    display: none;
+  }
+
+  #rr-chat-fab.open svg.icon-close {
+    display: block !important;
+  }
+
+  #rr-chat-badge {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background: #e74c3c;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    animation: badge-bounce 1s ease 1s both;
+  }
+
+  @keyframes badge-bounce {
+    0% {
+      transform: scale(0)
+    }
+
+    60% {
+      transform: scale(1.2)
+    }
+
+    100% {
+      transform: scale(1)
+    }
+  }
+
+  #rr-chat-window {
+    position: fixed;
+    bottom: 104px;
+    right: 28px;
+    z-index: 99998;
+    width: 370px;
+    max-height: 580px;
+    border-radius: 20px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18), 0 4px 16px rgba(0, 0, 0, 0.08);
+    transform: scale(0.85) translateY(20px);
+    transform-origin: bottom right;
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.3s cubic-bezier(.34, 1.56, .64, 1), opacity 0.25s ease;
+    overflow: hidden;
+  }
+
+  #rr-chat-window.visible {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .rr-chat-header {
+    background: linear-gradient(135deg, #1a6b3a 0%, #2d9b55 100%);
+    padding: 16px 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+  }
+
+  .rr-chat-header-avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+  }
+
+  .rr-chat-header-info {
+    flex: 1;
+  }
+
+  .rr-chat-header-name {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .rr-chat-header-status {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 2px;
+  }
+
+  .rr-status-dot {
+    width: 7px;
+    height: 7px;
+    background: #7dff9e;
+    border-radius: 50%;
+    animation: status-blink 2s infinite;
+  }
+
+  @keyframes status-blink {
+
+    0%,
+    100% {
+      opacity: 1
+    }
+
+    50% {
+      opacity: 0.4
+    }
+  }
+
+  .rr-chat-minimize {
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+    color: #fff;
+  }
+
+  .rr-chat-minimize:hover {
+    background: rgba(255, 255, 255, 0.25);
+  }
+
+  .rr-chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #f7f9fc;
+    min-height: 0;
+  }
+
+  .rr-chat-messages::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .rr-chat-messages::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .rr-chat-messages::-webkit-scrollbar-thumb {
+    background: #d0d8e4;
+    border-radius: 4px;
+  }
+
+  .rr-msg {
+    display: flex;
+    gap: 8px;
+    align-items: flex-end;
+    animation: msg-in 0.3s ease;
+  }
+
+  @keyframes msg-in {
+    from {
+      opacity: 0;
+      transform: translateY(8px)
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0)
+    }
+  }
+
+  .rr-msg.user {
+    flex-direction: row-reverse;
+  }
+
+  .rr-msg-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background: linear-gradient(135deg, #1a6b3a, #2d9b55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rr-msg-bubble {
+    max-width: 78%;
+    padding: 10px 14px;
+    border-radius: 16px;
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: #1a2332;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+    border-bottom-left-radius: 4px;
+  }
+
+  .rr-msg.user .rr-msg-bubble {
+    background: linear-gradient(135deg, #1a6b3a, #2d9b55);
+    color: #fff;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0 2px 8px rgba(26, 107, 58, 0.3);
+  }
+
+  .rr-msg-bubble a {
+    color: #1a6b3a;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .rr-msg.user .rr-msg-bubble a {
+    color: #d4ffde;
+  }
+
+  .rr-quick-btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    padding: 4px 0 0;
+  }
+
+  .rr-quick-btn {
+    background: #fff;
+    border: 1.5px solid #2d9b55;
+    color: #1a6b3a;
+    border-radius: 20px;
+    padding: 6px 13px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: inherit;
+    white-space: nowrap;
+  }
+
+  .rr-quick-btn:hover {
+    background: #1a6b3a;
+    color: #fff;
+    transform: translateY(-1px);
+  }
+
+  .rr-typing {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding: 12px 14px;
+  }
+
+  .rr-typing span {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #aab8c8;
+    animation: typing 1.2s infinite;
+  }
+
+  .rr-typing span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+
+  .rr-typing span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+
+  @keyframes typing {
+
+    0%,
+    60%,
+    100% {
+      transform: translateY(0)
+    }
+
+    30% {
+      transform: translateY(-6px)
+    }
+  }
+
+  .rr-chat-input-area {
+    padding: 12px 14px;
+    border-top: 1px solid #edf0f5;
+    background: #fff;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .rr-chat-input {
+    flex: 1;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 22px;
+    padding: 9px 16px;
+    font-size: 13.5px;
+    outline: none;
+    font-family: inherit;
+    color: #1a2332;
+    transition: border-color 0.2s;
+    background: #f7f9fc;
+  }
+
+  .rr-chat-input:focus {
+    border-color: #2d9b55;
+    background: #fff;
+  }
+
+  .rr-chat-send {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    flex-shrink: 0;
+    background: linear-gradient(135deg, #1a6b3a, #2d9b55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(26, 107, 58, 0.3);
+  }
+
+  .rr-chat-send:hover {
+    transform: scale(1.08);
+    box-shadow: 0 4px 12px rgba(26, 107, 58, 0.4);
+  }
+
+  .rr-ppdb-card {
+    background: linear-gradient(135deg, #fff8e1, #fffde7);
+    border: 1.5px solid #f9a825;
+    border-radius: 14px;
+    padding: 13px 15px;
+    margin-top: 4px;
+  }
+
+  .rr-ppdb-card-title {
+    font-weight: 700;
+    color: #e65100;
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+
+  .rr-ppdb-unit {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    background: #fff;
+    margin-bottom: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+    border: 1px solid #ffe082;
+  }
+
+  .rr-ppdb-unit:last-child {
+    margin-bottom: 0;
+  }
+
+  .rr-ppdb-unit:hover {
+    background: #1a6b3a;
+    transform: translateX(3px);
+  }
+
+  .rr-ppdb-unit:hover .rr-ppdb-unit-name {
+    color: #fff;
+  }
+
+  .rr-ppdb-unit:hover .rr-ppdb-unit-sub {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .rr-ppdb-unit-icon {
+    font-size: 20px;
+  }
+
+  .rr-ppdb-unit-name {
+    font-weight: 700;
+    font-size: 13px;
+    color: #1a2332;
+  }
+
+  .rr-ppdb-unit-sub {
+    font-size: 11px;
+    color: #64748b;
+  }
+
+  .rr-ppdb-wa-icon {
+    margin-left: auto;
+    font-size: 18px;
+  }
+
+  .rr-ppdb-unit-img {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 4px;
+    border: 1px solid #eee;
+  }
+
+  .rr-ppdb-unit:hover .rr-ppdb-unit-img {
+    background: #fff;
+    border-color: #d4ffd4;
+  }
+
+  .rr-ppdb-unit-img {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 4px;
+    border: 1px solid #eee;
+  }
+
+  .rr-ppdb-unit:hover .rr-ppdb-unit-img {
+    background: #fff;
+    border-color: #d4ffd4;
+  }
+
+  @media (max-width: 420px) {
+    #rr-chat-window {
+      width: calc(100vw - 20px);
+      right: 10px;
+      bottom: 90px;
+    }
+
+    #rr-chat-fab {
+      bottom: 16px;
+      right: 16px;
+    }
+  }
+</style>
+
+<!-- FAB Button -->
+<div id="rr-chat-fab" onclick="rrToggleChat()" title="Tanya Kami">
+  <div id="rr-chat-badge">1</div>
+  <svg class="icon-chat" width="26" height="26" fill="none" viewBox="0 0 24 24">
+    <path
+      d="M12 2C6.48 2 2 6.26 2 11.5c0 2.44 1.02 4.67 2.7 6.32L3 21l3.5-1.5C7.88 20.3 9.9 21 12 21c5.52 0 10-4.26 10-9.5S17.52 2 12 2z"
+      fill="white" />
+  </svg>
+  <svg class="icon-close" width="24" height="24" fill="none" viewBox="0 0 24 24" style="display:none">
+    <path d="M18 6L6 18M6 6l12 12" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+  </svg>
+</div>
+
+<!-- Chat Window -->
+<div id="rr-chat-window">
+  <div class="rr-chat-header">
+    <div class="rr-chat-header-avatar">
+      <svg width="22" height="22" fill="none" viewBox="0 0 24 24">
+        <path
+          d="M12 2C6.48 2 2 6.26 2 11.5c0 2.44 1.02 4.67 2.7 6.32L3 21l3.5-1.5C7.88 20.3 9.9 21 12 21c5.52 0 10-4.26 10-9.5S17.52 2 12 2z"
+          fill="white" />
+      </svg>
+    </div>
+    <div class="rr-chat-header-info">
+      <div class="rr-chat-header-name">Asisten RR BALONGBENDO</div>
+      <div class="rr-chat-header-status">
+        <span class="rr-status-dot"></span> Online • Siap membantu
+      </div>
+    </div>
+    <button class="rr-chat-minimize" onclick="rrToggleChat()" title="Minimize">
+      <svg width="20" height="20" fill="none" viewBox="0 0 24 24">
+        <path d="M18 12H6" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+      </svg>
+    </button>
+  </div>
+
+  <div class="rr-chat-messages" id="rr-messages"></div>
+
+  <div class="rr-chat-input-area">
+    <input class="rr-chat-input" id="rr-input" type="text" placeholder="Ketik pertanyaan Anda..."
+      onkeydown="if(event.key==='Enter')rrSendMsg()">
+    <button class="rr-chat-send" onclick="rrSendMsg()">
+      <svg width="16" height="16" fill="none" viewBox="0 0 24 24">
+        <path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z" stroke="white" stroke-width="2.2" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+    </button>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const SCHOOL_CONTEXT = {
+      name: "BP3NU RADEN RAHMAT BALONGBENDO",
+      type: "induk",
+      units: [
+        { name: "MI RADEN RAHMAT", level: "Madrasah Ibtidaiyah (Setara SD)", wa: "6285730017464", logo: "https://radenrahmatbalongbendo.sch.id/logo-mi.webp", principal: "Nurul Lailiyatul Istiqomah, S.P., M.M." },
+        { name: "SMP R RAHMAT", level: "SMP (Setara MTs)", wa: "6285706673560", logo: "https://radenrahmatbalongbendo.sch.id/logo-smp.webp", principal: "Abdul Amin, S.Pd." },
+        { name: "SMA R RAHMAT (SMARTBA)", level: "SMA / MA (SMARTBA)", wa: "6285732920200", logo: "https://radenrahmatbalongbendo.sch.id/logo-sma.webp", principal: "Mohammad Sony Bahrudin" }
+      ],
+      address: "Jl. Mayjen Bambang Yuwono No.110, Balongbendo, Sidoarjo",
+      phone: "(031) 8970323"
+    };
+
+    const SYSTEM_PROMPT = `Sebagai Asisten Virtual (AI) cerdas BP3NU RADEN RAHMAT BALONGBENDO, awali setiap percakapan dengan salam (Assalamu'alaikum). Gunakan bahasa yang sangat sopan (bahasa Indonesia formal namun ramah), Islami, profesional, dan solutif.
+
+PANGKALAN DATA (DATABASE PENCAIRAN):
+1. BP3NU RADEN RAHMAT (INSTITUSI INDUK):
+   - Didirikan pada 1 Oktober 1949 oleh KH Mubin Amar dan tokoh MWC NU Balongbendo.
+   - Mengelola unit MI, SMP, dan SMA.
+   - Lokasi pusat: Jl. Mayjen Bambang Yuwono No. 110, Balongbendo, Sidoarjo.
+   - Ketua BP3NU saat ini: Drs. H. Moh. Zuhdi.
+
+2. MI RADEN RAHMAT (Unit Dasar):
+   - Sejarah: Berdiri sejak 1949. Dulu bernama SRINU (Sekolah Rakyat Islam NU).
+   - Fokus: Pendidikan karakter berbasis Aswaja An-Nahdliyah.
+   - Keunggulan: Pembiasaan Sholat Dhuha, Tahfidz Juz 30, dan adab (Kitab Alala).
+   - Kepala Madrasah: Nurul Lailiyatul Istiqomah, S.P., M.M.
+
+3. SMP R RAHMAT (Unit Menengah):
+   - Didirikan: 5 Januari 1969. Akreditasi A.
+   - Slogan: "Unggul Dalam Prestasi, Mulia Dalam Budi Pekerti".
+   - Fasilitas: Gedung representatif, Lab IPA/Komputer, Perpustakaan, Musholla.
+   - Karakter: Menekankan leadership (OSIS), Pramuka, Pagar Nusa, dan Banjari.
+   - Kepala Sekolah: Abdul Amin, S.Pd.
+
+4. SMA RADEN RAHMAT (SMARTBA):
+   - Jenjang Menengah Atas dengan fokus persiapan PTN dan Vokasi.
+   - Aktif dalam kegiatan sosial seperti pemberian 1000 takjil.
+   - Kepala Sekolah: Mohammad Sony Bahrudin.
+
+INFORMASI PPDB (Pendaftaran 2026):
+- Untuk mendaftar atau tanya syarat, arahkan user ke WhatsApp unit terkait atau sarankan datang ke kantor pendaftaran jam 07.45 - 13.00 WIB.
+- Selalu sertakan [SHOW_PPDB_CARD] di akhir jawaban jika user menanyakan pendaftaran atau pendaftaran online.
+
+Gaya Komunikasi:
+- Berikan jawaban yang padat (2-4 kalimat).
+- Jika ada hal teknis spesifik yang tidak ada di database, arahkan ke nomor telepon kantor di (031) 8970323.`;
+
+    let chatHistory = [];
+    let isOpen = false;
+    let isBusy = false;
+
+    function escHtml(t) {
+      return t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    function rrToggleChat() {
+      isOpen = !isOpen;
+      const win = document.getElementById('rr-chat-window');
+      const fab = document.getElementById('rr-chat-fab');
+      const badge = document.getElementById('rr-chat-badge');
+      win.classList.toggle('visible', isOpen);
+      fab.classList.toggle('open', isOpen);
+      if (isOpen) {
+        badge.style.display = 'none';
+        if (chatHistory.length === 0) rrShowGreeting();
+        setTimeout(() => document.getElementById('rr-input').focus(), 300);
+      }
+    }
+    window.rrToggleChat = rrToggleChat;
+
+    function rrShowGreeting() {
+      addBotMsg(`Assalamu'alaikum! 👋 Selamat datang di **BP3NU RADEN RAHMAT**. Ada yang bisa saya bantu terkait MI, SMP, atau SMA kami?`, [
+        "📋 Info Pendaftaran (PPDB)",
+        "🏫 Profil Sejarah Madrasah",
+        "📍 Lokasi & Kontak",
+        "⭐ Program Unggulan"
+      ]);
+    }
+
+    function formatText(text) {
+      return text
+        .replace(/\[SHOW_PPDB_CARD\]/g, '')
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.*?)\*/g, '<em>$1</em>')
+        .replace(/^- (.+)/gm, '<li>$1</li>')
+        .replace(/(<li>.*<\/li>)/gs, '<ul style="margin:6px 0 6px 16px;padding:0;">$1</ul>')
+        .replace(/\n/g, '<br>');
+    }
+
+    function addBotMsg(text, quickReplies) {
+      const messagesEl = document.getElementById('rr-messages');
+      const msgEl = document.createElement('div');
+      msgEl.className = 'rr-msg bot';
+
+      let html = `<div class="rr-msg-avatar"><svg width="16" height="16" fill="none" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.26 2 11.5c0 2.44 1.02 4.67 2.7 6.32L3 21l3.5-1.5C7.88 20.3 9.9 21 12 21c5.52 0 10-4.26 10-9.5S17.52 2 12 2z" fill="white"/></svg></div>`;
+      html += `<div><div class="rr-msg-bubble">${formatText(text)}</div>`;
+
+      if (text.includes('[SHOW_PPDB_CARD]')) {
+        html += buildPPDBCard();
+      }
+
+      if (quickReplies && quickReplies.length) {
+        html += `<div class="rr-quick-btns">` + quickReplies.map(q =>
+          `<button class="rr-quick-btn" onclick="rrQuickReply('${escHtml(q)}')">${q}</button>`
+        ).join('') + `</div>`;
+      }
+      html += `</div>`;
+      msgEl.innerHTML = html;
+      messagesEl.appendChild(msgEl);
+      messagesEl.scrollTop = messagesEl.scrollHeight;
+    }
+
+    function buildPPDBCard() {
+      let html = `<div class="rr-ppdb-card"><div class="rr-ppdb-card-title">📝 Daftar Sekarang via WhatsApp</div>`;
+      SCHOOL_CONTEXT.units.forEach(u => {
+        html += `<a href="https://wa.me/${u.wa}?text=Assalamualaikum%2C%20saya%20ingin%20informasi%20PPDB%20${encodeURIComponent(u.name)}" target="_blank" class="rr-ppdb-unit">
+        <img src="${u.logo}" class="rr-ppdb-unit-img" alt="${u.name}">
+        <div><div class="rr-ppdb-unit-name">${u.name}</div><div class="rr-ppdb-unit-sub">${u.level}</div></div>
+        <span class="rr-ppdb-wa-icon">💬</span>
+      </a>`;
+      });
+      html += `</div>`;
+      return html;
+    }
+
+    function addUserMsg(text) {
+      const messagesEl = document.getElementById('rr-messages');
+      const msgEl = document.createElement('div');
+      msgEl.className = 'rr-msg user';
+      msgEl.innerHTML = `<div class="rr-msg-bubble">${escHtml(text)}</div>`;
+      messagesEl.appendChild(msgEl);
+      messagesEl.scrollTop = messagesEl.scrollHeight;
+    }
+
+    function addTyping() {
+      const messagesEl = document.getElementById('rr-messages');
+      const el = document.createElement('div');
+      el.className = 'rr-msg bot'; el.id = 'rr-typing';
+      el.innerHTML = `<div class="rr-msg-avatar"><svg width="16" height="16" fill="none" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.26 2 11.5c0 2.44 1.02 4.67 2.7 6.32L3 21l3.5-1.5C7.88 20.3 9.9 21 12 21c5.52 0 10-4.26 10-9.5S17.52 2 12 2z" fill="white"/></svg></div><div class="rr-msg-bubble"><div class="rr-typing"><span></span><span></span><span></span></div></div>`;
+      messagesEl.appendChild(el);
+      messagesEl.scrollTop = messagesEl.scrollHeight;
+    }
+
+    function removeTyping() {
+      const el = document.getElementById('rr-typing');
+      if (el) el.remove();
+    }
+
+    async function rrSendMsg() {
+      const input = document.getElementById('rr-input');
+      const text = input.value.trim();
+      if (!text || isBusy) return;
+
+      input.value = '';
+      addUserMsg(text);
+      chatHistory.push({ role: 'user', content: text });
+
+      isBusy = true;
+      input.disabled = true;
+      addTyping();
+
+      try {
+        const res = await fetch('/api/ollama_proxy.php', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            system_instruction: SYSTEM_PROMPT,
+            messages: chatHistory
+          })
+        });
+
+        const data = await res.json();
+        removeTyping();
+
+        if (data.error) throw new Error(data.error);
+        const reply = data.reply || 'Maaf, saya gagal memproses pesan.';
+        chatHistory.push({ role: 'assistant', content: reply });
+
+        const hasPPDB = /ppdb|daftar|pendaftaran|masuk/i.test(reply + text);
+        addBotMsg(reply, hasPPDB ? null : ["🏫 Info Madrasah", "📋 Syarat PPDB", "📞 Hubungi Kami"]);
+
+      } catch (e) {
+        console.error('[Chat Error]', e);
+        removeTyping();
+        chatHistory.pop();
+        addBotMsg(`Mohon maaf, layanan sedang sibuk. Silakan hubungi kami di (031) 8970323 atau WhatsApp PPDB unit terkait.`, ["📞 WA MI", "📞 WA SMP", "📞 WA SMA"]);
+      }
+
+      isBusy = false;
+      input.disabled = false;
+      input.focus();
+    }
+    window.rrSendMsg = rrSendMsg;
+
+    function rrQuickReply(text) {
+      document.getElementById('rr-input').value = text;
+      rrSendMsg();
+    }
+    window.rrQuickReply = rrQuickReply;
+  })();
+</script>

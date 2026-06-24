@@ -1,0 +1,21 @@
+API Google
+AIzaSyDkA45gu4Jl4L4maNqRmhVoB2zBMojKUIs
+
+groq.com
+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
+
+gemini api
+AIzaSyBQ-UMRsqvWol4Cy3q0Nu4R7D4ck4Nmsrs
+
+Groq LLaMA api
+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
+
+DeepSeek R1 api
+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
+
+gemini API
+AIzaSyCjfhEFnV9GavvFhwIqYf5zmdCBuq_UkCU
+
+Gemini API
+AIzaSyCveEKFuXHMI3TIWg0GsEw4O8F5j-uQL8U
+

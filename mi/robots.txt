@@ -1,0 +1,27 @@
+# robots.txt untuk mi.radenrahmatbalongbendo.sch.id
+# Googlebot dan crawler lain boleh indeks halaman utama dan aset publik.
+# Sinkronisasi Instagram (api/news_mi.php dll.) tidak diubah oleh file ini.
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /js/
+Allow: /uploads/
+Allow: /data/google_config.json
+# Izinkan Googlebot mengakses feed berita agar render halaman & IG feed tidak gagal
+Allow: /api/news_mi.php
+
+# Blokir hanya halaman admin/CMS dan alumni dari crawling & scraping
+Disallow: /cms-admin.html
+Disallow: /indexalumni.html
+Disallow: /alumni_data.js
+Disallow: /uploads/alumni/
+Disallow: /.vscode/
+
+# API backend lain tetap diblokir untuk indeks (news_mi.php diizinkan di atas)
+Disallow: /api/
+
+Sitemap: https://mi.radenrahmatbalongbendo.sch.id/sitemap.xml
+User-agent: Google-Extended
+Disallow: /
+

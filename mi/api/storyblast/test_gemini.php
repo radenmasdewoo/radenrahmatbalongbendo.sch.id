@@ -1,0 +1,35 @@
+<?php
+header('Content-Type: text/plain');
+
+$baseUrl = "https://" . $_SERVER['HTTP_HOST'] . "/api/storyblast/api_v3.php?path=";
+
+echo "--- Testing /auth/login ---\n";
+$ch = curl_init($baseUrl . "/auth/login");
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_POST, true);
+curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode(['username' => 'admin', 'password' => 'RaRa@2026']));
+$response = curl_exec($ch);
+$httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+curl_close($ch);
+
+echo "HTTP Code: $httpcode\n";
+$loginData = json_decode($response, true);
+if (!$loginData || !isset($loginData['token'])) {
+    die("Login failed.\n");
+}
+$token = $loginData['token'];
+
+echo "\n--- Testing /gemini ---\n";
+$ch = curl_init($baseUrl . "/gemini");
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_POST, true);
+curl_setopt($ch, CURLOPT_HTTPHEADER, ["Authorization: Bearer $token", "Content-Type: application/json"]);
+curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode(['prompt' => 'Test prompt, jawab dengan "OK" saja.']));
+$responseG = curl_exec($ch);
+$httpcodeG = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+curl_close($ch);
+
+echo "HTTP Code: $httpcodeG\n";
+echo "Response: $responseG\n";
+
+echo "\nALL TESTS COMPLETED.\n";

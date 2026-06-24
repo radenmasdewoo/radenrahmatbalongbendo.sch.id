@@ -1,0 +1,3268 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head><!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K2H1B7L27Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-K2H1B7L27Q');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>CMS Admin — MI Raden Rahmat Balongbendo</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192x192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon-180x180.png">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root {
+      --green: #1b5e20;
+      --green-mid: #2e7d32;
+      --green-light: #e8f5e9;
+      --green-glow: rgba(27, 94, 32, 0.15);
+      --gold: #f59e0b;
+      --gold-light: #fef3c7;
+      --red: #ef4444;
+      --blue: #3b82f6;
+      --purple: #8b5cf6;
+      --bg: #0f1117;
+      --bg2: #161b22;
+      --bg3: #1c2331;
+      --border: rgba(255, 255, 255, 0.08);
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --radius: 12px;
+      --shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── LOGIN ── */
+    #loginScreen {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: radial-gradient(ellipse at 30% 40%, rgba(27, 94, 32, 0.2) 0%, transparent 60%),
+        radial-gradient(ellipse at 80% 80%, rgba(245, 158, 11, 0.1) 0%, transparent 50%), var(--bg);
+    }
+
+    .login-box {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 48px 40px;
+      width: 380px;
+      box-shadow: var(--shadow);
+    }
+
+    .login-logo {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .login-logo .shield {
+      width: 72px;
+      height: 72px;
+      background: linear-gradient(135deg, var(--green), var(--green-mid));
+      border-radius: 18px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      color: white;
+      box-shadow: 0 8px 24px rgba(27, 94, 32, 0.4);
+    }
+
+    .login-logo h2 {
+      margin-top: 16px;
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    .login-logo p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-top: 4px;
+    }
+
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 12px 14px;
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      font-family: inherit;
+      font-size: 0.95rem;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .form-group input:focus {
+      outline: none;
+      border-color: var(--green-mid);
+      box-shadow: 0 0 0 3px var(--green-glow);
+    }
+
+    .btn-primary {
+      width: 100%;
+      padding: 13px;
+      background: linear-gradient(135deg, var(--green), var(--green-mid));
+      border: none;
+      border-radius: var(--radius);
+      color: white;
+      font-family: inherit;
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+      margin-top: 8px;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(27, 94, 32, 0.4);
+    }
+
+    .login-hint {
+      text-align: center;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-top: 16px;
+    }
+
+    .login-hint code {
+      background: var(--bg3);
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--gold);
+    }
+
+    /* ── LAYOUT ── */
+    #app {
+      display: none;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .sidebar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 260px;
+      background: var(--bg2);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      z-index: 100;
+    }
+
+    .sidebar-header {
+      padding: 24px 20px 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .sidebar-header .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .sidebar-header .brand .icon {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, var(--green), var(--green-mid));
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+
+    .sidebar-header .brand-text .name {
+      font-weight: 800;
+      font-size: 0.9rem;
+      line-height: 1.2;
+    }
+
+    .sidebar-header .brand-text .sub {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+    }
+
+    .sidebar-nav {
+      flex: 1;
+      overflow-y: auto;
+      padding: 12px;
+    }
+
+    .nav-section {
+      margin-bottom: 8px;
+    }
+
+    .nav-section-label {
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-muted);
+      padding: 8px 8px 4px;
+    }
+
+    .nav-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 12px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.15s;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+      font-weight: 500;
+      margin-bottom: 2px;
+      border: 1px solid transparent;
+    }
+
+    .nav-item:hover {
+      background: var(--bg3);
+      color: var(--text);
+    }
+
+    .nav-item.active {
+      background: var(--green-glow);
+      color: #4caf50;
+      border-color: rgba(76, 175, 80, 0.2);
+    }
+
+    .nav-item .icon {
+      width: 18px;
+      text-align: center;
+    }
+
+    .nav-item .badge {
+      margin-left: auto;
+      background: var(--gold);
+      color: #000;
+      font-size: 0.65rem;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 20px;
+    }
+
+    .sidebar-footer {
+      padding: 12px;
+      border-top: 1px solid var(--border);
+    }
+
+    .sidebar-footer .user-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px;
+      background: var(--bg3);
+      border-radius: 10px;
+    }
+
+    .sidebar-footer .avatar {
+      width: 34px;
+      height: 34px;
+      background: var(--green-mid);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+    }
+
+    .sidebar-footer .name {
+      font-size: 0.82rem;
+      font-weight: 600;
+    }
+
+    .sidebar-footer .role {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+    }
+
+    .btn-logout {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      width: 100%;
+      margin-top: 8px;
+      padding: 8px 12px;
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-logout:hover {
+      background: rgba(239, 68, 68, 0.1);
+      border-color: var(--red);
+      color: var(--red);
+    }
+
+    .main {
+      margin-left: 260px;
+      height: 100vh;
+      overflow-y: auto;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      background: rgba(22, 27, 34, 0.8);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 28px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 10;
+    }
+
+    .topbar .page-title {
+      font-size: 1rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .topbar .breadcrumb {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .topbar-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn-view-site {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      background: var(--green-glow);
+      border: 1px solid rgba(76, 175, 80, 0.3);
+      border-radius: 8px;
+      color: #4caf50;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .content {
+      padding: 28px;
+    }
+
+    /* ── PAGES ── */
+    .page {
+      display: none;
+    }
+
+    .page.active {
+      display: block;
+    }
+
+    /* ── CARDS ── */
+    .card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+    }
+
+    .card-header {
+      padding: 18px 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .card-header h3 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    /* ── DASHBOARD STATS ── */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .stat-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stat-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: var(--color, var(--green));
+      border-radius: var(--radius) var(--radius) 0 0;
+    }
+
+    .stat-value {
+      font-size: 2rem;
+      font-weight: 800;
+    }
+
+    .stat-label {
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      margin-top: 4px;
+    }
+
+    .stat-icon {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2rem;
+      opacity: 0.1;
+    }
+
+    /* ── FORM ELEMENTS ── */
+    label {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      display: block;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    input,
+    textarea,
+    select {
+      width: 100%;
+      padding: 10px 14px;
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      color: var(--text);
+      font-family: inherit;
+      font-size: 0.9rem;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      resize: vertical;
+    }
+
+    input:focus,
+    textarea:focus,
+    select:focus {
+      outline: none;
+      border-color: var(--green-mid);
+      box-shadow: 0 0 0 3px var(--green-glow);
+    }
+
+    .form-row {
+      display: grid;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .form-row.cols-2 {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .form-row.cols-3 {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .field {
+      margin-bottom: 16px;
+    }
+
+    /* ── BUTTONS ── */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 16px;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s;
+    }
+
+    .btn-success {
+      background: linear-gradient(135deg, var(--green), var(--green-mid));
+      color: white;
+    }
+
+    .btn-success:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 14px rgba(27, 94, 32, 0.4);
+    }
+
+    .btn-danger {
+      background: rgba(239, 68, 68, 0.15);
+      color: var(--red);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+    }
+
+    .btn-danger:hover {
+      background: rgba(239, 68, 68, 0.25);
+    }
+
+    .btn-gold {
+      background: var(--gold);
+      color: #000;
+    }
+
+    .btn-gold:hover {
+      background: #e59600;
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+    }
+
+    .btn-ghost:hover {
+      background: var(--bg3);
+      color: var(--text);
+    }
+
+    .btn-blue {
+      background: rgba(59, 130, 246, 0.15);
+      color: var(--blue);
+      border: 1px solid rgba(59, 130, 246, 0.3);
+    }
+
+    .btn-sm {
+      padding: 6px 12px;
+      font-size: 0.78rem;
+    }
+
+    /* ── TABLE ── */
+    .table-wrap {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table th {
+      padding: 10px 14px;
+      text-align: left;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      background: var(--bg3);
+      border-bottom: 1px solid var(--border);
+    }
+
+    table td {
+      padding: 12px 14px;
+      font-size: 0.875rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      vertical-align: middle;
+    }
+
+    table tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    /* ── BADGES ── */
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 0.72rem;
+      font-weight: 600;
+    }
+
+    .badge-success {
+      background: rgba(76, 175, 80, 0.15);
+      color: #4caf50;
+    }
+
+    .badge-warning {
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--gold);
+    }
+
+    .badge-danger {
+      background: rgba(239, 68, 68, 0.15);
+      color: var(--red);
+    }
+
+    .badge-blue {
+      background: rgba(59, 130, 246, 0.15);
+      color: var(--blue);
+    }
+
+    .badge-purple {
+      background: rgba(139, 92, 246, 0.15);
+      color: var(--purple);
+    }
+
+    /* ── MODAL ── */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(4px);
+    }
+
+    .modal-overlay.open {
+      display: flex;
+    }
+
+    .modal {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      width: 90%;
+      max-width: 680px;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.5);
+    }
+
+    .modal-header {
+      padding: 20px 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .modal-header h3 {
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .modal-close {
+      width: 32px;
+      height: 32px;
+      background: var(--bg3);
+      border: none;
+      border-radius: 8px;
+      color: var(--text-muted);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .modal-close:hover {
+      color: var(--text);
+    }
+
+    .modal-body {
+      padding: 24px;
+    }
+
+    .modal-footer {
+      padding: 16px 24px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+
+    /* ── TOAST ── */
+    .toast-container {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .toast {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 16px;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: var(--shadow);
+      transform: translateX(120%);
+      transition: transform 0.3s ease;
+      min-width: 280px;
+    }
+
+    .toast.show {
+      transform: translateX(0);
+    }
+
+    .toast.success {
+      border-left: 3px solid #4caf50;
+    }
+
+    .toast.error {
+      border-left: 3px solid var(--red);
+    }
+
+    .toast.info {
+      border-left: 3px solid var(--blue);
+    }
+
+    /* ── SEO SCORE ── */
+    .seo-score {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 20px;
+      background: var(--bg3);
+      border-radius: var(--radius);
+      margin-bottom: 20px;
+    }
+
+    .score-circle {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+
+    .score-good {
+      background: radial-gradient(circle, rgba(76, 175, 80, 0.3), rgba(27, 94, 32, 0.2));
+      color: #4caf50;
+      border: 3px solid #4caf50;
+    }
+
+    .score-mid {
+      background: radial-gradient(circle, rgba(245, 158, 11, 0.3), rgba(180, 100, 0, 0.2));
+      color: var(--gold);
+      border: 3px solid var(--gold);
+    }
+
+    .score-bad {
+      background: radial-gradient(circle, rgba(239, 68, 68, 0.3), rgba(150, 0, 0, 0.2));
+      color: var(--red);
+      border: 3px solid var(--red);
+    }
+
+    .seo-checks {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    .seo-check {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.82rem;
+    }
+
+    .seo-check .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* ── TABS ── */
+    .tabs {
+      display: flex;
+      gap: 4px;
+      background: var(--bg3);
+      padding: 4px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .tab {
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      color: var(--text-muted);
+      transition: all 0.2s;
+      border: none;
+      background: none;
+      font-family: inherit;
+    }
+
+    .tab.active {
+      background: var(--bg2);
+      color: var(--text);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* ── AI GEN ── */
+    .ai-panel {
+      background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(59, 130, 246, 0.1));
+      border: 1px solid rgba(139, 92, 246, 0.2);
+      border-radius: var(--radius);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .ai-panel h4 {
+      font-size: 0.9rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .ai-panel h4 .ai-icon {
+      color: var(--purple);
+    }
+
+    .ai-topics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .ai-topic {
+      padding: 6px 12px;
+      background: rgba(139, 92, 246, 0.1);
+      border: 1px solid rgba(139, 92, 246, 0.2);
+      border-radius: 20px;
+      font-size: 0.78rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      color: var(--purple);
+    }
+
+    .ai-topic:hover {
+      background: rgba(139, 92, 246, 0.2);
+    }
+
+    /* ── SEO TAG PREVIEW ── */
+    .meta-preview {
+      background: var(--bg3);
+      border-radius: var(--radius);
+      padding: 16px;
+      margin-top: 12px;
+      font-size: 0.82rem;
+    }
+
+    .meta-preview .google-title {
+      color: #4fa3e8;
+      font-size: 1.1rem;
+      cursor: pointer;
+    }
+
+    .meta-preview .google-title:hover {
+      text-decoration: underline;
+    }
+
+    .meta-preview .google-url {
+      color: #3aa757;
+      font-size: 0.8rem;
+    }
+
+    .meta-preview .google-desc {
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .char-count {
+      font-size: 0.72rem;
+      text-align: right;
+      margin-top: 4px;
+    }
+
+    .char-count .ok {
+      color: #4caf50;
+    }
+
+    .char-count .warn {
+      color: var(--gold);
+    }
+
+    .char-count .bad {
+      color: var(--red);
+    }
+
+    /* ── FILE UPLOAD ── */
+    .upload-zone {
+      border: 2px dashed var(--border);
+      border-radius: var(--radius);
+      padding: 32px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .upload-zone:hover,
+    .upload-zone.drag {
+      border-color: var(--green-mid);
+      background: var(--green-glow);
+    }
+
+    .upload-zone .icon {
+      font-size: 2rem;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+
+    /* ── SCROLL ── */
+    ::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 1024px) {
+      .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        transform: translateX(-100%);
+        transition: transform 0.3s;
+      }
+
+      .sidebar.open {
+        transform: translateX(0);
+      }
+
+      .main {
+        margin-left: 0;
+      }
+
+      .stats-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .form-row.cols-2,
+      .form-row.cols-3 {
+        grid-template-columns: 1fr;
+      }
+
+      .seo-checks {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .progress-bar {
+      height: 6px;
+      background: var(--bg3);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      border-radius: 3px;
+      transition: width 0.5s ease;
+    }
+
+    .section-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+
+    /* Sitemap builder */
+    .sitemap-item {
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .sitemap-item .drag-handle {
+      color: var(--text-muted);
+      cursor: grab;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ═══════════════════ LOGIN (hanya via Ctrl+Shift+L di halaman utama) ═══════════════════ -->
+  <div id="loginScreen">
+    <div class="login-box">
+      <div class="login-logo">
+        <div class="shield">🏫</div>
+        <h2>CMS Admin Panel</h2>
+        <p>MI Raden Rahmat Balongbendo</p>
+      </div>
+      <p class="login-hint" style="margin-top:16px;margin-bottom:20px;">Untuk masuk ke CMS: buka <strong>halaman
+          utama</strong> MI lalu tekan <code>Ctrl+Shift+L</code>. Kredensial tidak disimpan di halaman ini.</p>
+      <a href="index.html" class="btn-primary"
+        style="display:inline-block;text-align:center;text-decoration:none;box-sizing:border-box;">
+        <i class="fas fa-external-link-alt"></i> Buka Halaman Utama
+      </a>
+    </div>
+  </div>
+
+  <!-- ═══════════════════ APP ═══════════════════ -->
+  <div id="app">
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="brand">
+          <div class="icon">🏫</div>
+          <div class="brand-text">
+            <div class="name">MI Raden Rahmat</div>
+            <div class="sub">CMS Admin Panel v2.0</div>
+          </div>
+        </div>
+      </div>
+      <nav class="sidebar-nav">
+        <div class="nav-section">
+          <div class="nav-section-label">Utama</div>
+          <div class="nav-item active" onclick="showPage('dashboard')">
+            <i class="fas fa-tachometer-alt icon"></i> Dashboard
+          </div>
+          <div class="nav-item" onclick="showPage('hero')">
+            <i class="fas fa-image icon"></i> Hero / Banner
+          </div>
+          <div class="nav-item" onclick="showPage('profil')">
+            <i class="fas fa-school icon"></i> Profil Madrasah
+          </div>
+          <div class="nav-item" onclick="showPage('news')">
+            <i class="fas fa-newspaper icon"></i> Berita & Kegiatan
+            <span class="badge" id="newsBadge">5</span>
+          </div>
+          <div class="nav-item" onclick="showPage('ppdb')">
+            <i class="fas fa-user-plus icon"></i> Data PPDB
+          </div>
+        </div>
+        <div class="nav-section">
+          <div class="nav-section-label">Tampilan</div>
+          <div class="nav-item" onclick="showPage('navbar')">
+            <i class="fas fa-bars icon"></i> Menu Navigasi
+          </div>
+          <div class="nav-item" onclick="showPage('footer')">
+            <i class="fas fa-layer-group icon"></i> Footer
+          </div>
+          <div class="nav-item" onclick="showPage('media')">
+            <i class="fas fa-photo-film icon"></i> Media / Gambar
+          </div>
+        </div>
+        <div class="nav-section">
+          <div class="nav-section-label">SEO & Traffic</div>
+          <div class="nav-item" onclick="showPage('seo')">
+            <i class="fas fa-search icon"></i> SEO & Meta Tags
+          </div>
+          <div class="nav-item" onclick="showPage('sitemap')">
+            <i class="fas fa-sitemap icon"></i> Sitemap & Robot
+          </div>
+          <div class="nav-item" onclick="showPage('autogen')">
+            <i class="fas fa-robot icon"></i> Auto-Generate Konten
+            <span class="badge" style="background:var(--purple);color:white;">AI</span>
+          </div>
+          <div class="nav-item" onclick="showPage('analytics')">
+            <i class="fas fa-chart-line icon"></i> Analytics Setup
+          </div>
+        </div>
+        <div class="nav-section">
+          <div class="nav-section-label">Sistem</div>
+          <div class="nav-item" id="navUsers" onclick="showPage('users')" style="display:none;">
+            <i class="fas fa-users-cog icon"></i> Management User
+          </div>
+          <div class="nav-item" onclick="showPage('settings')">
+            <i class="fas fa-cog icon"></i> Pengaturan Global
+          </div>
+          <div class="nav-item" onclick="showPage('backup')">
+            <i class="fas fa-database icon"></i> Backup & Export
+          </div>
+        </div>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="user-info">
+          <div class="avatar">👤</div>
+          <div>
+            <div class="name" id="sidebarUser">Administrator</div>
+            <div class="role">Super Admin</div>
+          </div>
+        </div>
+        <button class="btn-logout" onclick="doLogout()">
+          <i class="fas fa-sign-out-alt"></i> Keluar
+        </button>
+      </div>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- TOPBAR -->
+      <div class="topbar">
+        <div>
+          <div class="page-title" id="topbarTitle"><i class="fas fa-tachometer-alt"></i> Dashboard</div>
+          <div class="breadcrumb" id="topbarBreadcrumb">CMS / Dashboard</div>
+        </div>
+        <div class="topbar-actions">
+          <button class="btn btn-ghost btn-sm" onclick="saveAllChanges()"><i class="fas fa-save"></i> Simpan
+            Semua</button>
+          <a class="btn-view-site" href="index.html" target="_blank"><i class="fas fa-external-link-alt"></i> Lihat
+            Website</a>
+        </div>
+      </div>
+
+      <!-- CONTENT AREA -->
+      <div class="content">
+
+        <!-- ═══ DASHBOARD ═══ -->
+        <div class="page active" id="page-dashboard">
+          <div class="stats-grid">
+            <div class="stat-card" style="--color:#4caf50">
+              <div class="stat-value" id="stat-berita">5</div>
+              <div class="stat-label">Total Berita/Kegiatan</div>
+              <div class="stat-icon">📰</div>
+            </div>
+            <div class="stat-card" style="--color:var(--gold)">
+              <div class="stat-value" id="stat-ppdb">0</div>
+              <div class="stat-label">Pendaftar PPDB</div>
+              <div class="stat-icon">📋</div>
+            </div>
+            <div class="stat-card" style="--color:var(--blue)">
+              <div class="stat-value" id="stat-seo">78</div>
+              <div class="stat-label">SEO Score</div>
+              <div class="stat-icon">🔍</div>
+            </div>
+            <div class="stat-card" style="--color:var(--purple)">
+              <div class="stat-value" id="stat-pages">1</div>
+              <div class="stat-label">Halaman Aktif</div>
+              <div class="stat-icon">📄</div>
+            </div>
+          </div>
+
+          <div style="display:grid;grid-template-columns:2fr 1fr;gap:20px;">
+            <div class="card">
+              <div class="card-header">
+                <h3><i class="fas fa-bolt" style="color:var(--gold)"></i> Aksi Cepat</h3>
+              </div>
+              <div class="card-body" style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+                <button class="btn btn-success" onclick="showPage('news');openModal('modalNews')"><i
+                    class="fas fa-plus"></i> Tambah Berita</button>
+                <button class="btn btn-gold" onclick="showPage('seo')"><i class="fas fa-search"></i> Optimalkan
+                  SEO</button>
+                <button class="btn btn-blue" onclick="showPage('autogen')"><i class="fas fa-robot"></i> Generate Konten
+                  AI</button>
+                <button class="btn btn-ghost" onclick="showPage('backup')"><i class="fas fa-download"></i> Export
+                  Backup</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <h3><i class="fas fa-check-circle" style="color:#4caf50"></i> Status Website</h3>
+              </div>
+              <div class="card-body" style="font-size:0.85rem;">
+                <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+                  <span
+                    style="width:8px;height:8px;background:#4caf50;border-radius:50%;animation:pulse 2s infinite;display:block;"></span>
+                  <span>Website Online</span>
+                </div>
+                <div style="margin-bottom:10px;">
+                  <div style="display:flex;justify-content:space-between;margin-bottom:4px;"><span>SEO</span><span
+                      style="color:var(--gold)">78/100</span></div>
+                  <div class="progress-bar">
+                    <div class="progress-fill" style="width:78%;background:var(--gold)"></div>
+                  </div>
+                </div>
+                <div style="margin-bottom:10px;">
+                  <div style="display:flex;justify-content:space-between;margin-bottom:4px;"><span>Meta Tags</span><span
+                      style="color:#4caf50">Lengkap</span></div>
+                  <div class="progress-bar">
+                    <div class="progress-fill" style="width:100%;background:#4caf50"></div>
+                  </div>
+                </div>
+                <div>
+                  <div style="display:flex;justify-content:space-between;margin-bottom:4px;"><span>Sitemap</span><span
+                      style="color:var(--blue)">Ada</span></div>
+                  <div class="progress-bar">
+                    <div class="progress-fill" style="width:100%;background:var(--blue)"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="margin-top:20px;">
+            <div class="card-header">
+              <h3><i class="fas fa-history" style="color:var(--blue)"></i> Aktivitas Terakhir</h3>
+            </div>
+            <div class="card-body" id="activityLog">
+              <div
+                style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--border);">
+                <span style="color:#4caf50">✓</span> CMS berhasil dimuat — berita MI tersinkron (5 post)
+              </div>
+              <div
+                style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:10px;padding:8px 0;">
+                <span style="color:var(--blue)">ℹ</span> Selamat datang di Panel CMS MI Raden Rahmat Balongbendo
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ═══ HERO ═══ -->
+        <div class="page" id="page-hero">
+          <div class="card">
+            <div class="card-header">
+              <h3><i class="fas fa-image" style="color:var(--gold)"></i> Edit Bagian Hero / Banner Utama</h3>
+              <button class="btn btn-success btn-sm" onclick="saveHero()"><i class="fas fa-save"></i> Simpan</button>
+            </div>
+            <div class="card-body">
+              <div class="form-row cols-2">
+                <div class="field">
+                  <label>Judul Utama (H1)</label>
+                  <input type="text" id="heroTitle" value="MI RADEN RAHMAT BALONGBENDO">
+                </div>
+                <div class="field">
+                  <label>Sub-Judul / Tagline</label>
+                  <input type="text" id="heroSubtitle"
+                    value="Mewujudkan Generasi Islami yang Unggul, Cerdas, dan Berakhlakul Karimah.">
+                </div>
+              </div>
+              <div class="form-row cols-2">
+                <div class="field">
+                  <label>Teks Tombol CTA</label>
+                  <input type="text" id="heroBtnText" value="Daftar Sekarang">
+                </div>
+                <div class="field">
+                  <label>Link Tombol CTA</label>
+                  <input type="text" id="heroBtnLink" value="#ppdb">
+                </div>
+              </div>
+              <div class="field">
+                <label>Gambar Background (URL atau nama file)</label>
+                <input type="text" id="heroBg" value="hero-bg.jpg">
+              </div>
+              <div class="upload-zone" onclick="triggerUpload('heroImgUpload')">
+                <div class="icon">🖼️</div>
+                <p style="font-size:0.85rem;">Klik atau seret gambar untuk background hero</p>
+                <p style="font-size:0.75rem;color:var(--text-muted);">JPG, PNG, WebP — Maks 5MB</p>
+                <input type="file" id="heroImgUpload" accept="image/*" hidden
+                  onchange="previewUpload(this,'heroBgPreview')">
+              </div>
+              <img id="heroBgPreview" style="display:none;max-width:100%;border-radius:10px;margin-top:12px;"
+                alt="Preview">
+              <div style="margin-top:16px;padding:16px;background:var(--bg3);border-radius:var(--radius);">
+                <h4 style="font-size:0.85rem;font-weight:700;margin-bottom:12px;">🖥️ Preview Hero</h4>
+                <div id="heroPreview"
+                  style="background:linear-gradient(rgba(0,50,0,0.75),rgba(0,50,0,0.75)),url(hero-bg.jpg);background-size:cover;background-position:center;height:180px;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;border-radius:10px;color:white;padding:20px;">
+                  <h2 id="prevTitle" style="font-size:1.2rem;font-weight:800;margin-bottom:8px;">MI RADEN RAHMAT
+                    BALONGBENDO</h2>
+                  <p id="prevSubtitle" style="font-size:0.85rem;opacity:0.9;margin-bottom:12px;">Mewujudkan Generasi
+                    Islami yang Unggul, Cerdas, dan Berakhlakul Karimah.</p>
+                  <span
+                    style="background:var(--gold);color:#000;padding:8px 20px;border-radius:20px;font-size:0.8rem;font-weight:700;"
+                    id="prevBtn">Daftar Sekarang →</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ═══ PROFIL ═══ -->
+        <div class="page" id="page-profil">
+          <div class="card">
+            <div class="card-header">
+              <h3><i class="fas fa-school" style="color:var(--green)"></i> Edit Profil Madrasah</h3>
+              <button class="btn btn-success btn-sm" onclick="saveProfil()"><i class="fas fa-save"></i> Simpan</button>
+            </div>
+            <div class="card-body">
+              <div class="form-row cols-2">
+                <div class="field">
+                  <label>Nama Resmi Madrasah</label>
+                  <input type="text" id="sekolahNama" value="MI RADEN RAHMAT BALONGBENDO">
+                </div>
+                <div class="field">
+                  <label>NPSN</label>
+                  <input type="text" id="sekolahNPSN" value="60716945">
+                </div>
+              </div>
+              <div class="form-row cols-2">
+                <div class="field">
+                  <label>Status Akreditasi</label>
+                  <input type="text" id="sekolahAkreditasi" value="Akreditasi A">
+                </div>
+                <div class="field">
+                  <label>Tahun Berdiri</label>
+                  <input type="text" id="sekolahTahun" value="1978">
+                </div>
+              </div>
+              <div class="field">
+                <label>Deskripsi / Visi Singkat</label>
+                <textarea id="sekolahDesc"
+                  rows="4">MI RADEN RAHMAT BALONGBENDO hadir sebagai mitra orang tua dalam mendidik putra-putri menjadi generasi Qur'ani. Berada di bawah naungan LP Ma'arif NU, kami menerapkan kurikulum terpadu yang menitikberatkan pada pembentukan karakter Aswaja An-Nahdliyah, kemampuan akademik yang kuat, serta pengembangan minat bakat siswa.</textarea>
+              </div>
+              <div class="field">
+                <label>Alamat Lengkap</label>
+                <textarea id="sekolahAlamat"
+                  rows="2">Jl. Mayjen Bambang Yuwono No.110, Balongbendo, Kec. Balongbendo, Kabupaten Sidoarjo, Jawa Timur 61263.</textarea>
+              </div>
+              <div class="form-row cols-3">
+                <div class="field">
+                  <label>Email</label>
+                  <input type="email" id="sekolahEmail" value="adminmi@radenrahmatbalongbendo.sch.id">
+                </div>
+                <div class="field">
+                  <label>WhatsApp PPDB</label>
+                  <input type="text" id="sekolahWA" value="6285730017464">
+                </div>
+                <div class="field">
+                  <label>Instagram</label>
+                  <input type="text" id="sekolahIG" value="miradenrahmatbalongbendo">
+                </div>
+              </div>
+              <hr class="section-divider">
+              <h4 style="font-size:0.9rem;font-weight:700;margin-bottom:14px;">✨ Keunggulan Madrasah</h4>
+              <div id="keunggulanList"></div>
+              <button class="btn btn-ghost btn-sm" onclick="addKeunggulan()"><i class="fas fa-plus"></i> Tambah
+                Keunggulan</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ═══ BERITA ═══ -->
+        <div class="page" id="page-news">
+          <div class="card">
+            <div class="card-header">
+              <h3><i class="fas fa-newspaper" style="color:var(--blue)"></i> Manajemen Berita & Kegiatan</h3>
+              <div style="display:flex;gap:8px;">
+                <input type="text" id="newsSearch" placeholder="🔍 Cari berita..." style="width:200px;padding:7px 12px;"
+                  oninput="filterNews()">
+                <button class="btn btn-success btn-sm" onclick="openModal('modalNews');resetNewsForm()"><i
+                    class="fas fa-plus"></i> Tambah Berita</button>
+              </div>
+            </div>
+            <div class="table-wrap">
+              <table id="newsTable">
+                <thead>
+                  <tr>
+                    <th>Gambar</th>
+                    <th>Judul</th>
+                    <th>Tanggal</th>
+                    <th>Sumber</th>
+                    <th>Status</th>
+                    <th>Aksi</th>
+                  </tr>
+                </thead>
+                <tbody id="newsTbody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- ═══ PPDB ═══ -->
+        <div class="page" id="page-ppdb">
+          <div class="card">
+            <div class="card-header">
+              <h3><i class="fas fa-user-graduate" style="color:var(--gold)"></i> Data Pendaftar PPDB 2026/2027</h3>
+              <div style="display:flex;gap:8px;">
+                <button class="btn btn-ghost btn-sm" onclick="exportPPDB()"><i class="fas fa-file-excel"></i> Export
+                  CSV</button>
+                <button class="btn btn-success btn-sm" onclick="openModal('modalPPDB');resetPPDBForm()"><i
+                    class="fas fa-plus"></i> Tambah Manual</button>
+              </div>
+            </div>
+            <div class="card-body" style="padding-bottom:0;">
+              <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:20px;">
+                <div style="background:var(--bg3);border-radius:10px;padding:14px;text-align:center;">
+                  <div style="font-size:1.5rem;font-weight:800;" id="ppdbTotal">0</div>
+                  <div style="font-size:0.75rem;color:var(--text-muted);">Total Pendaftar</div>
+                </div>
+                <div style="background:var(--bg3);border-radius:10px;padding:14px;text-align:center;">
+                  <div style="font-size:1.5rem;font-weight:800;color:#4caf50" id="ppdbDiterima">0</div>
+                  <div style="font-size:0.75rem;color:var(--text-muted);">Diterima</div>
+                </div>
+                <div style="background:var(--bg3);border-radius:10px;padding:14px;text-align:center;">
+                  <div style="font-size:1.5rem;font-weight:800;color:var(--gold)" id="ppdbProses">0</div>
+                  <div style="font-size:0.75rem;color:var(--text-muted);">Dalam Proses</div>
+                </div>
+              </div>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Nama Anak</th>
+                    <th>Asal Sekolah</th>
+                    <th>Nama Wali</th>
+                    <th>Kontak</th>
+                    <th>Status</th>
+                    <th>Tanggal</th>
+                    <th>Aksi</th>
+                  </tr>
+                </thead>
+                <tbody id="ppdbTbody">
+                  <tr>
+                    <td colspan="8" style="text-align:center;color:var(--text-muted);padding:32px;">Belum ada data
+                      pendaftar. Data akan muncul setelah calon siswa mengisi formulir PPDB online.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- ═══ NAVBAR ═══ -->
+        <div class="page" id="page-navbar">
+          <div class="card">
+            <div class="card-header">
+              <h3><i class="fas fa-bars"></i> Edit Menu Navigasi</h3>
+              <button class="btn btn-success btn-sm" onclick="saveNavbar()"><i class="fas fa-save"></i> Simpan</button>
+            </div>
+            <div class="card-body">
+              <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:16px;">Seret untuk mengubah urutan menu.
+                Klik ikon edit untuk ubah teks/link.</p>
+              <div id="navbarItems"></div>
+              <button class="btn btn-ghost btn-sm" onclick="addNavItem()" style="margin-top:8px;"><i
+                  class="fas fa-plus"></i> Tambah Menu</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ═══ FOOTER ═══ -->
+        <div class="page" id="page-footer">
+          <div class="card">
+            <div class="card-header">
+              <h3><i class="fas fa-layer-group"></i> Edit Footer</h3>
+              <button class="btn btn-success btn-sm" onclick="saveFooter()"><i class="fas fa-save"></i> Simpan</button>
+            </div>
+            <div class="card-body">
+              <div class="form-row cols-2">
+                <div class="field">
+                  <label>Copyright Text</label>
+                  <input type="text" id="footerCopy" value="© 2026 MI RADEN RAHMAT BALONGBENDO. All Rights Reserved.">
+                </div>
+                <div class="field">
+                  <label>Jam Kerja</label>
+                  <input type="text" id="footerJam" value="07.00 - 13.00 WIB">
+                </div>
+              </div>
+              <div class="field">
+                <label>Link Facebook</label>
+                <input type="text" id="footerFB" value="https://www.facebook.com/people/MI-Raden-Rahmat/">
+              </div>
+              <div class="field">
+                <label>Link Instagram</label>
+                <input type="text" id="footerIG" value="https://www.instagram.com/miradenrahmatbalongbendo/">
+              </div>
+              <div class="field">
+                <label>Email</label>
+                <input type="email" id="footerEmail" value="adminmi@radenrahmatbalongbendo.sch.id">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ═══ MEDIA ═══ -->
+        <div class="page" id="page-media">
+          <div class="card">
+            <div class="card-header">
+              <h3><i class="fas fa-photo-film"></i> Manajemen Media</h3>
+              <button class="btn btn-success btn-sm" onclick="triggerUpload('bulkUpload')"><i class="fas fa-upload"></i>
+                Upload Gambar</button>
+            </div>
+            <div class="card-body">
+              <input type="file" id="bulkUpload" multiple accept="image/*" hidden onchange="handleBulkUpload(this)">
+              <div class="upload-zone" onclick="triggerUpload('bulkUpload')" id="mediaDropZone">
+                <div class="icon">📁</div>
+                <p style="font-size:0.85rem;">Klik atau seret gambar untuk upload</p>
+                <p style="font-size:0.75rem;color:var(--text-muted);">Mendukung JPG, PNG, WebP, GIF</p>
+              </div>
+              <div id="mediaGrid"
+                style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin-top:20px;">
+                <!-- Media items akan tampil di sini -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ═══ SEO ═══ -->
+        <div class="page" id="page-seo">
+          <div class="card" style="margin-bottom:20px;">
+            <div class="card-header">
+              <h3><i class="fas fa-search" style="color:var(--green)"></i> SEO Score & Analisis</h3>
+              <button class="btn btn-success btn-sm" onclick="runSeoCheck()"><i class="fas fa-sync"></i> Periksa
+                Ulang</button>
+            </div>
+            <div class="card-body">
+              <div class="seo-score">
+                <div class="score-circle score-good" id="seoScoreCircle">78</div>
+                <div>
+                  <div style="font-size:1rem;font-weight:700;">SEO Score: Baik</div>
+                  <div style="font-size:0.82rem;color:var(--text-muted);margin-top:4px;">Website Anda sudah
+                    dioptimalkan. Beberapa perbaikan kecil bisa meningkatkan ranking lebih lanjut.</div>
+                </div>
+              </div>
+              <div class="seo-checks" id="seoChecks"></div>
+            </div>
+          </div>
+
+          <div class="card" style="margin-bottom:20px;">
+            <div class="card-header">
+              <h3><i class="fas fa-tags" style="color:var(--gold)"></i> Meta Tags Utama</h3>
+              <button class="btn btn-success btn-sm" onclick="saveMetaTags()"><i class="fas fa-save"></i> Simpan &
+                Terapkan</button>
+            </div>
+            <div class="card-body">
+              <div class="field">
+                <label>Title Tag (50–60 karakter ideal)</label>
+                <input type="text" id="metaTitle" value="MI RADEN RAHMAT BALONGBENDO | Official Website"
+                  oninput="updateSeoPreview();countChar(this,50,60,'titleCount')">
+                <div class="char-count" id="titleCount"></div>
+              </div>
+              <div class="field">
+                <label>Meta Description (150–160 karakter ideal)</label>
+                <textarea id="metaDesc" rows="3"
+                  oninput="updateSeoPreview();countChar(this,150,160,'descCount')">Website Resmi MI/MIS Raden Rahmat Balongbendo (NPSN 60716945) di Bakalan Wringinpitu, Balongbendo, Sidoarjo, Jawa Timur. Mewujudkan Generasi Islami yang Unggul, Cerdas, dan Berakhlakul Karimah berlandaskan Aswaja An-Nahdliyah.</textarea>
+                <div class="char-count" id="descCount"></div>
+              </div>
+              <div class="field">
+                <label>Meta Keywords (pisah dengan koma)</label>
+                <textarea id="metaKeywords"
+                  rows="3">MIS RADEN RAHMAT, MI RADEN RAHMAT, NPSN 60716945, MI Balongbendo, Madrasah Ibtidaiyah Sidoarjo, Bakalan Wringinpitu, Balongbendo Sidoarjo, Sekolah Dasar Islam Sidoarjo, PPDB MI Raden Rahmat</textarea>
+              </div>
+              <div class="meta-preview">
+                <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:8px;">🔍 Preview di Google:</div>
+                <div class="google-title" id="prevMetaTitle">MI RADEN RAHMAT BALONGBENDO | Official Website</div>
+                <div class="google-url">https://radenrahmatbalongbendo.sch.id/mi/</div>
+                <div class="google-desc" id="prevMetaDesc">Website Resmi MI/MIS Raden Rahmat Balongbendo (NPSN 60716945)
+                  di Bakalan Wringinpitu...</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="margin-bottom:20px;">
+            <div class="card-header">
+              <h3><i class="fab fa-facebook" style="color:#4267B2"></i> Open Graph (Facebook/WhatsApp/Twitter)</h3>
+              <button class="btn btn-success btn-sm" onclick="saveOG()"><i class="fas fa-save"></i> Simpan</button>
+            </div>
+            <div class="card-body">
+              <div class="form-row cols-2">
+                <div class="field">
+                  <label>OG Title</label>
+                  <input type="text" id="ogTitle" value="MI RADEN RAHMAT BALONGBENDO | Official Website">
+                </div>
+                <div class="field">
+                  <label>OG URL Canonical</label>
+                  <input type="text" id="ogUrl" value="https://radenrahmatbalongbendo.sch.id/mi/">
+                </div>
+              </div>
+              <div class="field">
+                <label>OG Description</label>
+                <textarea id="ogDesc"
+                  rows="2">Eksplorasi kegiatan, profil, dan pendaftaran online MI Raden Rahmat Balongbendo.</textarea>
+              </div>
+              <div class="field">
+                <label>OG Image URL (min 1200x630px)</label>
+                <input type="text" id="ogImage" value="https://radenrahmatbalongbendo.sch.id/mi/logo_mi_white.webp">
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h3><i class="fas fa-code" style="color:var(--purple)"></i> Schema.org (JSON-LD) Structured Data</h3>
+              <button class="btn btn-success btn-sm" onclick="saveSchema()"><i class="fas fa-save"></i> Simpan</button>
+            </div>
+            <div class="card-body">
+              <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:12px;">Structured data membantu Google
+                memahami informasi madrasah dan menampilkan rich snippet di hasil pencarian.</p>
+              <textarea id="schemaJson" rows="18" style="font-family:'JetBrains Mono',monospace;font-size:0.8rem;">{
+  "@context": "https://schema.org",
+  "@type": "School",
+  "name": "MI RADEN RAHMAT",
+  "alternateName": "MI RADEN RAHMAT BALONGBENDO",
+  "identifier": {"@type":"PropertyValue","propertyID":"NPSN","value":"60716945"},
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Bakalan Wringinpitu RT 06 RW 01, BALONGBENDO",
+    "addressLocality": "Kec. Balong Bendo",
+    "addressRegion": "Jawa Timur",
+    "addressCountry": "ID"
+  },
+  "geo": {"@type":"GeoCoordinates","latitude":"-7.411900","longitude":"112.536400"},
+  "url": "https://radenrahmatbalongbendo.sch.id/mi/",
+  "email": "adminmi@radenrahmatbalongbendo.sch.id",
+  "award": "Akreditasi A",
+  "foundingDate": "1978-03-20"
+}</textarea>
+              <button class="btn btn-ghost btn-sm" style="margin-top:8px;" onclick="validateSchema()"><i
+                  class="fas fa-check-circle"></i> Validasi JSON</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ═══ SITEMAP ═══ -->
+        <div class="page" id="page-sitemap">
+          <div class="card" style="margin-bottom:20px;">
+            <div class="card-header">
+              <h3><i class="fas fa-sitemap"></i> Sitemap XML Generator</h3>
+              <button class="btn btn-success btn-sm" onclick="generateSitemap()"><i class="fas fa-sync"></i> Generate &
+                Simpan</button>
+            </div>
+            <div class="card-body">
+              <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:16px;">Sitemap membantu Google menemukan
+                dan mengindeks semua halaman website Anda secara otomatis.</p>
+              <div id="sitemapEntries">
+                <div class="sitemap-item">
+                  <i class="fas fa-grip-vertical drag-handle"></i>
+                  <div style="flex:1;">
+                    <div style="font-size:0.85rem;font-weight:600;">/mi/</div>
+                    <div style="font-size:0.75rem;color:var(--text-muted);">Halaman Utama</div>
+                  </div>
+                  <select style="width:auto;padding:5px 10px;font-size:0.8rem;">
+                    <option value="1.0">Priority: 1.0</option>
+                    <option value="0.8" selected>0.8</option>
+                    <option value="0.5">0.5</option>
+                    <option value="0.3">0.3</option>
+                  </select>
+                  <select style="width:auto;padding:5px 10px;font-size:0.8rem;margin-left:8px;">
+                    <option value="daily">Daily</option>
+                    <option value="weekly" selected>Weekly</option>
+                    <option value="monthly">Monthly</option>
+                  </select>
+                </div>
+              </div>
+              <button class="btn btn-ghost btn-sm" style="margin-top:8px;" onclick="addSitemapEntry()"><i
+                  class="fas fa-plus"></i> Tambah URL</button>
+              <hr class="section-divider">
+              <div class="field">
+                <label>Preview Sitemap XML</label>
+                <textarea id="sitemapPreview" rows="14"
+                  style="font-family:'JetBrains Mono',monospace;font-size:0.78rem;" readonly><?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://radenrahmatbalongbendo.sch.id/mi/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2026-02-21</lastmod>
+  </url>
+</urlset></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <h3><i class="fas fa-robot"></i> robots.txt Editor</h3>
+              <button class="btn btn-success btn-sm" onclick="saveRobots()"><i class="fas fa-save"></i> Simpan</button>
+            </div>
+            <div class="card-body">
+              <textarea id="robotsTxt" rows="10" style="font-family:'JetBrains Mono',monospace;font-size:0.85rem;">User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /.vscode/
+
+Sitemap: https://radenrahmatbalongbendo.sch.id/mi/sitemap.xml</textarea>
+            </div>
+          </div>
+        </div>
+
+        <!-- ═══ AUTO-GENERATE ═══ -->
+        <div class="page" id="page-autogen">
+          <div class="ai-panel">
+            <h4><i class="fas fa-robot ai-icon"></i> AI Content Generator — Tingkatkan Traffic Organik</h4>
+            <p style="font-size:0.82rem;color:var(--text-muted);">Generate artikel SEO-friendly, meta tags optimal, dan
+              konten berkualitas untuk meningkatkan traffic dan ranking Google madrasah Anda secara otomatis.</p>
+          </div>
+
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+            <div class="card">
+              <div class="card-header">
+                <h3><i class="fas fa-pen-fancy" style="color:var(--purple)"></i> Generate Artikel Blog</h3>
+              </div>
+              <div class="card-body">
+                <div class="field">
+                  <label>Topik Artikel</label>
+                  <input type="text" id="genTopic" placeholder="Contoh: PPDB 2026/2027 MI Raden Rahmat Balongbendo">
+                </div>
+                <div class="field">
+                  <label>Kata Kunci Target (SEO)</label>
+                  <input type="text" id="genKeyword" placeholder="Contoh: MI Balongbendo, PPDB Sidoarjo">
+                </div>
+                <div class="field">
+                  <label>Tipe Konten</label>
+                  <select id="genType">
+                    <option value="artikel">Artikel Informasi</option>
+                    <option value="pengumuman">Pengumuman Resmi</option>
+                    <option value="ppdb">Panduan PPDB</option>
+                    <option value="kegiatan">Liputan Kegiatan</option>
+                    <option value="prestasi">Prestasi Siswa</option>
+                    <option value="profil">Profil Guru/Staf</option>
+                  </select>
+                </div>
+                <p style="font-size:0.78rem;margin-bottom:12px;color:var(--text-muted);">Pilih topik cepat:</p>
+                <div class="ai-topics">
+                  <div class="ai-topic" onclick="setTopic('PPDB 2026/2027 Tahun Ajaran Baru')">📋 PPDB 2026/2027</div>
+                  <div class="ai-topic" onclick="setTopic('Keunggulan Madrasah MI Raden Rahmat Balongbendo')">⭐
+                    Keunggulan MI</div>
+                  <div class="ai-topic" onclick="setTopic('Prestasi siswa MI Raden Rahmat Balongbendo')">🏆 Prestasi
+                    Siswa</div>
+                  <div class="ai-topic" onclick="setTopic('Kurikulum merdeka belajar di MI Raden Rahmat')">📚 Kurikulum
+                    Merdeka</div>
+                  <div class="ai-topic" onclick="setTopic('Kegiatan Ramadhan di MI Raden Rahmat 2026')">🌙 Kegiatan
+                    Ramadhan</div>
+                  <div class="ai-topic" onclick="setTopic('Ekstrakurikuler Pramuka dan Banjari MI Raden Rahmat')">🎯
+                    Ekskul</div>
+                  <div class="ai-topic" onclick="setTopic('Tips memilih Madrasah Ibtidaiyah terbaik di Sidoarjo')">💡
+                    Tips Pilih MI</div>
+                  <div class="ai-topic" onclick="setTopic('Akreditasi A MI Raden Rahmat Balongbendo')">📜 Akreditasi A
+                  </div>
+                </div>
+                <button class="btn btn-success" style="width:100%;margin-top:16px;" onclick="generateContent()">
+                  <i class="fas fa-magic"></i> Generate Konten Sekarang
+                </button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h3><i class="fas fa-eye" style="color:var(--blue)"></i> Hasil Generate</h3>
+                <button class="btn btn-gold btn-sm" onclick="publishGenerated()" id="btnPublish"
+                  style="display:none;"><i class="fas fa-paper-plane"></i> Publish ke Berita</button>
+              </div>
+              <div class="card-body">
+                <div id="genResult" style="min-height:200px;font-size:0.85rem;line-height:1.7;color:var(--text-muted);">
+                  <div style="text-align:center;padding:40px 20px;">
+                    <div style="font-size:2.5rem;margin-bottom:12px;">🤖</div>
+                    <div>Pilih topik dan klik "Generate Konten" untuk membuat artikel SEO-friendly otomatis.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="margin-top:20px;">
+            <div class="card-header">
+              <h3><i class="fas fa-calendar-alt" style="color:var(--gold)"></i> Rencana Konten Otomatis (Content
+                Calendar)</h3>
+              <button class="btn btn-success btn-sm" onclick="generateCalendar()"><i class="fas fa-magic"></i> Buat
+                Jadwal</button>
+            </div>
+            <div class="card-body">
+              <div id="calendarResult">
+                <div style="font-size:0.82rem;color:var(--text-muted);">Klik "Buat Jadwal" untuk mendapatkan rekomendasi
+                  jadwal konten bulanan yang akan meningkatkan traffic secara konsisten.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ═══ ANALYTICS ═══ -->
+        <div class="page" id="page-analytics">
+          <div class="card" style="margin-bottom:20px;">
+            <div class="card-header">
+              <h3><i class="fas fa-chart-line"></i> Google Analytics & Search Console</h3>
+              <button class="btn btn-success btn-sm" onclick="saveAnalytics()"><i class="fas fa-save"></i>
+                Simpan</button>
+            </div>
+            <div class="card-body">
+              <div class="form-row cols-2">
+                <div class="field">
+                  <label>Google Analytics Measurement ID</label>
+                  <input type="text" id="gaId" placeholder="G-XXXXXXXXXX" value="">
+                  <div style="font-size:0.75rem;color:var(--text-muted);margin-top:4px;">Dapatkan dari <a
+                      href="https://analytics.google.com" target="_blank"
+                      style="color:var(--blue)">analytics.google.com</a></div>
+                </div>
+                <div class="field">
+                  <label>Google Search Console Verification</label>
+                  <input type="text" id="gscVerify" placeholder="google-site-verification: xxxxx" value="">
+                  <div style="font-size:0.75rem;color:var(--text-muted);margin-top:4px;">Dapatkan dari <a
+                      href="https://search.google.com/search-console" target="_blank"
+                      style="color:var(--blue)">search.google.com/search-console</a></div>
+                </div>
+              </div>
+              <div class="field">
+                <label>Facebook Pixel ID (Opsional)</label>
+                <input type="text" id="fbPixel" placeholder="123456789" value="">
+              </div>
+              <hr class="section-divider">
+              <div style="background:var(--bg3);border-radius:var(--radius);padding:16px;">
+                <h4 style="font-size:0.85rem;font-weight:700;margin-bottom:12px;">📋 Panduan Submit ke Google Search
+                  Console:</h4>
+                <ol style="font-size:0.82rem;color:var(--text-muted);padding-left:20px;line-height:2;">
+                  <li>Buka <a href="https://search.google.com/search-console/welcome" target="_blank"
+                      style="color:var(--blue)">Google Search Console</a></li>
+                  <li>Tambahkan properti: <code
+                      style="background:var(--bg);padding:1px 6px;border-radius:4px;font-family:'JetBrains Mono',monospace;color:var(--gold)">https://radenrahmatbalongbendo.sch.id/mi/</code>
+                  </li>
+                  <li>Pilih metode verifikasi "HTML tag" dan paste kode di kolom atas</li>
+                  <li>Submit sitemap: <code
+                      style="background:var(--bg);padding:1px 6px;border-radius:4px;font-family:'JetBrains Mono',monospace;color:var(--gold)">sitemap.xml</code>
+                  </li>
+                  <li>Tunggu 2-5 hari untuk proses indexing Google</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ═══ SETTINGS ═══ -->
+        <div class="page" id="page-settings">
+          <div class="card" style="margin-bottom:20px;">
+            <div class="card-header">
+              <h3><i class="fas fa-cog"></i> Pengaturan Global</h3>
+              <button class="btn btn-success btn-sm" onclick="saveSettings()"><i class="fas fa-save"></i>
+                Simpan</button>
+            </div>
+            <div class="card-body">
+              <div class="form-row cols-2">
+                <div class="field">
+                  <label>Nama Website</label>
+                  <input type="text" id="siteName" value="MI Raden Rahmat Balongbendo">
+                </div>
+                <div class="field">
+                  <label>URL Website</label>
+                  <input type="text" id="siteUrl" value="https://radenrahmatbalongbendo.sch.id/mi/">
+                </div>
+              </div>
+              <hr class="section-divider">
+              <h4 style="font-size:0.85rem;font-weight:700;margin-bottom:12px;">🔐 Keamanan & Akses</h4>
+              <div class="form-row cols-2">
+                <div class="field">
+                  <label>Username (hanya tampilan)</label>
+                  <input type="text" id="settingUser" placeholder="Diisi dari server" readonly autocomplete="off">
+                </div>
+                <div class="field">
+                  <label>Ganti password (min 8 karakter, kosongkan jika tidak ubah)</label>
+                  <input type="password" id="settingPass" placeholder="••••••••" autocomplete="new-password"
+                    minlength="8">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ═══ MANAGEMENT USER (Super Admin) ═══ -->
+        <div class="page" id="page-users">
+          <div class="card" style="margin-bottom:20px;">
+            <div class="card-header">
+              <h3><i class="fas fa-users-cog"></i> Daftar User</h3>
+              <button class="btn btn-success btn-sm" onclick="openModal('modalAddUser')"><i
+                  class="fas fa-user-plus"></i> Tambah User</button>
+            </div>
+            <div class="card-body">
+              <div id="usersListWrap">
+                <p class="text-muted">Memuat...</p>
+              </div>
+            </div>
+          </div>
+          <p class="text-muted" style="font-size:0.8rem;">Username 3–32 karakter (huruf, angka, underscore). Password
+            minimal 8 karakter. Password tidak pernah ditampilkan atau disimpan di browser.</p>
+        </div>
+
+        <!-- ═══ BACKUP ═══ -->
+        <div class="page" id="page-backup">
+          <div class="card" style="margin-bottom:20px;">
+            <div class="card-header">
+              <h3><i class="fas fa-database"></i> Backup & Export Data</h3>
+            </div>
+            <div class="card-body">
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;">
+                <div style="background:var(--bg3);border-radius:var(--radius);padding:20px;text-align:center;">
+                  <div style="font-size:2rem;margin-bottom:8px;">📄</div>
+                  <div style="font-weight:700;font-size:0.9rem;margin-bottom:4px;">Export JSON</div>
+                  <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:12px;">Semua data CMS</div>
+                  <button class="btn btn-success btn-sm" onclick="exportJSON()">Download</button>
+                </div>
+                <div style="background:var(--bg3);border-radius:var(--radius);padding:20px;text-align:center;">
+                  <div style="font-size:2rem;margin-bottom:8px;">📊</div>
+                  <div style="font-weight:700;font-size:0.9rem;margin-bottom:4px;">Export Berita CSV</div>
+                  <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:12px;">Daftar artikel/berita</div>
+                  <button class="btn btn-gold btn-sm" onclick="exportNewsCSV()">Download</button>
+                </div>
+                <div style="background:var(--bg3);border-radius:var(--radius);padding:20px;text-align:center;">
+                  <div style="font-size:2rem;margin-bottom:8px;">📁</div>
+                  <div style="font-weight:700;font-size:0.9rem;margin-bottom:4px;">Export PPDB CSV</div>
+                  <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:12px;">Data pendaftar siswa</div>
+                  <button class="btn btn-blue btn-sm" onclick="exportPPDB()">Download</button>
+                </div>
+                <div style="background:var(--bg3);border-radius:var(--radius);padding:20px;text-align:center;">
+                  <div style="font-size:2rem;margin-bottom:8px;">🔄</div>
+                  <div style="font-weight:700;font-size:0.9rem;margin-bottom:4px;">Import Data</div>
+                  <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:12px;">Restore dari backup</div>
+                  <button class="btn btn-ghost btn-sm" onclick="triggerUpload('importFile')">Import</button>
+                  <input type="file" id="importFile" accept=".json" hidden onchange="importData(this)">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- .content -->
+    </main>
+  </div><!-- #app -->
+
+  <!-- ═══════════════════ MODALS ═══════════════════ -->
+
+  <!-- Modal Tambah/Edit Berita -->
+  <div class="modal-overlay" id="modalNews">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 id="modalNewsTitle">➕ Tambah Berita / Kegiatan</h3>
+        <button class="modal-close" onclick="closeModal('modalNews')">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="tabs">
+          <button class="tab active" onclick="switchTab(this,'tabInfo')">Informasi</button>
+          <button class="tab" onclick="switchTab(this,'tabSEO')">SEO Meta</button>
+          <button class="tab" onclick="switchTab(this,'tabMedia')">Media</button>
+        </div>
+        <div id="tabInfo">
+          <div class="field">
+            <label>Judul Berita *</label>
+            <input type="text" id="newsFormTitle" placeholder="Contoh: Upacara Bendera Hari Senin" oninput="autoSlug()">
+          </div>
+          <div class="field">
+            <label>Slug URL (auto-generate)</label>
+            <input type="text" id="newsFormSlug" placeholder="upacara-bendera-hari-senin">
+          </div>
+          <div class="form-row cols-2">
+            <div class="field">
+              <label>Tanggal</label>
+              <input type="date" id="newsFormDate">
+            </div>
+            <div class="field">
+              <label>Kategori</label>
+              <select id="newsFormCat">
+                <option>Kegiatan</option>
+                <option>Pengumuman</option>
+                <option>Prestasi</option>
+                <option>PPDB</option>
+                <option>Ramadhan</option>
+                <option>Ekskul</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label>Ringkasan / Excerpt</label>
+            <textarea id="newsFormExcerpt" rows="2"
+              placeholder="Ringkasan singkat yang muncul di preview..."></textarea>
+          </div>
+          <div class="field">
+            <label>Konten Lengkap</label>
+            <textarea id="newsFormContent" rows="8" placeholder="Tulis konten artikel lengkap di sini..."></textarea>
+          </div>
+          <div class="field">
+            <label>Status</label>
+            <select id="newsFormStatus">
+              <option value="published">Published</option>
+              <option value="draft">Draft</option>
+            </select>
+          </div>
+        </div>
+        <div id="tabSEO" style="display:none;">
+          <div class="field">
+            <label>SEO Title</label>
+            <input type="text" id="newsFormSeoTitle" placeholder="Judul untuk mesin pencari (max 60 karakter)">
+          </div>
+          <div class="field">
+            <label>SEO Description</label>
+            <textarea id="newsFormSeoDesc" rows="3"
+              placeholder="Deskripsi untuk mesin pencari (max 160 karakter)"></textarea>
+          </div>
+          <div class="field">
+            <label>Focus Keyword</label>
+            <input type="text" id="newsFormFocusKw" placeholder="Kata kunci utama artikel ini">
+          </div>
+        </div>
+        <div id="tabMedia" style="display:none;">
+          <div class="field">
+            <label>URL Gambar / Instagram</label>
+            <input type="text" id="newsFormImg" placeholder="https://... atau api/ig_cache/xxx.jpg">
+          </div>
+          <div class="upload-zone" onclick="triggerUpload('newsImgUpload')" style="margin-top:8px;">
+            <div class="icon">🖼️</div>
+            <p style="font-size:0.82rem;">Atau klik untuk upload gambar</p>
+            <input type="file" id="newsImgUpload" accept="image/*" hidden
+              onchange="previewUpload(this,'newsImgPreview')">
+          </div>
+          <img id="newsImgPreview" style="display:none;max-width:100%;border-radius:10px;margin-top:10px;" alt="">
+          <div class="field" style="margin-top:12px;">
+            <label>Link Sumber (Instagram/URL Asli)</label>
+            <input type="text" id="newsFormLink" placeholder="https://www.instagram.com/p/...">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-ghost" onclick="closeModal('modalNews')">Batal</button>
+        <button class="btn btn-success" onclick="saveNews()"><i class="fas fa-save"></i> Simpan Berita</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Tambah User (Super Admin) -->
+  <div class="modal-overlay" id="modalAddUser">
+    <div class="modal">
+      <div class="modal-header">
+        <h3><i class="fas fa-user-plus"></i> Tambah User</h3>
+        <button class="modal-close" onclick="closeModal('modalAddUser')">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="field">
+          <label>Username (3–32 karakter: huruf, angka, underscore)</label>
+          <input type="text" id="addUserUsername" placeholder="username" autocomplete="off" maxlength="32"
+            pattern="[a-zA-Z0-9_]{3,32}" title="3-32 karakter: huruf, angka, underscore">
+        </div>
+        <div class="field">
+          <label>Password (min 8 karakter)</label>
+          <input type="password" id="addUserPassword" placeholder="••••••••" autocomplete="new-password" minlength="8">
+        </div>
+        <div id="addUserError" class="text-danger" style="display:none;font-size:0.85rem;margin-top:8px;"></div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-ghost" onclick="closeModal('modalAddUser')">Batal</button>
+        <button class="btn btn-success" onclick="doAddUser()"><i class="fas fa-save"></i> Simpan</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ganti Password User -->
+  <div class="modal-overlay" id="modalUserPass">
+    <div class="modal">
+      <div class="modal-header">
+        <h3><i class="fas fa-key"></i> Ganti Password</h3>
+        <button class="modal-close" onclick="closeModal('modalUserPass')">✕</button>
+      </div>
+      <div class="modal-body">
+        <input type="hidden" id="passChangeUsername" value="">
+        <p class="text-muted" style="font-size:0.85rem;margin-bottom:12px;">User: <strong
+            id="passChangeUserLabel"></strong></p>
+        <div class="field">
+          <label>Password baru (min 8 karakter)</label>
+          <input type="password" id="passChangeNew" placeholder="••••••••" autocomplete="new-password" minlength="8">
+        </div>
+        <div id="passChangeError" class="text-danger" style="display:none;font-size:0.85rem;margin-top:8px;"></div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-ghost" onclick="closeModal('modalUserPass')">Batal</button>
+        <button class="btn btn-success" onclick="doChangeUserPass()"><i class="fas fa-save"></i> Simpan</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Tambah PPDB -->
+  <div class="modal-overlay" id="modalPPDB">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>➕ Tambah Data Pendaftar</h3>
+        <button class="modal-close" onclick="closeModal('modalPPDB')">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-row cols-2">
+          <div class="field"><label>Nama Anak *</label><input type="text" id="ppdbNama" placeholder="Nama sesuai akta">
+          </div>
+          <div class="field"><label>Asal Sekolah (TK/RA)</label><input type="text" id="ppdbAsal"></div>
+        </div>
+        <div class="form-row cols-2">
+          <div class="field"><label>Nama Wali *</label><input type="text" id="ppdbWali"></div>
+          <div class="field"><label>No. WhatsApp/HP *</label><input type="text" id="ppdbHp"
+              placeholder="08xx-xxxx-xxxx"></div>
+        </div>
+        <div class="field"><label>Alamat</label><textarea id="ppdbAlamat" rows="2"></textarea></div>
+        <div class="field"><label>Status</label>
+          <select id="ppdbStatus">
+            <option value="proses">Dalam Proses</option>
+            <option value="diterima">Diterima</option>
+            <option value="ditolak">Ditolak</option>
+          </select>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-ghost" onclick="closeModal('modalPPDB')">Batal</button>
+        <button class="btn btn-success" onclick="savePPDB()"><i class="fas fa-save"></i> Simpan</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST CONTAINER -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <style>
+    @keyframes pulse {
+
+      0%,
+      100% {
+        opacity: 1;
+        transform: scale(1)
+      }
+
+      50% {
+        opacity: 0.6;
+        transform: scale(1.2)
+      }
+    }
+  </style>
+
+  <script>
+    // ═══════════════════════════════════════════════════════════════════
+    // CMS DATA STORE
+    // ═══════════════════════════════════════════════════════════════════
+    const STORE_KEY = 'cms_mi_raden_rahmat';
+
+    let CMS = {
+      auth: { user: '' },
+      news: [],
+      ppdb: [],
+      meta: {
+        title: 'MI RADEN RAHMAT BALONGBENDO | Official Website',
+        desc: 'Website Resmi MI/MIS Raden Rahmat Balongbendo (NPSN 60716945) di Bakalan Wringinpitu, Balongbendo, Sidoarjo, Jawa Timur.',
+        keywords: 'MIS RADEN RAHMAT, MI RADEN RAHMAT, NPSN 60716945, MI Balongbendo, Madrasah Ibtidaiyah Sidoarjo'
+      }
+    };
+
+    function loadFromStorage() {
+      try {
+        const saved = localStorage.getItem(STORE_KEY);
+        if (saved) {
+          var parsed = JSON.parse(saved);
+          if (parsed.auth && parsed.auth.pass) delete parsed.auth.pass;
+          CMS = Object.assign(CMS, parsed);
+        }
+      } catch (e) { }
+    }
+
+    function saveToStorage() {
+      try {
+        var out = Object.assign({}, CMS);
+        if (out.auth && out.auth.pass) delete out.auth.pass;
+        localStorage.setItem(STORE_KEY, JSON.stringify(out));
+      } catch (e) { }
+    }
+
+    // Load initial news from actual data
+    const INITIAL_NEWS = [
+      { id: 1, title: "▶ 📢 Ramadhan Sudah Didepan Mata, Mari Kita Sambut Bulan Yang Mulia Dengan Suka Cita", excerpt: "Ramadhan adalah bulan ke-9 dalam kalender Hijriyah yang suci bagi umat Islam, berasal dari kata Arab ramada...", date: "18 Feb 2026", img: "api/ig_cache/DU4UnnFgUfJ.jpg", link: "https://www.instagram.com/p/DU4UnnFgUfJ/", status: "published", category: "Kegiatan", author: "miradenrahmatbalongbendo" },
+      { id: 2, title: "▶ PROFIL MADRASAH IBTIDAIYAH RADEN RAHMAT BALONGBENDO", excerpt: "PROFIL MADRASAH IBTIDAIYAH RADEN RAHMAT BALONGBENDO #miradenrahmatbalongbendo", date: "17 Feb 2026", img: "api/ig_cache/DU3yA_hgNoU.jpg", link: "https://www.instagram.com/p/DU3yA_hgNoU/", status: "published", category: "Profil", author: "miradenrahmatbalongbendo" },
+      { id: 3, title: "▶ 📢 Pembiasaan Sholat Dhuha berjamaah dan Ngaos kitab Alala", excerpt: "Kitab Alala (Alālā Tanālul 'Ilma) adalah kitab nazham ringkas yang menjadi pedoman dasar santri mengenai akhlak...", date: "17 Feb 2026", img: "api/ig_cache/DU3p1C9E9Mq.jpg", link: "https://www.instagram.com/p/DU3p1C9E9Mq/", status: "published", category: "Kegiatan", author: "miradenrahmatbalongbendo" },
+      { id: 4, title: "▶ 📢 Upacara bendera hari Senin MI Raden Rahmat Balongbendo", excerpt: "Upacara bendera hari Senin adalah kegiatan rutin wajib di sekolah dan instansi pemerintah di Indonesia...", date: "17 Feb 2026", img: "api/ig_cache/DU3pqBeEyQn.jpg", link: "https://www.instagram.com/p/DU3pqBeEyQn/", status: "published", category: "Kegiatan", author: "miradenrahmatbalongbendo" },
+      { id: 5, title: "▶ 📢 Diba' Keliling di rumah mas Mahez kelas VI", excerpt: "Maulid Diba' adalah kitab kumpulan shalawat, syair pujian, dan kisah riwayat hidup serta perjalanan Nabi Muhammad SAW...", date: "17 Feb 2026", img: "api/ig_cache/DU3peCwAWRA.jpg", link: "https://www.instagram.com/p/DU3peCwAWRA/", status: "published", category: "Kegiatan", author: "miradenrahmatbalongbendo" },
+    ];
+
+    // Init
+    loadFromStorage();
+    if (!CMS.news || CMS.news.length === 0) CMS.news = INITIAL_NEWS;
+
+    // ═══════════════════════════════════════════════════════════════════
+    // AUTH
+    // ═══════════════════════════════════════════════════════════════════
+    function doLogin() {
+      var lu = document.getElementById('loginUser'), lp = document.getElementById('loginPass');
+      if (!lu || !lp) return;
+      const u = lu.value, p = lp.value;
+      if (u === CMS.auth.user && p === CMS.auth.pass) {
+        document.getElementById('loginScreen').style.display = 'none';
+        document.getElementById('app').style.display = 'flex';
+        document.getElementById('sidebarUser').textContent = u.charAt(0).toUpperCase() + u.slice(1);
+        initApp();
+        toast('Selamat datang, ' + u + '! 👋', 'success');
+      } else {
+        toast('Username atau password salah!', 'error');
+        lp.style.borderColor = 'var(--red)';
+        setTimeout(function () { lp.style.borderColor = ''; }, 2000);
+      }
+    }
+
+    function doLogout() {
+      if (!confirm('Yakin ingin keluar?')) return;
+      fetch('api/auth.php?action=logout', { method: 'POST' }).catch(function () { });
+      try {
+        sessionStorage.clear();
+        localStorage.removeItem('cms_mi_raden_rahmat');
+        if (typeof caches !== 'undefined' && caches.keys) caches.keys().then(function (keys) { keys.forEach(function (k) { caches.delete(k); }); }).catch(function () { });
+      } catch (e) { }
+      document.getElementById('app').style.display = 'none';
+      document.getElementById('loginScreen').style.display = 'flex';
+    }
+
+    (function checkCmsAccess() {
+      var tokenKey = 'cms_mi_raden_rahmat_access';
+      try {
+        if (sessionStorage.getItem(tokenKey)) {
+          sessionStorage.removeItem(tokenKey);
+          document.getElementById('loginScreen').style.display = 'none';
+          document.getElementById('app').style.display = 'flex';
+          var su = document.getElementById('sidebarUser');
+          if (su) su.textContent = '...';
+          initApp();
+          fetch('api/auth.php?action=check').then(function (r) { return r.json(); }).then(function (d) {
+            if (d.logged_in && d.user) {
+              if (su) su.textContent = d.user.charAt(0).toUpperCase() + d.user.slice(1);
+              document.getElementById('settingUser').value = d.user;
+              if (d.role === 'superadmin') {
+                var navUsers = document.getElementById('navUsers');
+                if (navUsers) navUsers.style.display = 'flex';
+              }
+            }
+          }).catch(function () { if (su) su.textContent = 'Admin'; });
+          toast('Selamat datang! Masuk via Ctrl+Shift+L di halaman utama.', 'success');
+        }
+      } catch (e) { }
+    })();
+
+    // ═══════════════════════════════════════════════════════════════════
+    // APP INIT
+    // ═══════════════════════════════════════════════════════════════════
+    function initApp() {
+      renderNews();
+      renderPPDB();
+      initSeoChecks();
+      initKeunggulan();
+      initNavbar();
+      updateStats();
+      countChar(document.getElementById('metaTitle'), 50, 60, 'titleCount');
+      countChar(document.getElementById('metaDesc'), 150, 160, 'descCount');
+      updateSeoPreview();
+      // Set today's date in news form
+      document.getElementById('newsFormDate').value = new Date().toISOString().split('T')[0];
+    }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // NAVIGATION
+    // ═══════════════════════════════════════════════════════════════════
+    const PAGE_META = {
+      dashboard: { title: '📊 Dashboard', breadcrumb: 'CMS / Dashboard' },
+      hero: { title: '🖼️ Hero / Banner', breadcrumb: 'CMS / Hero & Banner' },
+      profil: { title: '🏫 Profil Madrasah', breadcrumb: 'CMS / Profil' },
+      news: { title: '📰 Berita & Kegiatan', breadcrumb: 'CMS / Berita' },
+      ppdb: { title: '📋 Data PPDB', breadcrumb: 'CMS / PPDB' },
+      navbar: { title: '☰ Menu Navigasi', breadcrumb: 'CMS / Tampilan / Navbar' },
+      footer: { title: '📌 Footer', breadcrumb: 'CMS / Tampilan / Footer' },
+      media: { title: '🖼️ Media', breadcrumb: 'CMS / Media' },
+      seo: { title: '🔍 SEO & Meta Tags', breadcrumb: 'CMS / SEO' },
+      sitemap: { title: '🗺️ Sitemap & Robots', breadcrumb: 'CMS / SEO / Sitemap' },
+      autogen: { title: '🤖 Auto-Generate Konten', breadcrumb: 'CMS / AI Content' },
+      analytics: { title: '📈 Analytics Setup', breadcrumb: 'CMS / Analytics' },
+      settings: { title: '⚙️ Pengaturan', breadcrumb: 'CMS / Settings' },
+      users: { title: '👥 Management User', breadcrumb: 'CMS / Sistem / User' },
+      backup: { title: '💾 Backup & Export', breadcrumb: 'CMS / Backup' },
+    };
+
+    function showPage(id) {
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+      const page = document.getElementById('page-' + id);
+      if (page) page.classList.add('active');
+      if (id === 'users') loadUsersList();
+      if (id === 'analytics') loadGoogleConfig();
+      const meta = PAGE_META[id] || { title: id, breadcrumb: 'CMS / ' + id };
+      document.getElementById('topbarTitle').innerHTML = meta.title;
+      document.getElementById('topbarBreadcrumb').textContent = meta.breadcrumb;
+      document.querySelectorAll('.nav-item').forEach(n => {
+        if (n.getAttribute('onclick') && n.getAttribute('onclick').includes("'" + id + "'")) n.classList.add('active');
+      });
+    }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // TOAST
+    // ═══════════════════════════════════════════════════════════════════
+    function toast(msg, type = 'success') {
+      const icons = { success: '✅', error: '❌', info: 'ℹ️' };
+      const t = document.createElement('div');
+      t.className = 'toast ' + type;
+      t.innerHTML = `<span>${icons[type]}</span><span>${msg}</span>`;
+      document.getElementById('toastContainer').appendChild(t);
+      setTimeout(() => t.classList.add('show'), 10);
+      setTimeout(() => { t.classList.remove('show'); setTimeout(() => t.remove(), 300); }, 3000);
+    }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // MODAL
+    // ═══════════════════════════════════════════════════════════════════
+    function openModal(id) { document.getElementById(id).classList.add('open'); }
+    function closeModal(id) { document.getElementById(id).classList.remove('open'); }
+    document.querySelectorAll('.modal-overlay').forEach(m => {
+      m.addEventListener('click', e => { if (e.target === m) m.classList.remove('open'); });
+    });
+
+    // ═══════════════════════════════════════════════════════════════════
+    // TABS
+    // ═══════════════════════════════════════════════════════════════════
+    function switchTab(btn, tabId) {
+      const tabs = btn.closest('.tabs');
+      tabs.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      btn.classList.add('active');
+      // Hide all tab panels in parent
+      const modal = btn.closest('.modal-body');
+      if (modal) modal.querySelectorAll('[id^="tab"]').forEach(t => t.style.display = 'none');
+      document.getElementById(tabId).style.display = 'block';
+    }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // STATS UPDATE
+    // ═══════════════════════════════════════════════════════════════════
+    function updateStats() {
+      document.getElementById('stat-berita').textContent = CMS.news.length;
+      document.getElementById('stat-ppdb').textContent = CMS.ppdb.length;
+      document.getElementById('newsBadge').textContent = CMS.news.length;
+      document.getElementById('ppdbTotal').textContent = CMS.ppdb.length;
+      document.getElementById('ppdbDiterima').textContent = CMS.ppdb.filter(p => p.status === 'diterima').length;
+      document.getElementById('ppdbProses').textContent = CMS.ppdb.filter(p => p.status === 'proses').length;
+    }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // NEWS
+    // ═══════════════════════════════════════════════════════════════════
+    function renderNews(filter = '') {
+      const tbody = document.getElementById('newsTbody');
+      const filtered = CMS.news.filter(n =>
+        n.title.toLowerCase().includes(filter.toLowerCase()) ||
+        (n.category || '').toLowerCase().includes(filter.toLowerCase())
+      );
+      if (!filtered.length) {
+        tbody.innerHTML = '<tr><td colspan="6" style="text-align:center;color:var(--text-muted);padding:32px;">Tidak ada berita ditemukan.</td></tr>';
+        return;
+      }
+      tbody.innerHTML = filtered.map((n, i) => `
+    <tr>
+      <td><img src="${n.img || ''}" onerror="this.style.display='none'" style="width:50px;height:40px;object-fit:cover;border-radius:6px;" alt=""></td>
+      <td style="max-width:280px;">
+        <div style="font-weight:600;font-size:0.85rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${escHtml(n.title)}</div>
+        <div style="font-size:0.75rem;color:var(--text-muted);">${n.category || 'Umum'}</div>
+      </td>
+      <td style="font-size:0.82rem;">${n.date || '-'}</td>
+      <td><span class="badge badge-blue" style="font-size:0.7rem;">Instagram</span></td>
+      <td><span class="badge ${n.status === 'published' ? 'badge-success' : 'badge-warning'}">${n.status === 'published' ? 'Published' : 'Draft'}</span></td>
+      <td>
+        <div style="display:flex;gap:6px;">
+          <button class="btn btn-blue btn-sm" onclick="editNews(${n.id})"><i class="fas fa-edit"></i></button>
+          <button class="btn btn-danger btn-sm" onclick="deleteNews(${n.id})"><i class="fas fa-trash"></i></button>
+        </div>
+      </td>
+    </tr>
+  `).join('');
+    }
+
+    function filterNews() { renderNews(document.getElementById('newsSearch').value); }
+
+    let editingNewsId = null;
+    function resetNewsForm() {
+      editingNewsId = null;
+      document.getElementById('modalNewsTitle').textContent = '➕ Tambah Berita / Kegiatan';
+      document.getElementById('newsFormTitle').value = '';
+      document.getElementById('newsFormSlug').value = '';
+      document.getElementById('newsFormDate').value = new Date().toISOString().split('T')[0];
+      document.getElementById('newsFormExcerpt').value = '';
+      document.getElementById('newsFormContent').value = '';
+      document.getElementById('newsFormImg').value = '';
+      document.getElementById('newsFormLink').value = '';
+      document.getElementById('newsFormStatus').value = 'published';
+      document.getElementById('newsImgPreview').style.display = 'none';
+    }
+
+    function editNews(id) {
+      const n = CMS.news.find(x => x.id === id);
+      if (!n) return;
+      editingNewsId = id;
+      document.getElementById('modalNewsTitle').textContent = '✏️ Edit Berita';
+      document.getElementById('newsFormTitle').value = n.title;
+      document.getElementById('newsFormSlug').value = n.slug || toSlug(n.title);
+      document.getElementById('newsFormDate').value = n.rawDate || new Date().toISOString().split('T')[0];
+      document.getElementById('newsFormExcerpt').value = n.excerpt || '';
+      document.getElementById('newsFormContent').value = n.content || n.excerpt || '';
+      document.getElementById('newsFormImg').value = n.img || '';
+      document.getElementById('newsFormLink').value = n.link || '';
+      document.getElementById('newsFormStatus').value = n.status || 'published';
+      if (n.img) {
+        const prev = document.getElementById('newsImgPreview');
+        prev.src = n.img; prev.style.display = 'block';
+      }
+      openModal('modalNews');
+    }
+
+    function getShortcodeFromLink(link) {
+      if (!link || typeof link !== 'string') return null;
+      var m = link.match(/instagram\.com\/(?:p|reel|tv)\/([A-Za-z0-9_-]+)/i);
+      return m ? m[1] : null;
+    }
+
+    function saveNews() {
+      const title = document.getElementById('newsFormTitle').value.trim();
+      if (!title) { toast('Judul berita wajib diisi!', 'error'); return; }
+      var imgVal = document.getElementById('newsFormImg').value.trim();
+      var linkVal = document.getElementById('newsFormLink').value.trim();
+      var shortcode = getShortcodeFromLink(linkVal);
+
+      function doSave(finalImgUrl) {
+        const item = {
+          id: editingNewsId || Date.now(),
+          title,
+          slug: document.getElementById('newsFormSlug').value || toSlug(title),
+          date: formatDateDisplay(document.getElementById('newsFormDate').value),
+          rawDate: document.getElementById('newsFormDate').value,
+          excerpt: document.getElementById('newsFormExcerpt').value,
+          content: document.getElementById('newsFormContent').value,
+          img: finalImgUrl || imgVal,
+          link: linkVal,
+          status: document.getElementById('newsFormStatus').value,
+          category: document.getElementById('newsFormCat').value,
+          seoTitle: document.getElementById('newsFormSeoTitle').value,
+          seoDesc: document.getElementById('newsFormSeoDesc').value,
+        };
+        if (editingNewsId) {
+          const idx = CMS.news.findIndex(x => x.id === editingNewsId);
+          if (idx > -1) CMS.news[idx] = item;
+          toast('Berita berhasil diperbarui!', 'success');
+        } else {
+          CMS.news.unshift(item);
+          toast('Berita berhasil ditambahkan!', 'success');
+        }
+        saveToStorage(); renderNews(); updateStats(); closeModal('modalNews');
+        addActivity('Berita "' + title.substring(0, 40) + '..." disimpan');
+      }
+
+      if (imgVal && imgVal.indexOf('data:image/') === 0 && shortcode) {
+        fetch('api/upload_news_img.php', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ image: imgVal })
+        }).then(function (r) { return r.json(); }).then(function (data) {
+          var url = data.success && data.url ? data.url : imgVal;
+          doSave(url);
+          if (data.success && data.url && shortcode) {
+            fetch('api/news_mi.php', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ action: 'set_override', shortcode: shortcode, img: data.url })
+            }).then(function () { }).catch(function () { });
+          }
+        }).catch(function () {
+          doSave(imgVal);
+        });
+      } else {
+        doSave(imgVal);
+        if (shortcode && imgVal && imgVal.indexOf('data:') !== 0) {
+          fetch('api/news_mi.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ action: 'set_override', shortcode: shortcode, img: imgVal })
+          }).then(function () { }).catch(function () { });
+        }
+      }
+    }
+
+    function deleteNews(id) {
+      if (!confirm('Hapus berita ini?')) return;
+      CMS.news = CMS.news.filter(x => x.id !== id);
+      saveToStorage(); renderNews(); updateStats();
+      toast('Berita dihapus.', 'info');
+    }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // PPDB
+    // ═══════════════════════════════════════════════════════════════════
+    function renderPPDB() {
+      const tbody = document.getElementById('ppdbTbody');
+      if (!CMS.ppdb.length) {
+        tbody.innerHTML = '<tr><td colspan="8" style="text-align:center;color:var(--text-muted);padding:32px;">Belum ada data pendaftar.</td></tr>';
+        return;
+      }
+      const statusBadge = { diterima: 'badge-success', proses: 'badge-warning', ditolak: 'badge-danger' };
+      tbody.innerHTML = CMS.ppdb.map((p, i) => `
+    <tr>
+      <td style="font-size:0.8rem;">${i + 1}</td>
+      <td style="font-weight:600;font-size:0.85rem;">${escHtml(p.nama)}</td>
+      <td style="font-size:0.82rem;">${escHtml(p.asal || '-')}</td>
+      <td style="font-size:0.82rem;">${escHtml(p.wali)}</td>
+      <td><a href="https://wa.me/${p.hp ? p.hp.replace(/\D/g, '') : ''}" target="_blank" style="color:var(--blue);font-size:0.82rem;">${escHtml(p.hp || '-')}</a></td>
+      <td><span class="badge ${statusBadge[p.status] || 'badge-warning'}">${p.status}</span></td>
+      <td style="font-size:0.78rem;">${p.date || '-'}</td>
+      <td>
+        <div style="display:flex;gap:4px;">
+          <button class="btn btn-blue btn-sm" onclick="editPPDB(${p.id})"><i class="fas fa-edit"></i></button>
+          <button class="btn btn-danger btn-sm" onclick="deletePPDB(${p.id})"><i class="fas fa-trash"></i></button>
+        </div>
+      </td>
+    </tr>
+  `).join('');
+    }
+
+    function resetPPDBForm() {
+      ['ppdbNama', 'ppdbAsal', 'ppdbWali', 'ppdbHp', 'ppdbAlamat'].forEach(id => document.getElementById(id).value = '');
+      document.getElementById('ppdbStatus').value = 'proses';
+    }
+
+    function savePPDB() {
+      const nama = document.getElementById('ppdbNama').value.trim();
+      const wali = document.getElementById('ppdbWali').value.trim();
+      if (!nama || !wali) { toast('Nama anak dan nama wali wajib diisi!', 'error'); return; }
+      CMS.ppdb.push({
+        id: Date.now(), nama, wali,
+        asal: document.getElementById('ppdbAsal').value,
+        hp: document.getElementById('ppdbHp').value,
+        alamat: document.getElementById('ppdbAlamat').value,
+        status: document.getElementById('ppdbStatus').value,
+        date: new Date().toLocaleDateString('id-ID')
+      });
+      saveToStorage(); renderPPDB(); updateStats(); closeModal('modalPPDB');
+      toast('Data pendaftar ditambahkan!', 'success');
+    }
+
+    function editPPDB(id) {
+      // simple: delete and re-add
+      const p = CMS.ppdb.find(x => x.id === id);
+      if (!p) return;
+      document.getElementById('ppdbNama').value = p.nama;
+      document.getElementById('ppdbAsal').value = p.asal || '';
+      document.getElementById('ppdbWali').value = p.wali;
+      document.getElementById('ppdbHp').value = p.hp || '';
+      document.getElementById('ppdbAlamat').value = p.alamat || '';
+      document.getElementById('ppdbStatus').value = p.status;
+      CMS.ppdb = CMS.ppdb.filter(x => x.id !== id);
+      openModal('modalPPDB');
+    }
+
+    function deletePPDB(id) {
+      if (!confirm('Hapus data pendaftar ini?')) return;
+      CMS.ppdb = CMS.ppdb.filter(x => x.id !== id);
+      saveToStorage(); renderPPDB(); updateStats();
+      toast('Data pendaftar dihapus.', 'info');
+    }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // SEO
+    // ═══════════════════════════════════════════════════════════════════
+    const SEO_CHECKS = [
+      { id: 'title', label: 'Title Tag ada', check: () => document.getElementById('metaTitle').value.length >= 10, weight: 15 },
+      { id: 'titleLen', label: 'Title 50–60 karakter', check: () => { const l = document.getElementById('metaTitle').value.length; return l >= 50 && l <= 60; }, weight: 10 },
+      { id: 'desc', label: 'Meta Description ada', check: () => document.getElementById('metaDesc').value.length >= 50, weight: 15 },
+      { id: 'descLen', label: 'Description 150–160 karakter', check: () => { const l = document.getElementById('metaDesc').value.length; return l >= 140 && l <= 165; }, weight: 10 },
+      { id: 'keywords', label: 'Meta Keywords ada', check: () => document.getElementById('metaKeywords').value.length > 5, weight: 5 },
+      { id: 'og', label: 'Open Graph (OG) tags', check: () => document.getElementById('ogTitle').value.length > 5, weight: 10 },
+      { id: 'schema', label: 'Structured Data (JSON-LD)', check: () => { try { JSON.parse(document.getElementById('schemaJson').value); return true; } catch (e) { return false; } }, weight: 15 },
+      { id: 'canonical', label: 'URL Canonical', check: () => document.getElementById('ogUrl').value.includes('http'), weight: 10 },
+      { id: 'img', label: 'OG Image ada', check: () => document.getElementById('ogImage').value.length > 5, weight: 5 },
+      { id: 'npsn', label: 'NPSN di keywords', check: () => document.getElementById('metaKeywords').value.includes('60716945'), weight: 5 },
+    ];
+
+    function initSeoChecks() { runSeoCheck(); }
+    function runSeoCheck() {
+      let score = 0;
+      const container = document.getElementById('seoChecks');
+      container.innerHTML = SEO_CHECKS.map(c => {
+        const pass = c.check();
+        if (pass) score += c.weight;
+        return `
+      <div class="seo-check">
+        <div class="dot" style="background:${pass ? '#4caf50' : '#ef4444'}"></div>
+        <span style="color:${pass ? 'var(--text)' : 'var(--text-muted)'};">${c.label}</span>
+        <span style="margin-left:auto;font-size:0.7rem;color:${pass ? '#4caf50' : '#ef4444'};">${pass ? '✓' : '✗'} ${c.weight}pt</span>
+      </div>
+    `;
+      }).join('');
+      const circle = document.getElementById('seoScoreCircle');
+      circle.textContent = score;
+      circle.className = 'score-circle ' + (score >= 75 ? 'score-good' : score >= 50 ? 'score-mid' : 'score-bad');
+      document.getElementById('stat-seo').textContent = score;
+    }
+
+    function countChar(el, min, max, countId) {
+      const l = el.value.length;
+      const el2 = document.getElementById(countId);
+      if (!el2) return;
+      const cls = l < min ? 'warn' : l > max ? 'bad' : 'ok';
+      const label = l < min ? `Terlalu pendek (${l}/${min})` : l > max ? `Terlalu panjang (${l}/${max})` : `✓ Sempurna (${l} karakter)`;
+      el2.innerHTML = `<span class="${cls}">${label}</span>`;
+    }
+
+    function updateSeoPreview() {
+      const title = document.getElementById('metaTitle').value;
+      const desc = document.getElementById('metaDesc').value;
+      document.getElementById('prevMetaTitle').textContent = title.substring(0, 60);
+      document.getElementById('prevMetaDesc').textContent = desc.substring(0, 155) + (desc.length > 155 ? '...' : '');
+    }
+
+    function saveMetaTags() { saveToStorage(); toast('Meta tags disimpan!', 'success'); runSeoCheck(); addActivity('Meta tags SEO diperbarui'); }
+    function saveOG() { saveToStorage(); toast('Open Graph disimpan!', 'success'); }
+    function saveSchema() {
+      if (validateSchema()) { saveToStorage(); toast('Schema JSON-LD disimpan!', 'success'); }
+    }
+    function validateSchema() {
+      try {
+        JSON.parse(document.getElementById('schemaJson').value);
+        toast('JSON valid ✓', 'success'); return true;
+      } catch (e) {
+        toast('JSON tidak valid: ' + e.message, 'error'); return false;
+      }
+    }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // HERO PREVIEW
+    // ═══════════════════════════════════════════════════════════════════
+    function saveHero() {
+      saveToStorage();
+      document.getElementById('prevTitle').textContent = document.getElementById('heroTitle').value;
+      document.getElementById('prevSubtitle').textContent = document.getElementById('heroSubtitle').value;
+      document.getElementById('prevBtn').textContent = document.getElementById('heroBtnText').value + ' →';
+      toast('Hero/Banner disimpan!', 'success');
+      addActivity('Konten Hero diperbarui');
+    }
+    ['heroTitle', 'heroSubtitle', 'heroBtnText'].forEach(id => {
+      document.getElementById(id).addEventListener('input', () => {
+        document.getElementById('prevTitle').textContent = document.getElementById('heroTitle').value;
+        document.getElementById('prevSubtitle').textContent = document.getElementById('heroSubtitle').value;
+        document.getElementById('prevBtn').textContent = document.getElementById('heroBtnText').value + ' →';
+      });
+    });
+
+    // ═══════════════════════════════════════════════════════════════════
+    // PROFIL
+    // ═══════════════════════════════════════════════════════════════════
+    const DEFAULT_KEUNGGULAN = [
+      { icon: 'fas fa-check-circle', text: 'Pendidikan Karakter Islami' },
+      { icon: 'fas fa-laptop-code', text: 'Fasilitas Pembelajaran Lengkap' },
+      { icon: 'fas fa-running', text: 'Ekstrakurikuler Beragam (Pramuka, Banjari, Pagar Nusa)' },
+      { icon: 'fas fa-award', text: 'Akreditasi A dari BAN-S/M' },
+    ];
+    let keunggulanData = [...DEFAULT_KEUNGGULAN];
+
+    function initKeunggulan() {
+      renderKeunggulan();
+    }
+    function renderKeunggulan() {
+      document.getElementById('keunggulanList').innerHTML = keunggulanData.map((k, i) => `
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+      <input type="text" value="${k.icon}" style="width:160px;" onchange="keunggulanData[${i}].icon=this.value" placeholder="fas fa-check-circle">
+      <input type="text" value="${escHtml(k.text)}" style="flex:1;" onchange="keunggulanData[${i}].text=this.value">
+      <button class="btn btn-danger btn-sm" onclick="removeKeunggulan(${i})"><i class="fas fa-times"></i></button>
+    </div>
+  `).join('');
+    }
+    function addKeunggulan() { keunggulanData.push({ icon: 'fas fa-star', text: 'Keunggulan baru' }); renderKeunggulan(); }
+    function removeKeunggulan(i) { keunggulanData.splice(i, 1); renderKeunggulan(); }
+    function saveProfil() { saveToStorage(); toast('Profil madrasah disimpan!', 'success'); addActivity('Profil madrasah diperbarui'); }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // NAVBAR
+    // ═══════════════════════════════════════════════════════════════════
+    let navbarData = [
+      { text: 'Kembali', link: '../index.html', icon: 'fas fa-arrow-left' },
+      { text: 'Beranda', link: '#beranda' },
+      { text: 'Profil', link: '#profil' },
+      { text: 'Kegiatan IG', link: '#berita' },
+      { text: 'PPDB ONLINE', link: '#ppdb', class: 'btn btn-warning text-dark px-4 fw-bold rounded-pill' },
+    ];
+
+    function initNavbar() {
+      document.getElementById('navbarItems').innerHTML = navbarData.map((item, i) => `
+    <div class="sitemap-item">
+      <i class="fas fa-grip-vertical drag-handle"></i>
+      <div style="flex:1;display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;">
+        <input type="text" value="${escHtml(item.text)}" placeholder="Teks menu" onchange="navbarData[${i}].text=this.value">
+        <input type="text" value="${escHtml(item.link)}" placeholder="URL / #anchor" onchange="navbarData[${i}].link=this.value">
+        <input type="text" value="${escHtml(item.icon || '')}" placeholder="Icon (opsional)" onchange="navbarData[${i}].icon=this.value">
+      </div>
+      <button class="btn btn-danger btn-sm" onclick="navbarData.splice(${i},1);initNavbar()"><i class="fas fa-times"></i></button>
+    </div>
+  `).join('');
+    }
+    function addNavItem() { navbarData.push({ text: 'Menu Baru', link: '#' }); initNavbar(); }
+    function saveNavbar() { saveToStorage(); toast('Navigasi disimpan!', 'success'); }
+    function saveFooter() { saveToStorage(); toast('Footer disimpan!', 'success'); }
+    function saveSettings() {
+      var newPass = document.getElementById('settingPass').value.trim();
+      var currentUser = document.getElementById('settingUser').value;
+      if (newPass.length >= 8) {
+        fetch('api/auth.php?action=update_pass', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ username: currentUser, new_pass: newPass })
+        }).then(function (r) { return r.json(); }).then(function (d) {
+          if (d.success) { toast('Password berhasil diubah.', 'success'); document.getElementById('settingPass').value = ''; }
+          else { toast(d.message || 'Gagal mengubah password', 'error'); }
+        }).catch(function () { toast('Gagal mengubah password', 'error'); });
+      }
+      saveToStorage();
+      toast('Pengaturan disimpan!', 'success');
+    }
+
+    function loadUsersList() {
+      var wrap = document.getElementById('usersListWrap');
+      if (!wrap) return;
+      wrap.innerHTML = '<p class="text-muted">Memuat...</p>';
+      fetch('api/auth.php?action=list_users').then(function (r) { return r.json(); }).then(function (d) {
+        if (d.success && Array.isArray(d.users)) renderUsersList(d.users);
+        else wrap.innerHTML = '<p class="text-danger">Gagal memuat daftar user.</p>';
+      }).catch(function () {
+        wrap.innerHTML = '<p class="text-danger">Gagal memuat daftar user.</p>';
+      });
+    }
+
+    function renderUsersList(users) {
+      var wrap = document.getElementById('usersListWrap');
+      if (!wrap) return;
+      if (!users || users.length === 0) {
+        wrap.innerHTML = '<p class="text-muted">Belum ada user. Tambah user untuk akses CMS.</p>';
+        return;
+      }
+      wrap.innerHTML = '<div class="table-wrap"><table><thead><tr><th>Username</th><th>Aksi</th></tr></thead><tbody>' +
+        users.map(function (u) {
+          var safe = String(u).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+          return '<tr><td>' + escHtml(u) + '</td><td><button class="btn btn-blue btn-sm" data-username="' + safe + '" onclick="openChangePassModal(this.getAttribute(\'data-username\'))"><i class="fas fa-key"></i> Ganti password</button></td></tr>';
+        }).join('') + '</tbody></table></div>';
+    }
+
+    function doAddUser() {
+      var un = (document.getElementById('addUserUsername').value || '').trim();
+      var pw = document.getElementById('addUserPassword').value;
+      var errEl = document.getElementById('addUserError');
+      errEl.style.display = 'none';
+      if (!/^[a-zA-Z0-9_]{3,32}$/.test(un)) {
+        errEl.textContent = 'Username 3–32 karakter (huruf, angka, underscore saja).';
+        errEl.style.display = 'block';
+        return;
+      }
+      if (pw.length < 8) {
+        errEl.textContent = 'Password minimal 8 karakter.';
+        errEl.style.display = 'block';
+        return;
+      }
+      fetch('api/auth.php?action=add_user', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username: un, password: pw })
+      }).then(function (r) { return r.json(); }).then(function (d) {
+        if (d.success) {
+          toast('User berhasil ditambahkan.', 'success');
+          closeModal('modalAddUser');
+          document.getElementById('addUserUsername').value = '';
+          document.getElementById('addUserPassword').value = '';
+          loadUsersList();
+        } else {
+          errEl.textContent = d.message || 'Gagal menambah user.';
+          errEl.style.display = 'block';
+        }
+      }).catch(function () {
+        errEl.textContent = 'Gagal koneksi.';
+        errEl.style.display = 'block';
+      });
+    }
+
+    function openChangePassModal(username) {
+      document.getElementById('passChangeUsername').value = username;
+      document.getElementById('passChangeUserLabel').textContent = escHtml(username);
+      document.getElementById('passChangeNew').value = '';
+      document.getElementById('passChangeError').style.display = 'none';
+      openModal('modalUserPass');
+    }
+
+    function doChangeUserPass() {
+      var un = document.getElementById('passChangeUsername').value;
+      var pw = document.getElementById('passChangeNew').value;
+      var errEl = document.getElementById('passChangeError');
+      errEl.style.display = 'none';
+      if (pw.length < 8) {
+        errEl.textContent = 'Password minimal 8 karakter.';
+        errEl.style.display = 'block';
+        return;
+      }
+      fetch('api/auth.php?action=update_pass', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username: un, new_pass: pw })
+      }).then(function (r) { return r.json(); }).then(function (d) {
+        if (d.success) {
+          toast('Password berhasil diubah.', 'success');
+          closeModal('modalUserPass');
+          loadUsersList();
+        } else {
+          errEl.textContent = d.message || 'Gagal mengubah password.';
+          errEl.style.display = 'block';
+        }
+      }).catch(function () {
+        errEl.textContent = 'Gagal koneksi.';
+        errEl.style.display = 'block';
+      });
+    }
+
+    function loadGoogleConfig() {
+      fetch('api/admin_api.php?action=get_google').then(function (r) { return r.json(); }).then(function (d) {
+        if (document.getElementById('gaId')) document.getElementById('gaId').value = d.measurementId || '';
+        if (document.getElementById('gscVerify')) document.getElementById('gscVerify').value = d.gscVerify || '';
+        if (document.getElementById('fbPixel')) document.getElementById('fbPixel').value = d.fbPixel || '';
+      }).catch(function () { });
+    }
+    function saveAnalytics() {
+      var gaId = document.getElementById('gaId').value.trim();
+      var gscVerify = document.getElementById('gscVerify').value.trim();
+      var fbPixel = document.getElementById('fbPixel').value.trim();
+      fetch('api/admin_api.php?action=save_google', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ measurementId: gaId, gscVerify: gscVerify, fbPixel: fbPixel })
+      }).then(function (r) { return r.json(); }).then(function (d) {
+        if (d.success) {
+          saveToStorage();
+          toast('Konfigurasi Google (Analytics & Search Console) disimpan ke server. Tag akan aktif di website.', 'success');
+        } else {
+          toast('Gagal menyimpan: ' + (d.message || 'Unknown'), 'error');
+        }
+      }).catch(function () {
+        toast('Gagal menyimpan ke server. Cek koneksi atau login.', 'error');
+      });
+    }
+    function saveRobots() { saveToStorage(); toast('robots.txt disimpan!', 'success'); }
+    function saveAllChanges() { saveToStorage(); toast('Semua perubahan disimpan! ✓', 'success'); }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // SITEMAP
+    // ═══════════════════════════════════════════════════════════════════
+    function generateSitemap() {
+      const today = new Date().toISOString().split('T')[0];
+      const baseUrl = 'https://radenrahmatbalongbendo.sch.id/mi/';
+      const anchors = ['', '#beranda', '#profil', '#berita', '#ppdb'];
+      const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>${baseUrl}</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>${today}</lastmod>
+  </url>
+${CMS.news.filter(n => n.status === 'published').map(n => `  <url>
+    <loc>${baseUrl}berita/${n.slug || n.id}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>${n.rawDate || today}</lastmod>
+  </url>`).join('\n')}
+</urlset>`;
+      document.getElementById('sitemapPreview').value = xml;
+      toast('Sitemap berhasil di-generate! ✓', 'success');
+      addActivity('Sitemap.xml di-generate (' + CMS.news.filter(n => n.status === 'published').length + ' URL)');
+    }
+
+    function addSitemapEntry() {
+      const div = document.createElement('div');
+      div.className = 'sitemap-item';
+      div.innerHTML = `<i class="fas fa-grip-vertical drag-handle"></i><input type="text" style="flex:1;" placeholder="/mi/halaman-baru"><button class="btn btn-danger btn-sm" onclick="this.closest('.sitemap-item').remove()"><i class="fas fa-times"></i></button>`;
+      document.getElementById('sitemapEntries').appendChild(div);
+    }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // AUTO-GENERATE CONTENT (AI Simulation with rich templates)
+    // ═══════════════════════════════════════════════════════════════════
+    function setTopic(topic) {
+      document.getElementById('genTopic').value = topic;
+      const kw = topic.split(' ').slice(0, 4).join(', ') + ', MI Raden Rahmat, Balongbendo, Sidoarjo';
+      document.getElementById('genKeyword').value = kw;
+    }
+
+    const CONTENT_TEMPLATES = {
+      ppdb: (topic) => `# ${topic}
+
+## Apa itu PPDB?
+Penerimaan Peserta Didik Baru (PPDB) adalah proses resmi penerimaan siswa baru di **MI Raden Rahmat Balongbendo** untuk Tahun Ajaran 2026/2027. MI Raden Rahmat Balongbendo (NPSN: 60716945) adalah madrasah ibtidaiyah swasta berpredikat **Akreditasi A** yang berlokasi di Bakalan Wringinpitu, Balongbendo, Sidoarjo.
+
+## Jadwal dan Syarat PPDB
+MI Raden Rahmat Balongbendo membuka penerimaan siswa baru dengan syarat:
+- Usia minimal 6 tahun pada saat mendaftar
+- Membawa fotokopi akta kelahiran
+- Membawa pas foto 3×4 (2 lembar)
+- Lulusan TK/RA atau sederajat
+
+## Cara Mendaftar
+Calon wali murid dapat mendaftar melalui:
+1. **Formulir Online** di website resmi ini
+2. **WhatsApp Admin**: [wa.me/6285730017464](https://wa.me/6285730017464)
+3. **Datang langsung** ke kantor madrasah
+
+## Keunggulan MI Raden Rahmat Balongbendo
+✅ Akreditasi A dari BAN-S/M  
+✅ Kurikulum Merdeka Belajar  
+✅ Program Tahfidz Al-Qur'an  
+✅ Ekstrakurikuler lengkap (Pramuka, Banjari, Pagar Nusa)  
+✅ Tenaga pendidik berpengalaman  
+✅ Lingkungan Islami dan kondusif  
+
+Segera daftarkan putra-putri Anda dan bergabunglah bersama keluarga besar **MI Raden Rahmat Balongbendo**!`,
+
+      kegiatan: (topic) => `# ${topic}
+
+## Latar Belakang Kegiatan
+**MI Raden Rahmat Balongbendo** secara konsisten menyelenggarakan berbagai kegiatan pendidikan karakter yang bertujuan membentuk generasi muda yang unggul, cerdas, dan berakhlakul karimah sesuai nilai-nilai Ahlussunnah Wal Jamaah An-Nahdliyah.
+
+## Tujuan Kegiatan
+Kegiatan ini bertujuan untuk:
+- Memperkuat karakter Islami siswa MI Raden Rahmat Balongbendo
+- Menumbuhkan rasa cinta terhadap budaya dan tradisi Islam
+- Mempererat hubungan antara guru, siswa, dan orang tua
+
+## Pelaksanaan
+Kegiatan diikuti seluruh siswa kelas I–VI MI Raden Rahmat Balongbendo yang berlokasi di Jl. Mayjen Bambang Yuwono No.110, Balongbendo, Sidoarjo. Kegiatan berjalan dengan lancar dan penuh semangat.
+
+## Pesan dari Kepala Madrasah
+*"Setiap kegiatan yang kita lakukan adalah bagian dari proses pendidikan karakter. Kami berkomitmen untuk terus mencetak generasi Qur'ani yang siap menghadapi tantangan zaman."*
+
+Untuk informasi kegiatan terbaru, ikuti Instagram kami [@miradenrahmatbalongbendo](https://instagram.com/miradenrahmatbalongbendo) atau kunjungi website resmi kami.`,
+
+      artikel: (topic) => `# ${topic}
+
+## Mengenal Lebih Dekat MI Raden Rahmat Balongbendo
+Berada di bawah naungan **Yayasan BPPPMNU Cabang Kab. Sidoarjo**, MI Raden Rahmat Balongbendo telah berdiri sejak tahun 1978 dan terus berkembang menjadi salah satu madrasah ibtidaiyah terpercaya di Sidoarjo.
+
+Dengan NPSN **60716945** dan predikat **Akreditasi A**, madrasah ini berkomitmen memberikan pendidikan terbaik yang memadukan ilmu pengetahuan modern dengan nilai-nilai keislaman yang kuat.
+
+## Kurikulum Unggulan
+MI Raden Rahmat Balongbendo menerapkan **Kurikulum Merdeka** yang diperkaya dengan:
+- Program Tahfidz dan Tilawah Al-Qur'an
+- Pembelajaran Bahasa Arab dan Bahasa Inggris
+- Pendidikan karakter berbasis Aswaja An-Nahdliyah
+- Literasi digital dan teknologi
+
+## Fasilitas Lengkap
+Madrasah ini dilengkapi ruang kelas modern, laboratorium komputer, perpustakaan, musholla, lapangan olahraga, dan kantin sehat untuk mendukung proses belajar mengajar yang optimal.
+
+## Lokasi Strategis
+Berlokasi di **Bakalan Wringinpitu RT 06 RW 01, Balongbendo, Sidoarjo**, mudah dijangkau dari berbagai wilayah Kecamatan Balongbendo dan sekitarnya.
+
+---
+📞 Informasi lebih lanjut: **WhatsApp 085730017464**  
+📧 Email: adminmi@radenrahmatbalongbendo.sch.id`,
+    };
+
+    let generatedContent = null;
+
+    function generateContent() {
+      const topic = document.getElementById('genTopic').value.trim();
+      const type = document.getElementById('genType').value;
+      const keyword = document.getElementById('genKeyword').value;
+      if (!topic) { toast('Masukkan topik terlebih dahulu!', 'error'); return; }
+
+      const btn = document.querySelector('[onclick="generateContent()"]');
+      btn.disabled = true;
+      btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Generating...';
+
+      setTimeout(() => {
+        const templateFn = CONTENT_TEMPLATES[type] || CONTENT_TEMPLATES['artikel'];
+        const content = templateFn(topic);
+        const slug = toSlug(topic);
+        const seoTitle = topic.substring(0, 55) + ' | MI Raden Rahmat';
+        const seoDesc = `${topic} — MI Raden Rahmat Balongbendo (NPSN 60716945), Madrasah Ibtidaiyah Akreditasi A di Balongbendo, Sidoarjo.`.substring(0, 160);
+
+        generatedContent = { title: topic, slug, content, seoTitle, seoDesc, keyword, category: type, status: 'draft' };
+
+        document.getElementById('genResult').innerHTML = `
+      <div style="margin-bottom:16px;padding:14px;background:var(--bg3);border-radius:10px;">
+        <div style="font-size:0.75rem;font-weight:700;color:var(--purple);text-transform:uppercase;margin-bottom:8px;">✨ Preview Konten SEO-Friendly</div>
+        <div style="font-weight:700;margin-bottom:6px;color:#4caf50;">${escHtml(seoTitle)}</div>
+        <div style="font-size:0.78rem;color:var(--text-muted);">🔑 Keyword: ${escHtml(keyword)}</div>
+      </div>
+      <div style="white-space:pre-wrap;line-height:1.8;">${escHtml(content)}</div>
+    `;
+        document.getElementById('btnPublish').style.display = 'inline-flex';
+        btn.disabled = false;
+        btn.innerHTML = '<i class="fas fa-magic"></i> Generate Konten Sekarang';
+        toast('Konten berhasil di-generate! 🎉', 'success');
+        addActivity('Konten AI di-generate: "' + topic.substring(0, 40) + '"');
+      }, 1800);
+    }
+
+    function publishGenerated() {
+      if (!generatedContent) return;
+      CMS.news.unshift({
+        id: Date.now(),
+        ...generatedContent,
+        date: new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' }),
+        rawDate: new Date().toISOString().split('T')[0],
+        excerpt: generatedContent.content.substring(0, 180) + '...',
+        img: '',
+        link: '',
+        author: 'CMS Admin',
+      });
+      saveToStorage(); updateStats(); renderNews();
+      toast('Konten berhasil dipublish ke Berita! ✓', 'success');
+      showPage('news');
+      addActivity('Konten AI dipublish: "' + generatedContent.title.substring(0, 40) + '"');
+    }
+
+    function generateCalendar() {
+      const months = ['Maret', 'April', 'Mei', 'Juni', 'Juli'];
+      const topics = [
+        ['Sambut Ramadhan 2026 di MI Raden Rahmat', 'Panduan Puasa untuk Anak-Anak Madrasah', 'PPDB Gelombang Pertama 2026/2027'],
+        ['Laporan Kegiatan Pondok Ramadhan', 'Halal Bihalal Keluarga Besar MI Raden Rahmat', 'Tips Persiapan Masuk Kelas I MI'],
+        ['Hasil Ujian Akhir dan Kenaikan Kelas', 'Program Tahfidz Semester Genap 2025/2026', 'Profil Guru Berprestasi MI Raden Rahmat'],
+        ['Libur Akhir Tahun Ajaran 2025/2026', 'Penerimaan Siswa Baru Gelombang II', 'Orientasi Siswa Baru 2026/2027'],
+        ['Hari Pertama Sekolah Tahun Ajaran Baru', 'Kegiatan MPLS MI Raden Rahmat 2026/2027', 'Pengenalan Kurikulum Merdeka Tahun Ajaran Baru'],
+      ];
+
+      document.getElementById('calendarResult').innerHTML = `
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;">
+      ${months.map((m, i) => `
+        <div style="background:var(--bg3);border-radius:10px;padding:14px;">
+          <div style="font-size:0.75rem;font-weight:700;color:var(--purple);margin-bottom:10px;text-transform:uppercase;">${m} 2026</div>
+          ${topics[i].map(t => `
+            <div style="display:flex;align-items:flex-start;gap:6px;margin-bottom:8px;font-size:0.78rem;cursor:pointer;color:var(--text-muted);" onclick="setTopic('${t}');showPage('autogen');">
+              <span style="color:var(--gold);margin-top:2px;">▶</span> ${t}
+            </div>
+          `).join('')}
+        </div>
+      `).join('')}
+    </div>
+    <div style="margin-top:12px;font-size:0.78rem;color:var(--text-muted);">💡 Klik topik untuk langsung generate konten.</div>
+  `;
+      toast('Jadwal konten 5 bulan berhasil dibuat!', 'success');
+    }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // MEDIA
+    // ═══════════════════════════════════════════════════════════════════
+    let mediaFiles = [
+      { name: 'logo_mi_white.webp', type: 'image', url: 'logo_mi_white.webp' },
+      { name: 'hero-bg.jpg', type: 'image', url: 'hero-bg.jpg' },
+      { name: 'siswa-mi.png', type: 'image', url: 'siswa-mi.png' },
+      { name: 'maps.png', type: 'image', url: 'maps.png' },
+      { name: 'BG_mi.png', type: 'image', url: 'BG_mi.png' },
+    ];
+
+    function handleBulkUpload(input) {
+      Array.from(input.files).forEach(file => {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          mediaFiles.push({ name: file.name, type: 'image', url: e.target.result, uploaded: true });
+          renderMedia();
+        };
+        reader.readAsDataURL(file);
+      });
+      toast(input.files.length + ' file berhasil diupload!', 'success');
+    }
+
+    function renderMedia() {
+      document.getElementById('mediaGrid').innerHTML = mediaFiles.map((f, i) => `
+    <div style="background:var(--bg3);border-radius:10px;overflow:hidden;position:relative;cursor:pointer;" onclick="copyMediaUrl('${f.url}')">
+      <img src="${f.url}" onerror="this.src='';this.style.background='var(--bg)'" style="width:100%;height:100px;object-fit:cover;" alt="${f.name}">
+      <div style="padding:6px 8px;">
+        <div style="font-size:0.72rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${f.name}</div>
+      </div>
+      <button style="position:absolute;top:4px;right:4px;background:rgba(0,0,0,0.7);border:none;color:white;border-radius:4px;padding:2px 6px;cursor:pointer;font-size:0.65rem;" onclick="mediaFiles.splice(${i},1);renderMedia();event.stopPropagation()">✕</button>
+    </div>
+  `).join('');
+    }
+
+    function copyMediaUrl(url) {
+      navigator.clipboard.writeText(url).then(() => toast('URL disalin: ' + url.substring(0, 40), 'info'));
+    }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // EXPORT
+    // ═══════════════════════════════════════════════════════════════════
+    function exportJSON() {
+      downloadFile('cms_backup_' + Date.now() + '.json', JSON.stringify(CMS, null, 2), 'application/json');
+      toast('Backup JSON didownload!', 'success');
+    }
+    function exportNewsCSV() {
+      const header = 'ID,Judul,Tanggal,Kategori,Status,Link\n';
+      const rows = CMS.news.map(n => `${n.id},"${n.title.replace(/"/g, '""')}","${n.date}","${n.category || ''}","${n.status}","${n.link || ''}"`).join('\n');
+      downloadFile('berita_' + Date.now() + '.csv', header + rows, 'text/csv');
+      toast('CSV Berita didownload!', 'success');
+    }
+    function exportPPDB() {
+      const header = 'No,Nama Anak,Asal Sekolah,Nama Wali,HP,Status,Tanggal\n';
+      const rows = CMS.ppdb.map((p, i) => `${i + 1},"${p.nama}","${p.asal || ''}","${p.wali}","${p.hp || ''}","${p.status}","${p.date}"`).join('\n');
+      downloadFile('ppdb_' + Date.now() + '.csv', header + rows, 'text/csv');
+      toast('CSV PPDB didownload!', 'success');
+    }
+    function importData(input) {
+      const file = input.files[0]; if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        try {
+          const data = JSON.parse(e.target.result);
+          Object.assign(CMS, data);
+          saveToStorage(); renderNews(); renderPPDB(); updateStats();
+          toast('Data berhasil diimport!', 'success');
+        } catch (err) { toast('File tidak valid!', 'error'); }
+      };
+      reader.readAsText(file);
+    }
+    function downloadFile(name, content, type) {
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(new Blob([content], { type }));
+      a.download = name; a.click();
+    }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // HELPERS
+    // ═══════════════════════════════════════════════════════════════════
+    function escHtml(s) {
+      return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+    function toSlug(s) {
+      return String(s || '').toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').trim().substring(0, 80);
+    }
+    function autoSlug() {
+      document.getElementById('newsFormSlug').value = toSlug(document.getElementById('newsFormTitle').value);
+    }
+    function formatDateDisplay(d) {
+      if (!d) return '-';
+      const months = ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agt', 'Sep', 'Okt', 'Nov', 'Des'];
+      const [y, m, day] = d.split('-');
+      return `${parseInt(day)} ${months[parseInt(m) - 1]} ${y}`;
+    }
+    function triggerUpload(id) { document.getElementById(id).click(); }
+    function previewUpload(input, previewId) {
+      const file = input.files[0]; if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        const img = document.getElementById(previewId);
+        img.src = e.target.result; img.style.display = 'block';
+        if (input.id === 'heroImgUpload') document.getElementById('heroBg').value = file.name;
+        if (input.id === 'newsImgUpload') {
+          document.getElementById('newsFormImg').value = e.target.result;
+          var mediaTabBtn = document.querySelector('.tabs .tab[onclick*="tabMedia"]');
+          if (mediaTabBtn) mediaTabBtn.click();
+        }
+      };
+      reader.readAsDataURL(file);
+    }
+    function addActivity(msg) {
+      const log = document.getElementById('activityLog');
+      const d = new Date().toLocaleTimeString('id-ID');
+      const item = document.createElement('div');
+      item.style.cssText = 'font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--border);';
+      item.innerHTML = `<span style="color:#4caf50">✓</span> <span>${escHtml(msg)}</span><span style="margin-left:auto;font-size:0.7rem;">${d}</span>`;
+      log.insertBefore(item, log.firstChild);
+      if (log.children.length > 10) log.removeChild(log.lastChild);
+    }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // INIT MEDIA
+    // ═══════════════════════════════════════════════════════════════════
+    document.addEventListener('DOMContentLoaded', () => {
+      // Drag over styling for media zone
+      const zone = document.getElementById('mediaDropZone');
+      if (zone) {
+        zone.addEventListener('dragover', e => { e.preventDefault(); zone.classList.add('drag'); });
+        zone.addEventListener('dragleave', () => zone.classList.remove('drag'));
+        zone.addEventListener('drop', e => {
+          e.preventDefault(); zone.classList.remove('drag');
+          const fi = e.dataTransfer.files;
+          const bulkInput = document.getElementById('bulkUpload');
+          // Simulate
+          handleBulkUpload({ files: fi });
+        });
+      }
+      // Pre-render media
+      setTimeout(renderMedia, 100);
+    });
+  </script>
+
+  <!-- ===== CHATBOT WIDGET INTEGRATION (BP3NU RADEN RAHMAT) ===== -->
+  <div id="rr-chat-widget-container"></div>
+  <script>
+    fetch('/chat-widget.html')
+      .then(res => res.text())
+      .then(html => {
+        const container = document.getElementById('rr-chat-widget-container');
+        container.innerHTML = html;
+        const scripts = container.querySelectorAll('script');
+        scripts.forEach(oldScript => {
+          const newScript = document.createElement('script');
+          Array.from(oldScript.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value));
+          newScript.appendChild(document.createTextNode(oldScript.innerHTML));
+          oldScript.parentNode.replaceChild(newScript, oldScript);
+        });
+      });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+[16/02/2026 22:57] [SUCCESS] Sync berhasil 
+  Response: 
+{"success":true,"message":"news_mi.json berhasil diperbarui","count":10,"posts_limit":10,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/mir.rahmatbalongbendo\/"} 
+---------------------------------------- 
+[16/02/2026 22:57] [SUCCESS] Sync berhasil 
+  Response: 
+{"success":true,"message":"news_mi.json berhasil diperbarui","count":10,"posts_limit":10,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/mir.rahmatbalongbendo\/"} 
+---------------------------------------- 
+[16/02/2026 22:57] [SUCCESS] Sync berhasil 
+  Response: 
+{"success":true,"message":"news_mi.json berhasil diperbarui","count":10,"posts_limit":10,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/mir.rahmatbalongbendo\/"} 
+---------------------------------------- 
+[17/02/2026 00:00] [SUCCESS] Sync berhasil 
+  Response: 
+{"success":true,"message":"news_mi.json berhasil diperbarui","count":10,"posts_limit":10,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/mir.rahmatbalongbendo\/"} 
+---------------------------------------- 

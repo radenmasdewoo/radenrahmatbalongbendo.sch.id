@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="logo_mi_white.webp" as="image">
+    <link rel="preload" href="BG_mi.webp" as="image">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W74LQVD6');</script>
+    <!-- End Google Tag Manager -->
+    <script>
+        (function () {
+            var d = function () { var s = document.createElement('script'); s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5154481634054633'; s.crossOrigin = 'anonymous'; s.async = true; document.head.appendChild(s); };
+            if (document.readyState === 'complete') setTimeout(d, 1500); else window.addEventListener('load', function () { setTimeout(d, 1500); });
+        })();
+    </script>
+    <!-- Google tag (gtag.js) — tag statis agar GA langsung menerima data (ID = aliran data Anda) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K2H1B7L27Q"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-K2H1B7L27Q');
+    </script>
+    <!-- AdSense dimuat setelah GA agar pelacakan tidak terhambat -->
+    <link rel="icon" type="image/x-icon" href="logo_mi_white.webp">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo_mi_white.webp">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo_mi_white.webp">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="logo_mi_white.webp">
+    <title>MI RADEN RAHMAT BALONGBENDO | Official Website</title>
+    <meta name="description"
+        content="Website Resmi MI/MIS Raden Rahmat Balongbendo (NPSN 60716945) di Bakalan Wringinpitu, Balongbendo, Sidoarjo, Jawa Timur. Mewujudkan Generasi Islami yang Unggul, Cerdas, dan Berakhlakul Karimah berlandaskan Aswaja An-Nahdliyah.">
+    <meta name="keywords"
+        content="MIS RADEN RAHMAT, MI RADEN RAHMAT, NPSN 60716945, MI Balongbendo, Madrasah Ibtidaiyah Sidoarjo, Bakalan Wringinpitu, Balongbendo Sidoarjo, Sekolah Dasar Islam Sidoarjo, Sekolah swasta Sidoarjo, Yayasan BPPPMNU Cabang Kab. Sidoarjo, Akreditasi A, PPDB MI Raden Rahmat">
+    <meta name="author" content="MI Raden Rahmat Balongbendo">
+    <meta name="robots" content="index, follow">
+
+    <!-- Structured Data: Madrasah / School Information (hidden for users, visible to search engines) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "School",
+      "name": "MI RADEN RAHMAT",
+      "alternateName": "MI RADEN RAHMAT BALONGBENDO",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "NPSN",
+        "value": "60716945"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Bakalan Wringinpitu RT 06 RW 01, BALONGBENDO",
+        "addressLocality": "Kec. Balong Bendo",
+        "addressRegion": "Jawa Timur",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-7.411900",
+        "longitude": "112.536400"
+      },
+      "url": "https://radenrahmatbalongbendo.sch.id/mi/",
+      "telephone": "",
+      "email": "adminmi@radenrahmatbalongbendo.sch.id",
+      "schoolType": "Swasta",
+      "educationalLevel": "MI",
+      "department": "DIKDAS",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Yayasan BPPPMNU Cabang Kab. Sidoarjo"
+      },
+      "foundingDate": "1978-03-20",
+      "founder": "Yayasan BPPPMNU Cabang Kab. Sidoarjo",
+      "award": "Akreditasi A (SK 159/BAN-S/M.35/SK/XII/2018, tanggal 2018-12-01)",
+      "knowsAbout": [
+        "MIS RADEN RAHMAT",
+        "MI RADEN RAHMAT BALONGBENDO",
+        "NPSN 60716945",
+        "Bakalan Wringinpitu RT 06 RW 01 BALONGBENDO Balong Bendo Sidoarjo Jawa Timur",
+        "Madrasah Ibtidaiyah Swasta",
+        "Jenjang MI DIKDAS",
+        "Yayasan BPPPMNU Cabang Kab. Sidoarjo",
+        "Akreditasi A"
+      ]
+    }
+    </script>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://radenrahmatbalongbendo.sch.id/mi/">
+    <meta property="og:title" content="MI RADEN RAHMAT BALONGBENDO | Official Website">
+    <meta property="og:description"
+        content="Eksplorasi kegiatan, profil, dan pendaftaran online MI Raden Rahmat Balongbendo.">
+    <meta property="og:image" content="https://radenrahmatbalongbendo.sch.id/mi/logo_mi_white.webp">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://radenrahmatbalongbendo.sch.id/mi/">
+    <meta property="twitter:title" content="MI RADEN RAHMAT BALONGBENDO | Official Website">
+    <meta property="twitter:description"
+        content="Eksplorasi kegiatan, profil, dan pendaftaran online MI Raden Rahmat Balongbendo.">
+    <meta property="twitter:image" content="https://radenrahmatbalongbendo.sch.id/mi/logo_mi_white.webp">
+
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+        as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </noscript>
+
+    <style>
+        /* --- PREMIUM DESIGN SYSTEM --- */
+        :root {
+            --primary: #1b5e20;
+            /* Deep Green */
+            --primary-dark: #0d3810;
+            --primary-light: #e8f5e9;
+            --accent: #ffc107;
+            /* Amber/Gold */
+            --accent-dark: #e5af06;
+            --text-main: #2c3e50;
+            --text-muted: #607d8b;
+            --white: #ffffff;
+            --bg-body: #fafafa;
+            --card-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+            color: var(--text-main);
+            background-color: var(--bg-body);
+            background-image: url('BG_mi.webp');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: linear-gradient(135deg, rgba(27, 94, 32, 0.9), rgba(13, 56, 16, 0.9)) !important;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            padding: 15px 0;
+        }
+
+        .navbar-brand img {
+            height: 60px;
+            width: auto;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+        }
+
+        .nav-link {
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.9) !important;
+            margin: 0 10px;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+            transition: var(--transition);
+        }
+
+        .nav-link:hover {
+            color: var(--accent) !important;
+            transform: translateY(-2px);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 50, 0, 0.75), rgba(0, 50, 0, 0.75)),
+                url('hero-bg.webp');
+            background-size: cover;
+            background-position: center;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            color: white;
+            text-align: center;
+            position: relative;
+            /* Smooth feathered transition to body background */
+            -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+            mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+        }
+
+        .section-title {
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 50px;
+            text-align: center;
+            position: relative;
+            display: inline-block;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .section-title::after {
+            content: '';
+            width: 60px;
+            height: 6px;
+            background: var(--accent);
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 3px;
+        }
+
+        /* PPDB Card */
+        .card-ppdb {
+            border: none;
+            border-radius: 20px;
+            box-shadow: var(--card-shadow);
+            overflow: hidden;
+            background: rgba(255, 255, 255, 0.7) !important;
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+        }
+
+        .btn-ppdb {
+            background: linear-gradient(45deg, var(--accent), var(--accent-dark));
+            color: #212529;
+            font-weight: 700;
+            border-radius: 50px;
+            padding: 15px 40px;
+            border: none;
+            transition: var(--transition);
+            box-shadow: 0 5px 15px rgba(243, 156, 18, 0.4);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-ppdb:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(243, 156, 18, 0.6);
+            color: #000;
+        }
+
+        /* Icons */
+        .text-success {
+            color: var(--primary) !important;
+        }
+
+        .feature-icon-box {
+            background: var(--primary-light);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            color: var(--primary);
+            font-size: 1.5rem;
+            transition: var(--transition);
+        }
+
+        .d-flex:hover .feature-icon-box {
+            background: var(--primary);
+            color: var(--white);
+            transform: rotateY(360deg);
+        }
+
+        footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 80px 0 30px;
+        }
+
+        .ig-feed-box {
+            border: 2px dashed #ddd;
+            border-radius: 20px;
+            padding: 40px;
+            background: white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+        }
+
+        .ig-feed-box:hover {
+            border-color: var(--accent);
+            transform: translateY(-5px);
+        }
+
+        /* IG horizontal marquee */
+        .ig-marquee-wrapper {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+        }
+
+        .ig-marquee-track {
+            display: flex;
+            gap: 20px;
+            width: max-content;
+            will-change: transform;
+            animation: ig-marquee 30s linear infinite;
+        }
+
+        .ig-marquee-track:hover {
+            animation-play-state: paused;
+        }
+
+        .ig-feed-container {
+            min-height: 200px;
+        }
+
+        .ig-card {
+            min-width: 220px;
+            max-width: 220px;
+            background: rgba(255, 255, 255, 0.6) !important;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            flex-shrink: 0;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: var(--transition);
+        }
+
+        .ig-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .ig-card img,
+        .ig-card video.ig-video {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .ig-card-body {
+            padding: 10px 12px;
+        }
+
+        .ig-card-title {
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .ig-card-meta {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        /* Instagram Section Enhancements */
+        .insta-placeholder {
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 30px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .insta-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Instagram Header Refinement */
+        .ig-header-card {
+            display: inline-flex;
+            align-items: center;
+            padding: 12px 25px;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            text-decoration: none !important;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+
+        .ig-header-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(225, 48, 108, 0.2);
+            border-color: #E1306C;
+        }
+
+        .ig-icon {
+            font-size: 2.5rem;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-right: 18px;
+            line-height: 1;
+        }
+
+        .ig-text h5 {
+            margin: 0;
+            font-size: 1.2rem;
+            color: #1a1a1a;
+            font-weight: 700;
+        }
+
+        .ig-text small {
+            color: #666;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+        }
+
+        .text-fire {
+            font-size: 1.1rem !important;
+            font-weight: 700;
+            color: #ff4500 !important;
+            /* Bright Orange-Red */
+            text-shadow: 0 0 10px #ff8c00, 0 0 20px #ff4500;
+            display: inline-block;
+            animation: fire-flicker 1.5s infinite alternate;
+        }
+
+        @keyframes fire-flicker {
+            from {
+                text-shadow: 0 0 10px #ff8c00;
+            }
+
+            to {
+                text-shadow: 0 0 20px #ff4500, 0 0 30px #ffa500;
+            }
+        }
+
+        @keyframes ig-marquee {
+            from {
+                transform: translateX(-50%);
+            }
+
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        /* Form */
+        .form-control {
+            padding: 12px 15px;
+            border-radius: 10px;
+            border: 2px solid #eee;
+        }
+
+        .form-control:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 4px rgba(255, 193, 7, 0.15);
+        }
+
+        /* Fire Button Effect */
+        .btn-fire {
+            background: linear-gradient(45deg, var(--accent), var(--accent-dark)) !important;
+            color: #212529 !important;
+            border: none !important;
+            box-shadow: 0 4px 15px rgba(243, 156, 18, 0.4);
+            transition: all 0.3s ease !important;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .btn-fire:hover {
+            background: linear-gradient(45deg, #f00000, #dc281e, #ff8000) !important;
+            box-shadow: 0 0 20px rgba(240, 0, 0, 0.8), 0 0 40px rgba(255, 128, 0, 0.6) !important;
+            transform: scale(1.05) translateY(-2px) !important;
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.8) !important;
+        }
+
+        .section-glass {
+            background-color: rgba(255, 255, 255, 0.6) !important;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 20px;
+            margin: 20px 0;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Mobile Scale-down */
+        @media (max-width: 991px) {
+            .navbar-collapse {
+                display: flex !important;
+                flex-basis: auto;
+            }
+
+            .navbar-nav {
+                flex-direction: row !important;
+                align-items: center;
+            }
+
+            .nav-item {
+                margin: 0 2px !important;
+            }
+
+            .nav-link {
+                padding: 0.3rem 0.4rem !important;
+                font-size: 0.65rem !important;
+            }
+
+            .btn-fire {
+                padding: 0.3rem 0.6rem !important;
+                font-size: 0.6rem !important;
+            }
+
+            .navbar-brand img {
+                height: 35px !important;
+            }
+
+            .brand-text span {
+                font-size: 0.75rem !important;
+            }
+
+            .brand-text small {
+                font-size: 0.5rem !important;
+            }
+
+            .container-fluid {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W74LQVD6" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+        <div class="container-fluid px-lg-5">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="logo_mi_white.webp" alt="Logo MI Raden Rahmat Balongbendo" class="me-3" width="50" height="60"
+                    style="border-radius: 5px;">
+                <div class="brand-text">
+                    <span class="d-block fw-bold fs-5">MI RADEN RAHMAT</span>
+                    <small class="d-block" style="font-size: 0.7rem; letter-spacing: 1px;">BALONGBENDO -
+                        SIDOARJO</small>
+                </div>
+            </a>
+
+            <div class="collapse navbar-collapse show" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#profil">Profil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sejarah-singkat.html">Sejarah Singkat</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#berita">Kegiatan IG</a></li>
+                    <li class="nav-item ms-lg-3"><a class="nav-link btn-fire px-4 fw-bold rounded-pill"
+                            href="#ppdb">PPDB ONLINE</a></li>
+                    <li class="nav-item ms-lg-2"><a class="nav-link" href="https://radenrahmatbalongbendo.sch.id/"><i
+                                class="fas fa-arrow-left me-1"></i>
+                            BP3NU</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="beranda" class="hero">
+        <div class="container text-center text-white">
+            <h5 class="fw-bold mb-3 animate__animated animate__fadeInDown text-warning">M A D R A S A H &nbsp; K A M I
+            </h5>
+            <h1 class="display-3 fw-bold mb-3 animate__animated animate__fadeInDown">Sejarah Singkat<br>MI Raden Rahmat
+                Balongbendo</h1>
+            <div style="width: 50px; height: 3px; background-color: #ffc107; margin: 20px auto;"></div>
+            <p class="lead mb-5 fs-5 animate__animated animate__fadeInUp" style="max-width: 700px; margin: 0 auto;">
+                Membangun generasi unggul yang berakhlak mulia melalui pendidikan yang memadukan ilmu pengetahuan dan
+                agama secara seimbang.
+            </p>
+        </div>
+    </header>
+
+    <style>
+        .timeline-section {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+
+        .timeline-badge {
+            background-color: #1b5e20;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .info-card {
+            background: rgba(255, 255, 255, 0.9);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border-bottom: 3px solid #1b5e20;
+        }
+
+        .info-title {
+            color: #1b5e20;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .info-value {
+            font-weight: 600;
+            color: #333;
+            font-size: 1rem;
+        }
+
+        .timeline-container {
+            position: relative;
+            padding-left: 50px;
+            margin-top: 40px;
+        }
+
+        .timeline-container::before {
+            content: '';
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border-left: 4px solid #1b5e20;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -37px;
+            top: 25px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: #ffc107;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #1b5e20;
+        }
+
+        .timeline-date {
+            color: #555;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .timeline-content h4 {
+            color: #1b5e20;
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .timeline-content p {
+            color: #444;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+
+        .decorative-diamonds {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin: 40px 0;
+        }
+
+        .diamond {
+            width: 8px;
+            height: 8px;
+            background-color: #d4af37;
+            transform: rotate(45deg);
+        }
+
+        .filosofi-card {
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .filosofi-icon {
+            width: 60px;
+            height: 60px;
+            background-color: #1b5e20;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 1.5rem;
+        }
+
+        .filosofi-title {
+            font-weight: 700;
+            color: #1b5e20;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .filosofi-desc {
+            font-size: 0.9rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .arabic-text {
+            font-family: 'Scheherazade New', 'Amiri', serif;
+            font-size: 2.5rem;
+            color: #1b5e20;
+            text-align: center;
+            margin: 30px 0 10px;
+        }
+
+        .arabic-translation {
+            text-align: center;
+            color: #1b5e20;
+            font-style: italic;
+            font-size: 0.9rem;
+        }
+
+        .visi-box {
+            background-color: rgba(16, 75, 39, 0.95);
+            border-radius: 15px;
+            padding: 40px;
+            color: white;
+            position: relative;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(5px);
+        }
+
+        .visi-box::before {
+            content: '"';
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 80px;
+            color: rgba(255, 255, 255, 0.1);
+            font-family: Georgia, serif;
+            line-height: 1;
+        }
+
+        .visi-title {
+            color: #ffc107;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .visi-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .misi-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+
+        .misi-item {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 15px 20px;
+            border-radius: 8px;
+            border-left: 3px solid #ffc107;
+            font-size: 0.9rem;
+        }
+    </style>
+
+    <section class="timeline-section">
+        <div class="container py-5 section-glass">
+            <div class="p-lg-4 text-start">
+                <div class="timeline-badge mb-3">HISTORIS</div>
+                <h2 class="fw-bold text-dark mb-4">Lahirnya Yayasan <span style="color: #1b5e20;">Raden Rahmat
+                        Balongbendo</span></h2>
+                <p class="text-dark mb-5" style="max-width: 900px; line-height: 1.8;">
+                    Perkembangan pesat dari Pendidikan TK Raden Rahmat menginspirasi pendirian Yayasan Raden Rahmat.
+                    Visi yayasan ini memadukan keilmuan yang berbasis akal sehat yang inklusif dengan landasan
+                    Ahlussunnah wal Jama'ah An Nahdliyah (ASWAJA)—menyelaraskan tradisi pesantren dengan kebutuhan
+                    modern.
+                </p>
+
+                <div class="row g-3 mb-5">
+                    <div class="col-md-4">
+                        <div class="info-card">
+                            <div class="info-title">YAYASAN PENDIRI</div>
+                            <div class="info-value">Yayasan Raden Rahmat Balongbendo</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info-card">
+                            <div class="info-title">PELETAKAN BATU PERTAMA</div>
+                            <div class="info-value">17 Desember 2017</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info-card">
+                            <div class="info-title">PENGAKTIFAN YAYASAN</div>
+                            <div class="info-value">22 Desember 2017</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info-card">
+                            <div class="info-title">PENGESAHAN DARI MENKUMHAM</div>
+                            <div class="info-value">22 JANUARI 2018; AHU-0001306.AH.01.04. Tahun 2018</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info-card">
+                            <div class="info-title">OPERASIONAL</div>
+                            <div class="info-value">Tahun Ajaran 2018</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info-card">
+                            <div class="info-title">ALAMAT</div>
+                            <div class="info-value">Bakalan Wringinpitu, Balongbendo, Sidoarjo, 61263</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info-card">
+                            <div class="info-title">AKREDITASI MI</div>
+                            <div class="info-value">A (91) - TAHUN 2018 dan 2024</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info-card">
+                            <div class="info-title">NSS / NPSN</div>
+                            <div class="info-value">111235150242 / 60716945</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="decorative-diamonds">
+                    <div class="diamond"></div>
+                    <div class="diamond" style="background-color: #1b5e20;"></div>
+                    <div class="diamond"></div>
+                </div>
+
+                <div class="timeline-badge mb-3 mt-4">KRONOLOGI</div>
+                <h2 class="fw-bold text-dark mb-4">Perjalanan <span style="color: #1b5e20;">Sejarah</span></h2>
+
+                <div class="timeline-container">
+                    <div class="timeline-item">
+                        <div class="timeline-date">AWAL PERTUMBUHAN SAMPAI 2018</div>
+                        <div class="timeline-content">
+                            <h4>Masa Pertumbuhan dan Perkembangan</h4>
+                            <p>Awalnya, TK Raden Rahmat mengalami perkembangan yang sangat pesat. Hal ini menjadi cikal
+                                bakal terbentuknya MI Raden Rahmat Balongbendo di area MWC Balongbendo.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">SEPTEMBER 2017 - DESEMBER 2017</div>
+                        <div class="timeline-content">
+                            <h4>Kegiatan Pembangunan & Konstruksi</h4>
+                            <p>Dimulainya pembangunan fisik yang diresmikan dengan peletakan batu pertama pada 17
+                                Desember 2017 oleh KH. Agoes Ali Masyhuri (Gus Ali, Tulangan). Pengesahan pendirian
+                                Yayasan dilakukan pada hari berikutnya.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">PENGURUSAN IZIN (UAN & LAINNYA) - 2018</div>
+                        <div class="timeline-content">
+                            <h4>Pendirian Yayasan Raden Rahmat Balongbendo</h4>
+                            <p>Yayasan ini kemudian mendapatkan SK pengesahan dari Kemenkumham. Sejak saat itu, segala
+                                operasional TK/MI/SMP diurus dan dikelola secara mandiri meskipun tetap berada di bawah
+                                naungan BP3MNU / LP. Ma'arif NU Sidoarjo.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">OPERASIONAL AKTIF & PEMBELAJARAN (2018 - SEKARANG)</div>
+                        <div class="timeline-content">
+                            <h4>Penyatuan dan Penerapan Kurikulum</h4>
+                            <p>Mulainya implementasi dan penyempurnaan kurikulum yang mengkolaborasikan Kurikulum
+                                Merdeka (Kurmer), Kurikulum LP Ma'arif, dan Kurikulum khas MI Raden Rahmat dengan
+                                menitikberatkan pada pendidikan akhlak Islami.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">KOMITMEN PENINGKATAN KUALITAS (2024 - SEKARANG)</div>
+                        <div class="timeline-content">
+                            <h4>Penyempurnaan Fasilitas & Pendidikan Vokasi</h4>
+                            <p>Fokus memajukan sarana prasarana dan melengkapi perangkat pembelajaran digital untuk
+                                mendukung kompetensi Abad 21. Penyesuaian pendidikan juga mengakomodasi bakat minat
+                                siswa melalui variasi ekstrakurikuler yang lengkap.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">MASA DEPAN DAN HARAPAN</div>
+                        <div class="timeline-content">
+                            <h4>Mencetak Generasi Masa Depan yang Unggul</h4>
+                            <p>Tetap berkomitmen menyelenggarakan layanan pendidikan yang berkualitas, berprestasi dalam
+                                bidang akademik maupun non-akademik, sekaligus menanamkan akidah Ahlussunnah wal Jama'ah
+                                An-Nahdliyah di tengah tantangan zaman.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="decorative-diamonds mt-5 mb-5">
+                    <div class="diamond"></div>
+                    <div class="diamond" style="background-color: #1b5e20;"></div>
+                    <div class="diamond"></div>
+                </div>
+
+                <div class="timeline-badge mb-3">FILOSOFI</div>
+                <h2 class="fw-bold text-dark mb-4">Landasan Filosofis <span style="color: #1b5e20;">Sunan Ampel</span>
+                </h2>
+                <p class="text-dark mb-5 pb-3">
+                    MI Raden Rahmat Balongbendo mengambil inspirasi Raden Rahmat (Sunan Ampel) sebagai patron dan suri
+                    tauladan.
+                    Pendidikan moral kami tidak hanya berbasis teori, melainkan ditekankan melalui perilaku sehari-hari
+                    dengan meneladani ajaran dan tradisi para "Wali Songo".
+                </p>
+
+                <div class="row g-4 mb-5 pb-4">
+                    <div class="col-md-3">
+                        <div class="info-card filosofi-card h-100">
+                            <div class="filosofi-icon"><i class="fas fa-seedling"></i></div>
+                            <div class="filosofi-title">Tradisi Pendidik</div>
+                            <div class="filosofi-desc">Sumbangsih Sunan Ampel pada pendidikan mendasari tradisi keilmuan
+                                pesantren yang mewarisi kebhinekaan dalam kearifan lokal.</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="info-card filosofi-card h-100">
+                            <div class="filosofi-icon"><i class="fas fa-book"></i></div>
+                            <div class="filosofi-title">Akhlakul Karimah</div>
+                            <div class="filosofi-desc">Kami meyakini bahwa pendidikan karakter sama pentingnya dengan
+                                pengetahuan agama dalam mencetak generasi yang mulia.</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="info-card filosofi-card h-100">
+                            <div class="filosofi-icon"><i class="fas fa-heart"></i></div>
+                            <div class="filosofi-title">Prinsip Inklusif</div>
+                            <div class="filosofi-desc">Penerimaan atas nilai-nilai kultural dan tradisi merajut
+                                kerukunan yang kuat melalui moderasi beragama seperti ajaran Sunan Ampel.</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="info-card filosofi-card h-100">
+                            <div class="filosofi-icon"><i class="fas fa-lightbulb"></i></div>
+                            <div class="filosofi-title">Berdasarkan Solusi</div>
+                            <div class="filosofi-desc">Mengutamakan problem solving dan adaptasi proaktif dalam
+                                menyatukan kecerdasan spiritual dan wawasan global masa depan.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-card text-center py-4 mb-5" style="background-color: rgba(241, 248, 233, 0.9);">
+                    <div class="arabic-text">مَثَلُ الْعِلْمِ فَرِيْضَةٌ عَلَى كُلِّ مُسْلِمٍ</div>
+                    <div class="arabic-translation">"Mencari ilmu adalah kewajiban bagi setiap muslim." - HR. Ibnu Majah
+                    </div>
+                </div>
+
+                <div class="timeline-badge mb-3 mt-4">NILAI & VISI</div>
+                <h2 class="fw-bold text-dark mb-4">Kompas <span style="color: #1b5e20;">Pendidikan Kami</span></h2>
+
+                <div class="visi-box mb-5">
+                    <div class="visi-title fs-4">Visi</div>
+                    <div class="visi-text">
+                        "Mewujudkan madrasah unggul, cerdas, berprestasi inovatif, kreatif & memegang teguh aqidah
+                        salafus shalih berdasarkan manhaj Ahlussunnah Wal Jama’ah an Nahdliyah".
+                    </div>
+
+                    <h5 class="fw-bold text-white mb-4">Misi</h5>
+                    <div class="misi-list">
+                        <div class="misi-item">Menanamkan nilai - nilai spiritual menuju ketakwaan yang mapan</div>
+                        <div class="misi-item">Menyelenggarakan pendidikan yang kreatif, inovatif dan transformatif
+                        </div>
+                        <div class="misi-item">Merajut kebersamaan dan merajut sinergitas menuju tujuan pendidikan</div>
+                        <div class="misi-item">Mengeksplorasi setiap minat dan bakat individu yang berbeda</div>
+                        <div class="misi-item">Menjadi fasilitator dan motivator bagi lahirnya generasi yang mandiri dan
+                            kompetitif</div>
+                        <div class="misi-item">Mempertahankan identitas kelembagaan sebagai tonggak terwujudnya tujuan
+                            madrasah</div>
+                    </div>
+                </div>
+
+                <div class="timeline-badge mb-3 mt-4">LOKASI</div>
+                <h2 class="fw-bold text-dark mb-4">Konteks <span style="color: #1b5e20;">Sosiogeografis</span></h2>
+                <p class="text-dark mb-4">
+                    MI Raden Rahmat berada di desa Bakalan Wringinpitu, kec. Balongbendo, kab. Sidoarjo.
+                    Wilayah ini berada di dataran rendah pesisir utara Surabaya - Mojokerto. Madrasah ini berbatasan
+                    dengan area rel kereta api serta pemukiman perdesaan dengan suasana lingkungan pesantren.
+                </p>
+
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <div class="info-card border-start border-4 border-success">
+                            <div class="info-title">ALAMAT LENGKAP</div>
+                            <div class="info-value" style="font-size: 0.9rem;">
+                                Jl. Mayjen Bambang Yuwono No. 110, Bakalan Wringinpitu,<br>
+                                Balongbendo, Sidoarjo
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info-card border-start border-4 border-success h-100">
+                            <div class="info-title">KODE POS</div>
+                            <div class="info-value">61263</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info-card border-start border-4 border-success h-100">
+                            <div class="info-title">KECAMATAN / KOTA</div>
+                            <div class="info-value">Balongbendo, Kab. Sidoarjo, Jawa Timur</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info-card border-start border-4 border-warning h-100">
+                            <div class="info-title">EMAIL</div>
+                            <div class="info-value">mi.radenrahmat@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-5 col-md-12">
+                    <div class="d-flex align-items-center mb-4">
+                        <img src="logo_mi_white.webp" alt="Logo MI Raden Rahmat Balongbendo" width="50" height="60"
+                            class="bg-white rounded-3 p-1 me-3" loading="lazy">
+                        <h5 class="fw-bold mb-0">MI RADEN RAHMAT<br>BALONGBENDO</h5>
+                    </div>
+                    <p class="small text-white-50">
+                        <i class="fas fa-map-marker-alt me-2"></i> Jl. Mayjen Bambang Yuwono No.110, Balongbendo, Kec.
+                        Balongbendo, Kabupaten Sidoarjo, Jawa Timur 61263.
+                    </p>
+                    <a href="https://maps.app.goo.gl/83tqMkkwtuEjpZr4A" target="_blank"
+                        class="d-block mt-3 overflow-hidden rounded-3 shadow-sm border border-secondary"
+                        style="max-width: 300px;">
+                        <img src="maps.webp" alt="Peta lokasi MI Raden Rahmat Balongbendo di Balongbendo Sidoarjo"
+                            width="300" height="169" class="img-fluid" loading="lazy"
+                            style="transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'"
+                            onmouseout="this.style.transform='scale(1)'">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold mb-4">Link Cepat</h6>
+                    <ul class="list-unstyled small text-white-50">
+                        <li class="mb-2"><a href="#profil" class="text-white-50 text-decoration-none">Profil Sekolah</a>
+                        </li>
+                        <li class="mb-2"><a href="#berita" class="text-white-50 text-decoration-none">Update
+                                Kegiatan</a></li>
+                        <li class="mb-2"><a href="#ppdb" class="text-white-50 text-decoration-none">Daftar Online</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 text-md-end">
+                    <h6 class="fw-bold mb-4">Hubungi Kami</h6>
+                    <div class="fs-3 mb-3">
+                        <a href="https://www.facebook.com/people/MI-Raden-Rahmat/pfbid026xpin5LpnLAjg8ZKuouiJsSpCXoN7SBqkAigGEUukxYYA5PP1TtdJGvtU2RpoUASl/"
+                            class="text-white me-3" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/miradenrahmatbalongbendo/" class="text-white me-3"
+                            target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="mailto:adminmi@radenrahmatbalongbendo.sch.id" class="text-white"><i
+                                class="fas fa-envelope"></i></a>
+                    </div>
+                    <p class="small text-white-50 mb-1">
+                        <a href="mailto:adminmi@radenrahmatbalongbendo.sch.id"
+                            class="text-white-50 text-decoration-none">
+                            <i class="fas fa-at me-1"></i> adminmi@radenrahmatbalongbendo.sch.id
+                        </a>
+                    </p>
+                    <p class="small text-white-50">Jam Kerja: 07.00 - 13.00 WIB</p>
+                </div>
+            </div>
+            <hr class="mt-5 border-secondary">
+            <p class="text-center small text-white-50 mb-0">© 2026 MI RADEN RAHMAT BALONGBENDO. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function kirimPendaftaran() {
+            const noAdmin = "6285730017464";
+
+            // Ambil dan bersihkan data (limit karakter untuk keamanan)
+            const anak = document.getElementById('namaAnak').value.trim().substring(0, 200);
+            const asal = document.getElementById('asalSekolah').value.trim().substring(0, 200);
+            const wali = document.getElementById('namaWali').value.trim().substring(0, 200);
+            const alamat = document.getElementById('alamat').value.trim().substring(0, 500);
+
+            if (anak && wali && alamat) {
+                // Gunakan encodeURIComponent agar karakter khusus (seperti &, #, ?) tidak memutus link
+                const greeting = "Assalamualaikum admin PPDB";
+                const isiPesan = `${greeting},\n\n` +
+                    `Saya ingin mendaftarkan calon siswa baru:\n` +
+                    `*Nama Anak:* ${anak}\n` +
+                    `*Asal Sekolah:* ${asal}\n` +
+                    `*Nama Wali:* ${wali}\n` +
+                    `*Alamat:* ${alamat}\n\n` +
+                    `Mohon informasi langkah pendaftaran selanjutnya. Terima kasih.`;
+
+                const urlWA = `https://wa.me/${noAdmin}?text=${encodeURIComponent(isiPesan)}`;
+                window.open(urlWA, '_blank');
+            } else {
+                alert("Mohon lengkapi formulir pendaftaran!");
+            }
+        }
+    </script>
+
+    <script>
+        // Load IG feed from local API and tampilkan sebagai marquee horizontal
+        (function () {
+            const container = document.querySelector('.ig-feed-container');
+            const loadingEl = document.getElementById('ig-loading');
+            if (!container) return;
+
+            fetch('api/news_mi.php')
+                .then(res => res.json())
+                .then(data => {
+                    if (!Array.isArray(data) || data.length === 0) {
+                        if (loadingEl) loadingEl.innerHTML = '<p class="text-center text-muted mb-0">Belum ada postingan.</p>';
+                        return;
+                    }
+
+                    const posts = data
+                        .slice() // copy
+                        .sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0))
+                        .slice(0, 10);
+
+                    const trackItems = posts.map(p => {
+                        const safeTitle = (p.title || 'Post Instagram');
+                        const safeExcerpt = (p.excerpt || p.caption || '');
+                        const safeDate = (p.date || '');
+                        const sc = p.shortcode || '';
+                        const link = p.link || `https://www.instagram.com/p/${sc}/`;
+
+                        const isVideo = p.is_video === true;
+
+                        const getProxyUrl = (url, kind) => {
+                            if (!url) return `api/image_proxy.php?shortcode=${sc}&kind=${kind}`;
+                            if (/scontent|cdninstagram|fbcdn/i.test(url)) return `api/image_proxy.php?url=${encodeURIComponent(url)}&shortcode=${sc}&kind=${kind}`;
+                            return url;
+                        };
+
+                        const imgSrc = getProxyUrl(p.img, 'image');
+                        const vidSrc = isVideo ? getProxyUrl(p.video, 'video') : '';
+
+                        let mediaHtml = '';
+                        if (isVideo) {
+                            mediaHtml = `
+                                <div class="ig-card-media" style="position:relative;">
+                                    <video 
+                                        class="ig-video" 
+                                        width="400" height="160"
+                                        src="${vidSrc}" 
+                                        poster="${imgSrc}" 
+                                        autoplay 
+                                        muted 
+                                        loop 
+                                        playsinline 
+                                        preload="auto"
+                                        style="width:100%;height:160px;object-fit:cover;"
+                                        onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+                                    ></video>
+                                    <img src="${imgSrc}" width="400" height="160" style="width:100%;height:160px;object-fit:cover;display:none;" 
+                                         onerror="this.onerror=null; this.src='api/image_proxy.php?shortcode=${sc}&kind=image'">
+                                    <div style="position:absolute;top:10px;right:10px;color:white;text-shadow:0 0 4px rgba(0,0,0,0.8);"><i class="fas fa-play-circle"></i></div>
+                                </div>`;
+                        } else {
+                            mediaHtml = `
+                                <div class="ig-card-media">
+                                    <img src="${imgSrc}" alt="${safeTitle.replace(/"/g, '&quot;')}" width="400" height="160" loading="lazy" 
+                                         style="width:100%;height:160px;object-fit:cover;display:block;"
+                                         onerror="this.onerror=null; this.src='api/image_proxy.php?shortcode=${sc}&kind=image'">
+                                </div>`;
+                        }
+
+                        return `
+                            <a class="ig-card" href="${link}" target="_blank" rel="noopener noreferrer">
+                                ${mediaHtml}
+                                <div class="ig-card-body">
+                                    <div class="ig-card-title text-truncate" title="${safeTitle}">${safeTitle}</div>
+                                    <div class="small text-muted mb-1" style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;height:2.8em;line-height:1.4em;font-size:0.75rem;">${safeExcerpt}</div>
+                                    <div class="ig-card-meta"><i class="far fa-calendar-alt me-1"></i>${safeDate}</div>
+                                </div>
+                            </a>
+                        `;
+                    }).join('');
+
+                    const html = `
+                        <div class="ig-marquee-wrapper">
+                            <div class="ig-marquee-track" id="smp-ig-track">
+                                ${trackItems}
+                                ${trackItems}
+                            </div>
+                        </div>
+                    `;
+
+                    container.innerHTML = html;
+
+                    // Paksa autoplay untuk semua video (muted)
+                    const videos = container.querySelectorAll('video.ig-video');
+                    const tryPlayAll = () => {
+                        videos.forEach(v => {
+                            v.play().catch(() => { });
+                        });
+                    };
+                    tryPlayAll();
+                    ['click', 'touchstart'].forEach(evt => {
+                        document.addEventListener(evt, () => {
+                            tryPlayAll();
+                        }, { once: true });
+                    });
+                })
+                .catch(err => {
+                    console.error('Gagal load IG feed MI:', err);
+                    if (loadingEl) {
+                        loadingEl.innerHTML = '<p class="text-center text-danger mb-0">Gagal memuat feed Instagram.</p>';
+                    }
+                });
+        })();
+    </script>
+
+    <!-- Akses CMS: Ctrl+Shift+L menampilkan login, setelah berhasil redirect ke cms-admin -->
+    <script>window.REDIRECT_AFTER_LOGIN = 'cms-admin.html';</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/dynamic_loader.js" defer></script>
+    <script src="js/quick_access.js" defer></script>
+    <script>(function () { const d = document, s = d.createElement("script"); s.type = "module"; s.src = "https://w.behold.so/widget.js"; d.head.append(s); })();</script>
+</body>
+
+</html>

@@ -1,0 +1,746 @@
+
+<style>
+  #rr-chat-widget * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  #rr-chat-fab {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    z-index: 99999;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(135deg, #0d5c8a 0%, #1a8cc9 100%);
+    box-shadow: 0 6px 24px rgba(13, 92, 138, 0.45), 0 2px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.25s cubic-bezier(.34, 1.56, .64, 1), box-shadow 0.2s;
+    animation: fab-pulse 2.5s infinite;
+  }
+
+  #rr-chat-fab:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 32px rgba(13, 92, 138, 0.55);
+  }
+
+  @keyframes fab-pulse {
+
+    0%,
+    100% {
+      box-shadow: 0 6px 24px rgba(13, 92, 138, 0.45), 0 0 0 0 rgba(13, 92, 138, 0.3);
+    }
+
+    50% {
+      box-shadow: 0 6px 24px rgba(13, 92, 138, 0.45), 0 0 0 10px rgba(13, 92, 138, 0);
+    }
+  }
+
+  #rr-chat-fab.open svg.icon-chat {
+    display: none;
+  }
+
+  #rr-chat-fab.open svg.icon-close {
+    display: block !important;
+  }
+
+  #rr-chat-badge {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background: #e74c3c;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    animation: badge-bounce 1s ease 1s both;
+  }
+
+  @keyframes badge-bounce {
+    0% {
+      transform: scale(0)
+    }
+
+    60% {
+      transform: scale(1.2)
+    }
+
+    100% {
+      transform: scale(1)
+    }
+  }
+
+  #rr-chat-window {
+    position: fixed;
+    bottom: 104px;
+    right: 28px;
+    z-index: 99998;
+    width: 370px;
+    max-height: 580px;
+    border-radius: 20px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18), 0 4px 16px rgba(0, 0, 0, 0.08);
+    transform: scale(0.85) translateY(20px);
+    transform-origin: bottom right;
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.3s cubic-bezier(.34, 1.56, .64, 1), opacity 0.25s ease;
+    overflow: hidden;
+  }
+
+  #rr-chat-window.visible {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .rr-chat-header {
+    background: linear-gradient(135deg, #0d5c8a 0%, #1a8cc9 100%);
+    padding: 16px 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+  }
+
+  .rr-chat-header-avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+  }
+
+  .rr-chat-header-info {
+    flex: 1;
+  }
+
+  .rr-chat-header-name {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .rr-chat-header-status {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 2px;
+  }
+
+  .rr-status-dot {
+    width: 7px;
+    height: 7px;
+    background: #7dff9e;
+    border-radius: 50%;
+    animation: status-blink 2s infinite;
+  }
+
+  @keyframes status-blink {
+
+    0%,
+    100% {
+      opacity: 1
+    }
+
+    50% {
+      opacity: 0.4
+    }
+  }
+
+  .rr-chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #f7f9fc;
+    min-height: 0;
+  }
+
+  .rr-chat-messages::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .rr-chat-messages::-webkit-scrollbar-thumb {
+    background: #d0d8e4;
+    border-radius: 4px;
+  }
+
+  .rr-msg {
+    display: flex;
+    gap: 8px;
+    align-items: flex-end;
+    animation: msg-in 0.3s ease;
+  }
+
+  @keyframes msg-in {
+    from {
+      opacity: 0;
+      transform: translateY(8px)
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0)
+    }
+  }
+
+  .rr-msg.user {
+    flex-direction: row-reverse;
+  }
+
+  .rr-msg-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background: linear-gradient(135deg, #0d5c8a, #1a8cc9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rr-msg-bubble {
+    max-width: 78%;
+    padding: 10px 14px;
+    border-radius: 16px;
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: #1a2332;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+    border-bottom-left-radius: 4px;
+  }
+
+  .rr-msg.user .rr-msg-bubble {
+    background: linear-gradient(135deg, #0d5c8a, #1a8cc9);
+    color: #fff;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0 2px 8px rgba(13, 92, 138, 0.3);
+  }
+
+  .rr-quick-btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    padding: 4px 0 0;
+  }
+
+  .rr-quick-btn {
+    background: #fff;
+    border: 1.5px solid #1a8cc9;
+    color: #0d5c8a;
+    border-radius: 20px;
+    padding: 6px 13px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: inherit;
+    white-space: nowrap;
+  }
+
+  .rr-quick-btn:hover {
+    background: #0d5c8a;
+    color: #fff;
+    transform: translateY(-1px);
+  }
+
+  .rr-typing {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding: 12px 14px;
+  }
+
+  .rr-typing span {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #aab8c8;
+    animation: typing 1.2s infinite;
+  }
+
+  .rr-typing span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+
+  .rr-typing span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+
+  @keyframes typing {
+
+    0%,
+    60%,
+    100% {
+      transform: translateY(0)
+    }
+
+    30% {
+      transform: translateY(-6px)
+    }
+  }
+
+  .rr-chat-input-area {
+    padding: 12px 14px;
+    border-top: 1px solid #edf0f5;
+    background: #fff;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .rr-chat-input {
+    flex: 1;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 22px;
+    padding: 9px 16px;
+    font-size: 13.5px;
+    outline: none;
+    font-family: inherit;
+    color: #1a2332;
+    transition: border-color 0.2s;
+    background: #f7f9fc;
+  }
+
+  .rr-chat-input:focus {
+    border-color: #1a8cc9;
+    background: #fff;
+  }
+
+  .rr-chat-send {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    flex-shrink: 0;
+    background: linear-gradient(135deg, #0d5c8a, #1a8cc9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s;
+    box-shadow: 0 2px 8px rgba(13, 92, 138, 0.3);
+  }
+
+  .rr-chat-send:hover {
+    transform: scale(1.08);
+  }
+
+  .rr-ppdb-card {
+    background: linear-gradient(135deg, #e3f2fd, #f0f9ff);
+    border: 1.5px solid #1a8cc9;
+    border-radius: 14px;
+    padding: 13px 15px;
+    margin-top: 4px;
+  }
+
+  .rr-ppdb-card-title {
+    font-weight: 700;
+    color: #0d5c8a;
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+
+  .rr-ppdb-unit {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+    border: 1px solid #bbdefb;
+  }
+
+  .rr-ppdb-unit:hover {
+    background: #0d5c8a;
+    transform: translateX(3px);
+  }
+
+  .rr-ppdb-unit:hover .rr-ppdb-unit-name {
+    color: #fff;
+  }
+
+  .rr-ppdb-unit:hover .rr-ppdb-unit-sub {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .rr-ppdb-unit-icon {
+    font-size: 22px;
+  }
+
+  .rr-ppdb-unit-name {
+    font-weight: 700;
+    font-size: 13.5px;
+    color: #1a2332;
+  }
+
+  .rr-ppdb-unit-sub {
+    font-size: 11px;
+    color: #64748b;
+  }
+
+  .rr-ppdb-wa-btn {
+    margin-left: auto;
+    background: #25d366;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  .rr-ppdb-unit-img {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 4px;
+    border: 1px solid #eee;
+  }
+
+  .rr-ppdb-unit:hover .rr-ppdb-unit-img {
+    background: #fff;
+    border-color: #d4ffd4;
+  }
+
+  .rr-ppdb-unit-img {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 4px;
+    border: 1px solid #eee;
+  }
+
+  .rr-ppdb-unit:hover .rr-ppdb-unit-img {
+    background: #fff;
+    border-color: #d4ffd4;
+  }
+
+  @media (max-width: 420px) {
+    #rr-chat-window {
+      width: calc(100vw - 20px);
+      right: 10px;
+      bottom: 90px;
+    }
+
+    #rr-chat-fab {
+      bottom: 16px;
+      right: 16px;
+    }
+  }
+</style>
+
+<div id="rr-chat-fab" onclick="rrToggleChat()" title="Tanya Kami">
+  <div id="rr-chat-badge">1</div>
+  <svg class="icon-chat" width="26" height="26" fill="none" viewBox="0 0 24 24">
+    <path
+      d="M12 2C6.48 2 2 6.26 2 11.5c0 2.44 1.02 4.67 2.7 6.32L3 21l3.5-1.5C7.88 20.3 9.9 21 12 21c5.52 0 10-4.26 10-9.5S17.52 2 12 2z"
+      fill="white" />
+  </svg>
+  <svg class="icon-close" width="24" height="24" fill="none" viewBox="0 0 24 24" style="display:none">
+    <path d="M18 6L6 18M6 6l12 12" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+  </svg>
+</div>
+
+<div id="rr-chat-window">
+  <div class="rr-chat-header">
+    <div class="rr-chat-header-avatar">
+      <svg width="22" height="22" fill="none" viewBox="0 0 24 24">
+        <path
+          d="M12 2C6.48 2 2 6.26 2 11.5c0 2.44 1.02 4.67 2.7 6.32L3 21l3.5-1.5C7.88 20.3 9.9 21 12 21c5.52 0 10-4.26 10-9.5S17.52 2 12 2z"
+          fill="white" />
+      </svg>
+    </div>
+    <div class="rr-chat-header-info">
+      <div class="rr-chat-header-name">Asisten MI RADEN RAHMAT</div>
+      <div class="rr-chat-header-status"><span class="rr-status-dot"></span> Online • Siap membantu</div>
+    </div>
+    <button class="rr-chat-minimize" onclick="rrToggleChat()" title="Minimize"
+      style="background:none;border:none;cursor:pointer;padding:5px;">
+      <svg width="20" height="20" fill="none" viewBox="0 0 24 24">
+        <path d="M18 12H6" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+      </svg>
+    </button>
+  </div>
+  <div class="rr-chat-messages" id="rr-messages"></div>
+  <div class="rr-chat-input-area">
+    <input class="rr-chat-input" id="rr-input" type="text" placeholder="Ketik pertanyaan Anda..."
+      onkeydown="if(event.key==='Enter')rrSendMsg()">
+    <button class="rr-chat-send" onclick="rrSendMsg()">
+      <svg width="16" height="16" fill="none" viewBox="0 0 24 24">
+        <path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z" stroke="white" stroke-width="2.2" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+    </button>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const WA_NUMBER = "6285730017464";
+    const SCHOOL_NAME = "MI RADEN RAHMAT";
+    const SYSTEM_PROMPT = `Kamu adalah Asisten Virtual (AI) MI RADEN RAHMAT, Madrasah Ibtidaiyah (SD Islam) di Sidoarjo.
+Awali jawaban dengan salam (Assalamu'alaikum). Gunakan bahasa yang sangat sopan, ramah, dan Islami.
+
+LATAR BELAKANG MI RADEN RAHMAT:
+- Berdiri: 01 Oktober 1949 (cikal bakal PERGURUAN RADEN RAHMAT).
+- Sejarah Logo: Bintang 9 (NU), Bintang Besar (Rasulullah), 4 Kanan (Khulafaur Rasyidin), 4 Kiri (4 Mazhab).
+- Mantan Nama: Pernah bernama SRINU (Sekolah Rakyat Islam NU) dan MWB (Madrasah Wajib Belajar).
+- Fokus: Pendidikan karakter berbasis Aswaja An-Nahdliyah.
+- Program Unggulan: Pembiasaan Sholat Dhuha berjamaah, Tahfidz Juz 30, Pembelajaran Adab (Kitab Alala).
+- Kepala Madrasah: Nurul Lailiyatul Istiqomah, S.P., M.M.
+- Akreditasi: Terakreditasi A (Status Unggul).
+
+PPDB & KONTAK:
+- WA PPDB MI: 6285730017464
+- Di akhir jawaban tentang pendaftaran/biaya, selalu sertakan [SHOW_PPDB_CARD].
+- Untuk informasi sangat detail, sarankan datang ke kantor jam 07.45 - 13.00 WIB.
+
+Tugasmu:
+- Jawab singkat (2-3 kalimat) dan solutif (fokus pada unit MI).
+- Fokus pada info MI, namun tahu sejarah PERGURUAN RADEN RAHMAT (berdiri 1949).`;
+
+    let messages = [];
+    let isOpen = false;
+
+    function escHtml(t) { return t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+
+    function rrToggleChat() {
+      isOpen = !isOpen;
+      const win = document.getElementById('rr-chat-window');
+      const fab = document.getElementById('rr-chat-fab');
+      document.getElementById('rr-chat-badge').style.display = 'none';
+      win.classList.toggle('visible', isOpen);
+      fab.classList.toggle('open', isOpen);
+      if (isOpen && messages.length === 0) rrShowGreeting();
+      if (isOpen) setTimeout(() => document.getElementById('rr-input').focus(), 300);
+    }
+    window.rrToggleChat = rrToggleChat;
+
+    function rrShowGreeting() {
+      addBotMsg(`Assalamu'alaikum! 👋 Selamat datang di **MI RADEN RAHMAT**.\n\nSaya siap membantu menjawab pertanyaan seputar madrasah kami. Apa yang ingin Anda ketahui?`, [
+        "📝 Cara Mendaftar (PPDB)",
+        "📋 Syarat Masuk MI",
+        "💰 Informasi Biaya",
+        "📍 Lokasi Sekolah"
+      ]);
+    }
+
+    function buildPPDBCard() {
+      return `<div class="rr-ppdb-card">
+      <div class="rr-ppdb-card-title">📝 Daftar Sekarang di MI RADEN RAHMAT</div>
+      <a href="https://wa.me/${WA_NUMBER}?text=Assalamualaikum%2C%20saya%20ingin%20informasi%20PPDB%20MI%20RADEN%20RAHMAT" target="_blank" class="rr-ppdb-unit">
+        <img src="https://radenrahmatbalongbendo.sch.id/logo-mi.webp" class="rr-ppdb-unit-img" alt="MI RADEN RAHMAT">
+        <div><div class="rr-ppdb-unit-name">MI RADEN RAHMAT</div><div class="rr-ppdb-unit-sub">Madrasah Ibtidaiyah (Setara SD Islam)</div></div>
+        <span class="rr-ppdb-wa-btn">💬 WA</span>
+      </a>
+    </div>`;
+    }
+
+    function addBotMsg(text, quickReplies) {
+      const messagesEl = document.getElementById('rr-messages');
+      const msgEl = document.createElement('div');
+      msgEl.className = 'rr-msg bot';
+      const cleanText = text.replace(/\[SHOW_PPDB_CARD\]/g, '').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
+      let html = `<div class="rr-msg-avatar"><svg width="16" height="16" fill="none" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.26 2 11.5c0 2.44 1.02 4.67 2.7 6.32L3 21l3.5-1.5C7.88 20.3 9.9 21 12 21c5.52 0 10-4.26 10-9.5S17.52 2 12 2z" fill="white"/></svg></div>`;
+      html += `<div><div class="rr-msg-bubble">${cleanText}</div>`;
+      if (text.includes('[SHOW_PPDB_CARD]')) html += buildPPDBCard();
+      if (quickReplies?.length) {
+        html += `<div class="rr-quick-btns">` + quickReplies.map(q => `<button class="rr-quick-btn" onclick="rrQuickReply('${escHtml(q)}')">${q}</button>`).join('') + `</div>`;
+      }
+      html += `</div>`;
+      msgEl.innerHTML = html;
+      messagesEl.appendChild(msgEl);
+      messagesEl.scrollTop = messagesEl.scrollHeight;
+    }
+
+    function addUserMsg(text) {
+      const messagesEl = document.getElementById('rr-messages');
+      const msgEl = document.createElement('div');
+      msgEl.className = 'rr-msg user';
+      msgEl.innerHTML = `<div class="rr-msg-bubble">${escHtml(text)}</div>`;
+      messagesEl.appendChild(msgEl);
+      messagesEl.scrollTop = messagesEl.scrollHeight;
+    }
+
+    function addTyping() {
+      const messagesEl = document.getElementById('rr-messages');
+      const el = document.createElement('div');
+      el.className = 'rr-msg bot'; el.id = 'rr-typing';
+      el.innerHTML = `<div class="rr-msg-avatar"><svg width="16" height="16" fill="none" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.26 2 11.5c0 2.44 1.02 4.67 2.7 6.32L3 21l3.5-1.5C7.88 20.3 9.9 21 12 21c5.52 0 10-4.26 10-9.5S17.52 2 12 2z" fill="white"/></svg></div><div class="rr-msg-bubble"><div class="rr-typing"><span></span><span></span><span></span></div></div>`;
+      messagesEl.appendChild(el);
+      messagesEl.scrollTop = messagesEl.scrollHeight;
+    }
+
+    function removeTyping() { const el = document.getElementById('rr-typing'); if (el) el.remove(); }
+
+    // ============================================================
+    // KONFIGURASI MULTI-API FALLBACK
+    // Urutan: Gemini Key1 → Gemini Key2 → Gemini Key3 → Groq LLaMA → Groq Llama70b → DeepSeek
+    // ============================================================
+    const GEMINI_MODEL = 'gemini-2.0-flash';
+    const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
+
+    function makeGeminiCall(apiKey, label) {
+      return {
+        name: label,
+        call: async (msgs) => {
+          const contents = msgs.map(m => ({
+            role: m.role === 'assistant' ? 'model' : 'user',
+            parts: [{ text: m.content }]
+          }));
+          const res = await fetch(`${GEMINI_URL}?key=${apiKey}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              system_instruction: { parts: [{ text: SYSTEM_PROMPT }] },
+              contents,
+              generationConfig: { maxOutputTokens: 512, temperature: 0.7 }
+            })
+          });
+          if (!res.ok) throw new Error(`${label} HTTP ${res.status}`);
+          const data = await res.json();
+          const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+          if (!text) throw new Error(`${label}: empty response`);
+          return text;
+        }
+      };
+    }
+
+    function makeGroqCall(apiKey, model, label) {
+      return {
+        name: label,
+        call: async (msgs) => {
+          const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': `Bearer ${apiKey}`
+            },
+            body: JSON.stringify({
+              model,
+              messages: [{ role: 'system', content: SYSTEM_PROMPT }, ...msgs],
+              max_tokens: 512,
+              temperature: 0.7
+            })
+          });
+          if (!res.ok) throw new Error(`${label} HTTP ${res.status}`);
+          const data = await res.json();
+          const text = data?.choices?.[0]?.message?.content;
+          if (!text) throw new Error(`${label}: empty response`);
+          return text;
+        }
+      };
+    }
+
+    const API_PROVIDERS = [
+      makeGeminiCall('AIzaSyCjfhEFnV9GavvFhwIqYf5zmdCBuq_UkCU', 'Gemini (Primary)'),
+      makeGeminiCall('AIzaSyBQ-UMRsqvWol4Cy3q0Nu4R7D4ck4Nmsrs', 'Gemini (Backup 1)'),
+      makeGeminiCall('AIzaSyCveEKFuXHMI3TIWg0GsEw4O8F5j-uQL8U', 'Gemini (Backup 2)'),
+      makeGroqCall('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', 'llama-3.3-70b-versatile', 'Groq LLaMA 3.3 70B'),
+      makeGroqCall('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', 'llama-3.3-70b-versatile', 'Groq LLaMA 3.3 70B (Backup)'),
+      {
+        name: 'DeepSeek R1',
+        call: async (msgs) => {
+          const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': 'Bearer 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',
+              'HTTP-Referer': 'https://radenrahmatbalongbendo.sch.id',
+              'X-Title': 'MI Raden Rahmat Chatbot'
+            },
+            body: JSON.stringify({
+              model: 'deepseek/deepseek-r1',
+              messages: [{ role: 'system', content: SYSTEM_PROMPT }, ...msgs],
+              max_tokens: 512
+            })
+          });
+          if (!res.ok) throw new Error('DeepSeek HTTP ' + res.status);
+          const data = await res.json();
+          const text = data?.choices?.[0]?.message?.content;
+          if (!text) throw new Error('DeepSeek: empty response');
+          return text;
+        }
+      }
+    ];
+
+
+    // Fungsi utama dengan fallback berantai
+    async function callAIWithFallback(msgs) {
+      for (const provider of API_PROVIDERS) {
+        try {
+          console.log(`[ChatBot] Mencoba: ${provider.name}`);
+          const reply = await Promise.race([
+            provider.call(msgs),
+            new Promise((_, reject) => setTimeout(() => reject(new Error('Timeout 10s')), 10000))
+          ]);
+          console.log(`[ChatBot] Berhasil via: ${provider.name}`);
+          return reply;
+        } catch (err) {
+          console.warn(`[ChatBot] ${provider.name} gagal:`, err.message);
+        }
+      }
+      throw new Error('Semua provider gagal');
+    }
+
+    async function rrSendMsg() {
+      const input = document.getElementById('rr-input');
+      const text = input.value.trim();
+      if (!text) return;
+      input.value = '';
+      addUserMsg(text);
+      messages.push({ role: 'user', content: text });
+      addTyping();
+      try {
+        const reply = await callAIWithFallback(messages.slice(-10));
+        removeTyping();
+        messages.push({ role: 'assistant', content: reply });
+        addBotMsg(reply, ['📝 Info PPDB', '📋 Syarat Masuk', '📞 Hubungi Kami']);
+      } catch (e) {
+        removeTyping();
+        addBotMsg('Maaf, semua layanan AI sedang tidak tersedia. Silakan hubungi langsung via WhatsApp. [SHOW_PPDB_CARD]');
+      }
+    }
+    window.rrSendMsg = rrSendMsg;
+
+    function rrQuickReply(text) { document.getElementById('rr-input').value = text; rrSendMsg(); }
+    window.rrQuickReply = rrQuickReply;
+  })();
+</script>

@@ -1,0 +1,2454 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="preload" href="logo-header.webp" as="image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+          w[l] = w[l] || []; w[l].push({
+              'gtm.start':
+                  new Date().getTime(), event: 'gtm.js'
+          }); var f = d.getElementsByTagName(s)[0],
+              j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                  'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-W74LQVD6');</script>
+  <!-- End Google Tag Manager -->
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1DXND24X98"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-1DXND24X98');
+  </script>
+
+  <link rel="icon" type="image/x-icon" href="logo-header.webp">
+  <link rel="icon" type="image/png" sizes="32x32" href="logo-header.webp">
+  <link rel="icon" type="image/png" sizes="16x16" href="logo-header.webp">
+  <link rel="apple-touch-icon" sizes="180x180" href="logo-header.webp">
+  <link rel="manifest" href="site.webmanifest">
+  
+  <title>Berita &amp; Artikel - BP3NU Raden Rahmat Balongbendo</title>
+  
+  <!-- Modern Premium Fonts (preload + load) -->
+  <link rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+      as="style">
+  <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap">
+  
+  <!-- FontAwesome Icons (deferred to reduce render blocking) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      media="print" onload="this.media='all'">
+  <noscript>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </noscript>
+
+  <style>
+      /* --- DESIGN SYSTEM & VARIABLES --- */
+      :root {
+          --primary: #006837;
+          /* Emerald Green */
+          --primary-dark: #004d29;
+          --primary-light: #e6f4ea;
+          --accent: #f39c12;
+          /* Golden Orange */
+          --accent-dark: #d35400;
+          --text-main: #2c3e50;
+          --text-muted: #7f8c8d;
+          --white: #ffffff;
+          --bg-body: #f8f9fa;
+          --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+          --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+
+      html {
+          height: 100%;
+          scroll-behavior: smooth;
+          overflow-x: hidden;
+          width: 100%;
+      }
+
+      body {
+          height: 100%;
+          font-family: 'Roboto', sans-serif;
+          color: var(--text-main);
+          line-height: 1.7;
+          background: url('/bgfull_smp.webp') no-repeat center center fixed;
+          background-size: cover;
+          overflow-x: hidden;
+          width: 100%;
+          position: relative;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      .nav-menu li a {
+          font-family: 'Outfit', sans-serif;
+      }
+
+      a {
+          text-decoration: none;
+          color: inherit;
+          transition: var(--transition);
+      }
+
+      ul {
+          list-style: none;
+      }
+
+      .container {
+          width: 92%;
+          max-width: 1200px;
+          margin: 0 auto;
+      }
+
+      /* --- TOP BAR --- */
+      .top-bar {
+          background-color: #111;
+          color: #bdc3c7;
+          font-size: 0.8rem;
+          padding: 10px 0;
+          border-bottom: 1px solid #333;
+      }
+
+      .top-bar .container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+      .top-info span {
+          margin-right: 15px;
+      }
+
+      /* --- HEADER --- */
+      header {
+          background-color: rgba(255, 255, 255, 0.85);
+          backdrop-filter: blur(10px);
+          padding: 25px 0;
+          position: relative;
+      }
+
+      .header-inner {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+      .logo-area {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+      }
+
+      .logo-img {
+          height: 60px;
+          width: auto;
+          object-fit: contain;
+      }
+
+      .logo-text {
+          display: flex;
+          flex-direction: column;
+      }
+
+      .logo-area h1 {
+          font-size: 2.2rem;
+          font-weight: 800;
+          color: var(--primary);
+          letter-spacing: -1px;
+          line-height: 1;
+      }
+
+      .logo-area p {
+          font-size: 0.95rem;
+          font-weight: 600;
+          color: var(--text-muted);
+          margin-top: 4px;
+      }
+
+      .header-tools {
+          display: flex;
+          gap: 15px;
+      }
+
+      .social-btn {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: var(--primary-light);
+          color: var(--primary);
+          font-size: 1.1rem;
+      }
+
+      .social-btn:hover {
+          background: var(--primary);
+          color: var(--white);
+          transform: translateY(-3px);
+      }
+
+      /* --- NAVIGATION --- */
+      .nav-bar {
+          background-color: rgba(0, 104, 55, 0.9);
+          backdrop-filter: blur(8px);
+          position: sticky;
+          top: 0;
+          z-index: 1000;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+          transition: top 0.3s ease;
+      }
+
+      .nav-hidden {
+          top: -80px !important;
+      }
+
+      .nav-inner {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+      }
+
+      .nav-menu {
+          display: flex;
+      }
+
+      .nav-menu li a {
+          padding: 18px 25px;
+          display: block;
+          color: var(--white);
+          font-weight: 600;
+          font-size: 0.9rem;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+      }
+
+      .nav-menu li a:hover {
+          background-color: var(--primary-dark);
+      }
+
+      .nav-menu .active {
+          background-color: var(--primary-dark);
+          border-bottom: 3px solid var(--accent);
+      }
+
+      .has-dropdown {
+          list-style: none;
+          position: relative;
+      }
+
+      /* Dropdown Styles */
+      .nav-menu li {
+          position: relative;
+      }
+
+      .dropdown {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          background: rgba(255, 255, 255, 0.9);
+          backdrop-filter: blur(12px);
+          min-width: 250px;
+          box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+          border-radius: 0 0 10px 10px;
+          display: none;
+          flex-direction: column;
+          overflow: hidden;
+          z-index: 1001;
+          animation: fadeInDown 0.3s ease;
+      }
+
+      .nav-menu li:hover .dropdown {
+          display: flex;
+      }
+
+      .dropdown.show {
+          display: flex;
+      }
+
+      .dropdown a {
+          padding: 15px 25px !important;
+          color: var(--text-main) !important;
+          border-bottom: 1px solid #f9f9f9;
+          text-transform: none !important;
+          font-size: 0.85rem !important;
+          letter-spacing: 0 !important;
+          display: flex !important;
+          align-items: center;
+          gap: 10px;
+      }
+
+      .dropdown a:hover {
+          background: var(--primary-light) !important;
+          color: var(--primary) !important;
+          padding-left: 30px !important;
+      }
+
+      .dropdown a i {
+          color: var(--accent);
+          width: 20px;
+      }
+
+      .menu-logo {
+          width: 20px;
+          height: auto;
+          object-fit: contain;
+      }
+
+      @keyframes fadeInDown {
+          from {
+              opacity: 0;
+              transform: translateY(-10px);
+          }
+          to {
+              opacity: 1;
+              transform: translateY(0);
+          }
+      }
+
+      .ppdb-btn {
+          background: #ffcc00;
+          color: #000 !important;
+          font-weight: 800;
+          position: relative;
+          overflow: hidden;
+          border: none;
+          box-shadow: 0 0 10px rgba(255, 204, 0, 0.5);
+          animation: fire-pulse 1.5s infinite alternate;
+      }
+
+      .ppdb-btn:hover {
+          background: #ffaa00 !important;
+          color: #000 !important;
+          box-shadow: 0 0 20px rgba(255, 170, 0, 0.8);
+          transform: scale(1.02);
+      }
+
+      @keyframes fire-pulse {
+          0% {
+              background-color: #ffcc00;
+              box-shadow: 0 0 5px #ffcc00, 0 0 10px #ffcc00;
+          }
+          50% {
+              background-color: #ffeb3b;
+              box-shadow: 0 0 15px #ffeb3b, 0 0 30px #ff9800;
+          }
+          100% {
+              background-color: #ff9800;
+              box-shadow: 0 0 10px #ff9800, 0 0 20px #ff5722;
+          }
+      }
+
+      /* --- MOBILE MENU --- */
+      .mobile-toggle {
+          display: none;
+          cursor: pointer;
+          color: var(--white);
+          font-size: 1.5rem;
+          padding: 15px;
+      }
+
+      /* --- NEWS CONTAINER & CARDS --- */
+      #news-container {
+          max-width: 900px;
+          margin: 40px auto;
+          padding: 0 16px;
+      }
+
+      .news-card {
+          background: rgba(255, 255, 255, 0.85);
+          backdrop-filter: blur(8px);
+          border-radius: 16px;
+          box-shadow: var(--card-shadow);
+          margin-bottom: 30px;
+          overflow: hidden;
+          display: flex;
+          gap: 25px;
+          padding: 25px;
+          transition: var(--transition);
+      }
+
+      .news-card:hover {
+          transform: translateY(-5px);
+      }
+
+      .news-img-box {
+          width: 240px;
+          height: 160px;
+          min-height: 160px;
+          aspect-ratio: 240/160;
+          border-radius: 12px;
+          overflow: hidden;
+          flex-shrink: 0;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .news-img-box img,
+      .news-img-box video {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: var(--transition);
+      }
+
+      .news-card:hover .news-img-box img,
+      .news-card:hover .news-img-box video {
+          transform: scale(1.05);
+      }
+
+      /* --- RESPONSIVE --- */
+      @media (max-width: 768px) {
+          body {
+              background-attachment: scroll;
+              overflow-x: hidden;
+              width: 100%;
+          }
+
+          .container {
+              width: 100%;
+              padding: 0 15px;
+              overflow: hidden;
+          }
+
+          .top-bar .container {
+              flex-direction: column;
+              align-items: flex-start;
+              text-align: left;
+              gap: 5px;
+          }
+
+          .top-info {
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+          }
+
+          .logo-area h1 {
+              font-size: 1.5rem;
+          }
+
+          .logo-area p {
+              font-size: 0.8rem;
+          }
+
+          .nav-bar {
+              padding: 0;
+              position: sticky;
+              top: 0;
+              width: 100%;
+          }
+
+          .mobile-toggle {
+              display: block;
+              padding: 12px 15px;
+          }
+
+          .nav-menu {
+              position: fixed;
+              top: 0;
+              right: -100%;
+              width: 80%;
+              height: 100vh;
+              background: #004d29;
+              flex-direction: column;
+              padding-top: 60px;
+              transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+              visibility: hidden;
+              pointer-events: none;
+              z-index: 2000;
+              box-shadow: -10px 0 30px rgba(0, 0, 0, 0.3);
+              overflow-y: auto;
+              display: flex;
+          }
+
+          .nav-menu.active {
+              right: 0;
+              visibility: visible;
+              pointer-events: auto;
+          }
+
+          .nav-menu li {
+              width: 100%;
+          }
+
+          .nav-menu li a {
+              padding: 15px 30px;
+              border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+          }
+
+          .header-inner {
+              flex-direction: column;
+              gap: 20px;
+          }
+
+          .news-card {
+              flex-direction: column;
+              gap: 15px;
+              padding: 15px;
+          }
+
+          .news-img-box {
+              width: 100%;
+              height: 200px;
+          }
+      }
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W74LQVD6"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="top-bar">
+      <div class="container">
+          <div class="top-info">
+              <span><i class="fas fa-phone-alt"></i> (031) 8970323</span>
+              <span><i class="fas fa-envelope"></i> admin@radenrahmatbalongbendo.sch.id</span>
+          </div>
+          <div class="top-meta">
+              <span id="current-date">Senin, 22 Juni 2026</span>
+          </div>
+      </div>
+  </div>
+  
+  <header>
+      <div class="container header-inner">
+          <div class="logo-area">
+              <img src="/logo-header.webp" alt="Logo BP3NU Raden Rahmat Balongbendo" class="logo-img" width="80" height="60">
+              <div class="logo-text">
+                  <h1>BP3NU RADEN RAHMAT</h1>
+                  <p>Membangun Masa Depan Dengan Ilmu &amp; Akhlak</p>
+              </div>
+          </div>
+          <div class="header-tools">
+              <a href="https://www.instagram.com/miradenrahmatbalongbendo/" class="social-btn" aria-label="Instagram MI Raden Rahmat" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/smprrahmatbalongbendo/" class="social-btn" aria-label="Instagram SMP R Rahmat" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/smartba.official/" class="social-btn" aria-label="Instagram SMA R Rahmat" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          </div>
+      </div>
+  </header>
+
+  <nav class="nav-bar">
+      <div class="container nav-inner">
+          <div class="mobile-toggle" id="menu-btn">
+              <i class="fas fa-bars"></i>
+          </div>
+          <ul class="nav-menu" id="nav-list">
+              <li><a href="index.html">Beranda</a></li>
+              <li><a href="pages/profilbp3nu.html">Profil BP3NU</a></li>
+              <li class="has-dropdown">
+                  <a href="#">Unit Pendidikan <i class="fas fa-chevron-down" style="font-size: 0.7rem; margin-left: 5px;"></i></a>
+                  <div class="dropdown">
+                      <a href="https://mi.radenrahmatbalongbendo.sch.id/">
+                          <img src="logo-mi.webp" alt="Logo MI" width="20" height="25" class="menu-logo">
+                          MI RADEN RAHMAT BALONGBENDO
+                      </a>
+                      <a href="https://smp.radenrahmatbalongbendo.sch.id/">
+                          <img src="logo-smp.webp" alt="Logo SMP" width="20" height="25" class="menu-logo">
+                          SMP R RAHMAT BALONGBENDO
+                      </a>
+                      <a href="https://smaradenrahmat.sch.id/sistem/" target="_blank">
+                          <img src="logo-sma.webp" alt="Logo SMA" width="20" height="25" class="menu-logo">
+                          SMAS R RAHMAT Balongbendo
+                      </a>
+                  </div>
+              </li>
+              <li><a href="#" class="active">Berita &amp; Artikel</a></li>
+              <li><a href="#hubungi-kami">Hubungi Kami</a></li>
+              <li class="has-dropdown">
+                  <a href="#" class="ppdb-btn">PENDAFTARAN ONLINE (PPDB) <i class="fas fa-chevron-down" style="font-size: 0.7rem; margin-left: 5px;"></i></a>
+                  <div class="dropdown">
+                      <a href="https://wa.me/6285730017464" target="_blank">
+                          <img src="logo-mi.webp" alt="Logo MI" width="20" height="25" class="menu-logo">
+                          PPDB MI (WA)
+                      </a>
+                      <a href="https://wa.me/6285706673560" target="_blank">
+                          <img src="logo-smp.webp" alt="Logo SMP" width="20" height="25" class="menu-logo">
+                          PPDB SMP (WA)
+                      </a>
+                      <a href="https://wa.me/6285732920200" target="_blank">
+                          <img src="logo-sma.webp" alt="Logo SMA" width="20" height="25" class="menu-logo">
+                          PPDB SMA (WA)
+                      </a>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </nav>
+
+  <main>
+    <div id="news-container">
+
+
+                    <div class="news-card" data-article-id="DZ7Vy-pTMEP">
+                        <div class="news-img-box" style="position:relative;">
+                            <img src="api/ig_cache/DZ7Vy-pTMEP.jpg" alt="News Media" loading="lazy"
+            style="width:100%;height:100%;object-fit:cover;"
+            onerror="this.src='https://via.placeholder.com/400x250/006837/ffffff?text=Berita';this.onerror=null;">
+                        </div>
+                        <div class="news-details" style="flex: 1;">
+                            <div class="news-meta" style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px;">
+                                <span style="display:inline-block;background:#FEE2E2;color:#DC2626;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMA</span>
+                                <span><i class="far fa-calendar-alt"></i> 23 Jun 2026</span>
+                                <span><i class="far fa-user"></i> smartba.official</span>
+                            </div>
+                            <a href="https://www.instagram.com/p/DZ7Vy-pTMEP/" target="_blank" rel="noopener" class="news-title" id="title_DZ7Vy-pTMEP"
+                                style="font-size: 1.3rem; margin-bottom: 15px; display: block;">Selamat dan sukses atas prestasi yang membanggakan! 🎉✨...</a>
+
+                            <!-- Excerpt singkat -->
+                            <p class="news-excerpt" id="excerpt_DZ7Vy-pTMEP"
+                                style="font-size:0.95rem;color:#444;margin-bottom:15px;">Selamat dan sukses atas prestasi yang membanggakan! 🎉✨ Sabelinda Nurisma Damayanti, siswi SMA R Rahmat Balongbendo, berhasil meraih *JUARA 2* pada kat...</p>
+
+                            <button class="read-more-btn"
+                                onclick="(function(btn){var el=document.getElementById('full_DZ7Vy-pTMEP');if(el.style.display==='none'){el.style.display='block';btn.innerHTML='Tutup <i class=&quot;fas fa-chevron-up&quot;></i>';btn.classList.add('expanded');}else{el.style.display='none';btn.innerHTML='Baca Selengkapnya <i class=&quot;fas fa-chevron-down&quot;></i>';btn.classList.remove('expanded');}})(this)"
+                                style="background:linear-gradient(135deg,#006837,#004d29);color:#fff;border:none;
+                                    padding:10px 25px;border-radius:25px;font-weight:600;font-size:0.9rem;
+                                    cursor:pointer;transition:all 0.3s ease;display:inline-flex;align-items:center;
+                                    gap:8px;margin-top:10px;box-shadow:0 4px 15px rgba(0,104,55,0.2);">
+                                Baca Selengkapnya <i class="fas fa-chevron-down"></i>
+                            </button>
+
+                            <div id="full_DZ7Vy-pTMEP" class="news-full-article"
+                                style="display:none;margin-top:20px;text-align:left;color:#444;line-height:1.7;font-size:1rem;">
+                                <p>Selamat dan sukses atas prestasi yang membanggakan! Sabelinda Nurisma Damayanti, siswi SMA R Rahmat Balongbendo, telah menorehkan sejarah baru dalam perjalanan sekolah dengan berhasil meraih <b>JUARA 2</b> pada kategori <b>Youth Putri Porkab Cabor Tinju</b> yang diselenggarakan oleh Pemkab Sidoarjo pada tahun 2026.</p>
+
+<p>Prestasi ini menjadi bukti nyata bahwa kerja keras, ketekunan, dan semangat belajar yang tinggi mampu mengantarkan pada hasil yang gemilang. Sabelinda Nurisma Damayanti telah menunjukkan bahwa dengan dedikasi dan kerja keras, setiap siswa dapat mencapai prestasi yang luar biasa.</p>
+
+<p>Ketua Sekolah, menambahkan, "Prestasi ini tidak hanya membawa kebanggaan bagi SMA R Rahmat Balongbendo, tetapi juga merupakan bukti bahwa siswa-siswi kita memiliki potensi besar yang dapat dikembangkan." Dengan demikian, sekolah akan terus mendukung dan memfasilitasi siswa untuk mengembangkan bakat dan minat mereka.</p>
+
+<p>Para siswa dan staf sekolah sangat bangga atas prestasi Sabelinda Nurisma Damayanti. Kami percaya bahwa prestasi ini akan menjadi inspirasi bagi seluruh siswa untuk terus berani mencoba, mengasah kemampuan, dan tidak pernah berhenti berkarya. Semoga Sabelinda Nurisma Damayanti akan terus memimpin dan menunjukkan contoh yang baik bagi rekan-rekannya.</p>
+
+<p>Sekolah akan terus mendukung dan memfasilitasi Sabelinda Nurisma Damayanti untuk mengembangkan bakat dan minatnya. Kami percaya bahwa dengan kerja sama dan dukungan tim, Sabelinda Nurisma Damayanti akan terus mencapai prestasi yang lebih tinggi.</p>
+
+<p>Selamat atas prestasi yang membanggakan, Sabelinda Nurisma Damayanti! Kami percaya bahwa kamu akan terus memimpin dan menunjukkan contoh yang baik bagi seluruh siswa SMA R Rahmat Balongbendo.</p>
+
+<p>Teruslah melangkah, menginspirasi, dan membawa nama baik sekolah ke tingkat yang lebih tinggi. Kami bangga atasmu!</p>
+
+                                <!-- Share Buttons — FIX Bug #2: URL sudah di-encode di PHP, aman untuk atribut HTML -->
+                                <div class="share-buttons" style="display:flex;gap:10px;margin-top:20px;
+                                    padding-top:15px;border-top:1px solid #eee;flex-wrap:wrap;">
+                                    <button onclick="window.open('https://wa.me/?text=%2ASelamat%20dan%20sukses%20atas%20prestasi%20yang%20membanggakan%21%20%F0%9F%8E%89%E2%9C%A8...%2A%0A%0ABaca%3A%20https%3A%2F%2Fwww.instagram.com%2Fp%2FDZ7Vy-pTMEP%2F','_blank')"
+                                        style="background:#25D366;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp
+                                    </button>
+                                    <button onclick="window.open('https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDZ7Vy-pTMEP%2F','_blank','width=600,height=400')"
+                                        style="background:#1877F2;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-facebook"></i> Facebook
+                                    </button>
+                                    <button onclick="navigator.clipboard.writeText('https://www.instagram.com/p/DZ7Vy-pTMEP/').then(function(){alert('Link berhasil disalin!')})"
+                                        style="background:#6c757d;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fas fa-link"></i> Salin Link
+                                    </button>
+                                </div>
+
+                                <!-- Info footer artikel -->
+                                <div style="margin-top:20px;padding:15px;background:linear-gradient(135deg,
+                                    rgba(0,104,55,0.05),rgba(243,156,18,0.05));border-radius:12px;
+                                    border-left:4px solid #006837;font-size:0.85rem;line-height:1.5;">
+                                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+                                        <div>
+                                            <strong style="color:#006837;font-size:0.9rem;">
+                                                <i class="fab fa-instagram"></i> @smartba.official
+                                            </strong><br>
+                                            <span style="color:#666;">
+                                                <i class="far fa-calendar-alt"></i> 23 Jun 2026
+                                            </span>
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                                            <span style="display:inline-block;background:#FEE2E2;color:#DC2626;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMA</span>
+                                            <span style="background:linear-gradient(135deg,rgba(243,156,18,0.2),rgba(243,156,18,0.1));
+                                                color:#d35400;padding:6px 12px;border-radius:15px;font-weight:600;font-size:0.8rem;">
+                                                <i class="fas fa-file-alt"></i> 247 kata
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- FIX Bug #6: Label AI yang akurat dan dinamis -->
+                                    <div style="margin-top:12px;font-style:italic;color:#888;text-align:right;
+                                        border-top:1px dashed #ddd;padding-top:10px;font-size:0.75rem;">
+                                        <i class="fas fa-robot"></i> Ditulis otomatis oleh AI (Cache)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-card" data-article-id="DZ4aUF-TubR">
+                        <div class="news-img-box" style="position:relative;">
+                            <img src="api/ig_cache/DZ4aUF-TubR.jpg" alt="News Media" loading="lazy"
+            style="width:100%;height:100%;object-fit:cover;"
+            onerror="this.src='https://via.placeholder.com/400x250/006837/ffffff?text=Berita';this.onerror=null;">
+                        </div>
+                        <div class="news-details" style="flex: 1;">
+                            <div class="news-meta" style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px;">
+                                <span style="display:inline-block;background:#FEE2E2;color:#DC2626;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMA</span>
+                                <span><i class="far fa-calendar-alt"></i> 22 Jun 2026</span>
+                                <span><i class="far fa-user"></i> smartba.official</span>
+                            </div>
+                            <a href="https://www.instagram.com/p/DZ4aUF-TubR/" target="_blank" rel="noopener" class="news-title" id="title_DZ4aUF-TubR"
+                                style="font-size: 1.3rem; margin-bottom: 15px; display: block;">🔍*LIBUR SEMESTER MASIH BINGUNG MAU DAFTAR SEKOLAH?*🔍...</a>
+
+                            <!-- Excerpt singkat -->
+                            <p class="news-excerpt" id="excerpt_DZ4aUF-TubR"
+                                style="font-size:0.95rem;color:#444;margin-bottom:15px;">🔍*LIBUR SEMESTER MASIH BINGUNG MAU DAFTAR SEKOLAH?*🔍 *✨LAYANAN SPMB SMA R RAHMAT TETAP BUKA SELAMA LIBUR SEMESTER*✨ Jangan sampai ketinggalan kesempat...</p>
+
+                            <button class="read-more-btn"
+                                onclick="(function(btn){var el=document.getElementById('full_DZ4aUF-TubR');if(el.style.display==='none'){el.style.display='block';btn.innerHTML='Tutup <i class=&quot;fas fa-chevron-up&quot;></i>';btn.classList.add('expanded');}else{el.style.display='none';btn.innerHTML='Baca Selengkapnya <i class=&quot;fas fa-chevron-down&quot;></i>';btn.classList.remove('expanded');}})(this)"
+                                style="background:linear-gradient(135deg,#006837,#004d29);color:#fff;border:none;
+                                    padding:10px 25px;border-radius:25px;font-weight:600;font-size:0.9rem;
+                                    cursor:pointer;transition:all 0.3s ease;display:inline-flex;align-items:center;
+                                    gap:8px;margin-top:10px;box-shadow:0 4px 15px rgba(0,104,55,0.2);">
+                                Baca Selengkapnya <i class="fas fa-chevron-down"></i>
+                            </button>
+
+                            <div id="full_DZ4aUF-TubR" class="news-full-article"
+                                style="display:none;margin-top:20px;text-align:left;color:#444;line-height:1.7;font-size:1rem;">
+                                <p>LIBUR SEMESTER MASIH BINGUNG MAU DAFTAR SEKOLAH?<br />
+<br />
+Pada saat libur semester, banyak siswa yang merasa bingung tentang masa depannya. Apakah akan melanjutkan sekolah, atau memilih jalur lain? Namun, ada kabar baik bagi mereka yang sedang mencari sekolah yang tepat. SMA R Rahmat Balongbendo membuka layanan SPMB (Sekolah Menengah Atas) yang masih terbuka selama libur semester.<br />
+<br />
+Bagi Anda yang ingin menjadi bagian dari SMA R Rahmat Balongbendo, jangan ragu untuk mendaftarkan diri. Layanan SPMB 2026/2027 yang disediakan oleh SMA R Rahmat Balongbendo sangat lengkap dan mudah diakses. <br />
+<br />
+Pertama, Anda dapat melakukan konsultasi gratis untuk mengetahui lebih banyak tentang SMA R Rahmat Balongbendo. Dengan demikian, Anda dapat memiliki gambaran yang jelas tentang apa yang ditawarkan sekolah ini. Selain itu, proses pendaftaran juga sangat mudah, baik secara online maupun offline. <br />
+<br />
+Jika Anda lebih suka melakukan pendaftaran secara online, Anda dapat menghubungi Pak Andri melalui WA di nomor 0857-3292-0200 atau Bu Yulia di nomor 0812-3032-5234. Dengan demikian, Anda dapat melakukan pendaftaran kapan saja dan di mana saja. <br />
+<br />
+Jika Anda lebih suka melakukan pendaftaran secara offline, Anda dapat mengunjungi Gedung SMA R Rahmat Balongbendo pada hari Senin sampai Sabtu, mulai pukul 07.00 WIB hingga 12.00 WIB. <br />
+<br />
+Perlu diingat bahwa kuota terbatas, jadi segera daftarkan diri Anda untuk tidak ketinggalan kesempatan menjadi bagian dari SMA R Rahmat Balongbendo. Dengan demikian, Anda dapat memiliki masa depan yang lebih cerah dan sukses.</p>
+
+                                <!-- Share Buttons — FIX Bug #2: URL sudah di-encode di PHP, aman untuk atribut HTML -->
+                                <div class="share-buttons" style="display:flex;gap:10px;margin-top:20px;
+                                    padding-top:15px;border-top:1px solid #eee;flex-wrap:wrap;">
+                                    <button onclick="window.open('https://wa.me/?text=%2A%F0%9F%94%8D%2ALIBUR%20SEMESTER%20MASIH%20BINGUNG%20MAU%20DAFTAR%20SEKOLAH%3F%2A%F0%9F%94%8D...%2A%0A%0ABaca%3A%20https%3A%2F%2Fwww.instagram.com%2Fp%2FDZ4aUF-TubR%2F','_blank')"
+                                        style="background:#25D366;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp
+                                    </button>
+                                    <button onclick="window.open('https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDZ4aUF-TubR%2F','_blank','width=600,height=400')"
+                                        style="background:#1877F2;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-facebook"></i> Facebook
+                                    </button>
+                                    <button onclick="navigator.clipboard.writeText('https://www.instagram.com/p/DZ4aUF-TubR/').then(function(){alert('Link berhasil disalin!')})"
+                                        style="background:#6c757d;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fas fa-link"></i> Salin Link
+                                    </button>
+                                </div>
+
+                                <!-- Info footer artikel -->
+                                <div style="margin-top:20px;padding:15px;background:linear-gradient(135deg,
+                                    rgba(0,104,55,0.05),rgba(243,156,18,0.05));border-radius:12px;
+                                    border-left:4px solid #006837;font-size:0.85rem;line-height:1.5;">
+                                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+                                        <div>
+                                            <strong style="color:#006837;font-size:0.9rem;">
+                                                <i class="fab fa-instagram"></i> @smartba.official
+                                            </strong><br>
+                                            <span style="color:#666;">
+                                                <i class="far fa-calendar-alt"></i> 22 Jun 2026
+                                            </span>
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                                            <span style="display:inline-block;background:#FEE2E2;color:#DC2626;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMA</span>
+                                            <span style="background:linear-gradient(135deg,rgba(243,156,18,0.2),rgba(243,156,18,0.1));
+                                                color:#d35400;padding:6px 12px;border-radius:15px;font-weight:600;font-size:0.8rem;">
+                                                <i class="fas fa-file-alt"></i> 227 kata
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- FIX Bug #6: Label AI yang akurat dan dinamis -->
+                                    <div style="margin-top:12px;font-style:italic;color:#888;text-align:right;
+                                        border-top:1px dashed #ddd;padding-top:10px;font-size:0.75rem;">
+                                        <i class="fas fa-robot"></i> Ditulis otomatis oleh AI (Cache)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-card" data-article-id="DZ4ZnZBTgRG">
+                        <div class="news-img-box" style="position:relative;">
+                            <img src="api/ig_cache/DZ4ZnZBTgRG.jpg" alt="News Media" loading="lazy"
+            style="width:100%;height:100%;object-fit:cover;"
+            onerror="this.src='https://via.placeholder.com/400x250/006837/ffffff?text=Berita';this.onerror=null;">
+                        </div>
+                        <div class="news-details" style="flex: 1;">
+                            <div class="news-meta" style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px;">
+                                <span style="display:inline-block;background:#FEE2E2;color:#DC2626;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMA</span>
+                                <span><i class="far fa-calendar-alt"></i> 22 Jun 2026</span>
+                                <span><i class="far fa-user"></i> smartba.official</span>
+                            </div>
+                            <a href="https://www.instagram.com/p/DZ4ZnZBTgRG/" target="_blank" rel="noopener" class="news-title" id="title_DZ4ZnZBTgRG"
+                                style="font-size: 1.3rem; margin-bottom: 15px; display: block;">📢 PENGUMUMAN LIBUR SEMESTER GENAP 2025/2026 📢...</a>
+
+                            <!-- Excerpt singkat -->
+                            <p class="news-excerpt" id="excerpt_DZ4ZnZBTgRG"
+                                style="font-size:0.95rem;color:#444;margin-bottom:15px;">📢 PENGUMUMAN LIBUR SEMESTER GENAP 2025/2026 📢 Assalamu&amp;#039;alaikum Warahmatullahi Wabarakatuh. Segenap keluarga besar SMA R. Rahmat Balongbendo mengu...</p>
+
+                            <button class="read-more-btn"
+                                onclick="(function(btn){var el=document.getElementById('full_DZ4ZnZBTgRG');if(el.style.display==='none'){el.style.display='block';btn.innerHTML='Tutup <i class=&quot;fas fa-chevron-up&quot;></i>';btn.classList.add('expanded');}else{el.style.display='none';btn.innerHTML='Baca Selengkapnya <i class=&quot;fas fa-chevron-down&quot;></i>';btn.classList.remove('expanded');}})(this)"
+                                style="background:linear-gradient(135deg,#006837,#004d29);color:#fff;border:none;
+                                    padding:10px 25px;border-radius:25px;font-weight:600;font-size:0.9rem;
+                                    cursor:pointer;transition:all 0.3s ease;display:inline-flex;align-items:center;
+                                    gap:8px;margin-top:10px;box-shadow:0 4px 15px rgba(0,104,55,0.2);">
+                                Baca Selengkapnya <i class="fas fa-chevron-down"></i>
+                            </button>
+
+                            <div id="full_DZ4ZnZBTgRG" class="news-full-article"
+                                style="display:none;margin-top:20px;text-align:left;color:#444;line-height:1.7;font-size:1rem;">
+                                <p>PENGUMUMAN LIBUR SEMESTER GENAP 2025/2026</p>
+<p>Segenap keluarga besar SMA R. Rahmat Balongbendo mengucapkan selamat menikmati masa libur semester kepada seluruh peserta didik. Libur semester ini merupakan kesempatan yang luar biasa bagi siswa untuk beristirahat, berkumpul bersama keluarga, meningkatkan ibadah, serta mengembangkan potensi diri melalui kegiatan yang positif dan bermanfaat.</p>
+<p>Menurut pengumuman yang dikeluarkan oleh SMA R. Rahmat Balongbendo, libur semester berlangsung pada tanggal 22 Juni 2026 s.d. 11 Juli 2026. Pada hari tersebut, siswa diharapkan dapat menggunakan waktu libur untuk melakukan kegiatan yang bermanfaat dan positif, seperti mengikuti kursus atau pelatihan, berpartisipasi dalam kegiatan sosial, atau sekadar bersantai dengan keluarga.</p>
+<p>Menurut para pendidik, waktu libur adalah kesempatan untuk mengisi diri dengan hal-hal baik. "Waktu libur adalah kesempatan untuk mengisi diri dengan hal-hal baik. Tetap produktif, tetap rendah hati, dan terus menjadi versi terbaik dari diri sendiri," kata salah satu guru di SMA R. Rahmat Balongbendo.</p>
+<p>Libur semester ini juga merupakan kesempatan bagi siswa untuk meningkatkan kesehatan dan keselamatan mereka. Oleh karena itu, diharapkan siswa dapat menggunakan waktu libur untuk melakukan aktivitas yang sehat, seperti berolahraga atau berenang, serta menghindari kegiatan yang berisiko tinggi.</p>
+<p>Sebelum berlibur, para guru dan staf SMA R. Rahmat Balongbendo telah menyiapkan berbagai program kegiatan yang dapat dinikmati oleh siswa, seperti kegiatan ekstrakurikuler, kursus, dan pelatihan. Selain itu, pihak sekolah juga telah menyiapkan berbagai fasilitas yang dapat digunakan oleh siswa selama liburan.</p>
+<p>Menyambut libur semester ini, SMA R. Rahmat Balongbendo mengucapkan selamat berlibur kepada seluruh peserta didik. "Selamat berlibur, tetap jaga kesehatan, keselamatan, dan semangat belajar. Sampai jumpa di tahun ajaran baru dengan semangat yang lebih baik!" kata Kepala Sekolah SMA R. Rahmat Balongbendo.</p>
+<p>Secara keseluruhan, libur semester ini diharapkan dapat menjadi kesempatan bagi siswa untuk beristirahat, berkembang, dan menjadi lebih baik. Kami berharap siswa dapat menggunakan waktu libur dengan produktif dan bermanfaat, serta kembali ke sekolah dengan semangat yang lebih baik.</p>
+<p>Selamat berlibur, SMA R. Rahmat Balongbendo! 🌿📚</p>
+
+                                <!-- Share Buttons — FIX Bug #2: URL sudah di-encode di PHP, aman untuk atribut HTML -->
+                                <div class="share-buttons" style="display:flex;gap:10px;margin-top:20px;
+                                    padding-top:15px;border-top:1px solid #eee;flex-wrap:wrap;">
+                                    <button onclick="window.open('https://wa.me/?text=%2A%F0%9F%93%A2%20PENGUMUMAN%20LIBUR%20SEMESTER%20GENAP%202025%2F2026%20%F0%9F%93%A2...%2A%0A%0ABaca%3A%20https%3A%2F%2Fwww.instagram.com%2Fp%2FDZ4ZnZBTgRG%2F','_blank')"
+                                        style="background:#25D366;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp
+                                    </button>
+                                    <button onclick="window.open('https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDZ4ZnZBTgRG%2F','_blank','width=600,height=400')"
+                                        style="background:#1877F2;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-facebook"></i> Facebook
+                                    </button>
+                                    <button onclick="navigator.clipboard.writeText('https://www.instagram.com/p/DZ4ZnZBTgRG/').then(function(){alert('Link berhasil disalin!')})"
+                                        style="background:#6c757d;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fas fa-link"></i> Salin Link
+                                    </button>
+                                </div>
+
+                                <!-- Info footer artikel -->
+                                <div style="margin-top:20px;padding:15px;background:linear-gradient(135deg,
+                                    rgba(0,104,55,0.05),rgba(243,156,18,0.05));border-radius:12px;
+                                    border-left:4px solid #006837;font-size:0.85rem;line-height:1.5;">
+                                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+                                        <div>
+                                            <strong style="color:#006837;font-size:0.9rem;">
+                                                <i class="fab fa-instagram"></i> @smartba.official
+                                            </strong><br>
+                                            <span style="color:#666;">
+                                                <i class="far fa-calendar-alt"></i> 22 Jun 2026
+                                            </span>
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                                            <span style="display:inline-block;background:#FEE2E2;color:#DC2626;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMA</span>
+                                            <span style="background:linear-gradient(135deg,rgba(243,156,18,0.2),rgba(243,156,18,0.1));
+                                                color:#d35400;padding:6px 12px;border-radius:15px;font-weight:600;font-size:0.8rem;">
+                                                <i class="fas fa-file-alt"></i> 313 kata
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- FIX Bug #6: Label AI yang akurat dan dinamis -->
+                                    <div style="margin-top:12px;font-style:italic;color:#888;text-align:right;
+                                        border-top:1px dashed #ddd;padding-top:10px;font-size:0.75rem;">
+                                        <i class="fas fa-robot"></i> Ditulis otomatis oleh AI (Cache)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-card" data-article-id="DZ4B6rLTE_H">
+                        <div class="news-img-box" style="position:relative;">
+                            <img src="api/ig_cache/DZ4B6rLTE_H.jpg" alt="News Media" loading="lazy"
+            style="width:100%;height:100%;object-fit:cover;"
+            onerror="this.src='https://via.placeholder.com/400x250/006837/ffffff?text=Berita';this.onerror=null;">
+                        </div>
+                        <div class="news-details" style="flex: 1;">
+                            <div class="news-meta" style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px;">
+                                <span style="display:inline-block;background:#DBEAFE;color:#1D4ED8;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMP</span>
+                                <span><i class="far fa-calendar-alt"></i> 22 Jun 2026</span>
+                                <span><i class="far fa-user"></i> smprrahmatbalongbendo</span>
+                            </div>
+                            <a href="https://www.instagram.com/p/DZ4B6rLTE_H/" target="_blank" rel="noopener" class="news-title" id="title_DZ4B6rLTE_H"
+                                style="font-size: 1.3rem; margin-bottom: 15px; display: block;">Info libur Akhir Tahun...</a>
+
+                            <!-- Excerpt singkat -->
+                            <p class="news-excerpt" id="excerpt_DZ4B6rLTE_H"
+                                style="font-size:0.95rem;color:#444;margin-bottom:15px;">Info libur Akhir Tahun PPDB buka setiap hari senin- sabtu mulai pukul 07.30 WIB sampai 13.00 WIB SPMB Gel 2 &amp;quot;Free Uang Gedung&amp;quot; berakhir di b...</p>
+
+                            <button class="read-more-btn"
+                                onclick="(function(btn){var el=document.getElementById('full_DZ4B6rLTE_H');if(el.style.display==='none'){el.style.display='block';btn.innerHTML='Tutup <i class=&quot;fas fa-chevron-up&quot;></i>';btn.classList.add('expanded');}else{el.style.display='none';btn.innerHTML='Baca Selengkapnya <i class=&quot;fas fa-chevron-down&quot;></i>';btn.classList.remove('expanded');}})(this)"
+                                style="background:linear-gradient(135deg,#006837,#004d29);color:#fff;border:none;
+                                    padding:10px 25px;border-radius:25px;font-weight:600;font-size:0.9rem;
+                                    cursor:pointer;transition:all 0.3s ease;display:inline-flex;align-items:center;
+                                    gap:8px;margin-top:10px;box-shadow:0 4px 15px rgba(0,104,55,0.2);">
+                                Baca Selengkapnya <i class="fas fa-chevron-down"></i>
+                            </button>
+
+                            <div id="full_DZ4B6rLTE_H" class="news-full-article"
+                                style="display:none;margin-top:20px;text-align:left;color:#444;line-height:1.7;font-size:1rem;">
+                                <p>Liburan Akhir Tahun, Waktu yang Tepat untuk Mengikuti PPDB<br />
+<br />
+Liburan akhir tahun adalah waktu yang sangat berharga bagi siswa-siswi untuk beristirahat dan merefresh diri setelah melewati semester yang panjang. Namun, bagi mereka yang akan melanjutkan pendidikan ke tingkat berikutnya, liburan ini juga merupakan waktu yang tepat untuk mengikuti PPDB (Penerimaan Peserta Didik Baru).<br />
+<br />
+PPDB di SMP Raden Rahmat Balongbendo akan dibuka setiap hari Senin hingga Sabtu, mulai pukul 07.30 WIB hingga 13.00 WIB. Waktu yang cukup fleksibel untuk para calon peserta didik untuk mengikuti seleksi PPDB.<br />
+<br />
+SPMB Gelar 2: &quot;Free Uang Gedung&quot; Berakhir di Juni<br />
+<br />
+Informasi lain yang perlu diketahui adalah bahwa SPMB Gelar 2 &quot;Free Uang Gedung&quot; telah berakhir di bulan Juni. Artinya, bagi siswa-siswi yang telah lulus dari sekolah menengah pertama dan ingin melanjutkan pendidikan ke tingkat lanjutan, sekarang sudah saatnya untuk mengikuti seleksi SPMB.<br />
+<br />
+Kontak Informasi<br />
+<br />
+Bagi para calon peserta didik yang ingin mengikuti PPDB atau SPMB, dapat menghubungi kontak informasi yang telah disediakan, yaitu nomor telepon 0857-0662-7985.<br />
+<br />
+Visi Sekolah<br />
+<br />
+SMP Raden Rahmat Balongbendo memiliki visi untuk menjadi sekolah yang memiliki akhlakul karimah, berkarakter, berprestasi, dan berwawasan lingkungan. Dengan demikian, sekolah ini berharap dapat menghasilkan lulusan yang memiliki kemampuan dan karakter yang baik untuk menghadapi tantangan di masa depan.<br />
+<br />
+Akhir Kata<br />
+<br />
+Dengan demikian, liburan akhir tahun ini adalah waktu yang tepat bagi para calon peserta didik untuk mengikuti PPDB dan SPMB. Jangan lupa untuk menghubungi kontak informasi yang telah disediakan untuk mendapatkan informasi yang lebih lanjut. Sekolah SMP Raden Rahmat Balongbendo siap menerima calon peserta didik yang memiliki kemampuan dan karakter yang baik untuk menghadapi tantangan di masa depan.</p>
+
+                                <!-- Share Buttons — FIX Bug #2: URL sudah di-encode di PHP, aman untuk atribut HTML -->
+                                <div class="share-buttons" style="display:flex;gap:10px;margin-top:20px;
+                                    padding-top:15px;border-top:1px solid #eee;flex-wrap:wrap;">
+                                    <button onclick="window.open('https://wa.me/?text=%2AInfo%20libur%20Akhir%20Tahun...%2A%0A%0ABaca%3A%20https%3A%2F%2Fwww.instagram.com%2Fp%2FDZ4B6rLTE_H%2F','_blank')"
+                                        style="background:#25D366;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp
+                                    </button>
+                                    <button onclick="window.open('https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDZ4B6rLTE_H%2F','_blank','width=600,height=400')"
+                                        style="background:#1877F2;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-facebook"></i> Facebook
+                                    </button>
+                                    <button onclick="navigator.clipboard.writeText('https://www.instagram.com/p/DZ4B6rLTE_H/').then(function(){alert('Link berhasil disalin!')})"
+                                        style="background:#6c757d;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fas fa-link"></i> Salin Link
+                                    </button>
+                                </div>
+
+                                <!-- Info footer artikel -->
+                                <div style="margin-top:20px;padding:15px;background:linear-gradient(135deg,
+                                    rgba(0,104,55,0.05),rgba(243,156,18,0.05));border-radius:12px;
+                                    border-left:4px solid #006837;font-size:0.85rem;line-height:1.5;">
+                                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+                                        <div>
+                                            <strong style="color:#006837;font-size:0.9rem;">
+                                                <i class="fab fa-instagram"></i> @smprrahmatbalongbendo
+                                            </strong><br>
+                                            <span style="color:#666;">
+                                                <i class="far fa-calendar-alt"></i> 22 Jun 2026
+                                            </span>
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                                            <span style="display:inline-block;background:#DBEAFE;color:#1D4ED8;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMP</span>
+                                            <span style="background:linear-gradient(135deg,rgba(243,156,18,0.2),rgba(243,156,18,0.1));
+                                                color:#d35400;padding:6px 12px;border-radius:15px;font-weight:600;font-size:0.8rem;">
+                                                <i class="fas fa-file-alt"></i> 268 kata
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- FIX Bug #6: Label AI yang akurat dan dinamis -->
+                                    <div style="margin-top:12px;font-style:italic;color:#888;text-align:right;
+                                        border-top:1px dashed #ddd;padding-top:10px;font-size:0.75rem;">
+                                        <i class="fas fa-robot"></i> Ditulis otomatis oleh AI (Cache)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-card" data-article-id="DZymuOehUi6">
+                        <div class="news-img-box" style="position:relative;">
+                            <img src="api/ig_cache/DZymuOehUi6.jpg" alt="News Media" loading="lazy"
+            style="width:100%;height:100%;object-fit:cover;"
+            onerror="this.src='https://via.placeholder.com/400x250/006837/ffffff?text=Berita';this.onerror=null;">
+                        </div>
+                        <div class="news-details" style="flex: 1;">
+                            <div class="news-meta" style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px;">
+                                <span style="display:inline-block;background:#EDE9FE;color:#7C3AED;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">MI</span>
+                                <span><i class="far fa-calendar-alt"></i> 20 Jun 2026</span>
+                                <span><i class="far fa-user"></i> miradenrahmatbalongbendo</span>
+                            </div>
+                            <a href="https://www.instagram.com/p/DZymuOehUi6/" target="_blank" rel="noopener" class="news-title" id="title_DZymuOehUi6"
+                                style="font-size: 1.3rem; margin-bottom: 15px; display: block;">🎉 LIBUR AWAL SEMESTER 2 🎉...</a>
+
+                            <!-- Excerpt singkat -->
+                            <p class="news-excerpt" id="excerpt_DZymuOehUi6"
+                                style="font-size:0.95rem;color:#444;margin-bottom:15px;">🎉 LIBUR AWAL SEMESTER 2 🎉 MI Raden Rahmat Balongbendo 📅 22 Juni - 11 Juli 2026 ✨ 5 Pesan Penting Selama Liburan: 1⃣ Wajib berakhlakul karimah di rumah...</p>
+
+                            <button class="read-more-btn"
+                                onclick="(function(btn){var el=document.getElementById('full_DZymuOehUi6');if(el.style.display==='none'){el.style.display='block';btn.innerHTML='Tutup <i class=&quot;fas fa-chevron-up&quot;></i>';btn.classList.add('expanded');}else{el.style.display='none';btn.innerHTML='Baca Selengkapnya <i class=&quot;fas fa-chevron-down&quot;></i>';btn.classList.remove('expanded');}})(this)"
+                                style="background:linear-gradient(135deg,#006837,#004d29);color:#fff;border:none;
+                                    padding:10px 25px;border-radius:25px;font-weight:600;font-size:0.9rem;
+                                    cursor:pointer;transition:all 0.3s ease;display:inline-flex;align-items:center;
+                                    gap:8px;margin-top:10px;box-shadow:0 4px 15px rgba(0,104,55,0.2);">
+                                Baca Selengkapnya <i class="fas fa-chevron-down"></i>
+                            </button>
+
+                            <div id="full_DZymuOehUi6" class="news-full-article"
+                                style="display:none;margin-top:20px;text-align:left;color:#444;line-height:1.7;font-size:1rem;">
+                                MI Raden Rahmat Balongbendo Mengumumkan Libur Awal Semester 2
+
+MI Raden Rahmat Balongbendo, sebuah sekolah Islam yang terletak di Sidoarjo, Jawa Timur, telah mengumumkan libur awal semester 2. Libur ini akan berlangsung dari tanggal 22 Juni hingga 11 Juli 2026. 
+
+Selama liburan ini, para siswa dan siswi diharapkan menggunakan waktu dengan sebaik-baiknya. Namun, perlu diingat bahwa liburan tidak berarti menjadi bebas dari kewajiban-kewajiban agama dan sosial. Berikut adalah 5 pesan penting yang perlu diingat selama liburan:
+
+<p>1⃣ Wajib berakhlakul karimah di rumah</p>
+<p>2⃣ Berbakti kepada orang tua</p>
+<p>3⃣ Jaga sholat & mengaji jangan sampai tertinggal</p>
+<p>4⃣ Bantu pekerjaan rumah</p>
+<p>5⃣ Batasi penggunaan gadget</p>
+
+Dengan demikian, para siswa dan siswi diharapkan dapat mengembangkan akhlakul karimah dan menjadi generasi qurani yang shaleh. Selain itu, liburan juga merupakan kesempatan bagi para siswa dan siswi untuk memanfaatkan waktu dengan kegiatan positif dan tetap menjaga kedisiplinan ibadah.
+
+MI Raden Rahmat Balongbendo juga mengimbau para siswa dan siswi untuk selalu menjaga koneksi dengan sekolah dan memanfaatkan media sosial untuk mendapatkan informasi terkini. Berikut adalah beberapa link media sosial yang dapat diikuti:
+
+<p>📸 Instagram: https://www.instagram.com/miradenrahmatbalongbendo</p>
+<p>👤 Facebook: https://www.facebook.com/share/17Gre9SYbS/ | https://www.facebook.com/share/1CYkwGmYwF/</p>
+<p>🌐 Website: https://mi.radenrahmatbalongbendo.sch.id</p>
+
+MI Raden Rahmat Balongbendo berharap liburan awal semester 2 ini dapat menjadi kesempatan bagi para siswa dan siswi untuk berkembang dan menjadi pribadi yang lebih baik. Selamat berlibur!
+
+                                <!-- Share Buttons — FIX Bug #2: URL sudah di-encode di PHP, aman untuk atribut HTML -->
+                                <div class="share-buttons" style="display:flex;gap:10px;margin-top:20px;
+                                    padding-top:15px;border-top:1px solid #eee;flex-wrap:wrap;">
+                                    <button onclick="window.open('https://wa.me/?text=%2A%F0%9F%8E%89%20LIBUR%20AWAL%20SEMESTER%202%20%F0%9F%8E%89...%2A%0A%0ABaca%3A%20https%3A%2F%2Fwww.instagram.com%2Fp%2FDZymuOehUi6%2F','_blank')"
+                                        style="background:#25D366;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp
+                                    </button>
+                                    <button onclick="window.open('https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDZymuOehUi6%2F','_blank','width=600,height=400')"
+                                        style="background:#1877F2;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-facebook"></i> Facebook
+                                    </button>
+                                    <button onclick="navigator.clipboard.writeText('https://www.instagram.com/p/DZymuOehUi6/').then(function(){alert('Link berhasil disalin!')})"
+                                        style="background:#6c757d;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fas fa-link"></i> Salin Link
+                                    </button>
+                                </div>
+
+                                <!-- Info footer artikel -->
+                                <div style="margin-top:20px;padding:15px;background:linear-gradient(135deg,
+                                    rgba(0,104,55,0.05),rgba(243,156,18,0.05));border-radius:12px;
+                                    border-left:4px solid #006837;font-size:0.85rem;line-height:1.5;">
+                                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+                                        <div>
+                                            <strong style="color:#006837;font-size:0.9rem;">
+                                                <i class="fab fa-instagram"></i> @miradenrahmatbalongbendo
+                                            </strong><br>
+                                            <span style="color:#666;">
+                                                <i class="far fa-calendar-alt"></i> 20 Jun 2026
+                                            </span>
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                                            <span style="display:inline-block;background:#EDE9FE;color:#7C3AED;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">MI</span>
+                                            <span style="background:linear-gradient(135deg,rgba(243,156,18,0.2),rgba(243,156,18,0.1));
+                                                color:#d35400;padding:6px 12px;border-radius:15px;font-weight:600;font-size:0.8rem;">
+                                                <i class="fas fa-file-alt"></i> 227 kata
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- FIX Bug #6: Label AI yang akurat dan dinamis -->
+                                    <div style="margin-top:12px;font-style:italic;color:#888;text-align:right;
+                                        border-top:1px dashed #ddd;padding-top:10px;font-size:0.75rem;">
+                                        <i class="fas fa-robot"></i> Ditulis otomatis oleh AI (Cache)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-card" data-article-id="DZoIqUwh7u_">
+                        <div class="news-img-box" style="position:relative;">
+                            <img src="api/ig_cache/DZoIqUwh7u_.jpg" alt="News Media" loading="lazy"
+            style="width:100%;height:100%;object-fit:cover;"
+            onerror="this.src='https://via.placeholder.com/400x250/006837/ffffff?text=Berita';this.onerror=null;">
+                        </div>
+                        <div class="news-details" style="flex: 1;">
+                            <div class="news-meta" style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px;">
+                                <span style="display:inline-block;background:#EDE9FE;color:#7C3AED;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">MI</span>
+                                <span><i class="far fa-calendar-alt"></i> 16 Jun 2026</span>
+                                <span><i class="far fa-user"></i> miradenrahmatbalongbendo</span>
+                            </div>
+                            <a href="https://www.instagram.com/p/DZoIqUwh7u_/" target="_blank" rel="noopener" class="news-title" id="title_DZoIqUwh7u_"
+                                style="font-size: 1.3rem; margin-bottom: 15px; display: block;">✨ Selamat Tahun Baru Islam 1448 H ✨...</a>
+
+                            <!-- Excerpt singkat -->
+                            <p class="news-excerpt" id="excerpt_DZoIqUwh7u_"
+                                style="font-size:0.95rem;color:#444;margin-bottom:15px;">✨ Selamat Tahun Baru Islam 1448 H ✨ &amp;quot;Selamat menyambut 1 Muharram 1448 Hijriyah. Semoga di tahun baru ini, kita semua diberikan semangat baru unt...</p>
+
+                            <button class="read-more-btn"
+                                onclick="(function(btn){var el=document.getElementById('full_DZoIqUwh7u_');if(el.style.display==='none'){el.style.display='block';btn.innerHTML='Tutup <i class=&quot;fas fa-chevron-up&quot;></i>';btn.classList.add('expanded');}else{el.style.display='none';btn.innerHTML='Baca Selengkapnya <i class=&quot;fas fa-chevron-down&quot;></i>';btn.classList.remove('expanded');}})(this)"
+                                style="background:linear-gradient(135deg,#006837,#004d29);color:#fff;border:none;
+                                    padding:10px 25px;border-radius:25px;font-weight:600;font-size:0.9rem;
+                                    cursor:pointer;transition:all 0.3s ease;display:inline-flex;align-items:center;
+                                    gap:8px;margin-top:10px;box-shadow:0 4px 15px rgba(0,104,55,0.2);">
+                                Baca Selengkapnya <i class="fas fa-chevron-down"></i>
+                            </button>
+
+                            <div id="full_DZoIqUwh7u_" class="news-full-article"
+                                style="display:none;margin-top:20px;text-align:left;color:#444;line-height:1.7;font-size:1rem;">
+                                <p>MI Raden Rahmat, sebuah lembaga pendidikan Islam yang terletak di daerah yang strategis, baru-baru ini mengadakan sebuah kegiatan yang sangat menarik dan inspiratif. Kegiatan ini berupa pembukaan akun Instagram resmi MI Raden Rahmat, yaitu @miradenrahmat.</p>
+
+<p>Acara pembukaan akun Instagram ini dihadiri oleh para siswa, guru, dan staf MI Raden Rahmat. Mereka semua sangat antusias dan bersemangat untuk memulai sebuah era baru di dunia digital. Dengan adanya akun Instagram ini, MI Raden Rahmat dapat meningkatkan visibilitas dan mencapai lebih banyak orang di seluruh dunia.</p>
+
+<p>Para siswa dan guru yang hadir sangat senang karena dapat mengekspresikan diri mereka sendiri melalui konten-konten yang akan dipublikasikan di akun Instagram MI Raden Rahmat. Mereka dapat berbagi pengalaman, pengetahuan, dan kegiatan mereka di sekolah. Dengan demikian, para siswa dan guru dapat lebih terhubung dan saling berbagi ide-ide yang positif.</p>
+
+<p>MI Raden Rahmat juga menggunakan akun Instagram ini untuk mempromosikan kegiatan-kegiatan yang akan dilaksanakan di sekolah. Mulai dari seminar, konferensi, dan kegiatan-kegiatan lainnya, semua akan dipublikasikan di akun Instagram ini. Hal ini dapat membantu para siswa dan orang tua mereka untuk lebih terinformasi dan tidak ketinggalan informasi.</p>
+
+<p>Pembukaan akun Instagram MI Raden Rahmat juga merupakan langkah awal untuk membangun komunitas yang lebih besar dan lebih kuat. Dengan adanya akun Instagram ini, MI Raden Rahmat dapat berinteraksi dengan lebih banyak orang dan membangun hubungan yang lebih erat dengan komunitas sekitar.</p>
+
+<p>Secara keseluruhan, pembukaan akun Instagram MI Raden Rahmat merupakan langkah yang sangat tepat dan strategis. Dengan adanya akun Instagram ini, MI Raden Rahmat dapat meningkatkan visibilitas, mempromosikan kegiatan-kegiatan, dan membangun komunitas yang lebih besar dan lebih kuat.</p>
+
+<p>MI Raden Rahmat juga berharap bahwa pembukaan akun Instagram ini dapat menjadi contoh bagi lembaga pendidikan lainnya untuk mengikuti jejak mereka. Dengan demikian, mereka dapat meningkatkan kualitas pendidikan dan membangun hubungan yang lebih erat dengan komunitas sekitar.</p>
+
+<p>Terakhir, MI Raden Rahmat ingin mengucapkan terima kasih kepada semua pihak yang telah mendukung dan membantu mereka dalam pembukaan akun Instagram ini. Dengan semangat dan kerja keras, MI Raden Rahmat yakin bahwa mereka dapat mencapai tujuan mereka dan menjadi salah satu lembaga pendidikan terbaik di daerah mereka.</p>
+
+<p>MI Raden Rahmat juga berharap bahwa pembukaan akun Instagram ini dapat menjadi awal dari sebuah era baru di dunia digital. Dengan demikian, mereka dapat meningkatkan visibilitas, mempromosikan kegiatan-kegiatan, dan membangun komunitas yang lebih besar dan lebih kuat.</p>
+
+                                <!-- Share Buttons — FIX Bug #2: URL sudah di-encode di PHP, aman untuk atribut HTML -->
+                                <div class="share-buttons" style="display:flex;gap:10px;margin-top:20px;
+                                    padding-top:15px;border-top:1px solid #eee;flex-wrap:wrap;">
+                                    <button onclick="window.open('https://wa.me/?text=%2A%E2%9C%A8%20Selamat%20Tahun%20Baru%20Islam%201448%20H%20%E2%9C%A8...%2A%0A%0ABaca%3A%20https%3A%2F%2Fwww.instagram.com%2Fp%2FDZoIqUwh7u_%2F','_blank')"
+                                        style="background:#25D366;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp
+                                    </button>
+                                    <button onclick="window.open('https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDZoIqUwh7u_%2F','_blank','width=600,height=400')"
+                                        style="background:#1877F2;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-facebook"></i> Facebook
+                                    </button>
+                                    <button onclick="navigator.clipboard.writeText('https://www.instagram.com/p/DZoIqUwh7u_/').then(function(){alert('Link berhasil disalin!')})"
+                                        style="background:#6c757d;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fas fa-link"></i> Salin Link
+                                    </button>
+                                </div>
+
+                                <!-- Info footer artikel -->
+                                <div style="margin-top:20px;padding:15px;background:linear-gradient(135deg,
+                                    rgba(0,104,55,0.05),rgba(243,156,18,0.05));border-radius:12px;
+                                    border-left:4px solid #006837;font-size:0.85rem;line-height:1.5;">
+                                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+                                        <div>
+                                            <strong style="color:#006837;font-size:0.9rem;">
+                                                <i class="fab fa-instagram"></i> @miradenrahmatbalongbendo
+                                            </strong><br>
+                                            <span style="color:#666;">
+                                                <i class="far fa-calendar-alt"></i> 16 Jun 2026
+                                            </span>
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                                            <span style="display:inline-block;background:#EDE9FE;color:#7C3AED;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">MI</span>
+                                            <span style="background:linear-gradient(135deg,rgba(243,156,18,0.2),rgba(243,156,18,0.1));
+                                                color:#d35400;padding:6px 12px;border-radius:15px;font-weight:600;font-size:0.8rem;">
+                                                <i class="fas fa-file-alt"></i> 380 kata
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- FIX Bug #6: Label AI yang akurat dan dinamis -->
+                                    <div style="margin-top:12px;font-style:italic;color:#888;text-align:right;
+                                        border-top:1px dashed #ddd;padding-top:10px;font-size:0.75rem;">
+                                        <i class="fas fa-robot"></i> Ditulis otomatis oleh AI (Cache)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-card" data-article-id="DZmbojFhH-U">
+                        <div class="news-img-box" style="position:relative;">
+                            <div style="position:relative;width:100%;height:100%;">
+                <img src="api/ig_cache/DZmbojFhH-U.jpg" alt="News Media" loading="lazy"
+                    style="width:100%;height:100%;object-fit:cover;">
+                <div class="play-overlay" style="position:absolute;top:50%;left:50%;
+                    transform:translate(-50%,-50%);width:60px;height:60px;
+                    background:rgba(0,0,0,0.6);border-radius:50%;display:flex;
+                    align-items:center;justify-content:center;pointer-events:none;">
+                    <i class="fas fa-play" style="color:#fff;font-size:24px;margin-left:3px;"></i>
+                </div>
+            </div>
+                        </div>
+                        <div class="news-details" style="flex: 1;">
+                            <div class="news-meta" style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px;">
+                                <span style="display:inline-block;background:#EDE9FE;color:#7C3AED;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">MI</span>
+                                <span><i class="far fa-calendar-alt"></i> 15 Jun 2026</span>
+                                <span><i class="far fa-user"></i> miradenrahmatbalongbendo</span>
+                            </div>
+                            <a href="https://www.instagram.com/p/DZmbojFhH-U/" target="_blank" rel="noopener" class="news-title" id="title_DZmbojFhH-U"
+                                style="font-size: 1.3rem; margin-bottom: 15px; display: block;">▶ ✨ Serunya Trial Class MI Raden Rahmat Balongbendo! ✨...</a>
+
+                            <!-- Excerpt singkat -->
+                            <p class="news-excerpt" id="excerpt_DZmbojFhH-U"
+                                style="font-size:0.95rem;color:#444;margin-bottom:15px;">✨ Serunya Trial Class MI Raden Rahmat Balongbendo! ✨ Senin, 15 Juni 2026 menjadi hari yang penuh warna dan kebahagiaan! 🌈 Hari ini, calon siswa-siswi ...</p>
+
+                            <button class="read-more-btn"
+                                onclick="(function(btn){var el=document.getElementById('full_DZmbojFhH-U');if(el.style.display==='none'){el.style.display='block';btn.innerHTML='Tutup <i class=&quot;fas fa-chevron-up&quot;></i>';btn.classList.add('expanded');}else{el.style.display='none';btn.innerHTML='Baca Selengkapnya <i class=&quot;fas fa-chevron-down&quot;></i>';btn.classList.remove('expanded');}})(this)"
+                                style="background:linear-gradient(135deg,#006837,#004d29);color:#fff;border:none;
+                                    padding:10px 25px;border-radius:25px;font-weight:600;font-size:0.9rem;
+                                    cursor:pointer;transition:all 0.3s ease;display:inline-flex;align-items:center;
+                                    gap:8px;margin-top:10px;box-shadow:0 4px 15px rgba(0,104,55,0.2);">
+                                Baca Selengkapnya <i class="fas fa-chevron-down"></i>
+                            </button>
+
+                            <div id="full_DZmbojFhH-U" class="news-full-article"
+                                style="display:none;margin-top:20px;text-align:left;color:#444;line-height:1.7;font-size:1rem;">
+                                <p>Serunya Trial Class MI Raden Rahmat Balongbendo!<br />
+<br />
+Senin, 15 Juni 2026 menjadi hari yang penuh warna dan kebahagiaan! Calon siswa-siswi baru kami mengikuti kegiatan Trial Class dengan tema &quot;Master Chef Cilik&quot;. Lihatlah antusiasme adik-adik saat berkreasi menghias donat dan mewarnai topi chef mereka. Di MI Raden Rahmat Balongbendo, kami percaya bahwa belajar itu harus menyenangkan (joyful learning).<br />
+<br />
+Melalui kegiatan ini, kami tidak hanya mengenalkan suasana sekolah, tetapi juga mengasah kreativitas dan motorik anak. Anak-anak bebas berekspresi dan mengekspresikan diri mereka sendiri melalui berbagai kegiatan yang disediakan. Kami melihat banyak anak yang bersemangat dan tidak sabar untuk menjadi bagian dari keluarga besar MI Raden Rahmat Balongbendo di Tahun Ajaran 2026/2027.<br />
+<br />
+Terima kasih kepada Ayah &amp; Bunda yang telah hadir dan mempercayakan putra-putrinya. Kami sangat menghargai kesediaan dan kepercayaan Anda. Kami berharap adik-adik semakin semangat dan tidak sabar untuk menjadi bagian dari keluarga besar MI Raden Rahmat Balongbendo.<br />
+<br />
+Kami juga ingin mengajak Anda semua untuk tidak ketinggalan. Daftarkan putra-putri Anda sekarang juga dan jadilah bagian dari kami. Berikut adalah informasi lengkapnya:<br />
+<br />
+Info Selengkapnya &amp; Pendaftaran:<br />
+<br />
+ Link Resmi: https://www.instagram.com/miradenrahmatbalongbendo<br />
+ Instagram: https://www.instagram.com/miradenrahmatbalongbendo<br />
+ Facebook: https://www.facebook.com/share/17Gre9SYbS/ dan https://www.facebook.com/share/1CYkwGmYwF/<br />
+ Website: https://mi.radenrahmatbalongbendo.sch.id<br />
+<br />
+Mari Bergabung dengan MI Raden Rahmat Balongbendo!<br />
+<br />
+Kami percaya bahwa dengan menyenangkan dan memadukan antara belajar dan bermain, anak-anak akan tumbuh menjadi generasi yang cerdas, kreatif, dan mandiri. Jadi, jangan tunggu lagi! Daftarkan putra-putri Anda sekarang juga dan jadilah bagian dari keluarga besar MI Raden Rahmat Balongbendo.</p>
+
+                                <!-- Share Buttons — FIX Bug #2: URL sudah di-encode di PHP, aman untuk atribut HTML -->
+                                <div class="share-buttons" style="display:flex;gap:10px;margin-top:20px;
+                                    padding-top:15px;border-top:1px solid #eee;flex-wrap:wrap;">
+                                    <button onclick="window.open('https://wa.me/?text=%2A%E2%96%B6%20%E2%9C%A8%20Serunya%20Trial%20Class%20MI%20Raden%20Rahmat%20Balongbendo%21%20%E2%9C%A8...%2A%0A%0ABaca%3A%20https%3A%2F%2Fwww.instagram.com%2Fp%2FDZmbojFhH-U%2F','_blank')"
+                                        style="background:#25D366;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp
+                                    </button>
+                                    <button onclick="window.open('https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDZmbojFhH-U%2F','_blank','width=600,height=400')"
+                                        style="background:#1877F2;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-facebook"></i> Facebook
+                                    </button>
+                                    <button onclick="navigator.clipboard.writeText('https://www.instagram.com/p/DZmbojFhH-U/').then(function(){alert('Link berhasil disalin!')})"
+                                        style="background:#6c757d;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fas fa-link"></i> Salin Link
+                                    </button>
+                                </div>
+
+                                <!-- Info footer artikel -->
+                                <div style="margin-top:20px;padding:15px;background:linear-gradient(135deg,
+                                    rgba(0,104,55,0.05),rgba(243,156,18,0.05));border-radius:12px;
+                                    border-left:4px solid #006837;font-size:0.85rem;line-height:1.5;">
+                                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+                                        <div>
+                                            <strong style="color:#006837;font-size:0.9rem;">
+                                                <i class="fab fa-instagram"></i> @miradenrahmatbalongbendo
+                                            </strong><br>
+                                            <span style="color:#666;">
+                                                <i class="far fa-calendar-alt"></i> 15 Jun 2026
+                                            </span>
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                                            <span style="display:inline-block;background:#EDE9FE;color:#7C3AED;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">MI</span>
+                                            <span style="background:linear-gradient(135deg,rgba(243,156,18,0.2),rgba(243,156,18,0.1));
+                                                color:#d35400;padding:6px 12px;border-radius:15px;font-weight:600;font-size:0.8rem;">
+                                                <i class="fas fa-file-alt"></i> 256 kata
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- FIX Bug #6: Label AI yang akurat dan dinamis -->
+                                    <div style="margin-top:12px;font-style:italic;color:#888;text-align:right;
+                                        border-top:1px dashed #ddd;padding-top:10px;font-size:0.75rem;">
+                                        <i class="fas fa-robot"></i> Ditulis otomatis oleh AI (Cache)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-card" data-article-id="DZmM6jrhGto">
+                        <div class="news-img-box" style="position:relative;">
+                            <div style="position:relative;width:100%;height:100%;">
+                <img src="api/ig_cache/DZmM6jrhGto.jpg" alt="News Media" loading="lazy"
+                    style="width:100%;height:100%;object-fit:cover;">
+                <div class="play-overlay" style="position:absolute;top:50%;left:50%;
+                    transform:translate(-50%,-50%);width:60px;height:60px;
+                    background:rgba(0,0,0,0.6);border-radius:50%;display:flex;
+                    align-items:center;justify-content:center;pointer-events:none;">
+                    <i class="fas fa-play" style="color:#fff;font-size:24px;margin-left:3px;"></i>
+                </div>
+            </div>
+                        </div>
+                        <div class="news-details" style="flex: 1;">
+                            <div class="news-meta" style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px;">
+                                <span style="display:inline-block;background:#EDE9FE;color:#7C3AED;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">MI</span>
+                                <span><i class="far fa-calendar-alt"></i> 15 Jun 2026</span>
+                                <span><i class="far fa-user"></i> miradenrahmatbalongbendo</span>
+                            </div>
+                            <a href="https://www.instagram.com/p/DZmM6jrhGto/" target="_blank" rel="noopener" class="news-title" id="title_DZmM6jrhGto"
+                                style="font-size: 1.3rem; margin-bottom: 15px; display: block;">▶ 🌙 Menutup Tahun 1447 H dengan Doa, Menyambut 1448 H dengan Semangat Baru 🌟...</a>
+
+                            <!-- Excerpt singkat -->
+                            <p class="news-excerpt" id="excerpt_DZmM6jrhGto"
+                                style="font-size:0.95rem;color:#444;margin-bottom:15px;">🌙 Menutup Tahun 1447 H dengan Doa, Menyambut 1448 H dengan Semangat Baru 🌟 Mari kita akhiri tahun 1447 H dengan penuh rasa syukur dan perbanyak istigh...</p>
+
+                            <button class="read-more-btn"
+                                onclick="(function(btn){var el=document.getElementById('full_DZmM6jrhGto');if(el.style.display==='none'){el.style.display='block';btn.innerHTML='Tutup <i class=&quot;fas fa-chevron-up&quot;></i>';btn.classList.add('expanded');}else{el.style.display='none';btn.innerHTML='Baca Selengkapnya <i class=&quot;fas fa-chevron-down&quot;></i>';btn.classList.remove('expanded');}})(this)"
+                                style="background:linear-gradient(135deg,#006837,#004d29);color:#fff;border:none;
+                                    padding:10px 25px;border-radius:25px;font-weight:600;font-size:0.9rem;
+                                    cursor:pointer;transition:all 0.3s ease;display:inline-flex;align-items:center;
+                                    gap:8px;margin-top:10px;box-shadow:0 4px 15px rgba(0,104,55,0.2);">
+                                Baca Selengkapnya <i class="fas fa-chevron-down"></i>
+                            </button>
+
+                            <div id="full_DZmM6jrhGto" class="news-full-article"
+                                style="display:none;margin-top:20px;text-align:left;color:#444;line-height:1.7;font-size:1rem;">
+                                <p>Menutup Tahun 1447 H dengan Doa, Menyambut 1448 H dengan Semangat Baru<br />
+<br />
+Pada malam hari yang indah ini, kita semua berkumpul untuk merayakan akhir tahun Hijriyah yang telah berlalu. Tahun 1447 H telah berlalu dengan peristiwa-peristiwa yang luar biasa, dan sekarang kita telah menyandang kesempatan untuk menyambut Tahun Baru Hijriyah yang baru, yaitu 1448 H.<br />
+<br />
+Kita semua harus mengakui bahwa Tahun 1447 H telah memberikan kita banyak pengalaman yang berharga. Dari pengalaman tersebut, kita dapat menarik kesimpulan bahwa kehidupan ini tidak pernah terlepas dari cobaan dan ujian. Namun, dengan sabar dan kesabaran, kita dapat menghadapi setiap permasalahan dan keluar dengan lebih kuat.<br />
+<br />
+Sebelum kita menyambut tahun baru, kita harus mengakhiri tahun lalu dengan penuh rasa syukur. Kita harus mengucapkan terima kasih kepada Allah SWT atas segala karunia dan rahmat yang telah diberikan kepada kita. Kita juga harus beristighfar atas segala kekurangan dan kesalahan yang telah kita lakukan.<br />
+<br />
+Dalam memasuki Tahun Baru Hijriyah yang baru, kita harus memiliki semangat baru untuk menjadi pribadi yang lebih baik. Kita harus berusaha untuk lebih dekat dengan Al-Qur&#039;an dan mempraktikkan ajaran-ajaran yang terkandung di dalamnya. Kita juga harus berakhlak mulia dan menjadi contoh bagi orang lain.<br />
+<br />
+Dalam mencapai tujuan tersebut, kita harus berdoa dan berharap kepada Allah SWT. Doa adalah kunci untuk mencapai keberhasilan dalam hidup kita. Kita harus berdoa dengan tulus dan ikhlas, serta memohon ampun atas segala kesalahan yang telah kita lakukan.<br />
+<br />
+Berikut adalah doa akhir dan awal tahun yang dapat kita amalkan:<br />
+<br />
+&quot;Dadaku berQur&#039;an, pikiranku berilmu, perilakuku berakhlak mulia.&quot;<br />
+<br />
+Semoga doa kita disukai oleh Allah SWT dan kita diberikan keberkahan, kesehatan, dan kekuatan untuk terus meningkatkan ketakwaan kepada-Nya. Aamiin.<br />
+<br />
+Mari kita sambut Tahun Baru Hijriyah yang baru dengan semangat baru dan doa yang tulus. Mudah-mudahan kita semua dapat menjadi pribadi yang lebih baik dan lebih dekat dengan Al-Qur&#039;an. Aamiin.<br />
+<br />
+Sumber: Raden Rahmat Balongbendo</p>
+
+                                <!-- Share Buttons — FIX Bug #2: URL sudah di-encode di PHP, aman untuk atribut HTML -->
+                                <div class="share-buttons" style="display:flex;gap:10px;margin-top:20px;
+                                    padding-top:15px;border-top:1px solid #eee;flex-wrap:wrap;">
+                                    <button onclick="window.open('https://wa.me/?text=%2A%E2%96%B6%20%F0%9F%8C%99%20Menutup%20Tahun%201447%20H%20dengan%20Doa%2C%20Menyambut%201448%20H%20dengan%20Semangat%20Baru%20%F0%9F%8C%9F...%2A%0A%0ABaca%3A%20https%3A%2F%2Fwww.instagram.com%2Fp%2FDZmM6jrhGto%2F','_blank')"
+                                        style="background:#25D366;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp
+                                    </button>
+                                    <button onclick="window.open('https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDZmM6jrhGto%2F','_blank','width=600,height=400')"
+                                        style="background:#1877F2;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-facebook"></i> Facebook
+                                    </button>
+                                    <button onclick="navigator.clipboard.writeText('https://www.instagram.com/p/DZmM6jrhGto/').then(function(){alert('Link berhasil disalin!')})"
+                                        style="background:#6c757d;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fas fa-link"></i> Salin Link
+                                    </button>
+                                </div>
+
+                                <!-- Info footer artikel -->
+                                <div style="margin-top:20px;padding:15px;background:linear-gradient(135deg,
+                                    rgba(0,104,55,0.05),rgba(243,156,18,0.05));border-radius:12px;
+                                    border-left:4px solid #006837;font-size:0.85rem;line-height:1.5;">
+                                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+                                        <div>
+                                            <strong style="color:#006837;font-size:0.9rem;">
+                                                <i class="fab fa-instagram"></i> @miradenrahmatbalongbendo
+                                            </strong><br>
+                                            <span style="color:#666;">
+                                                <i class="far fa-calendar-alt"></i> 15 Jun 2026
+                                            </span>
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                                            <span style="display:inline-block;background:#EDE9FE;color:#7C3AED;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">MI</span>
+                                            <span style="background:linear-gradient(135deg,rgba(243,156,18,0.2),rgba(243,156,18,0.1));
+                                                color:#d35400;padding:6px 12px;border-radius:15px;font-weight:600;font-size:0.8rem;">
+                                                <i class="fas fa-file-alt"></i> 309 kata
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- FIX Bug #6: Label AI yang akurat dan dinamis -->
+                                    <div style="margin-top:12px;font-style:italic;color:#888;text-align:right;
+                                        border-top:1px dashed #ddd;padding-top:10px;font-size:0.75rem;">
+                                        <i class="fas fa-robot"></i> Ditulis otomatis oleh AI (Cache)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-card" data-article-id="DZd3AvZh5LM">
+                        <div class="news-img-box" style="position:relative;">
+                            <div style="position:relative;width:100%;height:100%;">
+                <img src="api/ig_cache/DZd3AvZh5LM.jpg" alt="News Media" loading="lazy"
+                    style="width:100%;height:100%;object-fit:cover;">
+                <div class="play-overlay" style="position:absolute;top:50%;left:50%;
+                    transform:translate(-50%,-50%);width:60px;height:60px;
+                    background:rgba(0,0,0,0.6);border-radius:50%;display:flex;
+                    align-items:center;justify-content:center;pointer-events:none;">
+                    <i class="fas fa-play" style="color:#fff;font-size:24px;margin-left:3px;"></i>
+                </div>
+            </div>
+                        </div>
+                        <div class="news-details" style="flex: 1;">
+                            <div class="news-meta" style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px;">
+                                <span style="display:inline-block;background:#EDE9FE;color:#7C3AED;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">MI</span>
+                                <span><i class="far fa-calendar-alt"></i> 12 Jun 2026</span>
+                                <span><i class="far fa-user"></i> miradenrahmatbalongbendo</span>
+                            </div>
+                            <a href="https://www.instagram.com/p/DZd3AvZh5LM/" target="_blank" rel="noopener" class="news-title" id="title_DZd3AvZh5LM"
+                                style="font-size: 1.3rem; margin-bottom: 15px; display: block;">▶ ✨ JUM&#039;AT BERKAH ✨...</a>
+
+                            <!-- Excerpt singkat -->
+                            <p class="news-excerpt" id="excerpt_DZd3AvZh5LM"
+                                style="font-size:0.95rem;color:#444;margin-bottom:15px;">✨ JUM&amp;#039;AT BERKAH ✨ 📅 12 Juni 2026 &amp;quot;Ya Allah, sebagaimana Engkau melimpahkan rahmat-Mu, maka limpahkan juga kepada kami keberkahan, kesehatan,...</p>
+
+                            <button class="read-more-btn"
+                                onclick="(function(btn){var el=document.getElementById('full_DZd3AvZh5LM');if(el.style.display==='none'){el.style.display='block';btn.innerHTML='Tutup <i class=&quot;fas fa-chevron-up&quot;></i>';btn.classList.add('expanded');}else{el.style.display='none';btn.innerHTML='Baca Selengkapnya <i class=&quot;fas fa-chevron-down&quot;></i>';btn.classList.remove('expanded');}})(this)"
+                                style="background:linear-gradient(135deg,#006837,#004d29);color:#fff;border:none;
+                                    padding:10px 25px;border-radius:25px;font-weight:600;font-size:0.9rem;
+                                    cursor:pointer;transition:all 0.3s ease;display:inline-flex;align-items:center;
+                                    gap:8px;margin-top:10px;box-shadow:0 4px 15px rgba(0,104,55,0.2);">
+                                Baca Selengkapnya <i class="fas fa-chevron-down"></i>
+                            </button>
+
+                            <div id="full_DZd3AvZh5LM" class="news-full-article"
+                                style="display:none;margin-top:20px;text-align:left;color:#444;line-height:1.7;font-size:1rem;">
+                                <p>Jumat Berkah, 12 Juni 2026, pagi ini anak-anak MI Raden Rahmat Balongbendo mengawali hari dengan momen spesial yang membiasakan mereka dengan cinta ibadah sejak dini. Mereka berkumpul untuk melakukan Sholat Dhuha berjamaah, yang merupakan salah satu bentuk ibadah yang dapat membantu meningkatkan keimanan dan ketaqwaan.</p>
+
+<p>Setelah Sholat Dhuha, anak-anak tersebut melanjutkan kegiatan dengan melakukan Istighosah bersama. Istighosah adalah doa yang diucapkan untuk memohon ampun dan meminta perlindungan dari Allah SWT dari segala keburukan. Dengan melakukan Istighosah, anak-anak dapat mengembangkan kebiasaan untuk selalu memohon ampun dan meminta bantuan dari Allah SWT dalam segala hal.</p>
+
+<p>Setelah itu, mereka melakukan Doa penuh harap kepada Allah SWT. Momen ini sangat spesial karena anak-anak dapat berkomunikasi dengan Allah SWT secara langsung dan memohon kebutuhan dan keinginan mereka. Dengan melakukan Doa, anak-anak dapat mengembangkan kebiasaan untuk selalu berkomunikasi dengan Allah SWT dan meningkatkan keimanan dan ketaqwaan mereka.</p>
+
+<p>MI Raden Rahmat Balongbendo merupakan salah satu madrasah yang berkomitmen untuk meningkatkan kualitas pendidikan Islam. Mereka berusaha untuk membentuk generasi Qur'ani yang sholeh dan sholehah yang dapat menjadi contoh bagi masyarakat sekitar.</p>
+
+<p>Para orang tua dan pengajar di MI Raden Rahmat Balongbendo sangat bangga dengan kemajuan anak-anak mereka. Mereka berusaha untuk memberikan pendidikan yang berkualitas dan membantu anak-anak mereka menjadi generasi Qur'ani yang sholeh dan sholehah.</p>
+
+<p>Masyarakat sekitar juga sangat mendukung kegiatan ini. Mereka berharap bahwa anak-anak MI Raden Rahmat Balongbendo dapat menjadi contoh bagi anak-anak lainnya dan membantu meningkatkan kualitas pendidikan Islam di daerah tersebut.</p>
+
+<p>MI Raden Rahmat Balongbendo dapat diikuti melalui media sosial mereka, seperti Instagram, Facebook, dan website resmi mereka. Mereka juga dapat dihubungi melalui alamat website mereka untuk mendapatkan informasi lebih lanjut tentang kegiatan mereka.</p>
+
+<p>Jumat Berkah, 12 Juni 2026, merupakan hari yang sangat spesial bagi anak-anak MI Raden Rahmat Balongbendo. Mereka dapat mengawali hari dengan momen spesial yang membiasakan mereka dengan cinta ibadah dan meningkatkan keimanan dan ketaqwaan mereka. Semoga anak-anak MI Raden Rahmat Balongbendo dapat menjadi contoh bagi masyarakat sekitar dan membantu meningkatkan kualitas pendidikan Islam di daerah tersebut.</p>
+
+                                <!-- Share Buttons — FIX Bug #2: URL sudah di-encode di PHP, aman untuk atribut HTML -->
+                                <div class="share-buttons" style="display:flex;gap:10px;margin-top:20px;
+                                    padding-top:15px;border-top:1px solid #eee;flex-wrap:wrap;">
+                                    <button onclick="window.open('https://wa.me/?text=%2A%E2%96%B6%20%E2%9C%A8%20JUM%27AT%20BERKAH%20%E2%9C%A8...%2A%0A%0ABaca%3A%20https%3A%2F%2Fwww.instagram.com%2Fp%2FDZd3AvZh5LM%2F','_blank')"
+                                        style="background:#25D366;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp
+                                    </button>
+                                    <button onclick="window.open('https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDZd3AvZh5LM%2F','_blank','width=600,height=400')"
+                                        style="background:#1877F2;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-facebook"></i> Facebook
+                                    </button>
+                                    <button onclick="navigator.clipboard.writeText('https://www.instagram.com/p/DZd3AvZh5LM/').then(function(){alert('Link berhasil disalin!')})"
+                                        style="background:#6c757d;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fas fa-link"></i> Salin Link
+                                    </button>
+                                </div>
+
+                                <!-- Info footer artikel -->
+                                <div style="margin-top:20px;padding:15px;background:linear-gradient(135deg,
+                                    rgba(0,104,55,0.05),rgba(243,156,18,0.05));border-radius:12px;
+                                    border-left:4px solid #006837;font-size:0.85rem;line-height:1.5;">
+                                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+                                        <div>
+                                            <strong style="color:#006837;font-size:0.9rem;">
+                                                <i class="fab fa-instagram"></i> @miradenrahmatbalongbendo
+                                            </strong><br>
+                                            <span style="color:#666;">
+                                                <i class="far fa-calendar-alt"></i> 12 Jun 2026
+                                            </span>
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                                            <span style="display:inline-block;background:#EDE9FE;color:#7C3AED;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">MI</span>
+                                            <span style="background:linear-gradient(135deg,rgba(243,156,18,0.2),rgba(243,156,18,0.1));
+                                                color:#d35400;padding:6px 12px;border-radius:15px;font-weight:600;font-size:0.8rem;">
+                                                <i class="fas fa-file-alt"></i> 328 kata
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- FIX Bug #6: Label AI yang akurat dan dinamis -->
+                                    <div style="margin-top:12px;font-style:italic;color:#888;text-align:right;
+                                        border-top:1px dashed #ddd;padding-top:10px;font-size:0.75rem;">
+                                        <i class="fas fa-robot"></i> Ditulis otomatis oleh AI (Cache)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-card" data-article-id="DZT2qUPk_a9">
+                        <div class="news-img-box" style="position:relative;">
+                            <img src="api/ig_cache/DZT2qUPk_a9.jpg" alt="News Media" loading="lazy"
+            style="width:100%;height:100%;object-fit:cover;"
+            onerror="this.src='https://via.placeholder.com/400x250/006837/ffffff?text=Berita';this.onerror=null;">
+                        </div>
+                        <div class="news-details" style="flex: 1;">
+                            <div class="news-meta" style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px;">
+                                <span style="display:inline-block;background:#DBEAFE;color:#1D4ED8;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMP</span>
+                                <span><i class="far fa-calendar-alt"></i> 8 Jun 2026</span>
+                                <span><i class="far fa-user"></i> smprrahmatbalongbendo</span>
+                            </div>
+                            <a href="https://www.instagram.com/p/DZT2qUPk_a9/" target="_blank" rel="noopener" class="news-title" id="title_DZT2qUPk_a9"
+                                style="font-size: 1.3rem; margin-bottom: 15px; display: block;">بسم الله الرحمن الرحيم ...</a>
+
+                            <!-- Excerpt singkat -->
+                            <p class="news-excerpt" id="excerpt_DZT2qUPk_a9"
+                                style="font-size:0.95rem;color:#444;margin-bottom:15px;">بسم الله الرحمن الرحيم Selamat Menempuh Asesmen Sumatif Akhir Tahun. Semoga diberi kemudahan serta kelancaran, dan mendapatkan hasil yang maksimal. Aa...</p>
+
+                            <button class="read-more-btn"
+                                onclick="(function(btn){var el=document.getElementById('full_DZT2qUPk_a9');if(el.style.display==='none'){el.style.display='block';btn.innerHTML='Tutup <i class=&quot;fas fa-chevron-up&quot;></i>';btn.classList.add('expanded');}else{el.style.display='none';btn.innerHTML='Baca Selengkapnya <i class=&quot;fas fa-chevron-down&quot;></i>';btn.classList.remove('expanded');}})(this)"
+                                style="background:linear-gradient(135deg,#006837,#004d29);color:#fff;border:none;
+                                    padding:10px 25px;border-radius:25px;font-weight:600;font-size:0.9rem;
+                                    cursor:pointer;transition:all 0.3s ease;display:inline-flex;align-items:center;
+                                    gap:8px;margin-top:10px;box-shadow:0 4px 15px rgba(0,104,55,0.2);">
+                                Baca Selengkapnya <i class="fas fa-chevron-down"></i>
+                            </button>
+
+                            <div id="full_DZT2qUPk_a9" class="news-full-article"
+                                style="display:none;margin-top:20px;text-align:left;color:#444;line-height:1.7;font-size:1rem;">
+                                <p>Selamat pagi, para pembaca! Hari ini, kami ingin berbagi berita gembira dari SMP Raden Rahmat Balongbendo. Setelah beberapa bulan belajar dan berjuang, akhirnya waktunya tiba untuk menghadapi Asesmen Sumatif Akhir Tahun. Semoga para siswa dan guru mendapatkan kemudahan, kelancaran, dan hasil yang maksimal.<br />
+<br />
+SMP Raden Rahmat Balongbendo telah menjadi salah satu sekolah yang paling dipercaya di daerahnya. Dengan motto &quot;Berakhlakul Karimah, Berkarakter, Berprestasi, Berwawasan Lingkungan&quot;, sekolah ini selalu berusaha memberikan pendidikan yang berkualitas kepada para siswanya. Dengan demikian, para lulusan SMP Raden Rahmat Balongbendo diharapkan dapat menjadi individu yang memiliki integritas, kepribadian yang baik, serta kemampuan untuk mencapai kesuksesan di berbagai bidang.<br />
+<br />
+Sekolah ini juga telah menyelenggarakan Seleksi Penerimaan Siswa Baru (SPMB) Gel 2 Free Uang Gedung yang berlangsung di bulan Juni. Program ini dirancang untuk memberikan kesempatan kepada para siswa dari berbagai latar belakang untuk bergabung dengan komunitas SMP Raden Rahmat Balongbendo. Dengan demikian, para siswa dapat mengeksplorasi potensi mereka dan mencapai kesuksesan di masa depan.<br />
+<br />
+Bagi para orang tua atau yang ingin menghubungi sekolah untuk informasi lebih lanjut, dapat menghubungi kontak yang tercantum: 0857-0662-7985. Jangan ragu untuk bertanya, karena tim SPMB selalu siap untuk membantu!<br />
+<br />
+Mari kita ucapkan selamat kepada para siswa dan guru SMP Raden Rahmat Balongbendo atas kesuksesan ini. Kami berharap sekolah ini akan terus berkiprah dan menjadi salah satu sekolah terbaik di daerahnya. Sampai jumpa di lain kesempatan, pembaca!<br />
+<br />
+Sumber: Informasi SPMB SMP Raden Rahmat Balongbendo</p>
+
+                                <!-- Share Buttons — FIX Bug #2: URL sudah di-encode di PHP, aman untuk atribut HTML -->
+                                <div class="share-buttons" style="display:flex;gap:10px;margin-top:20px;
+                                    padding-top:15px;border-top:1px solid #eee;flex-wrap:wrap;">
+                                    <button onclick="window.open('https://wa.me/?text=%2A%D8%A8%D8%B3%D9%85%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86%20%D8%A7%D9%84%D8%B1%D8%AD%D9%8A%D9%85%20...%2A%0A%0ABaca%3A%20https%3A%2F%2Fwww.instagram.com%2Fp%2FDZT2qUPk_a9%2F','_blank')"
+                                        style="background:#25D366;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp
+                                    </button>
+                                    <button onclick="window.open('https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDZT2qUPk_a9%2F','_blank','width=600,height=400')"
+                                        style="background:#1877F2;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-facebook"></i> Facebook
+                                    </button>
+                                    <button onclick="navigator.clipboard.writeText('https://www.instagram.com/p/DZT2qUPk_a9/').then(function(){alert('Link berhasil disalin!')})"
+                                        style="background:#6c757d;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fas fa-link"></i> Salin Link
+                                    </button>
+                                </div>
+
+                                <!-- Info footer artikel -->
+                                <div style="margin-top:20px;padding:15px;background:linear-gradient(135deg,
+                                    rgba(0,104,55,0.05),rgba(243,156,18,0.05));border-radius:12px;
+                                    border-left:4px solid #006837;font-size:0.85rem;line-height:1.5;">
+                                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+                                        <div>
+                                            <strong style="color:#006837;font-size:0.9rem;">
+                                                <i class="fab fa-instagram"></i> @smprrahmatbalongbendo
+                                            </strong><br>
+                                            <span style="color:#666;">
+                                                <i class="far fa-calendar-alt"></i> 8 Jun 2026
+                                            </span>
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                                            <span style="display:inline-block;background:#DBEAFE;color:#1D4ED8;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMP</span>
+                                            <span style="background:linear-gradient(135deg,rgba(243,156,18,0.2),rgba(243,156,18,0.1));
+                                                color:#d35400;padding:6px 12px;border-radius:15px;font-weight:600;font-size:0.8rem;">
+                                                <i class="fas fa-file-alt"></i> 233 kata
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- FIX Bug #6: Label AI yang akurat dan dinamis -->
+                                    <div style="margin-top:12px;font-style:italic;color:#888;text-align:right;
+                                        border-top:1px dashed #ddd;padding-top:10px;font-size:0.75rem;">
+                                        <i class="fas fa-robot"></i> Ditulis otomatis oleh AI (Cache)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-card" data-article-id="DZTsJymz9sM">
+                        <div class="news-img-box" style="position:relative;">
+                            <img src="api/ig_cache/DZTsJymz9sM.jpg" alt="News Media" loading="lazy"
+            style="width:100%;height:100%;object-fit:cover;"
+            onerror="this.src='https://via.placeholder.com/400x250/006837/ffffff?text=Berita';this.onerror=null;">
+                        </div>
+                        <div class="news-details" style="flex: 1;">
+                            <div class="news-meta" style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px;">
+                                <span style="display:inline-block;background:#EDE9FE;color:#7C3AED;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">MI</span>
+                                <span><i class="far fa-calendar-alt"></i> 8 Jun 2026</span>
+                                <span><i class="far fa-user"></i> miradenrahmatbalongbendo</span>
+                            </div>
+                            <a href="https://www.instagram.com/p/DZTsJymz9sM/" target="_blank" rel="noopener" class="news-title" id="title_DZTsJymz9sM"
+                                style="font-size: 1.3rem; margin-bottom: 15px; display: block;">🌟 SELAMAT BERJUANG DI ASAT 2026! 🌟
+
+Kepada seluruh siswa-siswi hebat MI Raden Rahmat Balongbendo, saatnya tunjukkan yang</a>
+
+                            <!-- Excerpt singkat -->
+                            <p class="news-excerpt" id="excerpt_DZTsJymz9sM"
+                                style="font-size:0.95rem;color:#444;margin-bottom:15px;">🌟 SELAMAT BERJUANG DI ASAT 2026! 🌟
+
+Kepada seluruh siswa-siswi hebat MI Raden Rahmat Balongbendo, saatnya tunjukkan yang terbaik! 💪✨
+
+Ingatlah:
+✅ Juju...</p>
+
+                            <button class="read-more-btn"
+                                onclick="(function(btn){var el=document.getElementById('full_DZTsJymz9sM');if(el.style.display==='none'){el.style.display='block';btn.innerHTML='Tutup <i class=&quot;fas fa-chevron-up&quot;></i>';btn.classList.add('expanded');}else{el.style.display='none';btn.innerHTML='Baca Selengkapnya <i class=&quot;fas fa-chevron-down&quot;></i>';btn.classList.remove('expanded');}})(this)"
+                                style="background:linear-gradient(135deg,#006837,#004d29);color:#fff;border:none;
+                                    padding:10px 25px;border-radius:25px;font-weight:600;font-size:0.9rem;
+                                    cursor:pointer;transition:all 0.3s ease;display:inline-flex;align-items:center;
+                                    gap:8px;margin-top:10px;box-shadow:0 4px 15px rgba(0,104,55,0.2);">
+                                Baca Selengkapnya <i class="fas fa-chevron-down"></i>
+                            </button>
+
+                            <div id="full_DZTsJymz9sM" class="news-full-article"
+                                style="display:none;margin-top:20px;text-align:left;color:#444;line-height:1.7;font-size:1rem;">
+                                <p>SELAMAT BERJUANG DI ASAT 2026!<br />
+<br />
+Kepada seluruh siswa-siswi hebat MI Raden Rahmat Balongbendo, saatnya tunjukkan yang terbaik! 💪✨ Kita semua tahu bahwa Asesmen Sumatif Akhir Tahun (ASAT) adalah momen yang sangat penting dalam setiap tahun ajaran di madrasah. Ini adalah kesempatan bagi siswa-siswi untuk menunjukkan kemampuan dan prestasi mereka.<br />
+<br />
+Ingatlah, teman-teman, bahwa kesuksesan tidak datang dengan sendirinya. Kita harus berusaha dan berjuang untuk mencapai tujuan. Ingatlah 3 kata kunci yang akan membawa kita ke kesuksesan: Jujur dalam Melangkah, Hebat dalam Prestasi, dan Ukir Prestasi dengan Ikhtiar dan Doa. Kalian pasti BISA! 🏆<br />
+<br />
+Tetap semangat, percaya diri, dan tunjukkan kemampuan terbaik kalian. Bersama MI Raden Rahmat Balongbendo, kita wujudkan generasi yang Religius, Amanah, Hormat, Mandiri, Aktif, dan Terampil! 🎓 Kita yakin bahwa dengan kerja sama dan dukungan dari guru, orang tua, dan masyarakat, kita dapat mencapai prestasi yang luar biasa.<br />
+<br />
+Jangan lupa, teman-teman, bahwa ada 5 Budaya Madrasah yang harus kita terapkan dalam kehidupan sehari-hari. Budaya Madrasah itu adalah: Senyum, Salam, Sapa, Sopan, dan Santun. Dengan terapkan budaya-budaya ini, kita dapat menjadi orang yang lebih baik dan lebih bermartabat.<br />
+<br />
+DOA • USAHA • TAWAKAL • PRESTASI. Ini adalah 4 kata yang akan membawa kita ke kesuksesan. Doa adalah permohonan kepada Allah SWT untuk memudahkan segala urusan kita. Usaha adalah kerja keras dan dedikasi untuk mencapai tujuan. Tawakal adalah kepercayaan bahwa Allah SWT akan membantu kita mencapai tujuan. Dan Prestasi adalah hasil dari usaha dan tawakal kita.<br />
+<br />
+Semoga Allah SWT memudahkan segala urusan kalian. Aamiin 🤲. Mari kita berdoa dan berusaha untuk mencapai prestasi yang luar biasa di ASAT 2026.<br />
+<br />
+---<br />
+<br />
+Kita berharap teman-teman semua dapat mencapai prestasi yang luar biasa di ASAT 2026. Ingatlah, kesuksesan tidak datang dengan sendirinya, kita harus berusaha dan berjuang untuk mencapai tujuan. Teruslah semangat, percaya diri, dan tunjukkan kemampuan terbaik kalian.<br />
+<br />
+Kunjungi kami di:<br />
+<br />
+ Instagram: https://www.instagram.com/miradenrahmatbalongbendo<br />
+ Facebook: https://www.facebook.com/share/17Gre9SYbS/ | https://www.facebook.com/share/1CYkwGmYwF/<br />
+* Website: https://mi.radenrahmatbalongbendo.sch.id<br />
+<br />
+Jangan lupa, teman-teman, untuk selalu berdoa dan berusaha untuk mencapai prestasi yang luar biasa. Aamiin 🤲.</p>
+
+                                <!-- Share Buttons — FIX Bug #2: URL sudah di-encode di PHP, aman untuk atribut HTML -->
+                                <div class="share-buttons" style="display:flex;gap:10px;margin-top:20px;
+                                    padding-top:15px;border-top:1px solid #eee;flex-wrap:wrap;">
+                                    <button onclick="window.open('https://wa.me/?text=%2A%F0%9F%8C%9F%20SELAMAT%20BERJUANG%20DI%20ASAT%202026%21%20%F0%9F%8C%9F%0A%0AKepada%20seluruh%20siswa-siswi%20hebat%20MI%20Raden%20Rahmat%20Balongbendo%2C%20saatnya%20tunjukkan%20yang%2A%0A%0ABaca%3A%20https%3A%2F%2Fwww.instagram.com%2Fp%2FDZTsJymz9sM%2F','_blank')"
+                                        style="background:#25D366;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp
+                                    </button>
+                                    <button onclick="window.open('https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDZTsJymz9sM%2F','_blank','width=600,height=400')"
+                                        style="background:#1877F2;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-facebook"></i> Facebook
+                                    </button>
+                                    <button onclick="navigator.clipboard.writeText('https://www.instagram.com/p/DZTsJymz9sM/').then(function(){alert('Link berhasil disalin!')})"
+                                        style="background:#6c757d;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fas fa-link"></i> Salin Link
+                                    </button>
+                                </div>
+
+                                <!-- Info footer artikel -->
+                                <div style="margin-top:20px;padding:15px;background:linear-gradient(135deg,
+                                    rgba(0,104,55,0.05),rgba(243,156,18,0.05));border-radius:12px;
+                                    border-left:4px solid #006837;font-size:0.85rem;line-height:1.5;">
+                                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+                                        <div>
+                                            <strong style="color:#006837;font-size:0.9rem;">
+                                                <i class="fab fa-instagram"></i> @miradenrahmatbalongbendo
+                                            </strong><br>
+                                            <span style="color:#666;">
+                                                <i class="far fa-calendar-alt"></i> 8 Jun 2026
+                                            </span>
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                                            <span style="display:inline-block;background:#EDE9FE;color:#7C3AED;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">MI</span>
+                                            <span style="background:linear-gradient(135deg,rgba(243,156,18,0.2),rgba(243,156,18,0.1));
+                                                color:#d35400;padding:6px 12px;border-radius:15px;font-weight:600;font-size:0.8rem;">
+                                                <i class="fas fa-file-alt"></i> 331 kata
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- FIX Bug #6: Label AI yang akurat dan dinamis -->
+                                    <div style="margin-top:12px;font-style:italic;color:#888;text-align:right;
+                                        border-top:1px dashed #ddd;padding-top:10px;font-size:0.75rem;">
+                                        <i class="fas fa-robot"></i> Ditulis otomatis oleh AI (Cache)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-card" data-article-id="DZOoW1Nh6Vi">
+                        <div class="news-img-box" style="position:relative;">
+                            <img src="api/ig_cache/DZOoW1Nh6Vi.jpg" alt="News Media" loading="lazy"
+            style="width:100%;height:100%;object-fit:cover;"
+            onerror="this.src='https://via.placeholder.com/400x250/006837/ffffff?text=Berita';this.onerror=null;">
+                        </div>
+                        <div class="news-details" style="flex: 1;">
+                            <div class="news-meta" style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px;">
+                                <span style="display:inline-block;background:#EDE9FE;color:#7C3AED;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">MI</span>
+                                <span><i class="far fa-calendar-alt"></i> 6 Jun 2026</span>
+                                <span><i class="far fa-user"></i> miradenrahmatbalongbendo</span>
+                            </div>
+                            <a href="https://www.instagram.com/p/DZOoW1Nh6Vi/" target="_blank" rel="noopener" class="news-title" id="title_DZOoW1Nh6Vi"
+                                style="font-size: 1.3rem; margin-bottom: 15px; display: block;">📚 UJIAN SUMATIF AKHIR TAHUN 2025/2026 📚
+
+Tetap semangat! Ujian Sumatif Akhir Tahun adalah kesempatan untuk membuktikan u</a>
+
+                            <!-- Excerpt singkat -->
+                            <p class="news-excerpt" id="excerpt_DZOoW1Nh6Vi"
+                                style="font-size:0.95rem;color:#444;margin-bottom:15px;">📚 UJIAN SUMATIF AKHIR TAHUN 2025/2026 📚
+
+Tetap semangat! Ujian Sumatif Akhir Tahun adalah kesempatan untuk membuktikan usaha dan belajar kita. 💪
+
+Semo...</p>
+
+                            <button class="read-more-btn"
+                                onclick="(function(btn){var el=document.getElementById('full_DZOoW1Nh6Vi');if(el.style.display==='none'){el.style.display='block';btn.innerHTML='Tutup <i class=&quot;fas fa-chevron-up&quot;></i>';btn.classList.add('expanded');}else{el.style.display='none';btn.innerHTML='Baca Selengkapnya <i class=&quot;fas fa-chevron-down&quot;></i>';btn.classList.remove('expanded');}})(this)"
+                                style="background:linear-gradient(135deg,#006837,#004d29);color:#fff;border:none;
+                                    padding:10px 25px;border-radius:25px;font-weight:600;font-size:0.9rem;
+                                    cursor:pointer;transition:all 0.3s ease;display:inline-flex;align-items:center;
+                                    gap:8px;margin-top:10px;box-shadow:0 4px 15px rgba(0,104,55,0.2);">
+                                Baca Selengkapnya <i class="fas fa-chevron-down"></i>
+                            </button>
+
+                            <div id="full_DZOoW1Nh6Vi" class="news-full-article"
+                                style="display:none;margin-top:20px;text-align:left;color:#444;line-height:1.7;font-size:1rem;">
+                                Ujian Sumatif Akhir Tahun: Waktu untuk Menunjukkan Hasil Belajar
+
+<p>Tidak lama lagi, siswa-siswa MI Raden Rahmat akan menjalani Ujian Sumatif Akhir Tahun 2025/2026. Ini adalah momen penting bagi para murid untuk membuktikan usaha dan kemajuan belajar mereka selama satu tahun akademik.</p>
+
+<p>Semoga semua siswa MI Raden Rahmat mendapatkan kelancaran, kemudahan, dan hasil yang memuaskan dalam ujian ini. Tetaplah fokus, percaya diri, dan jangan lupa untuk berdoa agar dapat mencapai target yang diinginkan.</p>
+
+<p>MI Raden Rahmat Balongbendo, sebagai institusi pendidikan yang berkomitmen untuk meningkatkan kualitas pendidikan, telah memberikan dukungan dan fasilitas yang memadai untuk mempersiapkan siswa-siswi dalam menghadapi ujian ini.</p>
+
+<p>Tidak hanya itu, pihak sekolah juga telah melakukan berbagai upaya untuk membantu siswa-siswi dalam mempersiapkan diri, seperti pelatihan, pembekalan materi, dan motivasi untuk meningkatkan kemampuan akademik.</p>
+
+<p>Ujian Sumatif Akhir Tahun ini bukan hanya sebagai penilaian kemampuan akademik, tetapi juga sebagai kesempatan bagi siswa-siswi untuk menunjukkan kemampuan dan potensi yang dimiliki. Semoga semua siswa MI Raden Rahmat dapat menunjukkan hasil yang memuaskan dan menjadi contoh bagi teman-teman lainnya.</p>
+
+<p>Sekolah Madrasah Balongbendo juga telah mendukung dan memfasilitasi proses belajar-mengajar yang efektif dan efisien. Pihak sekolah juga telah bekerja sama dengan para guru dan staf pendidikan untuk meningkatkan kualitas pendidikan dan menciptakan lingkungan belajar yang nyaman dan menyenangkan.</p>
+
+<p>Terima kasih kepada semua pihak yang telah mendukung dan membantu sekolah dalam mencapai tujuan pendidikan. Semoga ujian ini dapat menjadi momen yang berharga bagi semua siswa MI Raden Rahmat dan menjadi awal dari kemajuan yang lebih baik di masa depan.</p>
+
+<p>Untuk informasi lebih lanjut tentang kegiatan dan prestasi sekolah, silakan mengikuti akun Instagram kami @miradenrahmatbalongbendo atau mengunjungi website kami di mi.radenrahmatbalongbendo.sch.id.</p>
+
+                                <!-- Share Buttons — FIX Bug #2: URL sudah di-encode di PHP, aman untuk atribut HTML -->
+                                <div class="share-buttons" style="display:flex;gap:10px;margin-top:20px;
+                                    padding-top:15px;border-top:1px solid #eee;flex-wrap:wrap;">
+                                    <button onclick="window.open('https://wa.me/?text=%2A%F0%9F%93%9A%20UJIAN%20SUMATIF%20AKHIR%20TAHUN%202025%2F2026%20%F0%9F%93%9A%0A%0ATetap%20semangat%21%20Ujian%20Sumatif%20Akhir%20Tahun%20adalah%20kesempatan%20untuk%20membuktikan%20u%2A%0A%0ABaca%3A%20https%3A%2F%2Fwww.instagram.com%2Fp%2FDZOoW1Nh6Vi%2F','_blank')"
+                                        style="background:#25D366;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp
+                                    </button>
+                                    <button onclick="window.open('https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDZOoW1Nh6Vi%2F','_blank','width=600,height=400')"
+                                        style="background:#1877F2;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-facebook"></i> Facebook
+                                    </button>
+                                    <button onclick="navigator.clipboard.writeText('https://www.instagram.com/p/DZOoW1Nh6Vi/').then(function(){alert('Link berhasil disalin!')})"
+                                        style="background:#6c757d;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fas fa-link"></i> Salin Link
+                                    </button>
+                                </div>
+
+                                <!-- Info footer artikel -->
+                                <div style="margin-top:20px;padding:15px;background:linear-gradient(135deg,
+                                    rgba(0,104,55,0.05),rgba(243,156,18,0.05));border-radius:12px;
+                                    border-left:4px solid #006837;font-size:0.85rem;line-height:1.5;">
+                                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+                                        <div>
+                                            <strong style="color:#006837;font-size:0.9rem;">
+                                                <i class="fab fa-instagram"></i> @miradenrahmatbalongbendo
+                                            </strong><br>
+                                            <span style="color:#666;">
+                                                <i class="far fa-calendar-alt"></i> 6 Jun 2026
+                                            </span>
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                                            <span style="display:inline-block;background:#EDE9FE;color:#7C3AED;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">MI</span>
+                                            <span style="background:linear-gradient(135deg,rgba(243,156,18,0.2),rgba(243,156,18,0.1));
+                                                color:#d35400;padding:6px 12px;border-radius:15px;font-weight:600;font-size:0.8rem;">
+                                                <i class="fas fa-file-alt"></i> 269 kata
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- FIX Bug #6: Label AI yang akurat dan dinamis -->
+                                    <div style="margin-top:12px;font-style:italic;color:#888;text-align:right;
+                                        border-top:1px dashed #ddd;padding-top:10px;font-size:0.75rem;">
+                                        <i class="fas fa-robot"></i> Ditulis otomatis oleh AI (Cache)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-card" data-article-id="DZM_0zdT-xb">
+                        <div class="news-img-box" style="position:relative;">
+                            <div style="position:relative;width:100%;height:100%;">
+                <img src="https://via.placeholder.com/400x250/006837/ffffff?text=smprrahmatbalongbendo" alt="News Media" loading="lazy"
+                    style="width:100%;height:100%;object-fit:cover;">
+                <div class="play-overlay" style="position:absolute;top:50%;left:50%;
+                    transform:translate(-50%,-50%);width:60px;height:60px;
+                    background:rgba(0,0,0,0.6);border-radius:50%;display:flex;
+                    align-items:center;justify-content:center;pointer-events:none;">
+                    <i class="fas fa-play" style="color:#fff;font-size:24px;margin-left:3px;"></i>
+                </div>
+            </div>
+                        </div>
+                        <div class="news-details" style="flex: 1;">
+                            <div class="news-meta" style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px;">
+                                <span style="display:inline-block;background:#DBEAFE;color:#1D4ED8;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMP</span>
+                                <span><i class="far fa-calendar-alt"></i> 5 Jun 2026</span>
+                                <span><i class="far fa-user"></i> smprrahmatbalongbendo</span>
+                            </div>
+                            <a href="https://www.instagram.com/p/DZM_0zdT-xb/" target="_blank" rel="noopener" class="news-title" id="title_DZM_0zdT-xb"
+                                style="font-size: 1.3rem; margin-bottom: 15px; display: block;">▶ “Selamat &amp; Sukses Acara Pelepasan Siswa Kelas IX SMP R.RAHMAT BALONGBENDO”...</a>
+
+                            <!-- Excerpt singkat -->
+                            <p class="news-excerpt" id="excerpt_DZM_0zdT-xb"
+                                style="font-size:0.95rem;color:#444;margin-bottom:15px;">&amp;ldquo;Selamat &amp;amp; Sukses Acara Pelepasan Siswa Kelas IX SMP R.RAHMAT BALONGBENDO&amp;rdquo; Sabtu, 06 Juni 2026 SMP R.RAHMAT BALONGBENDO Berakhlakul Ka...</p>
+
+                            <button class="read-more-btn"
+                                onclick="(function(btn){var el=document.getElementById('full_DZM_0zdT-xb');if(el.style.display==='none'){el.style.display='block';btn.innerHTML='Tutup <i class=&quot;fas fa-chevron-up&quot;></i>';btn.classList.add('expanded');}else{el.style.display='none';btn.innerHTML='Baca Selengkapnya <i class=&quot;fas fa-chevron-down&quot;></i>';btn.classList.remove('expanded');}})(this)"
+                                style="background:linear-gradient(135deg,#006837,#004d29);color:#fff;border:none;
+                                    padding:10px 25px;border-radius:25px;font-weight:600;font-size:0.9rem;
+                                    cursor:pointer;transition:all 0.3s ease;display:inline-flex;align-items:center;
+                                    gap:8px;margin-top:10px;box-shadow:0 4px 15px rgba(0,104,55,0.2);">
+                                Baca Selengkapnya <i class="fas fa-chevron-down"></i>
+                            </button>
+
+                            <div id="full_DZM_0zdT-xb" class="news-full-article"
+                                style="display:none;margin-top:20px;text-align:left;color:#444;line-height:1.7;font-size:1rem;">
+                                <p>Sabtu, 6 Juni 2026, SMP R.Rahmat Balongbendo mengadakan acara pelepasan siswa kelas IX yang telah berjuang selama empat tahun belajar di sekolah tersebut. Berbagai kegiatan telah dilakukan oleh siswa-siswa kelas IX dalam mencapai tujuan akademik dan non-akademik.</p>
+
+<p>Acara pelepasan ini merupakan momen yang sangat penting bagi para siswa kelas IX, karena mereka akan melanjutkan pendidikan mereka ke tingkat yang lebih tinggi, yaitu SMA (Sekolah Menengah Atas). Mereka telah menempuh pendidikan di SMP R.Rahmat Balongbendo selama empat tahun terakhir dan telah mengenyam berbagai pengalaman belajar yang sangat berharga.</p>
+
+<p>Di acara pelepasan ini, para siswa kelas IX diharapkan dapat menggunakan kesempatan ini untuk memahami bahwa pendidikan bukan hanya tentang memperoleh ilmu pengetahuan, tetapi juga tentang mengembangkan kemampuan-kemampuan yang lain seperti kemampuan berpikir kritis, kemampuan berkomunikasi, dan kemampuan bekerja sama dengan orang lain.</p>
+
+<p>Para siswa kelas IX juga diharapkan dapat menggunakan kesempatan ini untuk memahami bahwa menjadi seorang yang sukses bukan hanya tentang mencapai prestasi akademik yang tinggi, tetapi juga tentang memiliki karakter yang baik, berakhlakul karimah, dan berwawasan lingkungan.</p>
+
+<p>"Kami sangat bangga dengan para siswa kelas IX yang telah menyelesaikan pendidikan mereka di SMP R.Rahmat Balongbendo," kata Kepala Sekolah SMP R.Rahmat Balongbendo. "Mereka telah menunjukkan kemampuan dan dedikasi yang sangat baik dalam mencapai tujuan akademik dan non-akademik mereka."</p>
+
+<p>Acara pelepasan ini juga dihadiri oleh orang tua siswa, guru-guru SMP R.Rahmat Balongbendo, dan beberapa tamu undangan lainnya. Mereka hadir untuk memberikan dukungan dan motivasi kepada para siswa kelas IX dalam melanjutkan pendidikan mereka.</p>
+
+<p>"Kami berharap para siswa kelas IX dapat menggunakan kesempatan ini untuk memahami bahwa pendidikan bukan hanya tentang memperoleh ilmu pengetahuan, tetapi juga tentang mengembangkan kemampuan-kemampuan yang lain," kata Kepala Sekolah SMP R.Rahmat Balongbendo.</p>
+
+<p>Acara pelepasan ini merupakan akhir dari suatu babak dalam perjalanan pendidikan para siswa kelas IX. Mereka akan melanjutkan pendidikan mereka ke tingkat yang lebih tinggi dan akan menghadapi tantangan-tantangan yang baru. Namun, dengan kemampuan dan dedikasi yang mereka miliki, kami yakin bahwa mereka akan dapat berhasil dalam mencapai tujuan mereka.</p>
+
+<p>Mengenai SPMB, SMP R.Rahmat Balongbendo juga membuka kesempatan bagi siswa-siswi yang ingin melanjutkan pendidikan mereka ke tingkat yang lebih tinggi. SPMB (Seleksi Penerimaan Siswa Baru) adalah proses seleksi yang digunakan oleh SMP R.Rahmat Balongbendo untuk memilih siswa-siswi yang akan diterima sebagai siswa baru di sekolah tersebut.</p>
+
+<p>Untuk informasi lebih lanjut tentang SPMB, dapat menghubungi nomor telepon 0857-0662-7985. Informasi lebih lanjut tentang SPMB juga dapat ditemukan di akun media sosial SMP R.Rahmat Balongbendo.</p>
+
+<p>Semoga acara pelepasan ini dapat memberikan motivasi dan inspirasi bagi para siswa kelas IX untuk melanjutkan pendidikan mereka dengan baik. Kami berharap bahwa mereka akan dapat berhasil dalam mencapai tujuan mereka dan menjadi orang-orang yang sukses di masa depan.</p>
+
+                                <!-- Share Buttons — FIX Bug #2: URL sudah di-encode di PHP, aman untuk atribut HTML -->
+                                <div class="share-buttons" style="display:flex;gap:10px;margin-top:20px;
+                                    padding-top:15px;border-top:1px solid #eee;flex-wrap:wrap;">
+                                    <button onclick="window.open('https://wa.me/?text=%2A%E2%96%B6%20%E2%80%9CSelamat%20%26%20Sukses%20Acara%20Pelepasan%20Siswa%20Kelas%20IX%20SMP%20R.RAHMAT%20BALONGBENDO%E2%80%9D...%2A%0A%0ABaca%3A%20https%3A%2F%2Fwww.instagram.com%2Fp%2FDZM_0zdT-xb%2F','_blank')"
+                                        style="background:#25D366;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp
+                                    </button>
+                                    <button onclick="window.open('https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDZM_0zdT-xb%2F','_blank','width=600,height=400')"
+                                        style="background:#1877F2;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-facebook"></i> Facebook
+                                    </button>
+                                    <button onclick="navigator.clipboard.writeText('https://www.instagram.com/p/DZM_0zdT-xb/').then(function(){alert('Link berhasil disalin!')})"
+                                        style="background:#6c757d;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fas fa-link"></i> Salin Link
+                                    </button>
+                                </div>
+
+                                <!-- Info footer artikel -->
+                                <div style="margin-top:20px;padding:15px;background:linear-gradient(135deg,
+                                    rgba(0,104,55,0.05),rgba(243,156,18,0.05));border-radius:12px;
+                                    border-left:4px solid #006837;font-size:0.85rem;line-height:1.5;">
+                                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+                                        <div>
+                                            <strong style="color:#006837;font-size:0.9rem;">
+                                                <i class="fab fa-instagram"></i> @smprrahmatbalongbendo
+                                            </strong><br>
+                                            <span style="color:#666;">
+                                                <i class="far fa-calendar-alt"></i> 5 Jun 2026
+                                            </span>
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                                            <span style="display:inline-block;background:#DBEAFE;color:#1D4ED8;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMP</span>
+                                            <span style="background:linear-gradient(135deg,rgba(243,156,18,0.2),rgba(243,156,18,0.1));
+                                                color:#d35400;padding:6px 12px;border-radius:15px;font-weight:600;font-size:0.8rem;">
+                                                <i class="fas fa-file-alt"></i> 443 kata
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- FIX Bug #6: Label AI yang akurat dan dinamis -->
+                                    <div style="margin-top:12px;font-style:italic;color:#888;text-align:right;
+                                        border-top:1px dashed #ddd;padding-top:10px;font-size:0.75rem;">
+                                        <i class="fas fa-robot"></i> Ditulis otomatis oleh AI (Cache)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-card" data-article-id="DZJNarvTV0s">
+                        <div class="news-img-box" style="position:relative;">
+                            <img src="api/ig_cache/DZJNarvTV0s.jpg" alt="News Media" loading="lazy"
+            style="width:100%;height:100%;object-fit:cover;"
+            onerror="this.src='https://via.placeholder.com/400x250/006837/ffffff?text=Berita';this.onerror=null;">
+                        </div>
+                        <div class="news-details" style="flex: 1;">
+                            <div class="news-meta" style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px;">
+                                <span style="display:inline-block;background:#FEE2E2;color:#DC2626;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMA</span>
+                                <span><i class="far fa-calendar-alt"></i> 4 Jun 2026</span>
+                                <span><i class="far fa-user"></i> smartba.official</span>
+                            </div>
+                            <a href="https://www.instagram.com/p/DZJNarvTV0s/" target="_blank" rel="noopener" class="news-title" id="title_DZJNarvTV0s"
+                                style="font-size: 1.3rem; margin-bottom: 15px; display: block;">📚✨ SELAMAT MENEMPUH SUMATIF AKHIR SEMESTER 2 ✨📚...</a>
+
+                            <!-- Excerpt singkat -->
+                            <p class="news-excerpt" id="excerpt_DZJNarvTV0s"
+                                style="font-size:0.95rem;color:#444;margin-bottom:15px;">📚✨ SELAMAT MENEMPUH SUMATIF AKHIR SEMESTER 2 ✨📚 Segenap keluarga besar SMA R. Rahmat Balongbendo mengucapkan selamat menempuh Sumatif Akhir Semester 2...</p>
+
+                            <button class="read-more-btn"
+                                onclick="(function(btn){var el=document.getElementById('full_DZJNarvTV0s');if(el.style.display==='none'){el.style.display='block';btn.innerHTML='Tutup <i class=&quot;fas fa-chevron-up&quot;></i>';btn.classList.add('expanded');}else{el.style.display='none';btn.innerHTML='Baca Selengkapnya <i class=&quot;fas fa-chevron-down&quot;></i>';btn.classList.remove('expanded');}})(this)"
+                                style="background:linear-gradient(135deg,#006837,#004d29);color:#fff;border:none;
+                                    padding:10px 25px;border-radius:25px;font-weight:600;font-size:0.9rem;
+                                    cursor:pointer;transition:all 0.3s ease;display:inline-flex;align-items:center;
+                                    gap:8px;margin-top:10px;box-shadow:0 4px 15px rgba(0,104,55,0.2);">
+                                Baca Selengkapnya <i class="fas fa-chevron-down"></i>
+                            </button>
+
+                            <div id="full_DZJNarvTV0s" class="news-full-article"
+                                style="display:none;margin-top:20px;text-align:left;color:#444;line-height:1.7;font-size:1rem;">
+                                <p>Selamat menempuh Sumatif Akhir Semester 2</p><br>
+
+SMA R. Rahmat Balongbendo mengucapkan selamat menempuh Sumatif Akhir Semester 2 yang akan dilaksanakan pada tanggal 4 Juni 2026 hingga 10 Juni 2026. Keluarga besar SMA R. Rahmat Balongbendo berharap agar semua siswa dapat menempuh ujian ini dengan sukses dan mencapai hasil yang membanggakan.
+
+<p>Untuk mencapai hasil yang terbaik, SMA R. Rahmat Balongbendo menekankan pentingnya persiapan yang sebaik-baiknya. Siswa diharapkan untuk perbanyak belajar, menjaga kesehatan, dan menerapkan kejujuran dalam setiap kegiatan akademik. Selain itu, siswa juga diingatkan untuk selalu mengiringi usaha dengan doa agar dapat mendapatkan kemudahan dan kelancaran dalam menempuh ujian.</p><br>
+
+<p>SMA R. Rahmat Balongbendo juga berharap agar siswa dapat tetap fokus, semangat, dan percaya pada kemampuan diri sendiri. Dalam rangka menempuh ujian ini, SMA R. Rahmat Balongbendo mengingatkan bagi siswa untuk berusaha dengan sungguh-sungguh, berdoa dengan penuh keyakinan, dan memberikan yang terbaik. Dengan demikian, diharapkan siswa dapat mencapai hasil yang membanggakan dan membuat keluarga besar SMA R. Rahmat Balongbendo bangga.</p><br>
+
+<p>Terakhir, SMA R. Rahmat Balongbendo mengucapkan selamat dan semangat kepada semua peserta didik yang akan menempuh ujian Sumatif Akhir Semester 2 ini. Semoga Allah SWT memberikan kemudahan, kelancaran, dan hasil yang membanggakan bagi mereka. Aamiin.</p><br>
+
+<p>SMARTBA, SMA R. Rahmat Balongbendo, dan semua pihak yang terkait berharap agar ujian ini dapat berjalan dengan lancar dan sukses. Mari kita berdoa bersama-sama agar semua siswa dapat mencapai hasil yang terbaik dan membuat SMA R. Rahmat Balongbendo semakin bangga.</p><br>
+
+<p>Semoga kita semua dapat saling mendukung dan memberikan doa untuk kesuksesan siswa-siswi yang akan menempuh ujian ini. Aamiin.</p><br>
+
+<p>SMARTBA</p><br>
+<p>SMARRahmatBalongbendo</p><br>
+<p>SASSemester2</p><br>
+<p>SumatifAkhirSemester</p><br>
+<p>SemangatBelajar GetSmartWithSMART</p><br>
+
+                                <!-- Share Buttons — FIX Bug #2: URL sudah di-encode di PHP, aman untuk atribut HTML -->
+                                <div class="share-buttons" style="display:flex;gap:10px;margin-top:20px;
+                                    padding-top:15px;border-top:1px solid #eee;flex-wrap:wrap;">
+                                    <button onclick="window.open('https://wa.me/?text=%2A%F0%9F%93%9A%E2%9C%A8%20SELAMAT%20MENEMPUH%20SUMATIF%20AKHIR%20SEMESTER%202%20%E2%9C%A8%F0%9F%93%9A...%2A%0A%0ABaca%3A%20https%3A%2F%2Fwww.instagram.com%2Fp%2FDZJNarvTV0s%2F','_blank')"
+                                        style="background:#25D366;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp
+                                    </button>
+                                    <button onclick="window.open('https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDZJNarvTV0s%2F','_blank','width=600,height=400')"
+                                        style="background:#1877F2;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-facebook"></i> Facebook
+                                    </button>
+                                    <button onclick="navigator.clipboard.writeText('https://www.instagram.com/p/DZJNarvTV0s/').then(function(){alert('Link berhasil disalin!')})"
+                                        style="background:#6c757d;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fas fa-link"></i> Salin Link
+                                    </button>
+                                </div>
+
+                                <!-- Info footer artikel -->
+                                <div style="margin-top:20px;padding:15px;background:linear-gradient(135deg,
+                                    rgba(0,104,55,0.05),rgba(243,156,18,0.05));border-radius:12px;
+                                    border-left:4px solid #006837;font-size:0.85rem;line-height:1.5;">
+                                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+                                        <div>
+                                            <strong style="color:#006837;font-size:0.9rem;">
+                                                <i class="fab fa-instagram"></i> @smartba.official
+                                            </strong><br>
+                                            <span style="color:#666;">
+                                                <i class="far fa-calendar-alt"></i> 4 Jun 2026
+                                            </span>
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                                            <span style="display:inline-block;background:#FEE2E2;color:#DC2626;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMA</span>
+                                            <span style="background:linear-gradient(135deg,rgba(243,156,18,0.2),rgba(243,156,18,0.1));
+                                                color:#d35400;padding:6px 12px;border-radius:15px;font-weight:600;font-size:0.8rem;">
+                                                <i class="fas fa-file-alt"></i> 257 kata
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- FIX Bug #6: Label AI yang akurat dan dinamis -->
+                                    <div style="margin-top:12px;font-style:italic;color:#888;text-align:right;
+                                        border-top:1px dashed #ddd;padding-top:10px;font-size:0.75rem;">
+                                        <i class="fas fa-robot"></i> Ditulis otomatis oleh AI (Cache)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-card" data-article-id="DZC_eZ2zNqU">
+                        <div class="news-img-box" style="position:relative;">
+                            <img src="api/ig_cache/DZC_eZ2zNqU.jpg" alt="News Media" loading="lazy"
+            style="width:100%;height:100%;object-fit:cover;"
+            onerror="this.src='https://via.placeholder.com/400x250/006837/ffffff?text=Berita';this.onerror=null;">
+                        </div>
+                        <div class="news-details" style="flex: 1;">
+                            <div class="news-meta" style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px;">
+                                <span style="display:inline-block;background:#FEE2E2;color:#DC2626;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMA</span>
+                                <span><i class="far fa-calendar-alt"></i> 1 Jun 2026</span>
+                                <span><i class="far fa-user"></i> smartba.official</span>
+                            </div>
+                            <a href="https://www.instagram.com/p/DZC_eZ2zNqU/" target="_blank" rel="noopener" class="news-title" id="title_DZC_eZ2zNqU"
+                                style="font-size: 1.3rem; margin-bottom: 15px; display: block;">🚨 KABAR GEMBIRA! SPMB GELOMBANG 3 SUDAH DIBUKA MULAI 1 JUNI 2026 🚨...</a>
+
+                            <!-- Excerpt singkat -->
+                            <p class="news-excerpt" id="excerpt_DZC_eZ2zNqU"
+                                style="font-size:0.95rem;color:#444;margin-bottom:15px;">🚨 KABAR GEMBIRA! SPMB GELOMBANG 3 SUDAH DIBUKA MULAI 1 JUNI 2026 🚨 Dapatkan promo spesial: BEBAS UANG GEDUNG khusus pendaftaran di tanggal 1 - 6 Juni ...</p>
+
+                            <button class="read-more-btn"
+                                onclick="(function(btn){var el=document.getElementById('full_DZC_eZ2zNqU');if(el.style.display==='none'){el.style.display='block';btn.innerHTML='Tutup <i class=&quot;fas fa-chevron-up&quot;></i>';btn.classList.add('expanded');}else{el.style.display='none';btn.innerHTML='Baca Selengkapnya <i class=&quot;fas fa-chevron-down&quot;></i>';btn.classList.remove('expanded');}})(this)"
+                                style="background:linear-gradient(135deg,#006837,#004d29);color:#fff;border:none;
+                                    padding:10px 25px;border-radius:25px;font-weight:600;font-size:0.9rem;
+                                    cursor:pointer;transition:all 0.3s ease;display:inline-flex;align-items:center;
+                                    gap:8px;margin-top:10px;box-shadow:0 4px 15px rgba(0,104,55,0.2);">
+                                Baca Selengkapnya <i class="fas fa-chevron-down"></i>
+                            </button>
+
+                            <div id="full_DZC_eZ2zNqU" class="news-full-article"
+                                style="display:none;margin-top:20px;text-align:left;color:#444;line-height:1.7;font-size:1rem;">
+                                <p>Kabar gembira bagi para pelajar yang sedang mencari sekolah yang tepat untuk melanjutkan pendidikan mereka! Mulai tanggal 1 Juni 2026, pendaftaran SPMB Gelombang 3 telah dibuka dengan promo spesial yang istimewa. SMA R Rahmat Balongbendo, sekolah modern yang terkenal dengan komitmen "Excellence in Education, Integrity in Character", telah membuka kesempatan bagi para siswa untuk bergabung dengan mereka.</p>
+
+<p>promo spesial yang ditawarkan adalah bebas uang gedung khusus pendaftaran di tanggal 1-6 Juni 2026 saja. Kuota ini sangat terbatas, jadi jangan sampai kelewatan momen emas ini! SMA R Rahmat Balongbendo percaya bahwa setiap siswa memiliki potensi yang luar biasa dan membutuhkan lingkungan pendidikan yang mendukung untuk berkembang.</p>
+
+<p>Dapatkan informasi lebih lanjut tentang cara mendaftar SPMB Gelombang 3 di SMA R Rahmat Balongbendo melalui kontak berikut: Pak Andri (0857-3292-0200) atau Bu Yulia (0812-3032-5234). Anda juga dapat mengunjungi website resmi kami di smaradenrahmat.sch.id atau mengikuti akun media sosial kami di TikTok/YouTube (@sma.r.rahmat) dan Instagram (@Smartba.official).</p>
+
+<p>Sebagai salah satu sekolah modern yang terbaik di daerah Balongbendo, SMA R Rahmat Balongbendo memiliki reputasi yang baik dalam memberikan pendidikan yang berkualitas. Mereka memiliki komitmen untuk melatih siswa menjadi individu yang memiliki integritas tinggi dan kemampuan untuk menghadapi tantangan di masa depan.</p>
+
+<p>Jadi, jangan ragu untuk mendaftar SPMB Gelombang 3 di SMA R Rahmat Balongbendo! Dapatkan promo spesial bebas uang gedung dan bergabung dengan komunitas siswa yang inspiratif dan dinamis. Segera hubungi kami untuk informasi lebih lanjut dan jangan kelewatan momen emas ini!</p>
+
+<p>SMA R Rahmat Balongbendo - sekolah modern dengan kemampuan untuk membantu Anda mencapai kesuksesan di masa depan!</p>
+
+                                <!-- Share Buttons — FIX Bug #2: URL sudah di-encode di PHP, aman untuk atribut HTML -->
+                                <div class="share-buttons" style="display:flex;gap:10px;margin-top:20px;
+                                    padding-top:15px;border-top:1px solid #eee;flex-wrap:wrap;">
+                                    <button onclick="window.open('https://wa.me/?text=%2A%F0%9F%9A%A8%20KABAR%20GEMBIRA%21%20SPMB%20GELOMBANG%203%20SUDAH%20DIBUKA%20MULAI%201%20JUNI%202026%20%F0%9F%9A%A8...%2A%0A%0ABaca%3A%20https%3A%2F%2Fwww.instagram.com%2Fp%2FDZC_eZ2zNqU%2F','_blank')"
+                                        style="background:#25D366;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp
+                                    </button>
+                                    <button onclick="window.open('https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDZC_eZ2zNqU%2F','_blank','width=600,height=400')"
+                                        style="background:#1877F2;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-facebook"></i> Facebook
+                                    </button>
+                                    <button onclick="navigator.clipboard.writeText('https://www.instagram.com/p/DZC_eZ2zNqU/').then(function(){alert('Link berhasil disalin!')})"
+                                        style="background:#6c757d;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fas fa-link"></i> Salin Link
+                                    </button>
+                                </div>
+
+                                <!-- Info footer artikel -->
+                                <div style="margin-top:20px;padding:15px;background:linear-gradient(135deg,
+                                    rgba(0,104,55,0.05),rgba(243,156,18,0.05));border-radius:12px;
+                                    border-left:4px solid #006837;font-size:0.85rem;line-height:1.5;">
+                                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+                                        <div>
+                                            <strong style="color:#006837;font-size:0.9rem;">
+                                                <i class="fab fa-instagram"></i> @smartba.official
+                                            </strong><br>
+                                            <span style="color:#666;">
+                                                <i class="far fa-calendar-alt"></i> 1 Jun 2026
+                                            </span>
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                                            <span style="display:inline-block;background:#FEE2E2;color:#DC2626;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMA</span>
+                                            <span style="background:linear-gradient(135deg,rgba(243,156,18,0.2),rgba(243,156,18,0.1));
+                                                color:#d35400;padding:6px 12px;border-radius:15px;font-weight:600;font-size:0.8rem;">
+                                                <i class="fas fa-file-alt"></i> 258 kata
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- FIX Bug #6: Label AI yang akurat dan dinamis -->
+                                    <div style="margin-top:12px;font-style:italic;color:#888;text-align:right;
+                                        border-top:1px dashed #ddd;padding-top:10px;font-size:0.75rem;">
+                                        <i class="fas fa-robot"></i> Ditulis otomatis oleh AI (Cache)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-card" data-article-id="DYwudP4NxU_">
+                        <div class="news-img-box" style="position:relative;">
+                            <img src="api/ig_cache/DYwudP4NxU_.jpg" alt="News Media" loading="lazy"
+            style="width:100%;height:100%;object-fit:cover;"
+            onerror="this.src='https://via.placeholder.com/400x250/006837/ffffff?text=Berita';this.onerror=null;">
+                        </div>
+                        <div class="news-details" style="flex: 1;">
+                            <div class="news-meta" style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px;">
+                                <span style="display:inline-block;background:#DBEAFE;color:#1D4ED8;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMP</span>
+                                <span><i class="far fa-calendar-alt"></i> 25 May 2026</span>
+                                <span><i class="far fa-user"></i> smprrahmatbalongbendo</span>
+                            </div>
+                            <a href="https://www.instagram.com/p/DYwudP4NxU_/" target="_blank" rel="noopener" class="news-title" id="title_DYwudP4NxU_"
+                                style="font-size: 1.3rem; margin-bottom: 15px; display: block;">Informasi liburan idul adha 1447 H...</a>
+
+                            <!-- Excerpt singkat -->
+                            <p class="news-excerpt" id="excerpt_DYwudP4NxU_"
+                                style="font-size:0.95rem;color:#444;margin-bottom:15px;">Informasi liburan idul adha 1447 H Yuks gabung dengan kami, SPMB Gel 2 Free Uang Gedung lo..... Jangan sampai ketinggalan yaaa🤩 ✨SMP Raden Rahmat Balo...</p>
+
+                            <button class="read-more-btn"
+                                onclick="(function(btn){var el=document.getElementById('full_DYwudP4NxU_');if(el.style.display==='none'){el.style.display='block';btn.innerHTML='Tutup <i class=&quot;fas fa-chevron-up&quot;></i>';btn.classList.add('expanded');}else{el.style.display='none';btn.innerHTML='Baca Selengkapnya <i class=&quot;fas fa-chevron-down&quot;></i>';btn.classList.remove('expanded');}})(this)"
+                                style="background:linear-gradient(135deg,#006837,#004d29);color:#fff;border:none;
+                                    padding:10px 25px;border-radius:25px;font-weight:600;font-size:0.9rem;
+                                    cursor:pointer;transition:all 0.3s ease;display:inline-flex;align-items:center;
+                                    gap:8px;margin-top:10px;box-shadow:0 4px 15px rgba(0,104,55,0.2);">
+                                Baca Selengkapnya <i class="fas fa-chevron-down"></i>
+                            </button>
+
+                            <div id="full_DYwudP4NxU_" class="news-full-article"
+                                style="display:none;margin-top:20px;text-align:left;color:#444;line-height:1.7;font-size:1rem;">
+                                <p>Lebaran Idul Adha tahun ini tiba lebih cepat dari yang diprediksikan, dan bagi siswa-siswi SMP Raden Rahmat Balongbendo, liburan panjang ini berarti kesempatan untuk mengekspresikan diri dan berinteraksi dengan teman-teman di luar lingkungan sekolah. Melalui sebuah informasi yang menarik, pihak sekolah mengumumkan kegiatan SPMB Gel 2 dengan tema "Free Uang Gedung", yang menawarkan kesempatan bagi siswa-siswi untuk mengenal lebih dekat program studi yang menarik dan berkualitas.</p>
+
+<p>Program SPMB Gel 2 ini tidak hanya menawarkan kesempatan untuk mengenal program studi, tetapi juga memberikan kesempatan bagi siswa-siswi untuk mengenal lebih dekat kampus yang akan menjadi tujuan mereka di masa depan. Dengan demikian, siswa-siswi dapat membuat keputusan yang lebih tepat tentang pilihan program studi dan kampus yang sesuai dengan minat dan kemampuan mereka.</p>
+
+<p>Pihak sekolah juga menawarkan kegiatan lainnya yang menarik dan bermanfaat bagi siswa-siswi, seperti kegiatan mengenal lebih dekat kampus dan program studi, serta kesempatan untuk bertemu dengan dosen-dosen yang akan menjadi pembimbing mereka di masa depan. Dengan demikian, siswa-siswi dapat memperoleh informasi yang lebih lengkap dan akurat tentang program studi yang mereka minati.</p>
+
+<p>Lebaran Idul Adha tahun ini juga merupakan kesempatan bagi siswa-siswi untuk mengekspresikan diri dan berinteraksi dengan teman-teman di luar lingkungan sekolah. Dengan mengikuti kegiatan SPMB Gel 2, siswa-siswi dapat memperoleh pengalaman yang berharga dan bermanfaat, serta kesempatan untuk mengenal lebih dekat kampus dan program studi yang sesuai dengan minat dan kemampuan mereka.</p>
+
+<p>Sebagai sebuah sekolah yang berakhlakul karimah, berkarakter, berprestasi, dan berwawasan, SMP Raden Rahmat Balongbendo selalu berusaha untuk memberikan kesempatan yang lebih baik bagi siswa-siswi untuk mencapai tujuan mereka di masa depan. Dengan demikian, pihak sekolah berharap bahwa kegiatan SPMB Gel 2 ini dapat menjadi salah satu kesempatan yang berharga bagi siswa-siswi untuk mencapai tujuan mereka.</p>
+
+<p>Terakhir, pihak sekolah juga berharap bahwa kegiatan SPMB Gel 2 ini dapat menjadi salah satu kesempatan bagi siswa-siswi untuk mengekspresikan diri dan berinteraksi dengan teman-teman di luar lingkungan sekolah. Dengan demikian, siswa-siswi dapat memperoleh pengalaman yang berharga dan bermanfaat, serta kesempatan untuk mengenal lebih dekat kampus dan program studi yang sesuai dengan minat dan kemampuan mereka.</p>
+
+                                <!-- Share Buttons — FIX Bug #2: URL sudah di-encode di PHP, aman untuk atribut HTML -->
+                                <div class="share-buttons" style="display:flex;gap:10px;margin-top:20px;
+                                    padding-top:15px;border-top:1px solid #eee;flex-wrap:wrap;">
+                                    <button onclick="window.open('https://wa.me/?text=%2AInformasi%20liburan%20idul%20adha%201447%20H...%2A%0A%0ABaca%3A%20https%3A%2F%2Fwww.instagram.com%2Fp%2FDYwudP4NxU_%2F','_blank')"
+                                        style="background:#25D366;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp
+                                    </button>
+                                    <button onclick="window.open('https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDYwudP4NxU_%2F','_blank','width=600,height=400')"
+                                        style="background:#1877F2;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-facebook"></i> Facebook
+                                    </button>
+                                    <button onclick="navigator.clipboard.writeText('https://www.instagram.com/p/DYwudP4NxU_/').then(function(){alert('Link berhasil disalin!')})"
+                                        style="background:#6c757d;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fas fa-link"></i> Salin Link
+                                    </button>
+                                </div>
+
+                                <!-- Info footer artikel -->
+                                <div style="margin-top:20px;padding:15px;background:linear-gradient(135deg,
+                                    rgba(0,104,55,0.05),rgba(243,156,18,0.05));border-radius:12px;
+                                    border-left:4px solid #006837;font-size:0.85rem;line-height:1.5;">
+                                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+                                        <div>
+                                            <strong style="color:#006837;font-size:0.9rem;">
+                                                <i class="fab fa-instagram"></i> @smprrahmatbalongbendo
+                                            </strong><br>
+                                            <span style="color:#666;">
+                                                <i class="far fa-calendar-alt"></i> 25 May 2026
+                                            </span>
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                                            <span style="display:inline-block;background:#DBEAFE;color:#1D4ED8;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMP</span>
+                                            <span style="background:linear-gradient(135deg,rgba(243,156,18,0.2),rgba(243,156,18,0.1));
+                                                color:#d35400;padding:6px 12px;border-radius:15px;font-weight:600;font-size:0.8rem;">
+                                                <i class="fas fa-file-alt"></i> 335 kata
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- FIX Bug #6: Label AI yang akurat dan dinamis -->
+                                    <div style="margin-top:12px;font-style:italic;color:#888;text-align:right;
+                                        border-top:1px dashed #ddd;padding-top:10px;font-size:0.75rem;">
+                                        <i class="fas fa-robot"></i> Ditulis otomatis oleh AI (Cache)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-card" data-article-id="DYwtleiNGOA">
+                        <div class="news-img-box" style="position:relative;">
+                            <div style="position:relative;width:100%;height:100%;">
+                <img src="api/ig_cache/DYwtleiNGOA.jpg" alt="News Media" loading="lazy"
+                    style="width:100%;height:100%;object-fit:cover;">
+                <div class="play-overlay" style="position:absolute;top:50%;left:50%;
+                    transform:translate(-50%,-50%);width:60px;height:60px;
+                    background:rgba(0,0,0,0.6);border-radius:50%;display:flex;
+                    align-items:center;justify-content:center;pointer-events:none;">
+                    <i class="fas fa-play" style="color:#fff;font-size:24px;margin-left:3px;"></i>
+                </div>
+            </div>
+                        </div>
+                        <div class="news-details" style="flex: 1;">
+                            <div class="news-meta" style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px;">
+                                <span style="display:inline-block;background:#DBEAFE;color:#1D4ED8;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMP</span>
+                                <span><i class="far fa-calendar-alt"></i> 25 May 2026</span>
+                                <span><i class="far fa-user"></i> smprrahmatbalongbendo</span>
+                            </div>
+                            <a href="https://www.instagram.com/p/DYwtleiNGOA/" target="_blank" rel="noopener" class="news-title" id="title_DYwtleiNGOA"
+                                style="font-size: 1.3rem; margin-bottom: 15px; display: block;">▶ Bersama kita pasti bisa meraih prestasi💪🏻...</a>
+
+                            <!-- Excerpt singkat -->
+                            <p class="news-excerpt" id="excerpt_DYwtleiNGOA"
+                                style="font-size:0.95rem;color:#444;margin-bottom:15px;">Bersama kita pasti bisa meraih prestasi💪🏻 Yuks gabung dengan kami, SPMB Gel 2 Free Uang Gedung lo..... Jangan sampai ketinggalan yaaa🤩 ✨SMP Raden Rahm...</p>
+
+                            <button class="read-more-btn"
+                                onclick="(function(btn){var el=document.getElementById('full_DYwtleiNGOA');if(el.style.display==='none'){el.style.display='block';btn.innerHTML='Tutup <i class=&quot;fas fa-chevron-up&quot;></i>';btn.classList.add('expanded');}else{el.style.display='none';btn.innerHTML='Baca Selengkapnya <i class=&quot;fas fa-chevron-down&quot;></i>';btn.classList.remove('expanded');}})(this)"
+                                style="background:linear-gradient(135deg,#006837,#004d29);color:#fff;border:none;
+                                    padding:10px 25px;border-radius:25px;font-weight:600;font-size:0.9rem;
+                                    cursor:pointer;transition:all 0.3s ease;display:inline-flex;align-items:center;
+                                    gap:8px;margin-top:10px;box-shadow:0 4px 15px rgba(0,104,55,0.2);">
+                                Baca Selengkapnya <i class="fas fa-chevron-down"></i>
+                            </button>
+
+                            <div id="full_DYwtleiNGOA" class="news-full-article"
+                                style="display:none;margin-top:20px;text-align:left;color:#444;line-height:1.7;font-size:1rem;">
+                                <h1>SPMB Gel 2 Free Uang Gedung: Mendorong Prestasi Generasi Muda</h1>
+
+<p>Dalam upaya meningkatkan prestasi akademik dan membantu siswa untuk meraih cita-cita mereka, SMP Raden Rahmat Balongbendo meluncurkan program SPMB Gel 2 Free Uang Gedung. Program ini merupakan salah satu bentuk dukungan yang ditawarkan oleh sekolah kepada siswa yang berprestasi dan ingin melanjutkan pendidikan ke jenjang yang lebih tinggi.</p>
+
+<p>Program SPMB Gel 2 Free Uang Gedung ini bertujuan untuk memberikan kesempatan kepada siswa yang berprestasi untuk meraih pendidikan yang lebih baik tanpa harus khawatir akan biaya. Dengan demikian, siswa dapat fokus pada pembelajaran dan mengembangkan potensi mereka tanpa gangguan dari faktor finansial.</p>
+
+<p>Menurut Kepala SMP Raden Rahmat Balongbendo, program ini merupakan salah satu bentuk komitmen sekolah untuk meningkatkan prestasi akademik dan membantu siswa untuk meraih cita-cita mereka. "Kami ingin membantu siswa untuk meraih pendidikan yang lebih baik dan membentuk generasi muda yang berprestasi dan berkarakter," kata Kepala SMP Raden Rahmat Balongbendo.</p>
+
+<p>Program SPMB Gel 2 Free Uang Gedung ini juga didukung oleh para orang tua siswa yang telah mendukung program ini. "Kami sangat mendukung program ini karena kami ingin anak kami dapat meraih pendidikan yang lebih baik dan membantu mereka untuk menjadi orang yang sukses di masa depan," kata seorang orang tua siswa.</p>
+
+<p>Program SPMB Gel 2 Free Uang Gedung ini juga telah menarik perhatian dari banyak siswa yang berprestasi. "Saya sangat senang dengan program ini karena saya dapat meraih pendidikan yang lebih baik tanpa harus khawatir akan biaya," kata seorang siswa yang telah mendapatkan beasiswa.</p>
+
+<p>Program SPMB Gel 2 Free Uang Gedung ini merupakan contoh baik bagi sekolah lain untuk meniru dan meningkatkan prestasi akademik siswa. Dengan demikian, generasi muda dapat meraih pendidikan yang lebih baik dan membentuk karakter yang lebih baik.</p>
+
+<p>Terakhir, kami berharap bahwa program SPMB Gel 2 Free Uang Gedung ini dapat menjadi contoh bagi sekolah lain dan membantu generasi muda untuk meraih pendidikan yang lebih baik.</p>
+
+<h2>Prestasi yang Dicapai</h2>
+
+<p>Program SPMB Gel 2 Free Uang Gedung telah memberikan banyak prestasi kepada siswa yang telah mendapatkan beasiswa. Beberapa contoh prestasi yang telah dicapai adalah:</p>
+
+<p>* Siswa yang telah mendapatkan beasiswa telah meningkatkan prestasi akademik mereka dan menjadi salah satu siswa yang berprestasi di sekolah.</p>
+
+<p>* Siswa yang telah mendapatkan beasiswa telah menjadi salah satu anggota tim olahraga sekolah dan telah membantu tim untuk menjuarai kompetisi.</p>
+
+<p>* Siswa yang telah mendapatkan beasiswa telah menjadi salah satu anggota klub ekstrakurikuler sekolah dan telah membantu klub untuk meningkatkan prestasi.</p>
+
+<p>Program SPMB Gel 2 Free Uang Gedung ini telah memberikan banyak manfaat kepada siswa yang telah mendapatkan beasiswa dan telah membantu meningkatkan prestasi akademik dan karakter mereka.</p>
+
+                                <!-- Share Buttons — FIX Bug #2: URL sudah di-encode di PHP, aman untuk atribut HTML -->
+                                <div class="share-buttons" style="display:flex;gap:10px;margin-top:20px;
+                                    padding-top:15px;border-top:1px solid #eee;flex-wrap:wrap;">
+                                    <button onclick="window.open('https://wa.me/?text=%2A%E2%96%B6%20Bersama%20kita%20pasti%20bisa%20meraih%20prestasi%F0%9F%92%AA%F0%9F%8F%BB...%2A%0A%0ABaca%3A%20https%3A%2F%2Fwww.instagram.com%2Fp%2FDYwtleiNGOA%2F','_blank')"
+                                        style="background:#25D366;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp
+                                    </button>
+                                    <button onclick="window.open('https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDYwtleiNGOA%2F','_blank','width=600,height=400')"
+                                        style="background:#1877F2;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fab fa-facebook"></i> Facebook
+                                    </button>
+                                    <button onclick="navigator.clipboard.writeText('https://www.instagram.com/p/DYwtleiNGOA/').then(function(){alert('Link berhasil disalin!')})"
+                                        style="background:#6c757d;color:#fff;border:none;padding:8px 16px;
+                                            border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer;
+                                            display:inline-flex;align-items:center;gap:6px;">
+                                        <i class="fas fa-link"></i> Salin Link
+                                    </button>
+                                </div>
+
+                                <!-- Info footer artikel -->
+                                <div style="margin-top:20px;padding:15px;background:linear-gradient(135deg,
+                                    rgba(0,104,55,0.05),rgba(243,156,18,0.05));border-radius:12px;
+                                    border-left:4px solid #006837;font-size:0.85rem;line-height:1.5;">
+                                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+                                        <div>
+                                            <strong style="color:#006837;font-size:0.9rem;">
+                                                <i class="fab fa-instagram"></i> @smprrahmatbalongbendo
+                                            </strong><br>
+                                            <span style="color:#666;">
+                                                <i class="far fa-calendar-alt"></i> 25 May 2026
+                                            </span>
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                                            <span style="display:inline-block;background:#DBEAFE;color:#1D4ED8;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:700;letter-spacing:0.5px;margin-right:8px;">SMP</span>
+                                            <span style="background:linear-gradient(135deg,rgba(243,156,18,0.2),rgba(243,156,18,0.1));
+                                                color:#d35400;padding:6px 12px;border-radius:15px;font-weight:600;font-size:0.8rem;">
+                                                <i class="fas fa-file-alt"></i> 423 kata
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- FIX Bug #6: Label AI yang akurat dan dinamis -->
+                                    <div style="margin-top:12px;font-style:italic;color:#888;text-align:right;
+                                        border-top:1px dashed #ddd;padding-top:10px;font-size:0.75rem;">
+                                        <i class="fas fa-robot"></i> Ditulis otomatis oleh AI (Cache)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+        </div>
+  </main>
+
+  <script>
+      const menuBtn = document.getElementById('menu-btn');
+      const navList = document.getElementById('nav-list');
+      const navBar = document.querySelector('.nav-bar');
+      let lastScroll = 0;
+
+      menuBtn.addEventListener('click', () => {
+          navList.classList.toggle('active');
+          const icon = menuBtn.querySelector('i');
+          if (navList.classList.contains('active')) {
+              icon.classList.remove('fa-bars');
+              icon.classList.add('fa-times');
+          } else {
+              icon.classList.remove('fa-times');
+              icon.classList.add('fa-bars');
+          }
+      });
+
+      // Auto-hide Nav-bar on mobile scroll
+      window.addEventListener('scroll', () => {
+          if (window.innerWidth <= 768) {
+              const currentScroll = window.pageYOffset;
+
+              // Don't hide if menu is open
+              if (navList.classList.contains('active')) return;
+
+              if (currentScroll <= 0) {
+                  navBar.classList.remove('nav-hidden');
+                  return;
+              }
+
+              if (currentScroll > lastScroll && !navBar.classList.contains('nav-hidden') && currentScroll > 100) {
+                  // Scrolling Down
+                  navBar.classList.add('nav-hidden');
+              } else if (currentScroll < lastScroll && navBar.classList.contains('nav-hidden')) {
+                  // Scrolling Up
+                  navBar.classList.remove('nav-hidden');
+              }
+              lastScroll = currentScroll;
+          }
+      });
+
+      // Dropdown Toggle for Mobile
+      const dropdownToggles = document.querySelectorAll('.has-dropdown > a');
+      dropdownToggles.forEach(toggle => {
+          toggle.addEventListener('click', (e) => {
+              if (window.innerWidth <= 768) {
+                  const dropdown = toggle.nextElementSibling;
+                  if (dropdown && dropdown.classList.contains('dropdown')) {
+                      e.preventDefault();
+                      dropdown.classList.toggle('show');
+                  }
+              }
+          });
+      });
+
+      // Current Date Update
+      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      const currentDateEl = document.getElementById('current-date');
+      if (currentDateEl) {
+          currentDateEl.textContent = new Date().toLocaleDateString('id-ID', options);
+      }
+  </script>
+</body>
+</html>

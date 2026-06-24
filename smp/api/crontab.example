@@ -1,0 +1,10 @@
+# Instagram Sync - Linux/Produksi
+# Tambahkan ke crontab: crontab -e
+
+# Opsi 1: Setiap 6 jam (produksi)
+0 */6 * * * curl -s "https://radenrahmat.sch.id/api/insta_sync.php?key=radenrahmat_sync_2026"
+0 */6 * * * curl -s "https://radenrahmat.sch.id/api/insta_sync_mi.php?key=radenrahmat_sync_2026"
+
+# Opsi 2: Sekali per hari jam 00:00
+# 0 0 * * * curl -s "https://radenrahmat.sch.id/api/insta_sync.php?key=radenrahmat_sync_2026"
+# 0 0 * * * curl -s "https://radenrahmat.sch.id/api/insta_sync_mi.php?key=radenrahmat_sync_2026"

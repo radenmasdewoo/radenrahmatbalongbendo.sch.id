@@ -1,0 +1,6 @@
+/vendor/
+/webmail_folder/vendor/
+/uploads/
+*.json
+*.pdf
+*.exe

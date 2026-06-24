@@ -1,0 +1,159 @@
+<roundcube:include file="includes/layout.html" />
+
+<style>
+	#logo-container {
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 0px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		flex-wrap: wrap;
+		transition: margin-top 0.3s ease, gap 0.3s ease;
+	}
+	#logo-container img {
+		width: auto;
+		transition: max-height 0.3s ease;
+	}
+	#logo-header { max-height: 100px; }
+	#logo-mi { max-height: 80px; }
+	#logo-smp { max-height: 80px; }
+	#logo-sma { max-height: 80px; }
+
+	@media (max-width: 600px) {
+		#logo-container {
+			gap: 10px;
+			margin-top: 15px; /* Reduced default mobile top margin */
+		}
+		#logo-header { max-height: 60px; }
+		#logo-mi { max-height: 45px; }
+		#logo-smp { max-height: 45px; }
+		#logo-sma { max-height: 45px; }
+		#branding-text {
+			font-size: 0.95rem !important;
+		}
+
+		/* Shift up when keyboard is likely showing (input focused) */
+		#layout-content:focus-within #logo-container {
+			margin-top: 5px;
+			gap: 5px;
+		}
+		#layout-content:focus-within #logo-header { max-height: 40px; }
+		#layout-content:focus-within #logo-mi { max-height: 30px; }
+		#layout-content:focus-within #logo-smp { max-height: 30px; }
+		#layout-content:focus-within #logo-sma { max-height: 30px; }
+		#layout-content:focus-within #branding-text { display: none; } /* Hide text to save space on focus */
+	}
+
+	/* Password Toggle Styles */
+	.input-group {
+		position: relative;
+	}
+	.password-toggle {
+		position: absolute;
+		right: 15px;
+		top: 50%;
+		transform: translateY(-50%);
+		cursor: pointer;
+		color: #999;
+		z-index: 100;
+		font-size: 1.2rem;
+		padding: 5px;
+		user-select: none;
+	}
+	.password-toggle:hover {
+		color: #333;
+	}
+	#rcmloginpwd {
+		padding-right: 45px !important; /* Space for the toggle icon */
+	}
+
+	/* Spacing and Color Refinements */
+	#branding-text {
+		color: #999; /* Matching the footer color */
+	}
+	#login-footer {
+		color: #999 !important;
+		margin-top: 15px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 5px;
+	}
+	#login-footer img {
+		display: block;
+		margin-top: 5px;
+	}
+
+	/* Background Image Styles */
+	body::before {
+		content: "";
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url('skins/elastic/images/hero-bg.webp');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		opacity: 0.15; /* Subtle opacity to not disturb text */
+		z-index: -1;
+		pointer-events: none;
+	}
+</style>
+
+<h1 class="voice"><roundcube:object name="productname" /> <roundcube:label name="login" /></h1>
+
+<div id="layout-content" class="selected no-navbar" role="main">
+	<div id="logo-container">
+		<img src="skins/elastic/images/logo-header.webp" alt="Header Logo" id="logo-header">
+		<img src="skins/elastic/images/logo_mi_white.webp" alt="MI Logo" id="logo-mi">
+		<img src="skins/elastic/images/logo-smp.webp" alt="SMP Logo" id="logo-smp">
+		<img src="skins/elastic/images/logo SMA.png" alt="SMA Logo" id="logo-sma">
+	</div>
+	<div id="branding-text" style="text-align: center; margin-top: 0px; margin-bottom: 5px; font-weight: 500; font-family: 'Inter', sans-serif; font-size: 1.1rem;">Webmail BP3NU Raden rahmat</div>
+	<roundcube:form id="login-form" name="login-form" method="post" class="propform">
+	<roundcube:object name="loginform" form="login-form" size="40" submit=true class="form-control" />
+		<div id="login-footer" role="contentinfo" style="color: #999; font-size: 0.9rem; font-weight: 400;">
+			Diciptakan & Dikembangkan oleh
+			<a href="https://radenmasdewoo.netlify.app/" target="_blank" rel="noopener" style="text-decoration: none; display: inline-block;">
+				<img src="skins/elastic/images/RMD_emas.webp" alt="Raden Mas Dewo - Branding" width="208" height="91" style="max-height: 50px; width: auto; filter: drop-shadow(rgba(0, 0, 0, 0.3) 0px 4px 8px); transition: 0.3s; transform: scale(1);" onmouseover="this.style.transform='scale(1.05)'; this.style.filter='drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))';" onmouseout="this.style.transform='scale(1)'; this.style.filter='drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3))';">
+			</a>
+		</div>
+	</roundcube:form>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+	var passInput = document.getElementById('rcmloginpwd');
+	if (passInput) {
+		var parent = passInput.parentElement;
+		
+		// Create toggle button
+		var toggle = document.createElement('span');
+		toggle.className = 'password-toggle';
+		toggle.innerHTML = '👁️'; 
+		toggle.title = 'Show/Hide Password';
+		
+		parent.appendChild(toggle);
+		
+		toggle.addEventListener('click', function() {
+			if (passInput.type === 'password') {
+				passInput.type = 'text';
+				toggle.innerHTML = '🙈';
+			} else {
+				passInput.type = 'password';
+				toggle.innerHTML = '👁️';
+			}
+		});
+	}
+});
+</script>
+
+<noscript>
+	<p class="noscriptwarning"><roundcube:label name="noscriptwarning" /></p>
+</noscript>
+
+<roundcube:include file="includes/footer.html" />

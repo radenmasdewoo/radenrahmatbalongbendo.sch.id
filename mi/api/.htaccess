@@ -1,0 +1,32 @@
+# Security: Block access to sensitive files
+# Place this in /mnt/webdata/htdocs/api/.htaccess
+
+# Block access to .env files
+<FilesMatch "^\.env">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Block access to .htaccess itself
+<FilesMatch "^\.htaccess">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Block access to log files
+<FilesMatch "\.(log|sql|bak|backup)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Block access to JSON data files (except via API)
+<FilesMatch "\.json$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Allow specific API endpoints to serve JSON
+<FilesMatch "news\.php$">
+    Order deny,allow
+    Allow from all
+</FilesMatch>

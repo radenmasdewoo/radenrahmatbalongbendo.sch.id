@@ -1,0 +1,14 @@
+{
+  "name": "BP3NU Raden Rahmat Balongbendo",
+  "short_name": "Raden Rahmat",
+  "icons": [
+    {
+      "src": "/logo-header.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    }
+  ],
+  "theme_color": "#006837",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

@@ -1,0 +1,6 @@
+# Hanya direktif standar: User-agent, Allow, Disallow, Sitemap. Jangan tambah Content-Signal.
+User-agent: *
+Allow: /
+Allow: /api/image_proxy.php
+
+Sitemap: https://radenrahmatbalongbendo.sch.id/sitemap.xml

@@ -1,0 +1,26 @@
+<pre>
+Testing Extract and API Fallback...
+Found API Keys: 7
+
+Word count of original: 29
+
+  -> Trying gemini...
+     Result length: 0
+     Error:  | Resp: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call L...
+  -> Trying groq...
+     Result length: 2510
+
+Generation time: 1.5353088378906 seconds
+Word count of result: 351
+Result:
+**BP3NU Raden Rahmat Sambut Ramadhan dengan Berbagai Program**
+
+Bulan suci Ramadhan telah tiba, membawa dengan diri keberkahan dan kesempurnaan. Di tengah-tengah kegembiraan ini, BP3NU Raden Rahmat tidak mau ketinggalan untuk menyambutnya dengan berbagai program yang dapat memperkuat iman dan takwa umatnya. Dalam rangka menyambut Ramadhan, BP3NU Raden Rahmat telah menyusun beberapa program yang diharapkan dapat memberikan manfaat bagi jamaahnya.
+
+**Kajian Kitab Salaf**
+
+Salah satu program yang d...
+</pre>

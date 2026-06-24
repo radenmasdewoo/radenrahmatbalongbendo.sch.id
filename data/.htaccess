@@ -1,0 +1,9 @@
+# Protect users.json specifically
+<Files users.json>
+    Require all denied
+</Files>
+
+# Allow site_config.json to be accessed by the frontend
+<Files site_config.json>
+    Require all granted
+</Files>

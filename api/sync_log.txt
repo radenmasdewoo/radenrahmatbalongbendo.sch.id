@@ -1,0 +1,1092 @@
+[2026-06-22 16:32:43] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-22 16:32:43] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-22 16:32:48] [ERROR] Semua sumber gagal.
+
+[2026-06-22 23:32:48] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-22 23:32:48] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 5 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 5 artikel.
+
+[2026-06-22 23:32:48] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 00:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 00:00:01] PORTAL (SMP Feed):
+============================================
+[2026-06-23 00:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 00:00:01] PORTAL (SMP Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub8-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_418573950461789467
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 00:00:05] PORTAL (MI Feed):
+
+[2026-06-23 00:00:05] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 00:00:06] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 00:00:06] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 00:00:06] SMP (smprrahmatbalongbendo):
+[2026-06-22 17:00:06] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-22 17:00:06]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 00:00:07] SMP (smprrahmatbalongbendo):
+[2026-06-22 17:00:07] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-22 17:00:07]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-22 17:00:07] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-22 17:00:07] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-22 17:00:07] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-22 17:00:07] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-22 17:00:07] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-22 17:00:07] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-22 17:00:09] [ERROR] Semua sumber gagal.
+[2026-06-22 17:00:09] [ERROR] Semua sumber gagal.
+
+
+[2026-06-23 00:00:09] BERITA.HTML (Groq AI Auto-Generation):
+[2026-06-23 00:00:09] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+
+[2026-06-23 00:00:09] BERITA.HTML (Gemini AI Static HTML Injection):
+[2026-06-23 00:00:09] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 00:00:15] SEMUA SINKRONISASI SELESAI
+============================================
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 00:00:16] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 01:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 01:00:01] PORTAL (SMP Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub8-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_418573950461789467
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 01:00:04] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 01:00:05] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 01:00:06] SMP (smprrahmatbalongbendo):
+[2026-06-22 18:00:06] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-22 18:00:06]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-22 18:00:06] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-22 18:00:06] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-22 18:00:07] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-22 18:00:07] [ERROR] Semua sumber gagal.
+
+[2026-06-23 01:00:07] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 01:00:07] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 01:00:07] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 02:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 02:00:01] PORTAL (SMP Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub8-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_418573950461789467
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 02:00:04] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 02:00:04] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 02:00:05] SMP (smprrahmatbalongbendo):
+[2026-06-22 19:00:05] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-22 19:00:05]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-22 19:00:06] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-22 19:00:06] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-22 19:00:06] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-22 19:00:06] [ERROR] Semua sumber gagal.
+
+[2026-06-23 02:00:06] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 02:00:06] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 02:00:06] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 03:00:02] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 03:00:02] PORTAL (SMP Feed):
+============================================
+[2026-06-23 03:00:02] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 03:00:02] PORTAL (SMP Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub8-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_418573950461789467
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 03:00:04] PORTAL (MI Feed):
+
+[2026-06-23 03:00:04] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 03:00:05] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 03:00:05] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 03:00:05] SMP (smprrahmatbalongbendo):
+
+[2026-06-23 03:00:05] SMP (smprrahmatbalongbendo):
+[2026-06-22 20:00:05] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-22 20:00:05]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-22 20:00:05] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-22 20:00:05]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-22 20:00:08] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-22 20:00:08] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-22 20:00:08] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-22 20:00:08] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-22 20:00:08] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-22 20:00:08] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-22 20:00:09] [ERROR] Semua sumber gagal.
+[2026-06-22 20:00:09] [ERROR] Semua sumber gagal.
+
+
+[2026-06-23 03:00:09] BERITA.HTML (Groq AI Auto-Generation):
+[2026-06-23 03:00:09] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+
+[2026-06-23 03:00:09] BERITA.HTML (Gemini AI Static HTML Injection):
+[2026-06-23 03:00:09] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+
+[2026-06-23 03:00:09] SEMUA SINKRONISASI SELESAI
+[2026-06-23 03:00:09] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+============================================
+[2026-06-23 04:00:00] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 04:00:00] PORTAL (SMP Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub8-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_418573950461789467
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 04:00:02] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 04:00:03] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 04:00:04] SMP (smprrahmatbalongbendo):
+[2026-06-22 21:00:04] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-22 21:00:04]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-22 21:00:05] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-22 21:00:05] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-22 21:00:05] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-22 21:00:06] [ERROR] Semua sumber gagal.
+
+[2026-06-23 04:00:06] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 04:00:06] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 04:00:06] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 05:00:00] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 05:00:00] PORTAL (SMP Feed):
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: cURL error pada percobaan ke-0: Resolving timed out after 10000 milliseconds
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: cURL error pada percobaan ke-1: Failed to connect to imginn.com port 443 after 1684 ms: Couldn't connect to server
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: cURL error pada percobaan ke-2: Failed to connect to imginn.com port 443 after 794 ms: Couldn't connect to server
+[rr_http_get] Retry 0/3 untuk URL: https://rss-bridge.org/bridge01/?action=display&bridge=InstagramBridge&context=Username&u=miradenrahmatbalongbendo&format=Atom | Alasan: cURL error pada percobaan ke-0: Resolving timed out after 10001 milliseconds
+[rr_http_get] Retry 1/3 untuk URL: https://rss-bridge.org/bridge01/?action=display&bridge=InstagramBridge&context=Username&u=miradenrahmatbalongbendo&format=Atom | Alasan: cURL error pada percobaan ke-1: Resolving timed out after 10000 milliseconds
+[rr_http_get] Retry 2/3 untuk URL: https://rss-bridge.org/bridge01/?action=display&bridge=InstagramBridge&context=Username&u=miradenrahmatbalongbendo&format=Atom | Alasan: cURL error pada percobaan ke-2: Resolving timed out after 10001 milliseconds
+[rr_http_get] Retry 0/3 untuk URL: https://rss.bloat.cat/?action=display&bridge=InstagramBridge&context=Username&u=miradenrahmatbalongbendo&format=Atom | Alasan: cURL error pada percobaan ke-0: Resolving timed out after 10001 milliseconds
+[rr_http_get] Retry 1/3 untuk URL: https://rss.bloat.cat/?action=display&bridge=InstagramBridge&context=Username&u=miradenrahmatbalongbendo&format=Atom | Alasan: cURL error pada percobaan ke-1: Could not resolve host: rss.bloat.cat
+[rr_http_get] Retry 0/3 untuk URL: https://rsshub.app/instagram/user/miradenrahmatbalongbendo | Alasan: HTTP gagal (403): https://rsshub.app/instagram/user/miradenrahmatbalongbendo
+[rr_http_get] Retry 1/3 untuk URL: https://rsshub.app/instagram/user/miradenrahmatbalongbendo | Alasan: HTTP gagal (403): https://rsshub.app/instagram/user/miradenrahmatbalongbendo
+[rr_http_get] Retry 2/3 untuk URL: https://rsshub.app/instagram/user/miradenrahmatbalongbendo | Alasan: HTTP gagal (403): https://rsshub.app/instagram/user/miradenrahmatbalongbendo
+[rr_http_get] Retry 0/3 untuk URL: https://rsshub.rss.tc/instagram/user/miradenrahmatbalongbendo | Alasan: cURL error pada percobaan ke-0: Could not resolve host: rsshub.rss.tc
+[rr_http_get] Retry 1/3 untuk URL: https://rsshub.rss.tc/instagram/user/miradenrahmatbalongbendo | Alasan: cURL error pada percobaan ke-1: Could not resolve host: rsshub.rss.tc
+[rr_http_get] Retry 2/3 untuk URL: https://rsshub.rss.tc/instagram/user/miradenrahmatbalongbendo | Alasan: cURL error pada percobaan ke-2: Resolving timed out after 10000 milliseconds
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub8-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_418573950461789467
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"failed (reused_old)","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 05:03:00] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 05:03:01] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 05:03:02] SMP (smprrahmatbalongbendo):
+[2026-06-22 22:03:02] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-22 22:03:02]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-22 22:03:02] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-22 22:03:03] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-22 22:03:03] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-22 22:03:03] [ERROR] Semua sumber gagal.
+
+[2026-06-23 05:03:03] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 05:03:03] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 05:03:03] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 06:00:00] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 06:00:00] PORTAL (SMP Feed):
+============================================
+[2026-06-23 06:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 06:00:01] PORTAL (SMP Feed):
+
+[2026-06-23 06:00:02] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 06:00:03] MI (miradenrahmatbalongbendo):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub32-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_41857395046178946
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 06:00:03] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 06:00:03] SMP (smprrahmatbalongbendo):
+[2026-06-22 23:00:03] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-22 23:00:03]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 06:00:04] MI (miradenrahmatbalongbendo):
+[2026-06-22 23:00:04] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-22 23:00:04] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-22 23:00:04] [STEP 3] Picuki gagal, mencoba Instanda...
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 06:00:04] SMP (smprrahmatbalongbendo):
+[2026-06-22 23:00:04] [ERROR] Semua sumber gagal.
+
+[2026-06-23 06:00:04] BERITA.HTML (Groq AI Auto-Generation):
+[2026-06-22 23:00:04] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-22 23:00:04]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 06:00:04] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 06:00:05] SEMUA SINKRONISASI SELESAI
+============================================
+[2026-06-22 23:00:05] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-22 23:00:05] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-22 23:00:05] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-22 23:00:05] [ERROR] Semua sumber gagal.
+
+[2026-06-23 06:00:05] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 06:00:05] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ berita.html sudah up-to-date (tidak ada perubahan).
+
+[2026-06-23 06:00:05] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 07:00:00] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 07:00:00] PORTAL (SMP Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub32-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_41857395046178946
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 07:00:05] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 07:00:06] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 07:00:07] SMP (smprrahmatbalongbendo):
+[2026-06-23 00:00:07] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 00:00:07]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 00:00:08] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 00:00:08] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 00:00:08] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 00:00:08] [ERROR] Semua sumber gagal.
+
+[2026-06-23 07:00:08] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 07:00:09] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 07:00:09] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 08:00:00] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 08:00:00] PORTAL (SMP Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub32-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_41857395046178946
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 08:00:03] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 08:00:03] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 08:00:04] SMP (smprrahmatbalongbendo):
+[2026-06-23 01:00:04] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 01:00:04]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 01:00:05] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 01:00:05] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 01:00:05] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 01:00:05] [ERROR] Semua sumber gagal.
+
+[2026-06-23 08:00:05] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 08:00:05] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 08:00:05] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 09:00:01] MEMULAI SINKRONISASI GLOBAL
+============================================
+[2026-06-23 09:00:01] PORTAL (SMP Feed):
+[2026-06-23 09:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 09:00:01] PORTAL (SMP Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub32-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_41857395046178946
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 09:00:03] PORTAL (MI Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub32-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_41857395046178946
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+
+[2026-06-23 09:00:04] PORTAL (MI Feed):
+[2026-06-23 09:00:04] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 09:00:05] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 09:00:05] SMP (smprrahmatbalongbendo):
+[2026-06-23 02:00:05] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 02:00:05]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 09:00:05] SMP (smprrahmatbalongbendo):
+[2026-06-23 02:00:05] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 02:00:05]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 02:00:06] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 02:00:06] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 02:00:06] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 02:00:06] [ERROR] Semua sumber gagal.
+
+[2026-06-23 09:00:06] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 09:00:07] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 09:00:07] SEMUA SINKRONISASI SELESAI
+============================================
+[2026-06-23 02:00:07] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 02:00:07] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 02:00:07] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 02:00:07] [ERROR] Semua sumber gagal.
+
+[2026-06-23 09:00:07] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 09:00:08] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ berita.html sudah up-to-date (tidak ada perubahan).
+
+[2026-06-23 09:00:08] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 10:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 10:00:01] PORTAL (SMP Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub32-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_41857395046178946
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 10:00:04] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 10:00:05] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 10:00:07] SMP (smprrahmatbalongbendo):
+[2026-06-23 03:00:07] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 03:00:07]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 03:00:07] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 03:00:07] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 03:00:08] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 03:00:08] [ERROR] Semua sumber gagal.
+
+[2026-06-23 10:00:08] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 10:00:08] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 10:00:08] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 11:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 11:00:01] PORTAL (SMP Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub32-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_41857395046178946
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 11:00:03] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 11:00:05] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 11:00:06] SMP (smprrahmatbalongbendo):
+[2026-06-23 04:00:06] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 04:00:06]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 04:00:06] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 04:00:06] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 04:00:06] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 04:00:06] [ERROR] Semua sumber gagal.
+
+[2026-06-23 11:00:06] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 11:00:07] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 11:00:07] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 12:00:01] PORTAL (SMP Feed):
+============================================
+[2026-06-23 12:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 12:00:01] PORTAL (SMP Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub32-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_41857395046178946
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 12:00:04] PORTAL (MI Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub32-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_41857395046178946
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 12:00:04] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 12:00:05] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 12:00:06] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 12:00:06] SMP (smprrahmatbalongbendo):
+[2026-06-23 05:00:06] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 05:00:06]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 12:00:07] SMP (smprrahmatbalongbendo):
+[2026-06-23 05:00:07] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 05:00:07]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 05:00:08] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 05:00:08] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 05:00:08] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 05:00:08] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 05:00:08] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 05:00:08] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 05:00:08] [ERROR] Semua sumber gagal.
+[2026-06-23 05:00:08] [ERROR] Semua sumber gagal.
+
+[2026-06-23 12:00:08] BERITA.HTML (Groq AI Auto-Generation):
+
+[2026-06-23 12:00:08] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 12:00:09] BERITA.HTML (Gemini AI Static HTML Injection):
+
+[2026-06-23 12:00:09] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+✅ berita.html sudah up-to-date (tidak ada perubahan).
+[2026-06-23 12:00:09] SEMUA SINKRONISASI SELESAI
+============================================
+
+[2026-06-23 12:00:09] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 13:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 13:00:01] PORTAL (SMP Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub32-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_41857395046178946
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 13:00:04] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 13:00:06] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 13:00:07] SMP (smprrahmatbalongbendo):
+[2026-06-23 06:00:07] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 06:00:07]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 06:00:07] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 06:00:07] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 06:00:07] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 06:00:08] [ERROR] Semua sumber gagal.
+
+[2026-06-23 13:00:08] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 13:00:09] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 13:00:09] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 14:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 14:00:01] PORTAL (SMP Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub32-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_41857395046178946
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 14:00:04] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 14:00:06] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 14:00:07] SMP (smprrahmatbalongbendo):
+[2026-06-23 07:00:07] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 07:00:07]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 07:00:09] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 07:00:09] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 07:00:09] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 07:00:10] [ERROR] Semua sumber gagal.
+
+[2026-06-23 14:00:10] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 14:00:10] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 14:00:10] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 15:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 15:00:01] PORTAL (SMP Feed):
+============================================
+[2026-06-23 15:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 15:00:01] PORTAL (SMP Feed):
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub32-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_41857395046178946
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"rss_bridge_pool","count":5}]}
+[2026-06-23 15:00:27] PORTAL (MI Feed):
+
+[2026-06-23 15:00:27] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"rss_bridge_pool","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"rss_bridge_pool","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+
+[2026-06-23 15:00:34] MI (miradenrahmatbalongbendo):
+[2026-06-23 15:00:34] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"rss_bridge_pool","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 15:00:38] SMP (smprrahmatbalongbendo):
+[2026-06-23 08:00:38] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 08:00:38]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"rss_bridge_pool","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 15:00:38] SMP (smprrahmatbalongbendo):
+[2026-06-23 08:00:38] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 08:00:38]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 08:00:38] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 08:00:38] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 08:00:39] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 08:00:39] [ERROR] Semua sumber gagal.
+
+[2026-06-23 15:00:39] BERITA.HTML (Groq AI Auto-Generation):
+[2026-06-23 08:00:39] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 15:00:39] BERITA.HTML (Gemini AI Static HTML Injection):
+[2026-06-23 08:00:39] [STEP 2] Imginn gagal, mencoba Picuki...
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 15:00:39] SEMUA SINKRONISASI SELESAI
+============================================
+[2026-06-23 08:00:39] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 08:00:39] [ERROR] Semua sumber gagal.
+
+[2026-06-23 15:00:39] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 15:00:39] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ berita.html sudah up-to-date (tidak ada perubahan).
+
+[2026-06-23 15:00:39] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 16:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 16:00:01] PORTAL (SMP Feed):
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/smprrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/smprrahmatbalongbendo/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/smprrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/smprrahmatbalongbendo/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/smprrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/smprrahmatbalongbendo/
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/miradenrahmatbalongbendo/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/miradenrahmatbalongbendo/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/miradenrahmatbalongbendo/
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+rr_localize_image FAILED [200] size=4644 https://www.instagram.com/p/DZM_0zdT-xb/media?size=l
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"rss_bridge_pool","count":5},{"handle":"miradenrahmatbalongbendo","source":"rss_bridge_pool","count":5},{"handle":"smartba.official","source":"rss_bridge_pool","count":5}]}
+[2026-06-23 16:01:11] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"rss_bridge_pool","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 16:01:14] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"rss_bridge_pool","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 16:01:16] SMP (smprrahmatbalongbendo):
+[2026-06-23 09:01:16] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 09:01:16]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 09:01:17] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 09:01:17] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 09:01:17] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 09:01:18] [ERROR] Semua sumber gagal.
+
+[2026-06-23 16:01:18] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 16:01:18] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 16:01:18] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 17:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 17:00:01] PORTAL (SMP Feed):
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/smprrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/smprrahmatbalongbendo/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/smprrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/smprrahmatbalongbendo/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/smprrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/smprrahmatbalongbendo/
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/miradenrahmatbalongbendo/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/miradenrahmatbalongbendo/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/miradenrahmatbalongbendo/
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+rr_localize_image FAILED [200] size=4644 https://www.instagram.com/p/DZM_0zdT-xb/media?size=l
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"rss_bridge_pool","count":5},{"handle":"miradenrahmatbalongbendo","source":"rss_bridge_pool","count":5},{"handle":"smartba.official","source":"rss_bridge_pool","count":5}]}
+[2026-06-23 17:01:00] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"rss_bridge_pool","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 17:01:05] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"rss_bridge_pool","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 17:01:08] SMP (smprrahmatbalongbendo):
+[2026-06-23 10:01:08] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 10:01:08]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 10:01:08] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 10:01:08] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 10:01:09] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 10:01:09] [ERROR] Semua sumber gagal.
+
+[2026-06-23 17:01:09] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 17:01:09] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ berita.html sudah up-to-date (tidak ada perubahan).
+
+[2026-06-23 17:01:09] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 18:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 18:00:01] PORTAL (SMP Feed):
+============================================
+[2026-06-23 18:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 18:00:01] PORTAL (SMP Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub32-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_41857395046178946
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 18:00:04] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 18:00:05] MI (miradenrahmatbalongbendo):
+
+[2026-06-23 18:00:05] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 18:00:05] SMP (smprrahmatbalongbendo):
+[2026-06-23 11:00:05] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 11:00:05]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 18:00:05] MI (miradenrahmatbalongbendo):
+[2026-06-23 11:00:06] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 18:00:06] SMP (smprrahmatbalongbendo):
+[2026-06-23 11:00:06] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 11:00:06] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 11:00:06]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 11:00:06] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 11:00:07] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 11:00:07] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 11:00:07] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 11:00:07] [ERROR] Semua sumber gagal.
+[2026-06-23 11:00:07] [ERROR] Semua sumber gagal.
+
+
+[2026-06-23 18:00:07] BERITA.HTML (Groq AI Auto-Generation):
+[2026-06-23 18:00:07] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+
+[2026-06-23 18:00:08] BERITA.HTML (Gemini AI Static HTML Injection):
+[2026-06-23 18:00:08] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+
+[2026-06-23 18:00:08] SEMUA SINKRONISASI SELESAI
+============================================
+[2026-06-23 18:00:08] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 19:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 19:00:01] PORTAL (SMP Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub32-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_41857395046178946
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 19:00:04] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 19:00:05] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 19:00:06] SMP (smprrahmatbalongbendo):
+[2026-06-23 12:00:06] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 12:00:06]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 12:00:06] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 12:00:07] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 12:00:07] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 12:00:08] [ERROR] Semua sumber gagal.
+
+[2026-06-23 19:00:08] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 19:00:08] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 19:00:09] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 20:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 20:00:01] PORTAL (SMP Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub32-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_41857395046178946
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 20:00:05] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 20:00:06] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 20:00:06] SMP (smprrahmatbalongbendo):
+[2026-06-23 13:00:06] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 13:00:06]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 13:00:07] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 13:00:07] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 13:00:07] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 13:00:08] [ERROR] Semua sumber gagal.
+
+[2026-06-23 20:00:08] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 20:00:08] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 20:00:08] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 21:00:01] PORTAL (SMP Feed):
+============================================
+[2026-06-23 21:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 21:00:01] PORTAL (SMP Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub32-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_41857395046178946
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 21:00:04] PORTAL (MI Feed):
+rr_localize_image FAILED [200] size=4644 https://instagram.fsub32-1.fna.fbcdn.net/v/t51.71878-15/715710312_1645908359800139_41857395046178946
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"web_profile","count":5},{"handle":"miradenrahmatbalongbendo","source":"web_profile","count":5},{"handle":"smartba.official","source":"web_profile","count":5}]}
+[2026-06-23 21:00:04] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 21:00:04] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 21:00:05] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 21:00:05] SMP (smprrahmatbalongbendo):
+[2026-06-23 14:00:05] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 14:00:05]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"instagram_web_profile_info","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 21:00:05] SMP (smprrahmatbalongbendo):
+[2026-06-23 14:00:05] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 14:00:05]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 14:00:06] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 14:00:06] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 14:00:06] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 14:00:06] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 14:00:06] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 14:00:06] [ERROR] Semua sumber gagal.
+
+[2026-06-23 21:00:06] BERITA.HTML (Groq AI Auto-Generation):
+[2026-06-23 14:00:06] [STEP 3] Picuki gagal, mencoba Instanda...
+Starting news synchronization and AI expansion...
+Process completed successfully!
+[2026-06-23 14:00:06] [ERROR] Semua sumber gagal.
+
+[2026-06-23 21:00:06] BERITA.HTML (Groq AI Auto-Generation):
+
+[2026-06-23 21:00:06] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 21:00:06] SEMUA SINKRONISASI SELESAI
+============================================
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 21:00:07] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ berita.html sudah up-to-date (tidak ada perubahan).
+
+[2026-06-23 21:00:07] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 22:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 22:00:01] PORTAL (SMP Feed):
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/smprrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/smprrahmatbalongbendo/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/smprrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/smprrahmatbalongbendo/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/smprrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/smprrahmatbalongbendo/
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/miradenrahmatbalongbendo/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/miradenrahmatbalongbendo/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/miradenrahmatbalongbendo/
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+rr_localize_image FAILED [500] size=25 https://www.instagram.com/p/DZM_0zdT-xb/media?size=l
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"rss_bridge_pool","count":5},{"handle":"miradenrahmatbalongbendo","source":"rss_bridge_pool","count":5},{"handle":"smartba.official","source":"rss_bridge_pool","count":5}]}
+[2026-06-23 22:01:06] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"rss_bridge_pool","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 22:01:10] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"rss_bridge_pool","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 22:01:13] SMP (smprrahmatbalongbendo):
+[2026-06-23 15:01:13] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 15:01:13]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 15:01:14] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 15:01:14] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 15:01:14] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 15:01:14] [ERROR] Semua sumber gagal.
+
+[2026-06-23 22:01:14] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 22:01:14] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ Injeksi ke berita.html berhasil! Total: 17 artikel.
+
+[2026-06-23 22:01:14] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+[2026-06-23 23:00:01] MEMULAI SINKRONISASI GLOBAL
+[2026-06-23 23:00:01] PORTAL (SMP Feed):
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/smprrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/smprrahmatbalongbendo/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/smprrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/smprrahmatbalongbendo/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/smprrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/smprrahmatbalongbendo/
+[rr_http_get] Retry 0/3 untuk URL: https://rssbridge.prenghy.org/?action=display&bridge=InstagramBridge&context=Username&u=smprrahmatbalongbendo&format=Atom | Alasan: cURL error pada percobaan ke-0: SSL connection timeout
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/miradenrahmatbalongbendo/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/miradenrahmatbalongbendo/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/miradenrahmatbalongbendo/
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+rr_localize_image FAILED [200] size=4644 https://www.instagram.com/p/DZM_0zdT-xb/media?size=l
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"rss_bridge_pool","count":5},{"handle":"miradenrahmatbalongbendo","source":"rss_bridge_pool","count":5},{"handle":"smartba.official","source":"rss_bridge_pool","count":5}]}
+[2026-06-23 23:01:18] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"rss_bridge_pool","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 23:01:22] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"rss_bridge_pool","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-23 23:01:26] SMP (smprrahmatbalongbendo):
+[2026-06-23 16:01:26] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 16:01:26]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 16:01:26] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 16:01:26] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 16:01:27] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 16:01:27] [ERROR] Semua sumber gagal.
+
+[2026-06-23 23:01:27] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-23 23:01:27] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ berita.html sudah up-to-date (tidak ada perubahan).
+
+[2026-06-23 23:01:27] SEMUA SINKRONISASI SELESAI
+============================================
+============================================
+============================================
+[2026-06-24 00:00:02] MEMULAI SINKRONISASI GLOBAL
+[2026-06-24 00:00:02] MEMULAI SINKRONISASI GLOBAL
+[2026-06-24 00:00:02] PORTAL (SMP Feed):
+[2026-06-24 00:00:02] PORTAL (SMP Feed):
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo | Alasa[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo
+n: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smprrahmatbalongbendo
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/smprrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/smprrahmatbalongbendo/
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/smprrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/smprrahmatbalongbendo/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/smprrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/smprrahmatbalongbendo/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/smprrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/smprrahmatbalongbendo/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/smprrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/smprrahmatbalongbendo/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/smprrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/smprrahmatbalongbendo/
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=miradenrahmatbalongbendo
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/miradenrahmatbalongbendo/
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/miradenrahmatbalongbendo/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/miradenrahmatbalongbendo/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/miradenrahmatbalongbendo/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/miradenrahmatbalongbendo/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/miradenrahmatbalongbendo/ | Alasan: HTTP gagal (403): https://imginn.com/miradenrahmatbalongbendo/
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 0/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 1/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 2/3 untuk URL: https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official | Alasan: HTTP gagal (401): https://i.instagram.com/api/v1/users/web_profile_info/?username=smartba.official
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+[rr_http_get] Retry 0/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+[rr_http_get] Retry 1/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+[rr_http_get] Retry 2/3 untuk URL: https://imginn.com/smartba.official/ | Alasan: HTTP gagal (403): https://imginn.com/smartba.official/
+rr_localize_image FAILED [200] size=4644 https://www.instagram.com/p/DZM_0zdT-xb/media?size=l
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"rss_bridge_pool","count":5},{"handle":"miradenrahmatbalongbendo","source":"rss_bridge_pool","count":5},{"handle":"smartba.official","source":"rss_bridge_pool","count":5}]}
+[2026-06-24 00:01:07] PORTAL (MI Feed):
+rr_localize_image FAILED [200] size=4644 https://www.instagram.com/p/DZM_0zdT-xb/media?size=l
+{"success":true,"message":"news.json berhasil diperbarui & laporan dikirim ke CMS","count":15,"details":[{"handle":"smprrahmatbalongbendo","source":"rss_bridge_pool","count":5},{"handle":"miradenrahmatbalongbendo","source":"rss_bridge_pool","count":5},{"handle":"smartba.official","source":"rss_bridge_pool","count":5}]}
+[2026-06-24 00:01:10] PORTAL (MI Feed):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"rss_bridge_pool","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-24 00:01:13] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":16,"posts_limit":5,"source":"rss_bridge_pool","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-24 00:01:14] MI (miradenrahmatbalongbendo):
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"rss_bridge_pool","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-24 00:01:18] SMP (smprrahmatbalongbendo):
+[2026-06-23 17:01:18] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 17:01:18]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 17:01:19] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 17:01:19] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 17:01:19] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 17:01:19] [ERROR] Semua sumber gagal.
+
+[2026-06-24 00:01:19] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-24 00:01:20] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ berita.html sudah up-to-date (tidak ada perubahan).
+
+[2026-06-24 00:01:20] SEMUA SINKRONISASI SELESAI
+============================================
+{"success":true,"message":"news_mi.json berhasil diperbarui & gambar dilokalkan","count":5,"localized":19,"posts_limit":5,"source":"rss_bridge_pool","instagram_profile":"https:\/\/www.instagram.com\/miradenrahmatbalongbendo\/"}
+[2026-06-24 00:01:20] SMP (smprrahmatbalongbendo):
+[2026-06-23 17:01:20] [START] Memulai Sinkronisasi SMP (FREE MODE): @smprrahmatbalongbendo
+[2026-06-23 17:01:20]   [SCAN] Mencoba RSS-Bridge: rss-bridge.org
+[2026-06-23 17:01:21] [STEP 1] RSS-Bridge gagal, mencoba Imginn...
+[2026-06-23 17:01:21] [STEP 2] Imginn gagal, mencoba Picuki...
+[2026-06-23 17:01:21] [STEP 3] Picuki gagal, mencoba Instanda...
+[2026-06-23 17:01:21] [ERROR] Semua sumber gagal.
+
+[2026-06-24 00:01:21] BERITA.HTML (Groq AI Auto-Generation):
+Starting news synchronization and AI expansion...
+Process completed successfully!
+
+[2026-06-24 00:01:21] BERITA.HTML (Gemini AI Static HTML Injection):
+📰 Memproses 17 artikel (maks 7/penulis, total 21)...
+
+✅ berita.html sudah up-to-date (tidak ada perubahan).
+
+[2026-06-24 00:01:21] SEMUA SINKRONISASI SELESAI
+============================================

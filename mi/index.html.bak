@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+<head>
+    <!-- Google tag (gtag.js) - wajib elemen pertama di <head> agar terdeteksi GA -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K2H1B7L27Q"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-K2H1B7L27Q');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5154481634054633"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5154481634054633"
+        crossorigin="anonymous"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K2H1B7L27Q"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-K2H1B7L27Q');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="logo_mi_white.webp">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo_mi_white.webp">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo_mi_white.webp">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="logo_mi_white.webp">
+    <title>MI RADEN RAHMAT BALONGBENDO | Official Website</title>
+    <meta name="description"
+        content="Website Resmi MI/MIS Raden Rahmat Balongbendo (NPSN 60716945) di Bakalan Wringinpitu, Balongbendo, Sidoarjo, Jawa Timur. Mewujudkan Generasi Islami yang Unggul, Cerdas, dan Berakhlakul Karimah berlandaskan Aswaja An-Nahdliyah.">
+    <meta name="keywords"
+        content="MIS RADEN RAHMAT, MI RADEN RAHMAT, NPSN 60716945, MI Balongbendo, Madrasah Ibtidaiyah Sidoarjo, Bakalan Wringinpitu, Balongbendo Sidoarjo, Sekolah Dasar Islam Sidoarjo, Sekolah swasta Sidoarjo, Yayasan BPPPMNU Cabang Kab. Sidoarjo, Akreditasi A, PPDB MI Raden Rahmat">
+    <meta name="author" content="MI Raden Rahmat Balongbendo">
+    <meta name="robots" content="index, follow">
+
+    <!-- Structured Data: Madrasah / School Information (hidden for users, visible to search engines) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "School",
+      "name": "MI RADEN RAHMAT",
+      "alternateName": "MI RADEN RAHMAT BALONGBENDO",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "NPSN",
+        "value": "60716945"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Bakalan Wringinpitu RT 06 RW 01, BALONGBENDO",
+        "addressLocality": "Kec. Balong Bendo",
+        "addressRegion": "Jawa Timur",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-7.411900",
+        "longitude": "112.536400"
+      },
+      "url": "https://radenrahmatbalongbendo.sch.id/mi/",
+      "telephone": "",
+      "email": "adminmi@radenrahmatbalongbendo.sch.id",
+      "schoolType": "Swasta",
+      "educationalLevel": "MI",
+      "department": "DIKDAS",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Yayasan BPPPMNU Cabang Kab. Sidoarjo"
+      },
+      "foundingDate": "1978-03-20",
+      "founder": "Yayasan BPPPMNU Cabang Kab. Sidoarjo",
+      "award": "Akreditasi A (SK 159/BAN-S/M.35/SK/XII/2018, tanggal 2018-12-01)",
+      "knowsAbout": [
+        "MIS RADEN RAHMAT",
+        "MI RADEN RAHMAT BALONGBENDO",
+        "NPSN 60716945",
+        "Bakalan Wringinpitu RT 06 RW 01 BALONGBENDO Balong Bendo Sidoarjo Jawa Timur",
+        "Madrasah Ibtidaiyah Swasta",
+        "Jenjang MI DIKDAS",
+        "Yayasan BPPPMNU Cabang Kab. Sidoarjo",
+        "Akreditasi A"
+      ]
+    }
+    </script>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://radenrahmatbalongbendo.sch.id/mi/">
+    <meta property="og:title" content="MI RADEN RAHMAT BALONGBENDO | Official Website">
+    <meta property="og:description"
+        content="Eksplorasi kegiatan, profil, dan pendaftaran online MI Raden Rahmat Balongbendo.">
+    <meta property="og:image" content="https://radenrahmatbalongbendo.sch.id/mi/logo_mi_white.webp">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://radenrahmatbalongbendo.sch.id/mi/">
+    <meta property="twitter:title" content="MI RADEN RAHMAT BALONGBENDO | Official Website">
+    <meta property="twitter:description"
+        content="Eksplorasi kegiatan, profil, dan pendaftaran online MI Raden Rahmat Balongbendo.">
+    <meta property="twitter:image" content="https://radenrahmatbalongbendo.sch.id/mi/logo_mi_white.webp">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        /* --- PREMIUM DESIGN SYSTEM --- */
+        :root {
+            --primary: #1b5e20;
+            /* Deep Green */
+            --primary-dark: #0d3810;
+            --primary-light: #e8f5e9;
+            --accent: #ffc107;
+            /* Amber/Gold */
+            --accent-dark: #e5af06;
+            --text-main: #2c3e50;
+            --text-muted: #607d8b;
+            --white: #ffffff;
+            --bg-body: #fafafa;
+            --card-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+            color: var(--text-main);
+            background-color: var(--bg-body);
+            background-image: url('BG_mi.png');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: linear-gradient(135deg, rgba(27, 94, 32, 0.9), rgba(13, 56, 16, 0.9)) !important;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            padding: 15px 0;
+        }
+
+        .navbar-brand img {
+            height: 60px;
+            width: auto;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+        }
+
+        .nav-link {
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.9) !important;
+            margin: 0 10px;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+            transition: var(--transition);
+        }
+
+        .nav-link:hover {
+            color: var(--accent) !important;
+            transform: translateY(-2px);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 50, 0, 0.75), rgba(0, 50, 0, 0.75)),
+                url('hero-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            color: white;
+            text-align: center;
+            position: relative;
+            /* Smooth feathered transition to body background */
+            -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+            mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+        }
+
+        .section-title {
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 50px;
+            text-align: center;
+            position: relative;
+            display: inline-block;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .section-title::after {
+            content: '';
+            width: 60px;
+            height: 6px;
+            background: var(--accent);
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 3px;
+        }
+
+        /* PPDB Card */
+        .card-ppdb {
+            border: none;
+            border-radius: 20px;
+            box-shadow: var(--card-shadow);
+            overflow: hidden;
+            background: rgba(255, 255, 255, 0.7) !important;
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+        }
+
+        .btn-ppdb {
+            background: linear-gradient(45deg, var(--accent), var(--accent-dark));
+            color: #212529;
+            font-weight: 700;
+            border-radius: 50px;
+            padding: 15px 40px;
+            border: none;
+            transition: var(--transition);
+            box-shadow: 0 5px 15px rgba(243, 156, 18, 0.4);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-ppdb:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(243, 156, 18, 0.6);
+            color: #000;
+        }
+
+        /* Icons */
+        .text-success {
+            color: var(--primary) !important;
+        }
+
+        .feature-icon-box {
+            background: var(--primary-light);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            color: var(--primary);
+            font-size: 1.5rem;
+            transition: var(--transition);
+        }
+
+        .d-flex:hover .feature-icon-box {
+            background: var(--primary);
+            color: var(--white);
+            transform: rotateY(360deg);
+        }
+
+        footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 80px 0 30px;
+        }
+
+        .ig-feed-box {
+            border: 2px dashed #ddd;
+            border-radius: 20px;
+            padding: 40px;
+            background: white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+        }
+
+        .ig-feed-box:hover {
+            border-color: var(--accent);
+            transform: translateY(-5px);
+        }
+
+        /* IG horizontal marquee */
+        .ig-marquee-wrapper {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+        }
+
+        .ig-marquee-track {
+            display: flex;
+            gap: 20px;
+            width: max-content;
+            will-change: transform;
+            animation: ig-marquee 30s linear infinite;
+        }
+
+        .ig-marquee-track:hover {
+            animation-play-state: paused;
+        }
+
+        .ig-card {
+            min-width: 220px;
+            max-width: 220px;
+            background: rgba(255, 255, 255, 0.6) !important;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            flex-shrink: 0;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: var(--transition);
+        }
+
+        .ig-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .ig-card img,
+        .ig-card video.ig-video {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .ig-card-body {
+            padding: 10px 12px;
+        }
+
+        .ig-card-title {
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .ig-card-meta {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        /* Instagram Section Enhancements */
+        .insta-placeholder {
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 30px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .insta-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Instagram Header Refinement */
+        .ig-header-card {
+            display: inline-flex;
+            align-items: center;
+            padding: 12px 25px;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            text-decoration: none !important;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+
+        .ig-header-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(225, 48, 108, 0.2);
+            border-color: #E1306C;
+        }
+
+        .ig-icon {
+            font-size: 2.5rem;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-right: 18px;
+            line-height: 1;
+        }
+
+        .ig-text h5 {
+            margin: 0;
+            font-size: 1.2rem;
+            color: #1a1a1a;
+            font-weight: 700;
+        }
+
+        .ig-text small {
+            color: #666;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+        }
+
+        .text-fire {
+            font-size: 1.1rem !important;
+            font-weight: 700;
+            color: #ff4500 !important;
+            /* Bright Orange-Red */
+            text-shadow: 0 0 10px #ff8c00, 0 0 20px #ff4500;
+            display: inline-block;
+            animation: fire-flicker 1.5s infinite alternate;
+        }
+
+        @keyframes fire-flicker {
+            from {
+                text-shadow: 0 0 10px #ff8c00;
+            }
+
+            to {
+                text-shadow: 0 0 20px #ff4500, 0 0 30px #ffa500;
+            }
+        }
+
+        @keyframes ig-marquee {
+            from {
+                transform: translateX(-50%);
+            }
+
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        /* Form */
+        .form-control {
+            padding: 12px 15px;
+            border-radius: 10px;
+            border: 2px solid #eee;
+        }
+
+        .form-control:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 4px rgba(255, 193, 7, 0.15);
+        }
+
+        /* Fire Button Effect */
+        .btn-fire {
+            background: linear-gradient(45deg, var(--accent), var(--accent-dark)) !important;
+            color: #212529 !important;
+            border: none !important;
+            box-shadow: 0 4px 15px rgba(243, 156, 18, 0.4);
+            transition: all 0.3s ease !important;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .btn-fire:hover {
+            background: linear-gradient(45deg, #f00000, #dc281e, #ff8000) !important;
+            box-shadow: 0 0 20px rgba(240, 0, 0, 0.8), 0 0 40px rgba(255, 128, 0, 0.6) !important;
+            transform: scale(1.05) translateY(-2px) !important;
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.8) !important;
+        }
+
+        .section-glass {
+            background-color: rgba(255, 255, 255, 0.6) !important;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 20px;
+            margin: 20px 0;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Mobile Scale-down */
+        @media (max-width: 991px) {
+            .navbar-collapse {
+                display: flex !important;
+                flex-basis: auto;
+            }
+
+            .navbar-nav {
+                flex-direction: row !important;
+                align-items: center;
+            }
+
+            .nav-item {
+                margin: 0 2px !important;
+            }
+
+            .nav-link {
+                padding: 0.3rem 0.4rem !important;
+                font-size: 0.65rem !important;
+            }
+
+            .btn-fire {
+                padding: 0.3rem 0.6rem !important;
+                font-size: 0.6rem !important;
+            }
+
+            .navbar-brand img {
+                height: 35px !important;
+            }
+
+            .brand-text span {
+                font-size: 0.75rem !important;
+            }
+
+            .brand-text small {
+                font-size: 0.5rem !important;
+            }
+
+            .container-fluid {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+        <div class="container-fluid px-lg-5">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="logo_mi_white.webp" alt="Logo MI RADEN RAHMAT BALONGBENDO" class="me-3" width="50" height="60"
+                    style="border-radius: 5px;">
+                <div class="brand-text">
+                    <span class="d-block fw-bold fs-5">MI RADEN RAHMAT</span>
+                    <small class="d-block" style="font-size: 0.7rem; letter-spacing: 1px;">BALONGBENDO -
+                        SIDOARJO</small>
+                </div>
+            </a>
+
+            <div class="collapse navbar-collapse show" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#profil">Profil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#berita">Kegiatan IG</a></li>
+                    <li class="nav-item ms-lg-3"><a class="nav-link btn-fire px-4 fw-bold rounded-pill"
+                            href="#ppdb">PPDB ONLINE</a></li>
+                    <li class="nav-item ms-lg-2"><a class="nav-link" href="https://radenrahmatbalongbendo.sch.id/"><i
+                                class="fas fa-arrow-left me-1"></i>
+                            Kembali</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="beranda" class="hero">
+        <div class="container">
+            <img src="logo_mi_white.webp" alt="Logo" width="150" height="150" class="mb-4 animate__animated animate__fadeInDown"
+                style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+            <h1 class="display-3 fw-bold mb-3">MI RADEN RAHMAT BALONGBENDO</h1>
+            <p class="lead mb-5 fs-4">Mewujudkan Generasi Islami yang Unggul, Cerdas, dan Berakhlakul Karimah.</p>
+            <a href="#ppdb" class="btn btn-ppdb btn-lg">Daftar Sekarang <i class="fas fa-arrow-right ms-2"></i></a>
+        </div>
+    </header>
+
+    <section id="profil" class="py-5">
+        <div class="container py-5 section-glass">
+            <div class="row align-items-center g-5">
+                <div class="col-md-6">
+                    <h2 class="section-title text-start">Mengenal Madrasah Kami</h2>
+                    <p class="lead">MI RADEN RAHMAT BALONGBENDO hadir sebagai mitra orang tua dalam mendidik putra-putri
+                        menjadi generasi Qur'ani.</p>
+                    <p>Berada di bawah naungan LP Ma'arif NU, kami menerapkan kurikulum terpadu yang menitikberatkan
+                        pada pembentukan karakter Aswaja An-Nahdliyah, kemampuan akademik yang kuat, serta pengembangan
+                        minat bakat siswa.</p>
+                    <div class="mt-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="feature-icon-box"><i class="fas fa-check-circle"></i></div>
+                            <span class="fs-5">Pendidikan Karakter Islami</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="feature-icon-box"><i class="fas fa-laptop-code"></i></div>
+                            <span class="fs-5">Fasilitas Pembelajaran Lengkap</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="feature-icon-box"><i class="fas fa-running"></i></div>
+                            <span class="fs-5">Ekstrakurikuler Beragam (Pramuka, Banjari, Pagar Nusa)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="position-relative">
+                        <img src="siswa-mi.png" class="img-fluid rounded-4 shadow-lg"
+                            alt="Siswa MI Raden Rahmat Balongbendo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="berita" class="py-5">
+        <div class="container py-5 section-glass animate__animated animate__fadeInUp">
+            <div class="insta-content text-center">
+                <a href="https://www.instagram.com/miradenrahmatbalongbendo" target="_blank"
+                    class="ig-header-card animate__animated animate__pulse animate__infinite animate__slow">
+                    <div class="ig-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="ig-text text-start">
+                        <h5 class="fw-bold">Instagram Feed</h5>
+                        <small class="text-fire">@miradenrahmatbalongbendo</small>
+                    </div>
+                </a>
+
+                <!-- Dynamic Insta Feed -->
+                <div class="ig-feed-container mt-4">
+                    <div id="ig-loading" class="text-center py-5">
+                        <div class="spinner-border text-success" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                        <p class="mt-2 text-muted">Menghubungkan ke Instagram...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ppdb" class="py-5">
+        <div class="container py-5 section-glass">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card card-ppdb">
+                        <div class="bg-success p-4 text-center text-white">
+                            <h2 class="fw-bold mb-0">Pendaftaran Online 2026/2027</h2>
+                        </div>
+                        <div class="p-4 p-md-5" style="background: rgba(255, 255, 255, 0.5);">
+                            <form id="formPPDB">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-bold">Nama Lengkap Anak</label>
+                                        <input type="text" id="namaAnak" class="form-control p-3 border-2"
+                                            placeholder="Nama sesuai akta" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-bold">Asal Sekolah (TK/RA)</label>
+                                        <input type="text" id="asalSekolah" class="form-control p-3 border-2" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-bold">Nama Wali Murid</label>
+                                        <input type="text" id="namaWali" class="form-control p-3 border-2" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-bold">Alamat</label>
+                                        <input type="text" id="alamat" class="form-control p-3 border-2"
+                                            placeholder="Alamat lengkap" required>
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <button type="button" onclick="kirimPendaftaran()"
+                                            class="btn btn-ppdb w-100 py-3 shadow">
+                                            <i class="fab fa-whatsapp me-2"></i> KIRIM FORMULIR VIA WHATSAPP
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-5 col-md-12">
+                    <div class="d-flex align-items-center mb-4">
+                        <img src="logo_mi_white.webp" alt="Logo" width="50" height="60" class="bg-white rounded-3 p-1 me-3">
+                        <h5 class="fw-bold mb-0">MI RADEN RAHMAT<br>BALONGBENDO</h5>
+                    </div>
+                    <p class="small text-white-50">
+                        <i class="fas fa-map-marker-alt me-2"></i> Jl. Mayjen Bambang Yuwono No.110, Balongbendo, Kec.
+                        Balongbendo, Kabupaten Sidoarjo, Jawa Timur 61263.
+                    </p>
+                    <a href="https://maps.app.goo.gl/83tqMkkwtuEjpZr4A" target="_blank"
+                        class="d-block mt-3 overflow-hidden rounded-3 shadow-sm border border-secondary"
+                        style="max-width: 300px;">
+                        <img src="maps.png" alt="Lokasi MI Raden Rahmat" class="img-fluid"
+                            style="transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'"
+                            onmouseout="this.style.transform='scale(1)'">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold mb-4">Link Cepat</h6>
+                    <ul class="list-unstyled small text-white-50">
+                        <li class="mb-2"><a href="#profil" class="text-white-50 text-decoration-none">Profil Sekolah</a>
+                        </li>
+                        <li class="mb-2"><a href="#berita" class="text-white-50 text-decoration-none">Update
+                                Kegiatan</a></li>
+                        <li class="mb-2"><a href="#ppdb" class="text-white-50 text-decoration-none">Daftar Online</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 text-md-end">
+                    <h6 class="fw-bold mb-4">Hubungi Kami</h6>
+                    <div class="fs-3 mb-3">
+                        <a href="https://www.facebook.com/people/MI-Raden-Rahmat/pfbid026xpin5LpnLAjg8ZKuouiJsSpCXoN7SBqkAigGEUukxYYA5PP1TtdJGvtU2RpoUASl/"
+                            class="text-white me-3" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/miradenrahmatbalongbendo/" class="text-white me-3"
+                            target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="mailto:adminmi@radenrahmatbalongbendo.sch.id" class="text-white"><i
+                                class="fas fa-envelope"></i></a>
+                    </div>
+                    <p class="small text-white-50 mb-1">
+                        <a href="mailto:adminmi@radenrahmatbalongbendo.sch.id"
+                            class="text-white-50 text-decoration-none">
+                            <i class="fas fa-at me-1"></i> adminmi@radenrahmatbalongbendo.sch.id
+                        </a>
+                    </p>
+                    <p class="small text-white-50">Jam Kerja: 07.00 - 13.00 WIB</p>
+                </div>
+            </div>
+            <hr class="mt-5 border-secondary">
+            <p class="text-center small text-white-50 mb-0">© 2026 MI RADEN RAHMAT BALONGBENDO. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function kirimPendaftaran() {
+            const noAdmin = "6285730017464";
+
+            // Ambil dan bersihkan data (limit karakter untuk keamanan)
+            const anak = document.getElementById('namaAnak').value.trim().substring(0, 200);
+            const asal = document.getElementById('asalSekolah').value.trim().substring(0, 200);
+            const wali = document.getElementById('namaWali').value.trim().substring(0, 200);
+            const alamat = document.getElementById('alamat').value.trim().substring(0, 500);
+
+            if (anak && wali && alamat) {
+                // Gunakan encodeURIComponent agar karakter khusus (seperti &, #, ?) tidak memutus link
+                const greeting = "Assalamualaikum admin PPDB";
+                const isiPesan = `${greeting},\n\n` +
+                    `Saya ingin mendaftarkan calon siswa baru:\n` +
+                    `*Nama Anak:* ${anak}\n` +
+                    `*Asal Sekolah:* ${asal}\n` +
+                    `*Nama Wali:* ${wali}\n` +
+                    `*Alamat:* ${alamat}\n\n` +
+                    `Mohon informasi langkah pendaftaran selanjutnya. Terima kasih.`;
+
+                const urlWA = `https://wa.me/${noAdmin}?text=${encodeURIComponent(isiPesan)}`;
+                window.open(urlWA, '_blank');
+            } else {
+                alert("Mohon lengkapi formulir pendaftaran!");
+            }
+        }
+    </script>
+
+    <script>
+        // Load IG feed from local API and tampilkan sebagai marquee horizontal
+        (function () {
+            const container = document.querySelector('.ig-feed-container');
+            const loadingEl = document.getElementById('ig-loading');
+            if (!container) return;
+
+            fetch('api/news_mi.php')
+                .then(res => res.json())
+                .then(data => {
+                    if (!Array.isArray(data) || data.length === 0) {
+                        if (loadingEl) loadingEl.innerHTML = '<p class="text-center text-muted mb-0">Belum ada postingan.</p>';
+                        return;
+                    }
+
+                    const posts = data
+                        .slice() // copy
+                        .sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0))
+                        .slice(0, 10);
+
+                    const trackItems = posts.map(p => {
+                        const safeTitle = (p.title || 'Post Instagram');
+                        const safeExcerpt = (p.excerpt || p.caption || '');
+                        const safeDate = (p.date || '');
+                        const sc = p.shortcode || '';
+                        const link = p.link || `https://www.instagram.com/p/${sc}/`;
+
+                        const isVideo = p.is_video === true;
+
+                        const getProxyUrl = (url, kind) => {
+                            if (!url) return `api/image_proxy.php?shortcode=${sc}&kind=${kind}`;
+                            if (/scontent|cdninstagram|fbcdn/i.test(url)) return `api/image_proxy.php?url=${encodeURIComponent(url)}&shortcode=${sc}&kind=${kind}`;
+                            return url;
+                        };
+
+                        const imgSrc = getProxyUrl(p.img, 'image');
+                        const vidSrc = isVideo ? getProxyUrl(p.video, 'video') : '';
+
+                        let mediaHtml = '';
+                        if (isVideo) {
+                            mediaHtml = `
+                                <div class="ig-card-media" style="position:relative;">
+                                    <video 
+                                        class="ig-video" 
+                                        src="${vidSrc}" 
+                                        poster="${imgSrc}" 
+                                        autoplay 
+                                        muted 
+                                        loop 
+                                        playsinline 
+                                        preload="auto"
+                                        style="width:100%;height:160px;object-fit:cover;"
+                                        onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+                                    ></video>
+                                    <img src="${imgSrc}" style="width:100%;height:160px;object-fit:cover;display:none;" 
+                                         onerror="this.onerror=null; this.src='api/image_proxy.php?shortcode=${sc}&kind=image'">
+                                    <div style="position:absolute;top:10px;right:10px;color:white;text-shadow:0 0 4px rgba(0,0,0,0.8);"><i class="fas fa-play-circle"></i></div>
+                                </div>`;
+                        } else {
+                            mediaHtml = `
+                                <div class="ig-card-media">
+                                    <img src="${imgSrc}" alt="${safeTitle.replace(/"/g, '&quot;')}" loading="lazy" 
+                                         style="width:100%;height:160px;object-fit:cover;display:block;"
+                                         onerror="this.onerror=null; this.src='api/image_proxy.php?shortcode=${sc}&kind=image'">
+                                </div>`;
+                        }
+
+                        return `
+                            <a class="ig-card" href="${link}" target="_blank" rel="noopener noreferrer">
+                                ${mediaHtml}
+                                <div class="ig-card-body">
+                                    <div class="ig-card-title text-truncate" title="${safeTitle}">${safeTitle}</div>
+                                    <div class="small text-muted mb-1" style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;height:2.8em;line-height:1.4em;font-size:0.75rem;">${safeExcerpt}</div>
+                                    <div class="ig-card-meta"><i class="far fa-calendar-alt me-1"></i>${safeDate}</div>
+                                </div>
+                            </a>
+                        `;
+                    }).join('');
+
+                    const html = `
+                        <div class="ig-marquee-wrapper">
+                            <div class="ig-marquee-track" id="smp-ig-track">
+                                ${trackItems}
+                                ${trackItems}
+                            </div>
+                        </div>
+                    `;
+
+                    container.innerHTML = html;
+
+                    // Paksa autoplay untuk semua video (muted)
+                    const videos = container.querySelectorAll('video.ig-video');
+                    const tryPlayAll = () => {
+                        videos.forEach(v => {
+                            v.play().catch(() => { });
+                        });
+                    };
+                    tryPlayAll();
+                    ['click', 'touchstart'].forEach(evt => {
+                        document.addEventListener(evt, () => {
+                            tryPlayAll();
+                        }, { once: true });
+                    });
+                })
+                .catch(err => {
+                    console.error('Gagal load IG feed MI:', err);
+                    if (loadingEl) {
+                        loadingEl.innerHTML = '<p class="text-center text-danger mb-0">Gagal memuat feed Instagram.</p>';
+                    }
+                });
+        })();
+    </script>
+
+    <!-- Akses CMS: Ctrl+Shift+L menampilkan login, setelah berhasil redirect ke cms-admin -->
+    <script>window.REDIRECT_AFTER_LOGIN = 'cms-admin.html';</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/dynamic_loader.js"></script>
+    <script src="js/quick_access.js"></script>
+    <script>(function () { const d = document, s = d.createElement("script"); s.type = "module"; s.src = "https://w.behold.so/widget.js"; d.head.append(s); })();</script>
+</body>
+
+</html>

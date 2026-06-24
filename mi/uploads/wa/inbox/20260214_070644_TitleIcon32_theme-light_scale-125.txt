@@ -1,0 +1,1 @@
+TitleIcon32.theme-light_scale-125

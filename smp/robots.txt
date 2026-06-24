@@ -1,0 +1,5 @@
+# Hanya direktif standar (User-agent, Allow, Disallow, Sitemap). Jangan tambah Content-Signal atau direktif nonstandar.
+User-agent: *
+Allow: /
+
+Sitemap: https://smp.radenrahmatbalongbendo.sch.id/sitemap.xml

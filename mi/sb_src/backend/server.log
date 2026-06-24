@@ -1,0 +1,27 @@
+nohup: ignoring input
+[dotenv@17.3.1] injecting env (13) from ../.env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.3.1] injecting env (0) from ../.env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.3.1] injecting env (0) from ../.env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.3.1] injecting env (0) from ../.env -- tip: ⚙️  enable debug logging with { debug: true }
+🚀 StoryBlast Backend running on http://localhost:5000
+ValidationError: The 'X-Forwarded-For' header is set but the Express 'trust proxy' setting is false (default). This could indicate a misconfiguration which would prevent express-rate-limit from accurately identifying users. See https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/ for more information.
+    at Object.xForwardedForHeader (file:///mnt/webdata/htdocs/mi/sb_src/backend/node_modules/express-rate-limit/dist/index.mjs:342:13)
+    at wrappedValidations.<computed> [as xForwardedForHeader] (file:///mnt/webdata/htdocs/mi/sb_src/backend/node_modules/express-rate-limit/dist/index.mjs:656:22)
+    at Object.keyGenerator (file:///mnt/webdata/htdocs/mi/sb_src/backend/node_modules/express-rate-limit/dist/index.mjs:759:20)
+    at file:///mnt/webdata/htdocs/mi/sb_src/backend/node_modules/express-rate-limit/dist/index.mjs:820:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///mnt/webdata/htdocs/mi/sb_src/backend/node_modules/express-rate-limit/dist/index.mjs:801:5 {
+  code: 'ERR_ERL_UNEXPECTED_X_FORWARDED_FOR',
+  help: 'https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/'
+}
+[MetaService] Attempting to post to Facebook: website official MI Raden Rahmat Balongbendo
+🔗 L...
+Facebook API Error: {
+  message: 'Error validating access token: Session has expired on Saturday, 14-Mar-26 03:00:00 PDT. The current time is Saturday, 14-Mar-26 03:38:23 PDT.',
+  type: 'OAuthException',
+  code: 190,
+  error_subcode: 463,
+  fbtrace_id: 'AKx9lRRurk60oeX1IvjyRQ4'
+}
+[MetaService] Instagram posting is still in development (requires public media URL).
+[MetaService] WhatsApp posting is still in development.
