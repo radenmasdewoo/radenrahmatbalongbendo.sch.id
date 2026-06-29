@@ -9,3 +9,8 @@ build/
 *.json
 *.pdf
 *.exe
+
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
