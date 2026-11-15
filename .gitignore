@@ -1,0 +1,36 @@
+# Dependencies
+vendor/
+node_modules/
+package-lock.json
+composer.lock
+
+# Caches & temp
+ig_cache/
+__pycache__/
+*.tmp
+
+# Large media & archives (exclude from git)
+*.zip
+*.tar.gz
+*.pdf
+*.webp
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.webm
+*.avi
+*.mov
+*.doc
+*.docx
+
+# Logs & debug
+*.log
+
+# Test files
+test_*
+cms-pro-radenrahmat.html
+
+# Generated / runtime
+run/
+temp/
