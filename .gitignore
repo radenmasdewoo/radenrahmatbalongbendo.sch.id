@@ -27,10 +27,22 @@ __pycache__/
 # Logs & debug
 *.log
 
+# Build outputs
+drivevault/
+mi/sb_src/
+mi/TKA/
+smp/cms_smp_radenrahmat_v2/
+
 # Test files
 test_*
 cms-pro-radenrahmat.html
 
+# Roundcube
+roundcubemail-*
+
 # Generated / runtime
 run/
 temp/
+
+# Backup dirs
+backup_ig_fix_*/
